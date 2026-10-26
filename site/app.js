@@ -5,6 +5,7 @@
   const EXAMS = {
     neet: { key: 'neet', name: 'NEET', exam: 'NEET', subjects: ['Physics', 'Chemistry', 'Biology'], cls: 'neet', minPerQ: 1 },
     jee: { key: 'jee', name: 'JEE Main', exam: 'JEE Main', subjects: ['Physics', 'Chemistry', 'Maths'], cls: 'jee', minPerQ: 2 },
+    jeeadv: { key: 'jeeadv', name: 'JEE Advanced', exam: 'JEE Advanced', subjects: ['Physics', 'Chemistry', 'Maths'], cls: 'jeeadv', minPerQ: 3 },
     cbse: { key: 'cbse', name: 'CBSE Board', exam: 'CBSE', subjects: [], cls: 'cbse', minPerQ: 1.5 }
   };
   const CBSE_CLASSES = ['10', '12'];
@@ -136,12 +137,14 @@
       <div class="exam-cards">
         <a class="exam-card neet" href="#/exam/neet"><span class="name">NEET</span><span class="sub">${t('neetSub')}</span><span class="count">${countFor('neet')} ${t('questions')}</span></a>
         <a class="exam-card jee" href="#/exam/jee"><span class="name">JEE Main</span><span class="sub">${t('jeeSub')}</span><span class="count">${countFor('jee')} ${t('questions')}</span></a>
+        <a class="exam-card jeeadv" href="#/exam/jeeadv"><span class="name">JEE Advanced</span><span class="sub">${t('jeeAdvSub')}</span><span class="count">${countFor('jeeadv')} ${t('questions')}</span></a>
         <a class="exam-card cbse" href="#/exam/cbse"><span class="name">CBSE Board</span><span class="sub">${t('cbseSub')}</span><span class="count">${cbsePapers().reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></a>
       </div>
       <h2>${t('pastAttempts')}</h2>
       <section class="card">${attemptsList()}</section>
       <h2>${t('aboutTitle')}</h2>
       <p class="note">${t('about')}</p>
+      <p class="note">${t('jeeAdvSource')}</p>
       <p class="note">${t('cbseSource')}</p>
       ${siteFooter()}`;
     bindResume();
@@ -153,6 +156,7 @@
     const E = EXAMS[ex];
     const ps = examPapers(ex);
     const full = ps.filter(p => p.kind !== 'bank');
+    if (ex === 'jeeadv') full.sort((x, y) => (y.year - x.year) || String(x.title).localeCompare(String(y.title)));
     const subjCount = s => ps.reduce((n, p) => n + ((p.bySubject || {})[s] || 0), 0);
     const years = [...new Set(ps.map(p => p.year))].sort((a, b) => b - a);
     const allCount = ps.reduce((n, p) => n + p.count, 0);
@@ -168,12 +172,12 @@
     const st = prefs[ex] = Object.assign({ subject: E.subjects.find(s => subjCount(s) > 0) || E.subjects[0], n: 20, year: 'all', quick: 10 }, prefs[ex] || {});
     const samples = samplePapers(ex);
     const paperRow = p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}</div>
-      <div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')}${p.date ? ' · ' + esc(p.kind === 'sample' ? p.date.replace(/\s*·\s*not NTA\s*$/, '') : p.date) : ''}</div></div>
+      <div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')}${p.date && ex !== 'jeeadv' ? ' · ' + esc(p.kind === 'sample' ? p.date.replace(/\s*·\s*not NTA\s*$/, '') : p.date) : ''}</div></div>
       <button class="btn ${E.cls}" data-full="${p.id}">${t('start')}</button></div>`;
     app.innerHTML = `${active ? resumeCard() : ''}
       <a href="#/" class="backbtn">← ${t('back')}</a>
       <h1>${E.name}</h1>
-      <p class="muted small" style="margin-top:0">${t('marking')}: ${ex === 'neet' ? t('markingNeet') : t('markingJee')}</p>
+      <p class="muted small" style="margin-top:0">${t('marking')}: ${ex === 'neet' ? t('markingNeet') : ex === 'jeeadv' ? t('markingJeeAdv') : t('markingJee')}</p>
       ${samples.length ? `<h2>${t('samplePapers')}</h2>
       <section class="card">${samples.map(paperRow).join('')}</section>` : ''}
       <h2>${t('fullMock')}</h2>
@@ -194,7 +198,7 @@
       </section>
       <h2>${t('pastAttempts')}</h2>
       <section class="card">${attemptsList(E.exam)}</section>
-      <p class="note">${t('about')}</p>`;
+      <p class="note">${ex === 'jeeadv' ? t('jeeAdvSource') : t('about')}</p>`;
     bindResume();
     const setPref = () => save(LS.prefs, prefs);
     renderN();
@@ -302,7 +306,7 @@
         opts = `<div class="opts" role="radiogroup">${q.options.map((o, k) => `<button class="opt" role="radio" aria-checked="${String(a) === String(k + 1)}" data-v="${k + 1}"><span class="k">${k + 1}</span><span class="ot">${fmtText(o)}</span></button>`).join('')}</div>`;
       }
       const secnote = (active.rules.sectionBAttemptMax && q.part === 'B') ? `<p class="secnote">${q.section || q.subject} · ${t('sectionB')} (${sectionBCount(q)}/10)</p>` : '';
-      qwrap.innerHTML = `<div class="qhead"><div><div class="qnum">${t('q')} ${i + 1} <span class="muted small">${t('of')} ${qs.length}</span></div><div class="qsrc">${q.subject}${q.section && q.section !== q.subject ? ' · ' + q.section : ''} · ${src}</div></div>
+      qwrap.innerHTML = `<div class="qhead"><div><div class="qnum">${t('q')} ${i + 1} <span class="muted small">${t('of')} ${qs.length}</span></div><div class="qsrc">${q.subject}${q.section && q.section !== q.subject ? ' · ' + (/^\d+$/.test(q.section) ? 'Section ' + q.section : q.section) : ''} · ${src}</div></div>
         <button class="flag" id="flagBtn" aria-pressed="${!!active.marked[q.id]}">⚑ ${active.marked[q.id] ? t('marked') : t('mark')}</button></div>
         ${secnote}
         <div class="qbody">${q.image ? `<img src="${q.image}" alt="Question ${i + 1}" id="qimg">` : ''}${q.question ? `<div class="qtext">${fmtText(q.question)}</div>` : ''}</div>
@@ -530,7 +534,7 @@
     await loadPapers(at.paperIds.filter(meta));
     const qs = at.qids.map(qById).filter(Boolean);
     const r = PYQScoring.score(qs, at.answers, { marking: at.marking, rules: at.rules });
-    const ex = at.exam === 'NEET' ? 'neet' : at.exam === 'CBSE' ? 'cbse' : 'jee';
+    const ex = at.exam === 'NEET' ? 'neet' : at.exam === 'CBSE' ? 'cbse' : at.exam === 'JEE Advanced' ? 'jeeadv' : 'jee';
     const subRows = Object.entries(r.bySubject).map(([s, v]) => `<tr><td>${s}</td><td>${v.attempted}/${v.total}</td><td style="color:var(--ok)">${v.correct}</td><td style="color:var(--bad)">${v.wrong}</td><td><b>${v.score}</b>/${v.max}</td></tr>`).join('');
     let filter = 'all';
     app.innerHTML = `<a href="#/exam/${ex}" class="backbtn">← ${t('back')}</a>

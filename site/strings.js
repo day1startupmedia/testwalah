@@ -2,10 +2,13 @@
 window.STR = {
   en: {
     appName: 'SONEXA',
-    tagline: 'Real previous-year NEET & JEE Main questions. Take a test, see your score, learn from every answer.',
+    tagline: 'Real previous-year NEET, JEE Main, JEE Advanced and CBSE questions. Take a test, see your score, learn from every answer.',
     chooseExam: 'Choose your exam',
     neetSub: 'Physics · Chemistry · Biology',
     jeeSub: 'Physics · Chemistry · Maths',
+    jeeAdvSub: 'Paper 1 & 2 · 2022–2026',
+    markingJeeAdv: 'as in each official paper: single-correct +3, −1 wrong; matching +4, −1 wrong (2025 and 2026 Paper 1) or +3, −1 wrong (earlier years); 0 skipped',
+    jeeAdvSource: 'JEE Advanced papers: official question papers and final answer keys from jeeadv.ac.in (2022–2024 keys from archived copies of the official files). Only single-correct and matching questions are included; multi-correct and numerical questions are left out.',
     cbseSub: 'Class 10 · Class 12 · MCQ tests',
     cbseClass: 'Class',
     markingCbse: '+1 correct, 0 wrong, 0 skipped (no negative marking)',
@@ -95,7 +98,7 @@ window.STR = {
     sampleBadge: 'Sample · not NTA',
     allSubjects: 'All subjects',
     aboutTitle: 'About these questions',
-    about: 'NEET and JEE questions are from real NTA papers. Answers are checked against NTA\u2019s official answer keys; questions whose answer could not be checked are left out. Sample papers are listed separately and are not NTA papers.',
+    about: 'NEET and JEE Main questions are from real NTA papers; JEE Advanced from the official IIT papers and final answer keys. Answers are checked against the official answer keys; questions whose answer could not be checked are left out. Sample papers are listed separately and are not NTA papers.',
     loading: 'Loading…',
     language: 'हिंदी',
     noQuestions: 'No questions for this choice yet.',
