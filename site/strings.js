@@ -107,7 +107,16 @@ window.STR = {
     contactLabel: 'Contact',
     footerCopy: '\u00a9 2026 SONEXA',
     pages: {
-      about: { link: 'About', title: 'About SONEXA', body: [
+      about: { link: 'About', title: 'About SONEXA',
+        storyTitle: 'Why SONEXA exists',
+        story: [
+          'SONEXA started with a goodbye.',
+          'Someone very close to me decided to step away from everything to focus fully on NEET. It hurt. But I understood. Preparing for NEET or JEE takes everything you have, and the people doing it deserve every bit of help they can get.',
+          'So instead of staying angry, I built something. Over a few nights I put together the tool I wished every aspirant had: real previous-year papers, checked against the official answer keys, with a real timer and an instant score. No login. No fees. No ads in your face.',
+          'SONEXA is for her, and for every student sitting up late with a book and a dream. I may never know whose selection it helps. That\u2019s okay. If it helps even one of you get there, it was worth building.',
+          'Study hard. You\u2019ve got this.'
+        ],
+        body: [
         'SONEXA is a free practice site for NEET, JEE and CBSE Board students.',
         'It turns real previous-year papers and official sample papers into timed MCQ tests. You pick a paper, take the test with a timer, and get your score instantly, with the correct answers to review.',
         'There is no sign-up and nothing to pay. Just open the site and start a test.'

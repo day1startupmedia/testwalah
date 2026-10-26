@@ -128,6 +128,7 @@
     const P = PAGES()[k];
     app.innerHTML = `<a href="#/" class="backbtn">← ${t('back')}</a>
       <h1>${esc(P.title)}</h1>
+      ${P.story && P.story.length ? `<section class="card story-card"><h2>${esc(P.storyTitle || '')}</h2>${P.story.map((x, i) => `<p${i === 0 ? ' class="story-lead"' : (i === P.story.length - 1 ? ' class="story-sign"' : '')}>${esc(x)}</p>`).join('')}</section>` : ''}
       <section class="card info-page">${P.body.map(x => `<p>${esc(x)}</p>`).join('')}<p class="muted">${contactLink()}</p></section>
       ${siteFooter()}`;
   }
