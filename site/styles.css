@@ -188,3 +188,11 @@ footer.site{max-width:760px;margin:0 auto;padding:0 16px 30px;color:var(--muted)
 .exam-card.cbse .name{color:var(--cbse)}
 .btn.cbse{background:var(--cbse);border-color:var(--cbse);color:#fff}
 @media (min-width:521px){.exam-cards .exam-card.cbse{grid-column:1 / -1}}
+.backbtn{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:6px 18px 6px 14px;margin:4px 0 12px;border-radius:999px;border:1.5px solid var(--brand);background:var(--brand-soft);color:var(--brand);font-weight:700;font-size:.95rem;text-decoration:none;-webkit-tap-highlight-color:transparent}
+.backbtn:active{background:var(--brand);color:var(--brand-ink)}
+.site-foot{margin:22px 0 8px;text-align:center;color:var(--muted);font-size:.82rem;line-height:1.9}
+.site-foot a{color:var(--muted);text-decoration:none;padding:6px 4px;display:inline-block}
+.site-foot a:active{color:var(--brand)}
+.info-page p{margin:0 0 12px;line-height:1.55}
+.info-page p:last-child{margin-bottom:0}
+.info-page a.mail,.site-foot a.mail{color:var(--brand);text-decoration:underline;padding:6px 0;word-break:break-all}

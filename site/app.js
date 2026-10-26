@@ -73,10 +73,27 @@
     if (a === 'test') return viewTest();
     if (a === 'result' && b) return viewResult(b, false);
     if (a === 'review' && b) return viewResult(b, true);
+    if (a === 'page' && PAGES()[b]) return viewPage(b);
     return viewHome();
   }
   window.addEventListener('hashchange', route);
-  const go = h => { if (location.hash === h) route(); else location.hash = h; };
+  // History: every screen is its own hash entry, so the phone's back gesture/button moves between SONEXA screens.
+  // Each entry is stamped with its depth (sx); the on-page Back button goes back in history when an in-site screen
+  // is behind it, and on a deep link with nothing behind it follows its own link (replacing, so it never leaves the site).
+  const curDepth = () => (history.state && typeof history.state.sx === 'number') ? history.state.sx : null;
+  if (curDepth() === null) history.replaceState({ sx: 0 }, '');
+  let lastDepth = curDepth();
+  window.addEventListener('hashchange', () => { if (curDepth() === null) history.replaceState({ sx: lastDepth + 1 }, ''); lastDepth = curDepth(); });
+  const go = (h, replace) => {
+    if (location.hash === h) return route();
+    if (replace) { history.replaceState({ sx: curDepth() ?? lastDepth }, '', h); lastDepth = curDepth(); return route(); }
+    location.hash = h;
+  };
+  document.addEventListener('click', e => {
+    const b = e.target.closest && e.target.closest('a.backbtn'); if (!b) return;
+    e.preventDefault();
+    if ((curDepth() ?? 0) > 0) history.back(); else go(b.getAttribute('href'), true);
+  });
 
   /* ---------- home ---------- */
   function countFor(ex) { return examPapers(ex).reduce((n, p) => n + p.count, 0); }
@@ -97,6 +114,21 @@
     return '<div>' + list.map(a => `<div class="attempt"><div><div style="font-weight:700">${esc(a.title)}</div><div class="muted small">${a.fullName ? esc(a.fullName) + ' · ' : ''}${fmtDate(a.finishedAt)} · ${t('accuracy')} ${a.accuracy}%</div></div>
       <div class="row"><span class="score">${a.score}/${a.max}</span><a class="btn" style="min-height:40px;padding:6px 12px" href="#/result/${a.id}">${t('viewResult')}</a></div></div>`).join('') + '</div>';
   }
+  /* ---------- info pages: About / Privacy / Terms / Copyright ---------- */
+  const PAGE_ORDER = ['about', 'privacy', 'terms', 'copyright'];
+  const PAGES = () => (STR[lang] && STR[lang].pages) || STR.en.pages || {};
+  function siteFooter() {
+    const P = PAGES();
+    return `<footer class="site-foot"><nav>${PAGE_ORDER.filter(k => P[k]).map(k => `<a href="#/page/${k}">${esc(P[k].link)}</a>`).join('<span aria-hidden="true"> · </span>')}</nav><div>${contactLink()}</div><div>${esc(t('footerCopy'))}</div></footer>`;
+  }
+  function contactLink() { const m = t('contactEmail'); return `${esc(t('contactLabel'))}: <a class="mail" href="mailto:${esc(m)}">${esc(m)}</a>`; }
+  function viewPage(k) {
+    const P = PAGES()[k];
+    app.innerHTML = `<a href="#/" class="backbtn">← ${t('back')}</a>
+      <h1>${esc(P.title)}</h1>
+      <section class="card info-page">${P.body.map(x => `<p>${esc(x)}</p>`).join('')}<p class="muted">${contactLink()}</p></section>
+      ${siteFooter()}`;
+  }
   function viewHome() {
     app.innerHTML = `${resumeCard()}
       <h1>${t('chooseExam')}</h1>
@@ -110,7 +142,8 @@
       <section class="card">${attemptsList()}</section>
       <h2>${t('aboutTitle')}</h2>
       <p class="note">${t('about')}</p>
-      <p class="note">${t('cbseSource')}</p>`;
+      <p class="note">${t('cbseSource')}</p>
+      ${siteFooter()}`;
     bindResume();
   }
 
@@ -138,7 +171,7 @@
       <div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')}${p.date ? ' · ' + esc(p.kind === 'sample' ? p.date.replace(/\s*·\s*not NTA\s*$/, '') : p.date) : ''}</div></div>
       <button class="btn ${E.cls}" data-full="${p.id}">${t('start')}</button></div>`;
     app.innerHTML = `${active ? resumeCard() : ''}
-      <a href="#/" class="small">‹ ${t('back')}</a>
+      <a href="#/" class="backbtn">← ${t('back')}</a>
       <h1>${E.name}</h1>
       <p class="muted small" style="margin-top:0">${t('marking')}: ${ex === 'neet' ? t('markingNeet') : t('markingJee')}</p>
       ${samples.length ? `<h2>${t('samplePapers')}</h2>
@@ -185,7 +218,7 @@
       <div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')}</div></div>
       <button class="btn cbse" data-full="${p.id}">${t('start')}</button></div>`;
     app.innerHTML = `${active ? resumeCard() : ''}
-      <a href="#/" class="small">‹ ${t('back')}</a>
+      <a href="#/" class="backbtn">← ${t('back')}</a>
       <h1>CBSE Board</h1>
       <p class="muted small" style="margin-top:0">${t('marking')}: ${t('markingCbse')}</p>
       <div class="chips" role="tablist">${CBSE_CLASSES.map(c => `<a class="chip" role="tab" href="#/exam/cbse/${c}" aria-pressed="${c === C}" style="text-decoration:none;display:inline-flex;align-items:center;color:inherit">${t('cbseClass')} ${c}</a>`).join('')}</div>
@@ -240,7 +273,7 @@
 
   /* ---------- test ---------- */
   async function viewTest() {
-    if (!active) return go('#/');
+    if (!active) return go('#/', true);
     app.innerHTML = `<p class="loading">${t('loading')}</p>`;
     await loadPapers(active.paperIds);
     const qs = active.qids.map(qById);
@@ -388,7 +421,7 @@
     active = null; localStorage.removeItem(LS.active);
     submitPending = false;
     if (timeUp) setTimeout(() => toast(t('timeUp')), 300);
-    go('#/result/' + at.id);
+    go('#/result/' + at.id, true);
   }
 
   const SHARE_URL = 'https://sonexa.sites.tab.bot/';
@@ -488,7 +521,7 @@
   /* ---------- result & review ---------- */
   async function viewResult(id, reviewOnly) {
     const at = attempts().find(a => a.id === id);
-    if (!at) return go('#/');
+    if (!at) return go('#/', true);
     if (!reviewOnly && !at.fullName) { // attempt saved before a name was given (e.g. page closed at the name step)
       at.fullName = await askFullName();
       const list = attempts(), saved = list.find(a => a.id === id); if (saved) { saved.fullName = at.fullName; save(LS.attempts, list); }
@@ -500,7 +533,7 @@
     const ex = at.exam === 'NEET' ? 'neet' : at.exam === 'CBSE' ? 'cbse' : 'jee';
     const subRows = Object.entries(r.bySubject).map(([s, v]) => `<tr><td>${s}</td><td>${v.attempted}/${v.total}</td><td style="color:var(--ok)">${v.correct}</td><td style="color:var(--bad)">${v.wrong}</td><td><b>${v.score}</b>/${v.max}</td></tr>`).join('');
     let filter = 'all';
-    app.innerHTML = `<a href="#/exam/${ex}" class="small">‹ ${EXAMS[ex].name}</a>
+    app.innerHTML = `<a href="#/exam/${ex}" class="backbtn">← ${t('back')}</a>
       <h1>${t('result')}</h1><p class="muted small" style="margin-top:0">${esc(at.title)} · ${fmtDate(at.finishedAt)}</p>
       <section class="card"><div class="bigscore">${at.fullName ? `<div class="result-name">${esc(at.fullName)}</div>` : ''}<div class="n">${r.score}<span class="d" style="font-size:1.2rem"> / ${r.max}</span></div><div class="d">${t('score')}</div></div>
         <div class="stats"><div class="stat ok"><b>${r.correct}</b>${t('correct')}</div><div class="stat bad"><b>${r.wrong}</b>${t('wrong')}</div><div class="stat"><b>${r.skipped + r.notCounted}</b>${t('skipped')}</div></div>

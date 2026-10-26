@@ -95,10 +95,42 @@ window.STR = {
     sampleBadge: 'Sample · not NTA',
     allSubjects: 'All subjects',
     aboutTitle: 'About these questions',
-    about: 'Every question is from a real NTA paper. Answers are checked against NTA\u2019s official answer keys; questions whose answer could not be checked are left out. Sample papers are listed separately and are not NTA papers.',
+    about: 'NEET and JEE questions are from real NTA papers. Answers are checked against NTA\u2019s official answer keys; questions whose answer could not be checked are left out. Sample papers are listed separately and are not NTA papers.',
     loading: 'Loading…',
     language: 'हिंदी',
-    noQuestions: 'No questions for this choice yet.'
+    noQuestions: 'No questions for this choice yet.',
+    /* Contact email: shown as a mailto link on the About/Privacy/Terms/Copyright pages and in the home footer. */
+    contactEmail: 'thegamer8052@gmail.com',
+    contactLabel: 'Contact',
+    footerCopy: '\u00a9 2026 SONEXA',
+    pages: {
+      about: { link: 'About', title: 'About SONEXA', body: [
+        'SONEXA is a free practice site for NEET, JEE and CBSE Board students.',
+        'It turns real previous-year papers and official sample papers into timed MCQ tests. You pick a paper, take the test with a timer, and get your score instantly, with the correct answers to review.',
+        'There is no sign-up and nothing to pay. Just open the site and start a test.'
+      ] },
+      privacy: { link: 'Privacy', title: 'Privacy Policy', body: [
+        'No account or login is needed to use SONEXA.',
+        'The name you enter and your test results are saved only in your own browser (local storage on your device). They are never sent to us or to anyone else.',
+        'SONEXA uses no analytics, no tracking, no ads and no third-party scripts. Fonts and other files are served from this site itself.',
+        'If you tap a WhatsApp or Facebook share button, that app or website opens and its own privacy policy applies to what you share there.',
+        'Clearing your browser data (site data / local storage) deletes your saved name and results permanently.'
+      ] },
+      terms: { link: 'Terms', title: 'Terms of Use', body: [
+        'SONEXA is for personal practice only.',
+        'Scores are for self-assessment. They are not official results and do not predict any exam result.',
+        'We try hard to keep questions and answers accurate, but mistakes can exist. If you find one, please report it using the contact email below.',
+        'Please do not copy, scrape or resell the content of this site.',
+        'By using the site you agree to these terms. They may be updated from time to time.'
+      ] },
+      copyright: { link: 'Copyright', title: 'Copyright & Disclaimer', body: [
+        'Question papers and answer keys belong to their owners: NEET and JEE papers to the National Testing Agency (NTA); CBSE papers to the Central Board of Secondary Education (CBSE).',
+        'They are reproduced here for educational practice, with the source acknowledged.',
+        'SONEXA is not affiliated with, or endorsed by, NTA or CBSE.',
+        'The site design and logo are \u00a9 2026 SONEXA.',
+        'If you hold rights to any material here and want it removed, please contact us and we will take it down.'
+      ] }
+    }
   },
   hi: {}
 };
