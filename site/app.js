@@ -64,6 +64,7 @@
 
   /* ---------- router ---------- */
   function route() {
+    try { if (window.sxCount) window.sxCount(); } catch (e) {}
     clearInterval(timerInt); timerInt = null;
     document.body.classList.remove('testing');
     const h = location.hash.replace(/^#\/?/, '');

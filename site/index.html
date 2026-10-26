@@ -53,5 +53,36 @@ setTimeout(gone,3500);})();
 <script src="vendor/katex/katex.min.js" defer></script>
 <script src="vendor/katex/auto-render.min.js" defer></script>
 <script src="app.js" defer></script>
+<script>
+/* GoatCounter visitor counter (dashboard: https://sonexa.goatcounter.com/). SONEXA routes with #hash, so every route
+   counts as its own page view. app.js route() calls window.sxCount() (no hashchange listener here, so the result screen,
+   which is opened with replaceState, counts too and nothing counts twice). '#/test' is the same for every test, so the
+   active test's title (saved in localStorage 'pyq.v1.active' before navigating) is added to the path. */
+(function () {
+  var last = null;
+  function sxActive() { try { return JSON.parse(localStorage.getItem('pyq.v1.active') || 'null'); } catch (e) { return null; } }
+  function sxPath() {
+    var p = location.pathname + location.search + location.hash;
+    if (location.hash === '#/test') {
+      var a = sxActive();
+      if (a && a.title) p += '/' + String(a.title).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    }
+    return p;
+  }
+  function sxTitle() {
+    if (location.hash === '#/test') { var a = sxActive(); if (a && a.title) return a.title; }
+    return document.title;
+  }
+  /* First page load: count.js calls these itself; remembering the path stops route()'s first call counting it again. */
+  window.goatcounter = { path: function () { last = sxPath(); return last; }, title: function () { return sxTitle(); } };
+  window.sxCount = function () {
+    var p = sxPath();
+    if (p === last) return;   /* same screen re-rendered (language toggle, discard, first load) */
+    last = p;
+    if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: p, title: sxTitle() });
+  };
+})();
+</script>
+<script data-goatcounter="https://sonexa.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
