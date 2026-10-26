@@ -62,7 +62,7 @@ setTimeout(gone,3500);})();
   var last = null;
   function sxActive() { try { return JSON.parse(localStorage.getItem('pyq.v1.active') || 'null'); } catch (e) { return null; } }
   function sxPath() {
-    var p = location.pathname + location.search + location.hash;
+    var p = location.pathname + location.hash;   /* no ?query: Instagram/WhatsApp add ?fbclid=… which would split one page into many (GoatCounter reads utm/campaign from the query itself) */
     if (location.hash === '#/test') {
       var a = sxActive();
       if (a && a.title) p += '/' + String(a.title).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
