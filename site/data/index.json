@@ -175,6 +175,166 @@
   "file": "data/neet-2026-13.js"
  },
  {
+  "id": "neet-sample-2026-1",
+  "exam": "NEET",
+  "year": 2026,
+  "title": "NEET Sample Paper 2026 – 1",
+  "date": "Sample paper · not NTA",
+  "minutes": 180,
+  "kind": "sample",
+  "answerKey": {
+   "type": "sample",
+   "name": "Answer key / Hint & Solution printed in 'NEET UG 2027 Sample Paper - 1' (Selfstudys)",
+   "url": "https://www.selfstudys.com/sitepdfs/01x0Qtt5Lm6nNrdfo5Wv"
+  },
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "Practice paper in the NEET pattern, not an official NTA paper. Source calls it 'NEET UG 2027 Sample Paper - 1' (Selfstudys). Answers from the paper's own solutions.",
+  "count": 180,
+  "bySubject": {
+   "Physics": 45,
+   "Chemistry": 45,
+   "Biology": 90
+  },
+  "byType": {
+   "mcq": 180
+  },
+  "file": "data/neet-sample-2026-1.js"
+ },
+ {
+  "id": "neet-sample-2026-2",
+  "exam": "NEET",
+  "year": 2026,
+  "title": "NEET Sample Paper 2026 – 2",
+  "date": "Sample paper · not NTA",
+  "minutes": 180,
+  "kind": "sample",
+  "answerKey": {
+   "type": "sample",
+   "name": "Answer key / Hint & Solution printed in 'NEET UG 2027 Sample Paper - 2' (Selfstudys)",
+   "url": "https://www.selfstudys.com/sitepdfs/bugxGiBXmdZh1ewTVz1t"
+  },
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "Practice paper in the NEET pattern, not an official NTA paper. Source calls it 'NEET UG 2027 Sample Paper - 2' (Selfstudys). Answers from the paper's own solutions.",
+  "count": 180,
+  "bySubject": {
+   "Physics": 45,
+   "Chemistry": 45,
+   "Biology": 90
+  },
+  "byType": {
+   "mcq": 180
+  },
+  "file": "data/neet-sample-2026-2.js"
+ },
+ {
+  "id": "neet-sample-2026-3",
+  "exam": "NEET",
+  "year": 2026,
+  "title": "NEET Sample Paper 2026 – 3",
+  "date": "Sample paper · not NTA",
+  "minutes": 180,
+  "kind": "sample",
+  "answerKey": {
+   "type": "sample",
+   "name": "Answer key / Hint & Solution printed in 'NEET UG 2027 Sample Paper - 3' (Selfstudys)",
+   "url": "https://www.selfstudys.com/sitepdfs/V8hIH96z6pAL5WxkGPx4"
+  },
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "Practice paper in the NEET pattern, not an official NTA paper. Source calls it 'NEET UG 2027 Sample Paper - 3' (Selfstudys). Answers from the paper's own solutions.",
+  "count": 180,
+  "bySubject": {
+   "Physics": 45,
+   "Chemistry": 45,
+   "Biology": 90
+  },
+  "byType": {
+   "mcq": 180
+  },
+  "file": "data/neet-sample-2026-3.js"
+ },
+ {
+  "id": "neet-sample-2026-4",
+  "exam": "NEET",
+  "year": 2026,
+  "title": "NEET Sample Paper 2026 – 4",
+  "date": "Sample paper · not NTA",
+  "minutes": 180,
+  "kind": "sample",
+  "answerKey": {
+   "type": "sample",
+   "name": "Answer key / Hint & Solution printed in 'NEET UG 2027 Sample Paper - 4' (Selfstudys)",
+   "url": "https://www.selfstudys.com/sitepdfs/wib51pBhTLKcKhxsx2Wd"
+  },
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "Practice paper in the NEET pattern, not an official NTA paper. Source calls it 'NEET UG 2027 Sample Paper - 4' (Selfstudys). Answers from the paper's own solutions.",
+  "count": 180,
+  "bySubject": {
+   "Physics": 45,
+   "Chemistry": 45,
+   "Biology": 90
+  },
+  "byType": {
+   "mcq": 180
+  },
+  "file": "data/neet-sample-2026-4.js"
+ },
+ {
+  "id": "neet-sample-2026-5",
+  "exam": "NEET",
+  "year": 2026,
+  "title": "NEET Sample Paper 2026 – 5",
+  "date": "Sample paper · not NTA",
+  "minutes": 180,
+  "kind": "sample",
+  "answerKey": {
+   "type": "sample",
+   "name": "Answer key / Hint & Solution printed in 'NEET UG 2027 Sample Paper - 5' (Selfstudys)",
+   "url": "https://www.selfstudys.com/sitepdfs/z3ci2d80Is696CmCe92M"
+  },
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "Practice paper in the NEET pattern, not an official NTA paper. Source calls it 'NEET UG 2027 Sample Paper - 5' (Selfstudys). Answers from the paper's own solutions. Q47 left out: the paper's key (option 2) contradicts its own question (all three statements are wrong, so the answer should be 4).",
+  "count": 179,
+  "bySubject": {
+   "Physics": 45,
+   "Chemistry": 44,
+   "Biology": 90
+  },
+  "byType": {
+   "mcq": 179
+  },
+  "file": "data/neet-sample-2026-5.js"
+ },
+ {
   "id": "neet-2025-45",
   "exam": "NEET",
   "year": 2025,
@@ -367,5 +527,1358 @@
    "mcq": 180
   },
   "file": "data/neet-2020-e1.js"
+ },
+ {
+  "id": "cbse10-science-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Science",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Science · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 10 · Science · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Science)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/Science-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/Science-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-science-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse10-maths-standard-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Standard",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Maths Standard · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 10 · Maths Standard · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Maths Standard)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/MathsStandard-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/MathsStandard-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Maths Standard": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-standard-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse10-maths-basic-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Maths Basic · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 10 · Maths Basic · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Maths Basic)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/MathsBasic-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/MathsBasic-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Maths Basic": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-basic-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse10-social-science-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Social Science · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 10 · Social Science · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Social Science)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/SocialScience-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/SocialScience-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Social Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-social-science-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse10-science-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Science",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Science · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 10 · Science · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Science)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/Science-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/Science-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-science-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse10-maths-standard-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Standard",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Maths Standard · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 10 · Maths Standard · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Maths Standard)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/MathsStandard-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/MathsStandard-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Maths Standard": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-standard-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse10-maths-basic-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Maths Basic · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 10 · Maths Basic · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Maths Basic)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/MathsBasic-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/MathsBasic-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Maths Basic": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-basic-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse10-social-science-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Social Science · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 10 · Social Science · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Social Science)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/SocialScience-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/SocialScience-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Social Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-social-science-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse10-science-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Science",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Science · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 10 · Science · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Science)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/Science-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/Science-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-science-sqp-2024-25.js"
+ },
+ {
+  "id": "cbse10-maths-standard-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Standard",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Maths Standard · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 10 · Maths Standard · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Maths Standard)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/MathsStandard-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/MathsStandard-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Maths Standard": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-standard-sqp-2024-25.js"
+ },
+ {
+  "id": "cbse10-maths-basic-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Maths Basic · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 10 · Maths Basic · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Maths Basic)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/MathsBasic-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/MathsBasic-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Maths Basic": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-basic-sqp-2024-25.js"
+ },
+ {
+  "id": "cbse10-social-science-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Social Science · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 10 · Social Science · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Social Science)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/SocialScience-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/SocialScience-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Social Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-social-science-sqp-2024-25.js"
+ },
+ {
+  "id": "cbse12-physics-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Physics · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 12 · Physics · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 24,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Physics)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Physics-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Physics-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 16,
+  "bySubject": {
+   "Physics": 16
+  },
+  "byType": {
+   "mcq": 16
+  },
+  "file": "data/cbse12-physics-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse12-chemistry-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Chemistry · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 12 · Chemistry · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 24,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Chemistry)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Chemistry-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Chemistry-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 16,
+  "bySubject": {
+   "Chemistry": 16
+  },
+  "byType": {
+   "mcq": 16
+  },
+  "file": "data/cbse12-chemistry-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse12-maths-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Maths · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 12 · Maths · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Maths)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Maths-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Maths-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Maths": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-maths-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse12-biology-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Biology · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 12 · Biology · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 24,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Biology)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Biology-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Biology-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 16,
+  "bySubject": {
+   "Biology": 16
+  },
+  "byType": {
+   "mcq": 16
+  },
+  "file": "data/cbse12-biology-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse12-accountancy-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Accountancy",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Accountancy · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 12 · Accountancy · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Accountancy)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Accountancy-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Accountancy-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Accountancy": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-accountancy-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse12-business-studies-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Business Studies",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Business Studies · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 12 · Business Studies · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Business Studies)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/BusinessStudies-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/BusinessStudies-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Business Studies": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-business-studies-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse12-economics-sqp-2026-27",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Economics",
+  "session": "2026-27",
+  "year": 2026,
+  "title": "Economics · Sample Paper 2026-27",
+  "shareTitle": "CBSE Class 12 · Economics · SQP 2026-27",
+  "date": "CBSE Sample Question Paper 2026-27",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026-27 (Economics)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Economics-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Economics-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Economics": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-economics-sqp-2026-27.js"
+ },
+ {
+  "id": "cbse12-physics-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Physics · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 12 · Physics · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 24,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Physics)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Physics-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Physics-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 16,
+  "bySubject": {
+   "Physics": 16
+  },
+  "byType": {
+   "mcq": 16
+  },
+  "file": "data/cbse12-physics-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse12-chemistry-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Chemistry · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 12 · Chemistry · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 24,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Chemistry)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Chemistry-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Chemistry-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 16,
+  "bySubject": {
+   "Chemistry": 16
+  },
+  "byType": {
+   "mcq": 16
+  },
+  "file": "data/cbse12-chemistry-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse12-maths-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Maths · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 12 · Maths · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Maths)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Maths-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Maths-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Maths": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-maths-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse12-biology-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Biology · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 12 · Biology · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 24,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Biology)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Biology-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Biology-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 16,
+  "bySubject": {
+   "Biology": 16
+  },
+  "byType": {
+   "mcq": 16
+  },
+  "file": "data/cbse12-biology-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse12-accountancy-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Accountancy",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Accountancy · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 12 · Accountancy · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Accountancy)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Accountancy-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Accountancy-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Accountancy": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-accountancy-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse12-business-studies-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Business Studies",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Business Studies · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 12 · Business Studies · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Business Studies)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/BusinessStudies-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/BusinessStudies-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Business Studies": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-business-studies-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse12-economics-sqp-2025-26",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Economics",
+  "session": "2025-26",
+  "year": 2025,
+  "title": "Economics · Sample Paper 2025-26",
+  "shareTitle": "CBSE Class 12 · Economics · SQP 2025-26",
+  "date": "CBSE Sample Question Paper 2025-26",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025-26 (Economics)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Economics-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Economics-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Economics": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-economics-sqp-2025-26.js"
+ },
+ {
+  "id": "cbse12-physics-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Physics · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 12 · Physics · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 24,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Physics)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Physics-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Physics-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 16,
+  "bySubject": {
+   "Physics": 16
+  },
+  "byType": {
+   "mcq": 16
+  },
+  "file": "data/cbse12-physics-sqp-2024-25.js"
+ },
+ {
+  "id": "cbse12-chemistry-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Chemistry · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 12 · Chemistry · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 24,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Chemistry)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Chemistry-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Chemistry-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 16,
+  "bySubject": {
+   "Chemistry": 16
+  },
+  "byType": {
+   "mcq": 16
+  },
+  "file": "data/cbse12-chemistry-sqp-2024-25.js"
+ },
+ {
+  "id": "cbse12-maths-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Maths · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 12 · Maths · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Maths)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Maths-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Maths-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Maths": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-maths-sqp-2024-25.js"
+ },
+ {
+  "id": "cbse12-biology-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Biology · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 12 · Biology · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 24,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Biology)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Biology-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Biology-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 16,
+  "bySubject": {
+   "Biology": 16
+  },
+  "byType": {
+   "mcq": 16
+  },
+  "file": "data/cbse12-biology-sqp-2024-25.js"
+ },
+ {
+  "id": "cbse12-accountancy-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Accountancy",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Accountancy · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 12 · Accountancy · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Accountancy)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Accountancy-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Accountancy-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Accountancy": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-accountancy-sqp-2024-25.js"
+ },
+ {
+  "id": "cbse12-business-studies-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Business Studies",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Business Studies · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 12 · Business Studies · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Business Studies)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/BusinessStudies-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/BusinessStudies-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Business Studies": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-business-studies-sqp-2024-25.js"
+ },
+ {
+  "id": "cbse12-economics-sqp-2024-25",
+  "exam": "CBSE",
+  "class": "12",
+  "subject": "Economics",
+  "session": "2024-25",
+  "year": 2024,
+  "title": "Economics · Sample Paper 2024-25",
+  "shareTitle": "CBSE Class 12 · Economics · SQP 2024-25",
+  "date": "CBSE Sample Question Paper 2024-25",
+  "minutes": 30,
+  "kind": "sample",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024-25 (Economics)",
+   "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Economics-MS.pdf"
+  },
+  "paperUrl": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Economics-SQP.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE Sample Question Paper; answers from the official CBSE Marking Scheme.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 20,
+  "bySubject": {
+   "Economics": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse12-economics-sqp-2024-25.js"
  }
 ]

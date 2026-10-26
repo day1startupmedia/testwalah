@@ -1,0 +1,16 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.bak
+*.tmp
+*.log
+# local tooling / temp
+node_modules/
+tmp/
+temp/
+proof/
+*.pdf
+__probe*
+.env

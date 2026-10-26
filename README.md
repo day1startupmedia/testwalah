@@ -1,4 +1,6 @@
-# TestWalah — NEET & JEE Main previous-year question tests
+# SONEXA — NEET, JEE Main & CBSE Board practice tests
+
+Live: https://sonexa.sites.tab.bot/ (formerly TestWalah)
 
 Static website (no backend, no login). Open `site/index.html` through any static web host.
 

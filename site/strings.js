@@ -1,11 +1,18 @@
 /* All visible UI text lives here so a Hindi toggle can be added by filling STR.hi. */
 window.STR = {
   en: {
-    appName: 'TestWalah',
+    appName: 'SONEXA',
     tagline: 'Real previous-year NEET & JEE Main questions. Take a test, see your score, learn from every answer.',
     chooseExam: 'Choose your exam',
     neetSub: 'Physics · Chemistry · Biology',
     jeeSub: 'Physics · Chemistry · Maths',
+    cbseSub: 'Class 10 · Class 12 · MCQ tests',
+    cbseClass: 'Class',
+    markingCbse: '+1 correct, 0 wrong, 0 skipped (no negative marking)',
+    cbseComingSoon: 'Coming soon.',
+    cbseSource: 'CBSE papers: official CBSE board papers and sample papers; answers from official CBSE marking schemes. Source: CBSE.',
+    cbseBoardPapers: 'Board exam papers',
+    cbseSamplePapers: 'Sample papers',
     questions: 'questions',
     resumeTitle: 'Unfinished test',
     resume: 'Resume',
@@ -83,8 +90,12 @@ window.STR = {
     subjectMode: 'Practice',
     quick: 'Quick test',
     provisional: 'Answers per NTA provisional key',
+    samplePapers: 'Sample papers (practice)',
+    samplePapersSub: 'Practice papers in the NEET pattern. These are NOT official NTA papers; answers are from each paper\u2019s own answer key.',
+    sampleBadge: 'Sample · not NTA',
+    allSubjects: 'All subjects',
     aboutTitle: 'About these questions',
-    about: 'Every question is from a real NTA paper. Answers are checked against NTA\u2019s official answer keys; questions whose answer could not be checked are left out.',
+    about: 'Every question is from a real NTA paper. Answers are checked against NTA\u2019s official answer keys; questions whose answer could not be checked are left out. Sample papers are listed separately and are not NTA papers.',
     loading: 'Loading…',
     language: 'हिंदी',
     noQuestions: 'No questions for this choice yet.'
