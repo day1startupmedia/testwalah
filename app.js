@@ -1549,19 +1549,22 @@
 
   /* ---------- 🎁 Invite friends ----------
      Header "🎁 Invite" pill (every screen except a running test), a home card and a footer button open one share sheet.
-     The shared link is always the main public copy (INVITE_URL, ?ref=invite so GoatCounter lists it as referrer "invite";
+     From the website the shared link is the main public copy (INVITE_URL, ?ref=invite so GoatCounter lists it as referrer "invite";
+     inside the Android app (IN_APP) it is the app download page instead: INVITE_APP_URL, ?ref=invite-app, inviteMsgApp/inviteMsgAppHi;
      the counter's path ignores ?query). Share = navigator.share (in the Android app the app's bridge turns it into Android's
      share sheet); WhatsApp = wa.me (the app opens the WhatsApp app); Telegram = t.me/share (in the app: an intent:// link to the
      Telegram app with t.me as browser fallback); SMS = sms: body; Copy = clipboard (app bridge in the app). Each tap counts a
      GoatCounter event invite/<channel>. Open directly with #/invite. */
-  const INVITE_URL = 'https://sonexatest.github.io/?ref=invite';
-  const inviteFull = () => `${t('inviteMsg')} ${INVITE_URL}\n${t('inviteMsgHi')}`;
-  const inviteCount = ch => { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: 'invite/' + ch, title: 'Invite: ' + ch, event: true }); } catch (e) { /* ignore */ } };
+  const INVITE_WEB_URL = 'https://sonexatest.github.io/?ref=invite', INVITE_APP_URL = 'https://sonexatest.github.io/app/?ref=invite-app';
+  const INVITE_URL = IN_APP ? INVITE_APP_URL : INVITE_WEB_URL;
+  const invMsg = () => t(IN_APP ? 'inviteMsgApp' : 'inviteMsg'), invMsgHi = () => t(IN_APP ? 'inviteMsgAppHi' : 'inviteMsgHi');
+  const inviteFull = () => `${invMsg()} ${INVITE_URL}\n${invMsgHi()}`;
+  const inviteCount = ch => { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: (IN_APP ? 'invite-app/' : 'invite/') + ch, title: (IN_APP ? 'Invite (app): ' : 'Invite: ') + ch, event: true }); } catch (e) { /* ignore */ } };
   function inviteLinks() {
-    const full = inviteFull(), tgWeb = 'https://t.me/share/url?url=' + encodeURIComponent(INVITE_URL) + '&text=' + encodeURIComponent(t('inviteMsg') + '\n' + t('inviteMsgHi'));
+    const full = inviteFull(), tgWeb = 'https://t.me/share/url?url=' + encodeURIComponent(INVITE_URL) + '&text=' + encodeURIComponent(invMsg() + '\n' + invMsgHi());
     return {
       wa: 'https://wa.me/?text=' + encodeURIComponent(full),
-      tg: IN_APP ? 'intent://msg_url?url=' + encodeURIComponent(INVITE_URL) + '&text=' + encodeURIComponent(t('inviteMsg') + '\n' + t('inviteMsgHi')) + '#Intent;scheme=tg;package=org.telegram.messenger;S.browser_fallback_url=' + encodeURIComponent(tgWeb) + ';end' : tgWeb,
+      tg: IN_APP ? 'intent://msg_url?url=' + encodeURIComponent(INVITE_URL) + '&text=' + encodeURIComponent(invMsg() + '\n' + invMsgHi()) + '#Intent;scheme=tg;package=org.telegram.messenger;S.browser_fallback_url=' + encodeURIComponent(tgWeb) + ';end' : tgWeb,
       sms: (IS_IOS ? 'sms:&body=' : 'sms:?body=') + encodeURIComponent(full)
     };
   }
@@ -1571,7 +1574,7 @@
     const bg = document.createElement('div'); bg.className = 'sheet-bg mid';
     bg.innerHTML = `<div class="sheet center ch-sheet inv-sheet" role="dialog" aria-modal="true" aria-labelledby="invTitle">
       <div class="inv-head"><span class="inv-ico" aria-hidden="true">🎁</span><div><h2 id="invTitle">${esc(t('inviteTitle'))}</h2><p class="muted small">${esc(t('inviteNote'))}</p></div></div>
-      <p class="small inv-intro">${esc(t('inviteIntro'))}</p>
+      <p class="small inv-intro">${esc(t(IN_APP ? 'inviteIntroApp' : 'inviteIntro'))}</p>
       <div class="inv-msg" aria-label="Message">${esc(inviteFull()).replace(/\n/g, '<br>')}</div>
       ${canShare ? `<button type="button" class="btn primary block" id="invShare">📤 ${esc(t('inviteShare'))}</button>` : ''}
       <div class="inv-grid">
