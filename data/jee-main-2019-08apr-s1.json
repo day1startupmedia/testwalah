@@ -1,0 +1,2462 @@
+{
+ "id": "jee-main-2019-08apr-s1",
+ "exam": "JEE Main",
+ "year": 2019,
+ "title": "JEE Main 2019 · 8 Apr Shift 1",
+ "shareTitle": "JEE Main 2019 Paper 1 · 8 Apr 2019, Shift 1 (NTA, computer-based)",
+ "date": "8 Apr 2019",
+ "minutes": 180,
+ "kind": "full",
+ "answerKey": {
+  "type": "final",
+  "name": "NTA JEE (Main) April 2019 final answer keys, Paper 1 (08.04.2019 Shift 1, English & Hindi)",
+  "url": "https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y"
+ },
+ "paperUrl": "https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf",
+ "marking": {
+  "mcq": [
+   4,
+   -1
+  ]
+ },
+ "rules": {},
+ "note": "All 90 questions of NTA's official 8 Apr 2019 Shift 1 paper (Physics 1-30, Chemistry 31-60, Maths 61-90; questions and options exactly as NTA published them). Answers from NTA's final answer keys on jeemain.nic.in (no question dropped in this shift), matched by question ID -> option ID. The paper PDF is NTA's own file, re-hosted by CollegeDekho; it matches the archived jeemain.nic.in copy byte for byte where that copy exists.",
+ "optionLabels": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "questions": [
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-001",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 1,
+   "srcQno": 1,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Units and Measurements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/001.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q1, question ID 41652912696 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912696 -> correct option ID 41652949563 = printed option 2 (option IDs 41652949562-65 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-002",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 2,
+   "srcQno": 2,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Motion in a Plane",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/002.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q2, question ID 41652912697 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912697 -> correct option ID 41652949568 = printed option 3 (option IDs 41652949566-69 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-003",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 3,
+   "srcQno": 3,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Laws of Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/003.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q3, question ID 41652912698 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912698 -> correct option ID 41652949573 = printed option 4 (option IDs 41652949570-73 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-004",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 4,
+   "srcQno": 4,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Work, Energy and Power",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/004.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q4, question ID 41652912699 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912699 -> correct option ID 41652949575 = printed option 2 (option IDs 41652949574-77 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-005",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 5,
+   "srcQno": 5,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "System of Particles and Rotational Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/005.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q5, question ID 41652912700 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912700 -> correct option ID 41652949578 = printed option 1 (option IDs 41652949578-81 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-006",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 6,
+   "srcQno": 6,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Gravitation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/006.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q6, question ID 41652912701 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912701 -> correct option ID 41652949585 = printed option 4 (option IDs 41652949582-85 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-007",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 7,
+   "srcQno": 7,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Mechanical Properties of Solids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/007.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q7, question ID 41652912702 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912702 -> correct option ID 41652949586 = printed option 1 (option IDs 41652949586-89 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-008",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 8,
+   "srcQno": 8,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Mechanical Properties of Fluids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/008.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q8, question ID 41652912703 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912703 -> correct option ID 41652949590 = printed option 1 (option IDs 41652949590-93 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-009",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 9,
+   "srcQno": 9,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermal Properties of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/009.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q9, question ID 41652912704 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912704 -> correct option ID 41652949595 = printed option 2 (option IDs 41652949594-97 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-010",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 10,
+   "srcQno": 10,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/010.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q10, question ID 41652912705 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912705 -> correct option ID 41652949599 = printed option 2 (option IDs 41652949598-01 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-011",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 11,
+   "srcQno": 11,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Kinetic Theory",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/011.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q11, question ID 41652912706 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912706 -> correct option ID 41652949602 = printed option 1 (option IDs 41652949602-05 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-012",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 12,
+   "srcQno": 12,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Mechanical Properties of Solids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/012.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q12, question ID 41652912707 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912707 -> correct option ID 41652949607 = printed option 2 (option IDs 41652949606-09 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-013",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 13,
+   "srcQno": 13,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Mechanical Properties of Solids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/013.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q13, question ID 41652912708 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912708 -> correct option ID 41652949610 = printed option 1 (option IDs 41652949610-13 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-014",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 14,
+   "srcQno": 14,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electric Charges and Fields",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/014.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q14, question ID 41652912709 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912709 -> correct option ID 41652949614 = printed option 1 (option IDs 41652949614-17 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-015",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 15,
+   "srcQno": 15,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/015.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q15, question ID 41652912710 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912710 -> correct option ID 41652949618 = printed option 1 (option IDs 41652949618-21 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-016",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 16,
+   "srcQno": 16,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/016.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q16, question ID 41652912711 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912711 -> correct option ID 41652949625 = printed option 4 (option IDs 41652949622-25 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-017",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 17,
+   "srcQno": 17,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/017.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q17, question ID 41652912712 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912712 -> correct option ID 41652949627 = printed option 2 (option IDs 41652949626-29 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-018",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 18,
+   "srcQno": 18,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Moving Charges and Magnetism",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/018.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q18, question ID 41652912713 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912713 -> correct option ID 41652949630 = printed option 1 (option IDs 41652949630-33 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-019",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 19,
+   "srcQno": 19,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Alternating Current",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/019.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q19, question ID 41652912714 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912714 -> correct option ID 41652949635 = printed option 2 (option IDs 41652949634-37 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-020",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 20,
+   "srcQno": 20,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electromagnetic Induction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/020.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q20, question ID 41652912715 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912715 -> correct option ID 41652949639 = printed option 2 (option IDs 41652949638-41 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-021",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 21,
+   "srcQno": 21,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electromagnetic Induction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/021.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q21, question ID 41652912716 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912716 -> correct option ID 41652949643 = printed option 2 (option IDs 41652949642-45 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-022",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 22,
+   "srcQno": 22,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electromagnetic Waves",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/022.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q22, question ID 41652912717 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912717 -> correct option ID 41652949646 = printed option 1 (option IDs 41652949646-49 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-023",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 23,
+   "srcQno": 23,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/023.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q23, question ID 41652912718 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912718 -> correct option ID 41652949651 = printed option 2 (option IDs 41652949650-53 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-024",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 24,
+   "srcQno": 24,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Wave Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/024.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q24, question ID 41652912719 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912719 -> correct option ID 41652949655 = printed option 2 (option IDs 41652949654-57 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-025",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 25,
+   "srcQno": 25,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/025.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q25, question ID 41652912720 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912720 -> correct option ID 41652949658 = printed option 1 (option IDs 41652949658-61 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-026",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 26,
+   "srcQno": 26,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Dual Nature of Matter and Radiation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/026.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q26, question ID 41652912721 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912721 -> correct option ID 41652949665 = printed option 4 (option IDs 41652949662-65 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-027",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 27,
+   "srcQno": 27,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Atoms",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/027.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q27, question ID 41652912722 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912722 -> correct option ID 41652949669 = printed option 4 (option IDs 41652949666-69 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-028",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 28,
+   "srcQno": 28,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Semiconductor Electronics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/028.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q28, question ID 41652912723 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912723 -> correct option ID 41652949671 = printed option 2 (option IDs 41652949670-73 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-029",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 29,
+   "srcQno": 29,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Communication Systems",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/029.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q29, question ID 41652912724 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912724 -> correct option ID 41652949674 = printed option 1 (option IDs 41652949674-77 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-030",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 30,
+   "srcQno": 30,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/030.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q30, question ID 41652912725 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912725 -> correct option ID 41652949681 = printed option 4 (option IDs 41652949678-81 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-031",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 31,
+   "srcQno": 31,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/031.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q31, question ID 41652912726 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912726 -> correct option ID 41652949685 = printed option 4 (option IDs 41652949682-85 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-032",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 32,
+   "srcQno": 32,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/032.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q32, question ID 41652912727 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912727 -> correct option ID 41652949689 = printed option 4 (option IDs 41652949686-89 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-033",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 33,
+   "srcQno": 33,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Amines",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/033.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q33, question ID 41652912728 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912728 -> correct option ID 41652949690 = printed option 1 (option IDs 41652949690-93 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-034",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 34,
+   "srcQno": 34,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/034.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q34, question ID 41652912729 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912729 -> correct option ID 41652949695 = printed option 2 (option IDs 41652949694-97 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-035",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 35,
+   "srcQno": 35,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/035.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q35, question ID 41652912730 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912730 -> correct option ID 41652949699 = printed option 2 (option IDs 41652949698-01 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-036",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 36,
+   "srcQno": 36,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/036.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q36, question ID 41652912731 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912731 -> correct option ID 41652949702 = printed option 1 (option IDs 41652949702-05 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-037",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 37,
+   "srcQno": 37,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Amines",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/037.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q37, question ID 41652912732 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912732 -> correct option ID 41652949707 = printed option 2 (option IDs 41652949706-09 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-038",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 38,
+   "srcQno": 38,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Organic Chemistry: Basic Principles",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/038.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q38, question ID 41652912733 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912733 -> correct option ID 41652949710 = printed option 1 (option IDs 41652949710-13 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-039",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 39,
+   "srcQno": 39,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Practical Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/039.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q39, question ID 41652912734 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912734 -> correct option ID 41652949715 = printed option 2 (option IDs 41652949714-17 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-040",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 40,
+   "srcQno": 40,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Amines",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/040.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q40, question ID 41652912735 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912735 -> correct option ID 41652949718 = printed option 1 (option IDs 41652949718-21 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-041",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 41,
+   "srcQno": 41,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Classification of Elements and Periodicity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/041.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q41, question ID 41652912736 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912736 -> correct option ID 41652949723 = printed option 2 (option IDs 41652949722-25 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-042",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 42,
+   "srcQno": 42,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "General Principles of Isolation of Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/042.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q42, question ID 41652912737 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912737 -> correct option ID 41652949726 = printed option 1 (option IDs 41652949726-29 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-043",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 43,
+   "srcQno": 43,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrogen",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/043.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q43, question ID 41652912738 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912738 -> correct option ID 41652949731 = printed option 2 (option IDs 41652949730-33 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-044",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 44,
+   "srcQno": 44,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "s-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/044.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q44, question ID 41652912739 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912739 -> correct option ID 41652949734 = printed option 1 (option IDs 41652949734-37 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-045",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 45,
+   "srcQno": 45,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/045.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q45, question ID 41652912740 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912740 -> correct option ID 41652949740 = printed option 3 (option IDs 41652949738-41 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-046",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 46,
+   "srcQno": 46,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "d- and f-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/046.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q46, question ID 41652912741 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912741 -> correct option ID 41652949743 = printed option 2 (option IDs 41652949742-45 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-047",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 47,
+   "srcQno": 47,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Coordination Compounds",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/047.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q47, question ID 41652912742 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912742 -> correct option ID 41652949748 = printed option 3 (option IDs 41652949746-49 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-048",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 48,
+   "srcQno": 48,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Coordination Compounds",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/048.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q48, question ID 41652912743 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912743 -> correct option ID 41652949750 = printed option 1 (option IDs 41652949750-53 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-049",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 49,
+   "srcQno": 49,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Environmental Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/049.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q49, question ID 41652912744 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912744 -> correct option ID 41652949755 = printed option 2 (option IDs 41652949754-57 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-050",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 50,
+   "srcQno": 50,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Environmental Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/050.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q50, question ID 41652912745 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912745 -> correct option ID 41652949758 = printed option 1 (option IDs 41652949758-61 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-051",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 51,
+   "srcQno": 51,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Redox Reactions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/051.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q51, question ID 41652912746 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912746 -> correct option ID 41652949764 = printed option 3 (option IDs 41652949762-65 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-052",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 52,
+   "srcQno": 52,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solid State",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/052.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q52, question ID 41652912747 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912747 -> correct option ID 41652949767 = printed option 2 (option IDs 41652949766-69 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-053",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 53,
+   "srcQno": 53,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Structure of Atom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/053.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q53, question ID 41652912748 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912748 -> correct option ID 41652949773 = printed option 4 (option IDs 41652949770-73 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-054",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 54,
+   "srcQno": 54,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/054.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q54, question ID 41652912749 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912749 -> correct option ID 41652949777 = printed option 4 (option IDs 41652949774-77 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-055",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 55,
+   "srcQno": 55,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/055.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q55, question ID 41652912750 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912750 -> correct option ID 41652949781 = printed option 4 (option IDs 41652949778-81 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-056",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 56,
+   "srcQno": 56,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solutions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/056.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q56, question ID 41652912751 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912751 -> correct option ID 41652949782 = printed option 1 (option IDs 41652949782-85 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-057",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 57,
+   "srcQno": 57,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Equilibrium",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/057.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q57, question ID 41652912752 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912752 -> correct option ID 41652949788 = printed option 3 (option IDs 41652949786-89 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-058",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 58,
+   "srcQno": 58,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Electrochemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/058.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q58, question ID 41652912753 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912753 -> correct option ID 41652949790 = printed option 1 (option IDs 41652949790-93 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-059",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 59,
+   "srcQno": 59,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Kinetics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/059.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q59, question ID 41652912754 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912754 -> correct option ID 41652949796 = printed option 3 (option IDs 41652949794-97 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-060",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 60,
+   "srcQno": 60,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Surface Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/060.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q60, question ID 41652912755 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912755 -> correct option ID 41652949800 = printed option 3 (option IDs 41652949798-01 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-061",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 61,
+   "srcQno": 61,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Relations and Functions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/061.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q61, question ID 41652912756 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912756 -> correct option ID 41652949804 = printed option 3 (option IDs 41652949802-05 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-062",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 62,
+   "srcQno": 62,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/062.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q62, question ID 41652912757 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912757 -> correct option ID 41652949807 = printed option 2 (option IDs 41652949806-09 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-063",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 63,
+   "srcQno": 63,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/063.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q63, question ID 41652912758 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912758 -> correct option ID 41652949812 = printed option 3 (option IDs 41652949810-13 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-064",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 64,
+   "srcQno": 64,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Matrices",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/064.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q64, question ID 41652912759 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912759 -> correct option ID 41652949815 = printed option 2 (option IDs 41652949814-17 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-065",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 65,
+   "srcQno": 65,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Determinants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/065.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q65, question ID 41652912760 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912760 -> correct option ID 41652949820 = printed option 3 (option IDs 41652949818-21 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-066",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 66,
+   "srcQno": 66,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Permutations and Combinations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/066.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q66, question ID 41652912761 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912761 -> correct option ID 41652949825 = printed option 4 (option IDs 41652949822-25 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-067",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 67,
+   "srcQno": 67,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Binomial Theorem",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/067.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q67, question ID 41652912762 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912762 -> correct option ID 41652949826 = printed option 1 (option IDs 41652949826-29 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-068",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 68,
+   "srcQno": 68,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Sequences and Series",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/068.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q68, question ID 41652912763 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912763 -> correct option ID 41652949832 = printed option 3 (option IDs 41652949830-33 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-069",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 69,
+   "srcQno": 69,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Binomial Theorem",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/069.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q69, question ID 41652912764 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912764 -> correct option ID 41652949835 = printed option 2 (option IDs 41652949834-37 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-070",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 70,
+   "srcQno": 70,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Limits and Derivatives",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/070.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q70, question ID 41652912765 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912765 -> correct option ID 41652949838 = printed option 1 (option IDs 41652949838-41 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-071",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 71,
+   "srcQno": 71,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Continuity and Differentiability",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/071.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q71, question ID 41652912766 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912766 -> correct option ID 41652949844 = printed option 3 (option IDs 41652949842-45 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-072",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 72,
+   "srcQno": 72,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Application of Derivatives",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/072.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q72, question ID 41652912767 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912767 -> correct option ID 41652949847 = printed option 2 (option IDs 41652949846-49 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-073",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 73,
+   "srcQno": 73,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Application of Derivatives",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/073.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q73, question ID 41652912768 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912768 -> correct option ID 41652949851 = printed option 2 (option IDs 41652949850-53 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-074",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 74,
+   "srcQno": 74,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Integrals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/074.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q74, question ID 41652912769 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912769 -> correct option ID 41652949854 = printed option 1 (option IDs 41652949854-57 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-075",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 75,
+   "srcQno": 75,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Integrals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/075.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q75, question ID 41652912770 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912770 -> correct option ID 41652949860 = printed option 3 (option IDs 41652949858-61 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-076",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 76,
+   "srcQno": 76,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Application of Integrals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/076.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q76, question ID 41652912771 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912771 -> correct option ID 41652949864 = printed option 3 (option IDs 41652949862-65 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-077",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 77,
+   "srcQno": 77,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Differential Equations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/077.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q77, question ID 41652912772 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912772 -> correct option ID 41652949866 = printed option 1 (option IDs 41652949866-69 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-078",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 78,
+   "srcQno": 78,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Conic Sections",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/078.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q78, question ID 41652912773 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912773 -> correct option ID 41652949871 = printed option 2 (option IDs 41652949870-73 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-079",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 79,
+   "srcQno": 79,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Straight Lines",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/079.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q79, question ID 41652912774 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912774 -> correct option ID 41652949876 = printed option 3 (option IDs 41652949874-77 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-080",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 80,
+   "srcQno": 80,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Conic Sections",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/080.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q80, question ID 41652912775 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912775 -> correct option ID 41652949879 = printed option 2 (option IDs 41652949878-81 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-081",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 81,
+   "srcQno": 81,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Conic Sections",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/081.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q81, question ID 41652912776 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912776 -> correct option ID 41652949883 = printed option 2 (option IDs 41652949882-85 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-082",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 82,
+   "srcQno": 82,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Conic Sections",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/082.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q82, question ID 41652912777 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912777 -> correct option ID 41652949886 = printed option 1 (option IDs 41652949886-89 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-083",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 83,
+   "srcQno": 83,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Three Dimensional Geometry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/083.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q83, question ID 41652912778 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912778 -> correct option ID 41652949892 = printed option 3 (option IDs 41652949890-93 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-084",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 84,
+   "srcQno": 84,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Three Dimensional Geometry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/084.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q84, question ID 41652912779 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912779 -> correct option ID 41652949894 = printed option 1 (option IDs 41652949894-97 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-085",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 85,
+   "srcQno": 85,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Vector Algebra",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/085.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q85, question ID 41652912780 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912780 -> correct option ID 41652949901 = printed option 4 (option IDs 41652949898-01 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-086",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 86,
+   "srcQno": 86,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Statistics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/086.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q86, question ID 41652912781 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912781 -> correct option ID 41652949905 = printed option 4 (option IDs 41652949902-05 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-087",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 87,
+   "srcQno": 87,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Probability",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/087.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q87, question ID 41652912782 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912782 -> correct option ID 41652949908 = printed option 3 (option IDs 41652949906-09 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-088",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 88,
+   "srcQno": 88,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Trigonometric Functions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/088.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q88, question ID 41652912783 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912783 -> correct option ID 41652949911 = printed option 2 (option IDs 41652949910-13 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-089",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 89,
+   "srcQno": 89,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Inverse Trigonometric Functions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/089.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q89, question ID 41652912784 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912784 -> correct option ID 41652949915 = printed option 2 (option IDs 41652949914-17 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-08APR-S1-090",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 8 Apr Shift 1",
+   "qno": 90,
+   "srcQno": 90,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Mathematical Reasoning",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-08apr-s1/090.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) April 2019 final answer keys.",
+   "source": "Question: NTA's official question paper \"Paper I EH 8th April 2019 Shift 1\", Q90, question ID 41652912785 (https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf; the same NTA file as jeemain.nic.in FileHandler ii=51, whose archived copy https://web.archive.org/web/20190721192856/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=51&iii=Y is cut off after 1 MB and matches it byte for byte); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) April 2019 final answer keys (jeemain.nic.in, published with the result), p.1 (Exam Date 08.04.2019, Shift First, English & Hindi) (https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y); question ID 41652912785 -> correct option ID 41652949921 = printed option 4 (option IDs 41652949918-21 in printed order)."
+  }
+ ]
+}

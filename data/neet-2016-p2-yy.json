@@ -1,0 +1,4865 @@
+{
+ "id": "neet-2016-p2-yy",
+ "exam": "NEET",
+ "year": 2016,
+ "title": "NEET 2016 Phase 2 · Code YY",
+ "shareTitle": "NEET 2016 Phase 2 · Code YY",
+ "date": "24 Jul 2016",
+ "minutes": 180,
+ "kind": "full",
+ "answerKey": {
+  "type": "final",
+  "name": "CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in",
+  "url": "http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B"
+ },
+ "paperUrl": "https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf",
+ "marking": {
+  "mcq": [
+   4,
+   -1
+  ]
+ },
+ "rules": {},
+ "note": "NEET-II 2016 (CBSE, 24 July 2016), Code YY: Biology Q1-90, Physics Q91-135, Chemistry Q136-180. Questions: ALLEN Career Institute's reproduction of the Code YY booklet (no official CBSE copy is online; solutions cropped out). Answers: CBSE's final answer key, revised after challenges (22 Aug 2016; Wayback copy of aipmt.nic.in). Q179 left out: CBSE gave all candidates full marks for it.",
+ "optionLabels": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "questions": [
+  {
+   "id": "NEET-2016-P2-YY-001",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 1,
+   "srcQno": 1,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Reproduction in Organisms",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/001.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q1. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-002",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 2,
+   "srcQno": 2,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/002.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q2. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-003",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 3,
+   "srcQno": 3,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/003.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q3. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-004",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 4,
+   "srcQno": 4,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/004.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q4. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-005",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 5,
+   "srcQno": 5,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/005.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q5. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-006",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 6,
+   "srcQno": 6,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/006.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q6. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-007",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 7,
+   "srcQno": 7,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Principles of Inheritance and Variation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/007.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q7. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-008",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 8,
+   "srcQno": 8,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/008.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q8. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-009",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 9,
+   "srcQno": 9,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Principles of Inheritance and Variation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/009.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q9. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-010",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 10,
+   "srcQno": 10,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/010.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q10. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-011",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 11,
+   "srcQno": 11,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biotechnology: Principles and Processes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/011.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q11. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-012",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 12,
+   "srcQno": 12,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biotechnology: Principles and Processes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/012.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q12. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-013",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 13,
+   "srcQno": 13,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biotechnology: Principles and Processes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/013.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q13. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-014",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 14,
+   "srcQno": 14,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biotechnology: Principles and Processes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/014.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q14. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-015",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 15,
+   "srcQno": 15,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biotechnology and its Applications",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/015.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q15. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-016",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 16,
+   "srcQno": 16,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biodiversity and Conservation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/016.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q16. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-017",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 17,
+   "srcQno": 17,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Ecosystem",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/017.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q17. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-018",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 18,
+   "srcQno": 18,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Organisms and Populations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/018.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q18. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-019",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 19,
+   "srcQno": 19,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Organisms and Populations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/019.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q19. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-020",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 20,
+   "srcQno": 20,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biodiversity and Conservation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/020.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q20. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-021",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 21,
+   "srcQno": 21,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biodiversity and Conservation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/021.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q21. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-022",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 22,
+   "srcQno": 22,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biological Classification",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/022.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q22. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-023",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 23,
+   "srcQno": 23,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biological Classification",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/023.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q23. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-024",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 24,
+   "srcQno": 24,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biological Classification",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/024.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q24. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-025",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 25,
+   "srcQno": 25,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "The Living World",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/025.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q25. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-026",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 26,
+   "srcQno": 26,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Plant Kingdom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/026.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q26. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-027",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 27,
+   "srcQno": 27,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Plant Kingdom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/027.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q27. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-028",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 28,
+   "srcQno": 28,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Morphology of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/028.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q28. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-029",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 29,
+   "srcQno": 29,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Morphology of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/029.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q29. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-030",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 30,
+   "srcQno": 30,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Morphology of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/030.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q30. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-031",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 31,
+   "srcQno": 31,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Morphology of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/031.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q31. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-032",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 32,
+   "srcQno": 32,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Anatomy of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/032.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q32. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-033",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 33,
+   "srcQno": 33,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Anatomy of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/033.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q33. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-034",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 34,
+   "srcQno": 34,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/034.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q34. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-035",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 35,
+   "srcQno": 35,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biological Classification",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/035.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q35. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-036",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 36,
+   "srcQno": 36,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biological Classification",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/036.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q36. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-037",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 37,
+   "srcQno": 37,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell: The Unit of Life",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/037.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q37. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-038",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 38,
+   "srcQno": 38,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell Cycle and Cell Division",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/038.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q38. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-039",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 39,
+   "srcQno": 39,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Respiration in Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/039.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q39. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-040",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 40,
+   "srcQno": 40,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Transport in Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/040.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q40. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-041",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 41,
+   "srcQno": 41,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Plant Growth and Development",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/041.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q41. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-042",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 42,
+   "srcQno": 42,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Plant Growth and Development",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/042.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q42. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-043",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 43,
+   "srcQno": 43,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Mineral Nutrition",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/043.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q43. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-044",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 44,
+   "srcQno": 44,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Photosynthesis in Higher Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/044.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q44. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-045",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 45,
+   "srcQno": 45,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Reproduction in Organisms",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/045.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q45. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-046",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 46,
+   "srcQno": 46,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Excretory Products and their Elimination",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/046.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q46. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-047",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 47,
+   "srcQno": 47,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Reproductive Health",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/047.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q47. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-048",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 48,
+   "srcQno": 48,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Reproductive Health",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/048.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q48. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-049",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 49,
+   "srcQno": 49,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Reproductive Health",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/049.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q49. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-050",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 50,
+   "srcQno": 50,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Reproduction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/050.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q50. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-051",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 51,
+   "srcQno": 51,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Reproduction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/051.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q51. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-052",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 52,
+   "srcQno": 52,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Reproduction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/052.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q52. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-053",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 53,
+   "srcQno": 53,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Principles of Inheritance and Variation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/053.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q53. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-054",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 54,
+   "srcQno": 54,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Evolution",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/054.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q54. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-055",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 55,
+   "srcQno": 55,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Evolution",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/055.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q55. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-056",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 56,
+   "srcQno": 56,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Evolution",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/056.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q56. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-057",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 57,
+   "srcQno": 57,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Evolution",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/057.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q57. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-058",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 58,
+   "srcQno": 58,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/058.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q58. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-059",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 59,
+   "srcQno": 59,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/059.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q59. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-060",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 60,
+   "srcQno": 60,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Strategies for Enhancement in Food Production",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/060.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q60. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-061",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 61,
+   "srcQno": 61,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Health and Disease",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/061.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q61. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-062",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 62,
+   "srcQno": 62,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Strategies for Enhancement in Food Production",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/062.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q62. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-063",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 63,
+   "srcQno": 63,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Microbes in Human Welfare",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/063.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q63. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-064",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 64,
+   "srcQno": 64,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Microbes in Human Welfare",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/064.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q64. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-065",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 65,
+   "srcQno": 65,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Organisms and Populations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/065.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q65. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-066",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 66,
+   "srcQno": 66,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biodiversity and Conservation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/066.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q66. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-067",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 67,
+   "srcQno": 67,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Environmental Issues",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/067.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q67. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-068",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 68,
+   "srcQno": 68,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Environmental Issues",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/068.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q68. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-069",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 69,
+   "srcQno": 69,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Health and Disease",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/069.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q69. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-070",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 70,
+   "srcQno": 70,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "The Living World",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/070.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q70. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-071",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 71,
+   "srcQno": 71,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Animal Kingdom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/071.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q71. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-072",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 72,
+   "srcQno": 72,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "The Living World",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/072.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q72. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-073",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 73,
+   "srcQno": 73,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Structural Organisation in Animals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/073.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q73. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-074",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 74,
+   "srcQno": 74,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Structural Organisation in Animals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/074.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q74. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-075",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 75,
+   "srcQno": 75,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Respiration in Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/075.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q75. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-076",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 76,
+   "srcQno": 76,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/076.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q76. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-077",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 77,
+   "srcQno": 77,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/077.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q77. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-078",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 78,
+   "srcQno": 78,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell Cycle and Cell Division",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/078.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q78. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-079",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 79,
+   "srcQno": 79,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell Cycle and Cell Division",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/079.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q79. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-080",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 80,
+   "srcQno": 80,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Digestion and Absorption",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/080.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q80. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-081",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 81,
+   "srcQno": 81,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Breathing and Exchange of Gases",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/081.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q81. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-082",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 82,
+   "srcQno": 82,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Neural Control and Coordination",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/082.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q82. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-083",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 83,
+   "srcQno": 83,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Coordination and Integration",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/083.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q83. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-084",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 84,
+   "srcQno": 84,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Locomotion and Movement",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/084.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q84. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-085",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 85,
+   "srcQno": 85,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Body Fluids and Circulation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/085.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q85. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-086",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 86,
+   "srcQno": 86,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Coordination and Integration",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/086.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q86. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-087",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 87,
+   "srcQno": 87,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Locomotion and Movement",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/087.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q87. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-088",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 88,
+   "srcQno": 88,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Body Fluids and Circulation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/088.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q88. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-089",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 89,
+   "srcQno": 89,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Breathing and Exchange of Gases",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/089.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q89. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-090",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 90,
+   "srcQno": 90,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Coordination and Integration",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/090.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q90. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-091",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 91,
+   "srcQno": 91,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/091.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q91. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-092",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 92,
+   "srcQno": 92,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/092.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q92. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-093",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 93,
+   "srcQno": 93,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/093.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q93. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-094",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 94,
+   "srcQno": 94,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Moving Charges and Magnetism",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/094.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q94. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-095",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 95,
+   "srcQno": 95,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Magnetism and Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/095.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q95. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-096",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 96,
+   "srcQno": 96,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Moving Charges and Magnetism",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/096.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q96. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-097",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 97,
+   "srcQno": 97,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Alternating Current",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/097.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q97. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-098",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 98,
+   "srcQno": 98,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electromagnetic Induction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/098.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q98. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-099",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 99,
+   "srcQno": 99,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Alternating Current",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/099.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q99. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-100",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 100,
+   "srcQno": 100,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Alternating Current",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/100.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q100. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-101",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 101,
+   "srcQno": 101,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/101.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q101. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-102",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 102,
+   "srcQno": 102,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/102.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q102. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-103",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 103,
+   "srcQno": 103,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Wave Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/103.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q103. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-104",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 104,
+   "srcQno": 104,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/104.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q104. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-105",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 105,
+   "srcQno": 105,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Wave Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/105.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q105. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-106",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 106,
+   "srcQno": 106,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Dual Nature of Matter and Radiation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/106.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q106. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-107",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 107,
+   "srcQno": 107,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Dual Nature of Matter and Radiation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/107.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q107. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-108",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 108,
+   "srcQno": 108,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Atoms",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/108.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q108. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-109",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 109,
+   "srcQno": 109,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Nuclei",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/109.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q109. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-110",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 110,
+   "srcQno": 110,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Semiconductor Electronics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/110.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q110. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-111",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 111,
+   "srcQno": 111,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Semiconductor Electronics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/111.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q111. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-112",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 112,
+   "srcQno": 112,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Semiconductor Electronics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/112.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q112. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-113",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 113,
+   "srcQno": 113,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Units and Measurements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/113.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q113. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-114",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 114,
+   "srcQno": 114,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Motion in a Straight Line",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/114.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q114. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-115",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 115,
+   "srcQno": 115,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Motion in a Plane",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/115.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q115. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-116",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 116,
+   "srcQno": 116,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Laws of Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/116.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q116. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-117",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 117,
+   "srcQno": 117,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Work, Energy and Power",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/117.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q117. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-118",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 118,
+   "srcQno": 118,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Work, Energy and Power",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/118.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q118. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-119",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 119,
+   "srcQno": 119,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Work, Energy and Power",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/119.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q119. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-120",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 120,
+   "srcQno": 120,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "System of Particles and Rotational Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/120.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q120. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-121",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 121,
+   "srcQno": 121,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "System of Particles and Rotational Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/121.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q121. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-122",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 122,
+   "srcQno": 122,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "System of Particles and Rotational Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/122.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q122. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-123",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 123,
+   "srcQno": 123,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Gravitation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/123.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q123. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-124",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 124,
+   "srcQno": 124,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Gravitation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/124.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q124. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-125",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 125,
+   "srcQno": 125,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Mechanical Properties of Fluids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/125.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q125. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-126",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 126,
+   "srcQno": 126,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Mechanical Properties of Fluids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/126.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q126. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-127",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 127,
+   "srcQno": 127,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermal Properties of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/127.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q127. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-128",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 128,
+   "srcQno": 128,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermal Properties of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/128.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q128. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-129",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 129,
+   "srcQno": 129,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/129.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q129. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-130",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 130,
+   "srcQno": 130,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/130.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q130. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-131",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 131,
+   "srcQno": 131,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Kinetic Theory",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/131.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q131. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-132",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 132,
+   "srcQno": 132,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Oscillations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/132.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q132. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-133",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 133,
+   "srcQno": 133,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Waves",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/133.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q133. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-134",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 134,
+   "srcQno": 134,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Waves",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/134.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q134. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-135",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 135,
+   "srcQno": 135,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electric Charges and Fields",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/135.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q135. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-136",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 136,
+   "srcQno": 136,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/136.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q136. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-137",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 137,
+   "srcQno": 137,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Structure of Atom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/137.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q137. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-138",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 138,
+   "srcQno": 138,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/138.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q138. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-139",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 139,
+   "srcQno": 139,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/139.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q139. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-140",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 140,
+   "srcQno": 140,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Coordination Compounds",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/140.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q140. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-141",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 141,
+   "srcQno": 141,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "d- and f-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/141.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q141. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-142",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 142,
+   "srcQno": 142,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Coordination Compounds",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/142.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q142. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-143",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 143,
+   "srcQno": 143,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Haloalkanes and Haloarenes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/143.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q143. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-144",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 144,
+   "srcQno": 144,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Organic Chemistry: Basic Principles",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/144.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q144. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-145",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 145,
+   "srcQno": 145,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Polymers",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/145.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q145. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-146",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 146,
+   "srcQno": 146,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Organic Chemistry: Basic Principles",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/146.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q146. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-147",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 147,
+   "srcQno": 147,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Haloalkanes and Haloarenes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/147.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q147. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-148",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 148,
+   "srcQno": 148,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Amines",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/148.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q148. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-149",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 149,
+   "srcQno": 149,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/149.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q149. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-150",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 150,
+   "srcQno": 150,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/150.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q150. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-151",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 151,
+   "srcQno": 151,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrocarbons",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/151.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q151. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-152",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 152,
+   "srcQno": 152,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Amines",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/152.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q152. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-153",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 153,
+   "srcQno": 153,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Haloalkanes and Haloarenes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/153.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q153. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-154",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 154,
+   "srcQno": 154,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrocarbons",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/154.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q154. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-155",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 155,
+   "srcQno": 155,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Organic Chemistry: Basic Principles",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/155.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q155. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-156",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 156,
+   "srcQno": 156,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/156.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q156. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-157",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 157,
+   "srcQno": 157,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrocarbons",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/157.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q157. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-158",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 158,
+   "srcQno": 158,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/158.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q158. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-159",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 159,
+   "srcQno": 159,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Electrochemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/159.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q159. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-160",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 160,
+   "srcQno": 160,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Kinetics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/160.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q160. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-161",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 161,
+   "srcQno": 161,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Surface Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/161.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q161. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-162",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 162,
+   "srcQno": 162,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Electrochemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/162.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q162. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-163",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 163,
+   "srcQno": 163,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Structure of Atom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/163.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q163. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-164",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 164,
+   "srcQno": 164,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/164.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q164. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-165",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 165,
+   "srcQno": 165,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solutions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/165.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q165. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-166",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 166,
+   "srcQno": 166,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Equilibrium",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/166.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q166. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-167",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 167,
+   "srcQno": 167,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solid State",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/167.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q167. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-168",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 168,
+   "srcQno": 168,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Electrochemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/168.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q168. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-169",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 169,
+   "srcQno": 169,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solutions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/169.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q169. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-170",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 170,
+   "srcQno": 170,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Equilibrium",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/170.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q170. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-171",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 171,
+   "srcQno": 171,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/171.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q171. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-172",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 172,
+   "srcQno": 172,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Electrochemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/172.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q172. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-173",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 173,
+   "srcQno": 173,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/173.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q173. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-174",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 174,
+   "srcQno": 174,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/174.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q174. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-175",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 175,
+   "srcQno": 175,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Electrochemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/175.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q175. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-176",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 176,
+   "srcQno": 176,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "s-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/176.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q176. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-177",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 177,
+   "srcQno": 177,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/177.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q177. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-178",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 178,
+   "srcQno": 178,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/178.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q178. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  },
+  {
+   "id": "NEET-2016-P2-YY-179",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 2 · Code YY",
+   "qno": 179,
+   "srcQno": 180,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "s-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p2-yy/179.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-II 2016 Code YY question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf), Q180. Answer: CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B)."
+  }
+ ]
+}

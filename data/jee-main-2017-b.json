@@ -1,0 +1,2435 @@
+{
+ "id": "jee-main-2017-b",
+ "exam": "JEE Main",
+ "year": 2017,
+ "title": "JEE Main 2017 · Set B (offline)",
+ "shareTitle": "JEE Main 2017 Paper 1 · Set B (offline, 2 Apr 2017)",
+ "date": "2 Apr 2017",
+ "minutes": 180,
+ "kind": "full",
+ "answerKey": {
+  "type": "final",
+  "name": "CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges)",
+  "url": "https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y"
+ },
+ "paperUrl": "https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf",
+ "marking": {
+  "mcq": [
+   4,
+   -1
+  ]
+ },
+ "rules": {},
+ "note": "89 of 90 questions of the official CBSE Set B paper (Physics 1-30, Maths 31-60, Chemistry 61-90). Q55 left out (marks given to all in the key).",
+ "optionLabels": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "questions": [
+  {
+   "id": "JEE-MAIN-2017-B-001",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 1,
+   "srcQno": 1,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Oscillations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/001.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q1 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-002",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 2,
+   "srcQno": 2,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Kinetic Theory",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/002.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q2 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-003",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 3,
+   "srcQno": 3,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/003.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q3 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-004",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 4,
+   "srcQno": 4,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Units and Measurements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/004.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q4 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-005",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 5,
+   "srcQno": 5,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Communication Systems",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/005.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q5 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-006",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 6,
+   "srcQno": 6,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/006.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q6 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-007",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 7,
+   "srcQno": 7,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "System of Particles and Rotational Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/007.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q7 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-008",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 8,
+   "srcQno": 8,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Dual Nature of Matter and Radiation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/008.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q8 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-009",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 9,
+   "srcQno": 9,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Nuclei",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/009.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q9 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-010",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 10,
+   "srcQno": 10,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electric Charges and Fields",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/010.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q10 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-011",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 11,
+   "srcQno": 11,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Semiconductor Electronics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/011.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q11 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-012",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 12,
+   "srcQno": 12,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/012.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q12 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-013",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 13,
+   "srcQno": 13,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermal Properties of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/013.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q13 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-014",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 14,
+   "srcQno": 14,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Laws of Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/014.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q14 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-015",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 15,
+   "srcQno": 15,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Moving Charges and Magnetism",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/015.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q15 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-016",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 16,
+   "srcQno": 16,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "System of Particles and Rotational Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/016.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q16 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-017",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 17,
+   "srcQno": 17,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Atoms",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/017.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q17 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-018",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 18,
+   "srcQno": 18,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Mechanical Properties of Solids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/018.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q18 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-019",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 19,
+   "srcQno": 19,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electromagnetic Induction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/019.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q19 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-020",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 20,
+   "srcQno": 20,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Wave Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/020.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q20 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-021",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 21,
+   "srcQno": 21,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Magnetism and Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/021.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q21 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-022",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 22,
+   "srcQno": 22,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Gravitation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/022.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q22 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-023",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 23,
+   "srcQno": 23,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/023.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q23 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-024",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 24,
+   "srcQno": 24,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Work, Energy and Power",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/024.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q24 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-025",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 25,
+   "srcQno": 25,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermal Properties of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/025.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q25 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-026",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 26,
+   "srcQno": 26,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Work, Energy and Power",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/026.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q26 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-027",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 27,
+   "srcQno": 27,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electromagnetic Waves",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/027.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q27 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-028",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 28,
+   "srcQno": 28,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/028.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q28 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-029",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 29,
+   "srcQno": 29,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/029.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q29 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-030",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 30,
+   "srcQno": 30,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Motion in a Straight Line",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/030.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q30 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-031",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 31,
+   "srcQno": 31,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Straight Lines",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/031.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q31 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-032",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 32,
+   "srcQno": 32,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/032.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q32 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-033",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 33,
+   "srcQno": 33,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Relations and Functions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/033.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q33 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-034",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 34,
+   "srcQno": 34,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Mathematical Reasoning",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/034.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q34 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-035",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 35,
+   "srcQno": 35,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Determinants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/035.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q35 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-036",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 36,
+   "srcQno": 36,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Application of Integrals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/036.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q36 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-037",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 37,
+   "srcQno": 37,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Sequences and Series",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/037.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q37 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-038",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 38,
+   "srcQno": 38,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Permutations and Combinations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/038.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q38 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-039",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 39,
+   "srcQno": 39,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Application of Derivatives",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/039.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q39 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-040",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 40,
+   "srcQno": 40,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Conic Sections",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/040.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q40 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-041",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 41,
+   "srcQno": 41,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Relations and Functions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/041.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q41 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-042",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 42,
+   "srcQno": 42,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Vector Algebra",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/042.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q42 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-043",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 43,
+   "srcQno": 43,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Trigonometric Functions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/043.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q43 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-044",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 44,
+   "srcQno": 44,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Application of Derivatives",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/044.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q44 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-045",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 45,
+   "srcQno": 45,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Integrals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/045.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q45 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-046",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 46,
+   "srcQno": 46,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Differential Equations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/046.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q46 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-047",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 47,
+   "srcQno": 47,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Integrals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/047.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q47 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-048",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 48,
+   "srcQno": 48,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/048.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q48 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-049",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 49,
+   "srcQno": 49,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Binomial Theorem",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/049.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q49 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-050",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 50,
+   "srcQno": 50,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Limits and Derivatives",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/050.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q50 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-051",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 51,
+   "srcQno": 51,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Trigonometric Functions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/051.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q51 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-052",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 52,
+   "srcQno": 52,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Three Dimensional Geometry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/052.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q52 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-053",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 53,
+   "srcQno": 53,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Three Dimensional Geometry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/053.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q53 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-054",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 54,
+   "srcQno": 54,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Continuity and Differentiability",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/054.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q54 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-055",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 55,
+   "srcQno": 56,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Probability",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/055.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q56 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-056",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 56,
+   "srcQno": 57,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Conic Sections",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/056.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q57 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-057",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 57,
+   "srcQno": 58,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Probability",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/057.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q58 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-058",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 58,
+   "srcQno": 59,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Probability",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/058.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q59 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-059",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 59,
+   "srcQno": 60,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Matrices",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/059.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q60 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-060",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 60,
+   "srcQno": 61,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrocarbons",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/060.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q61 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-061",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 61,
+   "srcQno": 62,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/061.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q62 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-062",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 62,
+   "srcQno": 63,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Haloalkanes and Haloarenes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/062.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q63 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-063",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 63,
+   "srcQno": 64,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Structure of Atom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/063.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q64 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-064",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 64,
+   "srcQno": 65,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Equilibrium",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/064.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q65 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-065",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 65,
+   "srcQno": 66,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Polymers",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/065.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q66 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-066",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 66,
+   "srcQno": 67,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/066.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q67 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-067",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 67,
+   "srcQno": 68,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Haloalkanes and Haloarenes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/067.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q68 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-068",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 68,
+   "srcQno": 69,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "d- and f-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/068.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q69 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-069",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 69,
+   "srcQno": 70,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "s-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/069.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q70 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-070",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 70,
+   "srcQno": 71,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrocarbons",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/070.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q71 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-071",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 71,
+   "srcQno": 72,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solid State",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/071.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q72 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-072",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 72,
+   "srcQno": 73,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Kinetics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/072.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q73 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-073",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 73,
+   "srcQno": 74,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/073.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q74 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-074",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 74,
+   "srcQno": 75,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Surface Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/074.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q75 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-075",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 75,
+   "srcQno": 76,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/075.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q76 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-076",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 76,
+   "srcQno": 77,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/076.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q77 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-077",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 77,
+   "srcQno": 78,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Redox Reactions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/077.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q78 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-078",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 78,
+   "srcQno": 79,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/078.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q79 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-079",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 79,
+   "srcQno": 80,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Haloalkanes and Haloarenes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/079.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q80 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-080",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 80,
+   "srcQno": 81,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Practical Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/080.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q81 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-081",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 81,
+   "srcQno": 82,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/081.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q82 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-082",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 82,
+   "srcQno": 83,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solutions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/082.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q83 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-083",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 83,
+   "srcQno": 84,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Organic Chemistry: Basic Principles",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/083.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q84 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-084",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 84,
+   "srcQno": 85,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Coordination Compounds",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/084.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q85 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-085",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 85,
+   "srcQno": 86,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/085.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q86 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-086",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 86,
+   "srcQno": 87,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Environmental Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/086.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q87 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-087",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 87,
+   "srcQno": 88,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/087.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q88 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-088",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 88,
+   "srcQno": 89,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Electrochemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/088.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q89 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  },
+  {
+   "id": "JEE-MAIN-2017-B-089",
+   "exam": "JEE Main",
+   "year": 2017,
+   "paper": "JEE Main 2017 · Set B (offline)",
+   "qno": 89,
+   "srcQno": 90,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Classification of Elements and Periodicity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2017-b/089.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges).",
+   "source": "Question: JEE Main 2017 · Set B (offline) official question paper, Q90 (https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf). Answer: CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges) (https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y)."
+  }
+ ]
+}

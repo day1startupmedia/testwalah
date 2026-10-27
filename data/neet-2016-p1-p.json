@@ -1,0 +1,4838 @@
+{
+ "id": "neet-2016-p1-p",
+ "exam": "NEET",
+ "year": 2016,
+ "title": "NEET 2016 Phase 1 · Code P",
+ "shareTitle": "NEET 2016 Phase 1 · Code P",
+ "date": "1 May 2016",
+ "minutes": 180,
+ "kind": "full",
+ "answerKey": {
+  "type": "final",
+  "name": "CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in",
+  "url": "http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA"
+ },
+ "paperUrl": "https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf",
+ "marking": {
+  "mcq": [
+   4,
+   -1
+  ]
+ },
+ "rules": {},
+ "note": "NEET-I 2016 (CBSE, 1 May 2016; held as AIPMT 2016), Code P: Physics Q1-45, Chemistry Q46-90, Biology Q91-180. Questions: ALLEN Career Institute's reproduction of the Code P booklet (no official CBSE copy is online; solutions cropped out). Answers: CBSE's final answer key, revised after challenges (22 Aug 2016; Wayback copy of aipmt.nic.in). Q53 and Q98 left out: CBSE gave all candidates full marks for them.",
+ "optionLabels": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "questions": [
+  {
+   "id": "NEET-2016-P1-P-001",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 1,
+   "srcQno": 1,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "System of Particles and Rotational Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/001.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q1. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-002",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 2,
+   "srcQno": 2,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Moving Charges and Magnetism",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/002.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q2. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-003",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 3,
+   "srcQno": 3,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Magnetism and Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/003.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q3. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-004",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 4,
+   "srcQno": 4,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Waves",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/004.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q4. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-005",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 5,
+   "srcQno": 5,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/005.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q5. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-006",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 6,
+   "srcQno": 6,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Wave Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/006.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q6. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-007",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 7,
+   "srcQno": 7,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Gravitation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/007.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q7. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-008",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 8,
+   "srcQno": 8,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electromagnetic Waves",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/008.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q8. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-009",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 9,
+   "srcQno": 9,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electric Charges and Fields",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/009.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q9. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-010",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 10,
+   "srcQno": 10,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Waves",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/010.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q10. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-011",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 11,
+   "srcQno": 11,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/011.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q11. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-012",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 12,
+   "srcQno": 12,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Waves",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/012.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q12. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-013",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 13,
+   "srcQno": 13,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Semiconductor Electronics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/013.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q13. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-014",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 14,
+   "srcQno": 14,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/014.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q14. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-015",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 15,
+   "srcQno": 15,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermal Properties of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/015.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q15. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-016",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 16,
+   "srcQno": 16,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermal Properties of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/016.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q16. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-017",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 17,
+   "srcQno": 17,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Semiconductor Electronics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/017.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q17. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-018",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 18,
+   "srcQno": 18,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Wave Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/018.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q18. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-019",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 19,
+   "srcQno": 19,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "System of Particles and Rotational Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/019.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q19. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-020",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 20,
+   "srcQno": 20,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Dual Nature of Matter and Radiation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/020.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q20. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-021",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 21,
+   "srcQno": 21,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "System of Particles and Rotational Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/021.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q21. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-022",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 22,
+   "srcQno": 22,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/022.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q22. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-023",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 23,
+   "srcQno": 23,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Atoms",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/023.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q23. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-024",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 24,
+   "srcQno": 24,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Work, Energy and Power",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/024.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q24. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-025",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 25,
+   "srcQno": 25,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Kinetic Theory",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/025.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q25. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-026",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 26,
+   "srcQno": 26,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Moving Charges and Magnetism",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/026.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q26. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-027",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 27,
+   "srcQno": 27,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Motion in a Plane",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/027.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q27. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-028",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 28,
+   "srcQno": 28,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Work, Energy and Power",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/028.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q28. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-029",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 29,
+   "srcQno": 29,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Dual Nature of Matter and Radiation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/029.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q29. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-030",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 30,
+   "srcQno": 30,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/030.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q30. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-031",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 31,
+   "srcQno": 31,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/031.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q31. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-032",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 32,
+   "srcQno": 32,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/032.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q32. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-033",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 33,
+   "srcQno": 33,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Mechanical Properties of Fluids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/033.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q33. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-034",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 34,
+   "srcQno": 34,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Semiconductor Electronics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/034.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q34. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-035",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 35,
+   "srcQno": 35,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermal Properties of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/035.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q35. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-036",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 36,
+   "srcQno": 36,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Gravitation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/036.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q36. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-037",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 37,
+   "srcQno": 37,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Motion in a Plane",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/037.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q37. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-038",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 38,
+   "srcQno": 38,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Atoms",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/038.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q38. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-039",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 39,
+   "srcQno": 39,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Laws of Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/039.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q39. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-040",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 40,
+   "srcQno": 40,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Alternating Current",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/040.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q40. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-041",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 41,
+   "srcQno": 41,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Motion in a Straight Line",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/041.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q41. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-042",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 42,
+   "srcQno": 42,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electromagnetic Induction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/042.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q42. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-043",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 43,
+   "srcQno": 43,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Alternating Current",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/043.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q43. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-044",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 44,
+   "srcQno": 44,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/044.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q44. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-045",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 45,
+   "srcQno": 45,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Laws of Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/045.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q45. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-046",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 46,
+   "srcQno": 46,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/046.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q46. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-047",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 47,
+   "srcQno": 47,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrocarbons",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/047.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q47. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-048",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 48,
+   "srcQno": 48,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/048.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q48. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-049",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 49,
+   "srcQno": 49,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Kinetics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/049.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q49. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-050",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 50,
+   "srcQno": 50,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Surface Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/050.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q50. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-051",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 51,
+   "srcQno": 51,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Classification of Elements and Periodicity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/051.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q51. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-052",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 52,
+   "srcQno": 52,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "s-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/052.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q52. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-053",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 53,
+   "srcQno": 54,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/053.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q54. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-054",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 54,
+   "srcQno": 55,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Equilibrium",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/054.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q55. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-055",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 55,
+   "srcQno": 56,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/055.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q56. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-056",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 56,
+   "srcQno": 57,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Polymers",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/056.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q57. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-057",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 57,
+   "srcQno": 58,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "General Principles of Isolation of Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/057.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q58. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-058",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 58,
+   "srcQno": 59,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/058.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q59. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-059",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 59,
+   "srcQno": 60,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "d- and f-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/059.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q60. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-060",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 60,
+   "srcQno": 61,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Structure of Atom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/060.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q61. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-061",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 61,
+   "srcQno": 62,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/061.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q62. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-062",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 62,
+   "srcQno": 63,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/062.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q63. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-063",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 63,
+   "srcQno": 64,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/063.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q64. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-064",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 64,
+   "srcQno": 65,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solid State",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/064.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q65. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-065",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 65,
+   "srcQno": 66,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/065.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q66. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-066",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 66,
+   "srcQno": 67,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemistry in Everyday Life",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/066.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q67. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-067",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 67,
+   "srcQno": 68,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "States of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/067.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q68. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-068",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 68,
+   "srcQno": 69,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrocarbons",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/068.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q69. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-069",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 69,
+   "srcQno": 70,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/069.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q70. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-070",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 70,
+   "srcQno": 71,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "s-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/070.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q71. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-071",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 71,
+   "srcQno": 72,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Equilibrium",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/071.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q72. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-072",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 72,
+   "srcQno": 73,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/072.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q73. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-073",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 73,
+   "srcQno": 74,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Coordination Compounds",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/073.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q74. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-074",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 74,
+   "srcQno": 75,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Electrochemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/074.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q75. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-075",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 75,
+   "srcQno": 76,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Kinetics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/075.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q76. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-076",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 76,
+   "srcQno": 77,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solid State",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/076.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q77. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-077",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 77,
+   "srcQno": 78,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/077.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q78. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-078",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 78,
+   "srcQno": 79,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Surface Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/078.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q79. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-079",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 79,
+   "srcQno": 80,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solutions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/079.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q80. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-080",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 80,
+   "srcQno": 81,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrocarbons",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/080.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q81. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-081",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 81,
+   "srcQno": 82,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Alcohols, Phenols and Ethers",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/081.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q82. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-082",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 82,
+   "srcQno": 83,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/082.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q83. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-083",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 83,
+   "srcQno": 84,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Organic Chemistry: Basic Principles",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/083.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q84. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-084",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 84,
+   "srcQno": 85,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Haloalkanes and Haloarenes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/084.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q85. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-085",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 85,
+   "srcQno": 86,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solutions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/085.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q86. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-086",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 86,
+   "srcQno": 87,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/086.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q87. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-087",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 87,
+   "srcQno": 88,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Amines",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/087.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q88. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-088",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 88,
+   "srcQno": 89,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/088.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q89. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-089",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 89,
+   "srcQno": 90,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Organic Chemistry: Basic Principles",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/089.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q90. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-090",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 90,
+   "srcQno": 91,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Organisms and Populations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/090.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q91. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-091",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 91,
+   "srcQno": 92,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/091.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q92. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-092",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 92,
+   "srcQno": 93,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/092.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q93. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-093",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 93,
+   "srcQno": 94,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biological Classification",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/093.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q94. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-094",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 94,
+   "srcQno": 95,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Animal Kingdom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/094.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q95. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-095",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 95,
+   "srcQno": 96,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Principles of Inheritance and Variation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/095.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q96. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-096",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 96,
+   "srcQno": 97,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Photosynthesis in Higher Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/096.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q97. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-097",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 97,
+   "srcQno": 99,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Breathing and Exchange of Gases",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/097.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q99. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-098",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 98,
+   "srcQno": 100,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Strategies for Enhancement in Food Production",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/098.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q100. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-099",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 99,
+   "srcQno": 101,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell: The Unit of Life",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/099.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q101. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-100",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 100,
+   "srcQno": 102,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Reproductive Health",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/100.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q102. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-101",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 101,
+   "srcQno": 103,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Photosynthesis in Higher Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/101.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q103. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-102",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 102,
+   "srcQno": 104,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Neural Control and Coordination",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/102.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q104. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-103",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 103,
+   "srcQno": 105,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell Cycle and Cell Division",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/103.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q105. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-104",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 104,
+   "srcQno": 106,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biodiversity and Conservation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/104.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q106. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-105",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 105,
+   "srcQno": 107,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/105.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q107. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-106",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 106,
+   "srcQno": 108,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Coordination and Integration",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/106.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q108. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-107",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 107,
+   "srcQno": 109,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell: The Unit of Life",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/107.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q109. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-108",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 108,
+   "srcQno": 110,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/108.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q110. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-109",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 109,
+   "srcQno": 111,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Reproduction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/109.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q111. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-110",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 110,
+   "srcQno": 112,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Breathing and Exchange of Gases",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/110.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q112. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-111",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 111,
+   "srcQno": 113,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Plant Growth and Development",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/111.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q113. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-112",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 112,
+   "srcQno": 114,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Morphology of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/112.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q114. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-113",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 113,
+   "srcQno": 115,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Morphology of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/113.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q115. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-114",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 114,
+   "srcQno": 116,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biological Classification",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/114.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q116. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-115",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 115,
+   "srcQno": 117,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Reproduction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/115.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q117. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-116",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 116,
+   "srcQno": 118,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell Cycle and Cell Division",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/116.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q118. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-117",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 117,
+   "srcQno": 119,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Principles of Inheritance and Variation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/117.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q119. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-118",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 118,
+   "srcQno": 120,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biodiversity and Conservation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/118.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q120. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-119",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 119,
+   "srcQno": 121,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Ecosystem",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/119.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q121. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-120",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 120,
+   "srcQno": 122,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Reproduction",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/120.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q122. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-121",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 121,
+   "srcQno": 123,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biotechnology: Principles and Processes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/121.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q123. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-122",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 122,
+   "srcQno": 124,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Structural Organisation in Animals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/122.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q124. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-123",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 123,
+   "srcQno": 125,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Health and Disease",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/123.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q125. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-124",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 124,
+   "srcQno": 126,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Principles of Inheritance and Variation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/124.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q126. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-125",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 125,
+   "srcQno": 127,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Environmental Issues",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/125.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q127. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-126",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 126,
+   "srcQno": 128,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Principles of Inheritance and Variation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/126.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q128. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-127",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 127,
+   "srcQno": 129,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biological Classification",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/127.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q129. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-128",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 128,
+   "srcQno": 130,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Morphology of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/128.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q130. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-129",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 129,
+   "srcQno": 131,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Reproductive Health",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/129.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q131. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-130",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 130,
+   "srcQno": 132,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biotechnology: Principles and Processes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/130.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q132. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-131",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 131,
+   "srcQno": 133,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Coordination and Integration",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/131.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q133. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-132",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 132,
+   "srcQno": 134,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biotechnology and its Applications",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/132.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q134. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-133",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 133,
+   "srcQno": 135,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Health and Disease",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/133.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q135. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-134",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 134,
+   "srcQno": 136,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell: The Unit of Life",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/134.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q136. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-135",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 135,
+   "srcQno": 137,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Locomotion and Movement",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/135.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q137. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-136",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 136,
+   "srcQno": 138,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Morphology of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/136.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q138. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-137",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 137,
+   "srcQno": 139,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell: The Unit of Life",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/137.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q139. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-138",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 138,
+   "srcQno": 140,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Plant Kingdom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/138.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q140. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-139",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 139,
+   "srcQno": 141,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/139.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q141. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-140",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 140,
+   "srcQno": 142,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Structural Organisation in Animals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/140.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q142. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-141",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 141,
+   "srcQno": 143,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Photosynthesis in Higher Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/141.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q143. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-142",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 142,
+   "srcQno": 144,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Evolution",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/142.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q144. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-143",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 143,
+   "srcQno": 145,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Animal Kingdom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/143.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q145. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-144",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 144,
+   "srcQno": 146,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Human Health and Disease",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/144.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q146. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-145",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 145,
+   "srcQno": 147,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Coordination and Integration",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/145.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q147. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-146",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 146,
+   "srcQno": 148,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Evolution",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/146.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q148. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-147",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 147,
+   "srcQno": 149,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Breathing and Exchange of Gases",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/147.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q149. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-148",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 148,
+   "srcQno": 150,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Evolution",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/148.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q150. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-149",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 149,
+   "srcQno": 151,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biotechnology: Principles and Processes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/149.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q151. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-150",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 150,
+   "srcQno": 152,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Ecosystem",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/150.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q152. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-151",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 151,
+   "srcQno": 153,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/151.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q153. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-152",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 152,
+   "srcQno": 154,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Plant Kingdom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/152.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q154. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-153",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 153,
+   "srcQno": 155,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Organisms and Populations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/153.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q155. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-154",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 154,
+   "srcQno": 156,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/154.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q156. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-155",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 155,
+   "srcQno": 157,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Ecosystem",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/155.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q157. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-156",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 156,
+   "srcQno": 158,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Molecular Basis of Inheritance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/156.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q158. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-157",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 157,
+   "srcQno": 159,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Animal Kingdom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/157.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q159. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-158",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 158,
+   "srcQno": 160,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "The Living World",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/158.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q160. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-159",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 159,
+   "srcQno": 161,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Body Fluids and Circulation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/159.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q161. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-160",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 160,
+   "srcQno": 162,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Morphology of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/160.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q162. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-161",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 161,
+   "srcQno": 163,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Digestion and Absorption",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/161.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q163. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-162",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 162,
+   "srcQno": 164,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Environmental Issues",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/162.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q164. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-163",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 163,
+   "srcQno": 165,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biological Classification",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/163.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q165. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-164",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 164,
+   "srcQno": 166,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Transport in Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/164.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q166. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-165",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 165,
+   "srcQno": 167,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Excretory Products and their Elimination",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/165.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q167. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-166",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 166,
+   "srcQno": 168,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/166.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q168. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-167",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 167,
+   "srcQno": 169,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Microbes in Human Welfare",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/167.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q169. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-168",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 168,
+   "srcQno": 170,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Principles of Inheritance and Variation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/168.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q170. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-169",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 169,
+   "srcQno": 171,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Locomotion and Movement",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/169.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q171. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-170",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 170,
+   "srcQno": 172,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell Cycle and Cell Division",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/170.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q172. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-171",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 171,
+   "srcQno": 173,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Sexual Reproduction in Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/171.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q173. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-172",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 172,
+   "srcQno": 174,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Anatomy of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/172.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q174. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-173",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 173,
+   "srcQno": 175,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Digestion and Absorption",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/173.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q175. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-174",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 174,
+   "srcQno": 176,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Morphology of Flowering Plants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/174.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q176. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-175",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 175,
+   "srcQno": 177,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Microbes in Human Welfare",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/175.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q177. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-176",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 176,
+   "srcQno": 178,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Environmental Issues",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/176.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q178. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-177",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 177,
+   "srcQno": 179,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Cell Cycle and Cell Division",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/177.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q179. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  },
+  {
+   "id": "NEET-2016-P1-P-178",
+   "exam": "NEET",
+   "year": 2016,
+   "paper": "NEET 2016 Phase 1 · Code P",
+   "qno": 178,
+   "srcQno": 180,
+   "subject": "Biology",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/neet-2016-p1-p/178.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in.",
+   "source": "Question: NEET-I 2016 Code P question paper as reproduced by ALLEN Career Institute (https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf), Q180. Answer: CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in (http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA)."
+  }
+ ]
+}

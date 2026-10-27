@@ -441,6 +441,12 @@
     save(LS.active, active); go('#/test');
   }
 
+  /* numerical answers: official ranges read "any value from a to b"; ± button types a minus sign (the iPhone number pad has none) */
+  function numLabel(v) { const m = String(v).match(/^\s*(-?[\d.]+)\s*to\s*(-?[\d.]+)\s*$/); return m ? `any value from ${m[1]} to ${m[2]}` : String(v); }
+  function bindNumSign(ni) {
+    const b = document.getElementById('numSign'); if (!b || !ni) return;
+    b.onclick = () => { const v = ni.value.trim(); ni.value = v.startsWith('-') || v.startsWith('\u2212') ? v.slice(1) : '-' + v; ni.dispatchEvent(new Event('input')); ni.focus(); };
+  }
   /* ---------- test ---------- */
   async function viewTest() {
     if (!active) return go('#/', true);
@@ -466,7 +472,7 @@
       const src = `${esc(q.paper)} · Q${q.exam === 'NDA' && q.srcQno ? q.srcQno : q.qno}`;
       let opts = '';
       if (q.type === 'numerical') {
-        opts = `<div class="numin"><input id="numIn" inputmode="decimal" autocomplete="off" placeholder="${t('enterAnswer')}" aria-label="${t('enterAnswer')}" value="${a != null ? esc(a) : ''}"></div><p class="muted small">${t('numericalHint')}</p>`;
+        opts = `<div class="numin"><input id="numIn" inputmode="decimal" autocomplete="off" placeholder="${t('enterAnswer')}" aria-label="${t('enterAnswer')}" value="${a != null ? esc(a) : ''}"><button type="button" class="btn numsign" id="numSign" aria-label="Change sign (plus/minus)">±</button></div><p class="muted small">${t('numericalHint')}</p>`;
       } else if (q.optionsInImage) {
         opts = `<div class="opts grid4" role="radiogroup">${q.options.map((o, k) => `<button class="opt" role="radio" aria-checked="${String(a) === String(k + 1)}" data-v="${k + 1}"><span class="k">${esc(optLabel(q, k))}</span><span class="ot">${t('option')} ${esc(optLabel(q, k))}</span></button>`).join('')}</div>`;
       } else {
@@ -485,6 +491,7 @@
       qwrap.querySelectorAll('.opt').forEach(b => b.onclick = () => choose(q, b.dataset.v));
       const ni = document.getElementById('numIn');
       if (ni) ni.oninput = () => { const v = ni.value.trim(); if (v === '') delete active.answers[q.id]; else active.answers[q.id] = v; persist(); };
+      bindNumSign(ni);
       const img = document.getElementById('qimg'); if (img) img.onclick = () => zoom(qImg(q));
       if (showQl) bindQlang(qwrap, render);
       document.getElementById('flagBtn').onclick = () => toggleMark(q);
@@ -564,7 +571,7 @@
       bg.innerHTML = `<form class="sheet center name-sheet" role="dialog" aria-modal="true" aria-labelledby="nameTitle">
         <h2 id="nameTitle">Enter your full name</h2>
         <label for="studentName">Full name</label>
-        <input id="studentName" name="studentName" type="text" autocomplete="name" maxlength="40" required placeholder="e.g. Rahul Kumar">
+        <input id="studentName" name="studentName" type="text" autocomplete="name" maxlength="40" required placeholder="Your name">
         <p class="muted small">Your name is saved only on this device.</p>
         <button class="btn primary block" type="submit">Continue</button>
       </form>`;
@@ -736,7 +743,7 @@
     bindChResultCard(at, qs, r);
     try { sxBindModeCard(at); } catch (e) { /* ignore */ }
     document.getElementById('fbTest').onclick = () => fbOpen({ kind: 'test', pid: at.paper || (at.paperIds || [])[0], title: at.title, score: `${r.score}/${r.max}` });
-    const ansLabel = (q, v) => v == null || v === '' ? `<span class="muted">${t('notAttempted')}</span>` : (q.type === 'numerical' ? esc(v) : `(${esc(optLabels(q) ? optLabel(q, Number(v) - 1) : v)})`);
+    const ansLabel = (q, v) => v == null || v === '' ? `<span class="muted">${t('notAttempted')}</span>` : (q.type === 'numerical' ? esc(numLabel(v)) : `(${esc(optLabels(q) ? optLabel(q, Number(v) - 1) : v)})`);
     function renderList() {
       const list = qs.map((q, i) => ({ q, i })).filter(({ q }) => filter === 'all' || r.perQ[q.id] === filter || (filter === 'skipped' && r.perQ[q.id] === 'not-counted'));
       const el = document.getElementById('rlist');
@@ -1090,7 +1097,7 @@
   const mxActive = m => Object.values(m || mxAll()).filter(e => !e.m);
   const mxExamCls = exKeyOf;
   const mxQno = q => q.exam === 'NDA' && q.srcQno ? q.srcQno : q.qno;
-  const mxLabel = (q, v) => v == null || v === '' ? '' : (q.type === 'numerical' ? String(v) : (optLabels(q) ? optLabel(q, Number(v) - 1) : String(v)));
+  const mxLabel = (q, v) => v == null || v === '' ? '' : (q.type === 'numerical' ? numLabel(v) : (optLabels(q) ? optLabel(q, Number(v) - 1) : String(v)));
   function mxSeenAdd(id) { const s = load(LS_MXSEEN, []); if (!s.includes(id)) { s.unshift(id); save(LS_MXSEEN, s.slice(0, 300)); } }
   // Called from finish() (and for old attempts) with the scored questions. Returns {added, mastered, left}.
   function mxRecord(at, qs, r) {
@@ -1552,7 +1559,7 @@
     const render = () => {
       const showQl = paperHasHi(pid); const correct = q.answer.map(v => mxLabel(q, v)).join(' or ');
       let opts;
-      if (q.type === 'numerical') opts = `<div class="numin"><input id="numIn" inputmode="decimal" autocomplete="off" placeholder="${t('enterAnswer')}" aria-label="${t('enterAnswer')}" value="${ans != null ? esc(ans) : ''}" ${checked ? 'disabled' : ''}></div>`;
+      if (q.type === 'numerical') opts = `<div class="numin"><input id="numIn" inputmode="decimal" autocomplete="off" placeholder="${t('enterAnswer')}" aria-label="${t('enterAnswer')}" value="${ans != null ? esc(ans) : ''}" ${checked ? 'disabled' : ''}>${checked ? '' : '<button type="button" class="btn numsign" id="numSign" aria-label="Change sign (plus/minus)">±</button>'}</div>`;
       else opts = `<div class="opts ${q.optionsInImage ? 'grid4' : ''}" role="radiogroup">${q.options.map((o, k) => { const v = String(k + 1), isC = checked && q.answer.includes(v), isW = checked && String(ans) === v && !isC;
         return `<button class="opt${isC ? ' sq-right' : ''}${isW ? ' sq-wrong' : ''}" role="radio" aria-checked="${String(ans) === v}" data-v="${v}" ${checked ? 'disabled' : ''}><span class="k">${esc(q.optionsInImage ? optLabel(q, k) : (optLabels(q) ? optLabel(q, k) : k + 1))}</span><span class="ot">${q.optionsInImage ? t('option') + ' ' + esc(optLabel(q, k)) : fmtText(o)}</span></button>`; }).join('')}</div>`;
       let verdict = '';
@@ -1569,7 +1576,7 @@
         <div class="row">${next ? `<button class="btn primary" id="sqNext" style="flex:1">Next result ›</button>` : ''}<a class="btn" href="#/search" style="flex:1">All results</a></div>`;
       math(app);
       app.querySelectorAll('.opt').forEach(b => b.onclick = () => { if (checked) return; ans = b.dataset.v; app.querySelectorAll('.opt').forEach(x => x.setAttribute('aria-checked', x === b)); });
-      const ni = document.getElementById('numIn'); if (ni) ni.oninput = () => { ans = ni.value.trim() || null; };
+      const ni = document.getElementById('numIn'); if (ni) ni.oninput = () => { ans = ni.value.trim() || null; }; bindNumSign(ni);
       const img = document.getElementById('qimg'); if (img) img.onclick = () => { const z = document.createElement('div'); z.className = 'zoom'; z.innerHTML = `<button class="btn primary">${t('close')}</button><img src="${qImg(q)}" alt="">`; z.querySelector('button').onclick = () => z.remove(); document.body.appendChild(z); };
       if (showQl) bindQlang(app.querySelector('.sq-card'), render);
       document.getElementById('fbQ').onclick = () => fbOpen({ kind: 'question', pid, qno: mxQno(q), title: q.paper });

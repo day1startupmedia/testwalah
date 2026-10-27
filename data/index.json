@@ -8099,5 +8099,1360 @@
    "mcq": 15
   },
   "file": "data/tndge12-physics-board-2025.js"
+ },
+ {
+  "id": "neet-2019-p1",
+  "exam": "NEET",
+  "year": 2019,
+  "title": "NEET 2019 · Code P1",
+  "shareTitle": "NEET 2019 · Code P1",
+  "date": "5 May 2019",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "NTA NEET (UG) 2019 Final Answer Keys, Book Code P1",
+   "url": "https://nta.ac.in/Download/Notice/20190605125750.pdf"
+  },
+  "paperUrl": "https://www.vedantu.com/content-files-downloadable/neet/neet-question-paper-2019-code-p1.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "NEET (UG) 2019, 5 May exam (the 20 May re-exam for Odisha/Karnataka-affected centres is not this paper). Questions: Aakash Institute's reproduction of the Code P1 booklet (no official NTA copy is online), checked against the NTA final key. NTA accepted two options for Q6 (3 or 4) and Q72 (1 or 2).",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 180,
+  "bySubject": {
+   "Physics": 45,
+   "Chemistry": 45,
+   "Biology": 90
+  },
+  "byType": {
+   "mcq": 180
+  },
+  "file": "data/neet-2019-p1.js"
+ },
+ {
+  "id": "neet-2018-aa",
+  "exam": "NEET",
+  "year": 2018,
+  "title": "NEET 2018 · Code AA",
+  "shareTitle": "NEET 2018 · Code AA",
+  "date": "6 May 2018",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "CBSE NEET (UG) 2018 final answer key (dated 30 May 2018), Set AA, published with the result on cbseneet.nic.in",
+   "url": "http://web.archive.org/web/20180905175509/https://cbseneet.nic.in/cbseneet/ShowPdf.aspx?Type=50C9E8D5FC98727B4BBC93CF5D64A68DB647F04F&ID=B4C96D80854DD27E76D8CC9E21960EEBDA52E962"
+  },
+  "paperUrl": "https://www.neetphysicsclasses.in/downloads/2_NEET_2018_By_AAKASH.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "NEET (UG) 2018 (CBSE, 6 May 2018), Code AA: Physics Q1-45, Chemistry Q46-90, Biology Q91-180. Questions: Aakash Institute's reproduction of the Code AA booklet (no official CBSE copy is online; solutions cropped out). Answers: CBSE's final answer key dated 30 May 2018, published with the result (Wayback copy of cbseneet.nic.in). No questions dropped.",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 180,
+  "bySubject": {
+   "Physics": 45,
+   "Chemistry": 45,
+   "Biology": 90
+  },
+  "byType": {
+   "mcq": 180
+  },
+  "file": "data/neet-2018-aa.js"
+ },
+ {
+  "id": "neet-2017-a",
+  "exam": "NEET",
+  "year": 2017,
+  "title": "NEET 2017 · Code A",
+  "shareTitle": "NEET 2017 · Code A",
+  "date": "7 May 2017",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "CBSE NEET (UG) 2017 final answer key, Q.P. Code A, published with the result on cbseneet.nic.in",
+   "url": "http://web.archive.org/web/20170622162527/http://cbseneet.nic.in:80/cbseneet/ShowPdf.aspx?Type=BF0F90D7E8E015A04E4D25DB4241E3A0A054D790&ID=2A459380709E2FE4AC2DAE5733C73225FF6CFEE1"
+  },
+  "paperUrl": "https://www.neetphysicsclasses.in/downloads/3_NEET_2017_By_AAKASH.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "NEET (UG) 2017 (CBSE, 7 May 2017), Code A: Physics Q1-45, Chemistry Q46-90, Biology Q91-180. Questions: Aakash Institute's reproduction of the Code A booklet (no official CBSE copy is online; solutions cropped out). Answers: CBSE's final answer key published with the result (June 2017; Wayback copy of cbseneet.nic.in). Q8 and Q18 left out: CBSE marked them as having multiple or wrong options.",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 178,
+  "bySubject": {
+   "Physics": 43,
+   "Chemistry": 45,
+   "Biology": 90
+  },
+  "byType": {
+   "mcq": 178
+  },
+  "file": "data/neet-2017-a.js"
+ },
+ {
+  "id": "neet-2016-p1-p",
+  "exam": "NEET",
+  "year": 2016,
+  "title": "NEET 2016 Phase 1 · Code P",
+  "shareTitle": "NEET 2016 Phase 1 · Code P",
+  "date": "1 May 2016",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "CBSE final Answer Key NEET-I 2016 (sets A, P, W), revised after challenges, published on aipmt.nic.in",
+   "url": "http://web.archive.org/web/20160825030555/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C28ACA23F1EF3718A464383D925C66842078EDAA"
+  },
+  "paperUrl": "https://www.neetphysicsclasses.in/downloads/4_NEET_2016_Phase_I_By_ALLEN.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "NEET-I 2016 (CBSE, 1 May 2016; held as AIPMT 2016), Code P: Physics Q1-45, Chemistry Q46-90, Biology Q91-180. Questions: ALLEN Career Institute's reproduction of the Code P booklet (no official CBSE copy is online; solutions cropped out). Answers: CBSE's final answer key, revised after challenges (22 Aug 2016; Wayback copy of aipmt.nic.in). Q53 and Q98 left out: CBSE gave all candidates full marks for them.",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 178,
+  "bySubject": {
+   "Physics": 45,
+   "Chemistry": 44,
+   "Biology": 89
+  },
+  "byType": {
+   "mcq": 178
+  },
+  "file": "data/neet-2016-p1-p.js"
+ },
+ {
+  "id": "neet-2016-p2-yy",
+  "exam": "NEET",
+  "year": 2016,
+  "title": "NEET 2016 Phase 2 · Code YY",
+  "shareTitle": "NEET 2016 Phase 2 · Code YY",
+  "date": "24 Jul 2016",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "CBSE final Answer Key NEET-II 2016 (codes CC, RR, YY), revised after challenges, published on aipmt.nic.in",
+   "url": "http://web.archive.org/web/20160825030614/http://aipmt.nic.in:80/aipmt/ShowPdf.aspx?Type=E0184ADEDF913B076626646D3F52C3B49C39AD6D&ID=C9CA442765657FC90E9E779C34D0D2259D2C3C5B"
+  },
+  "paperUrl": "https://www.neetphysicsclasses.in/downloads/5_NEET_2016_Phase_II_By_ALLEN.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "NEET-II 2016 (CBSE, 24 July 2016), Code YY: Biology Q1-90, Physics Q91-135, Chemistry Q136-180. Questions: ALLEN Career Institute's reproduction of the Code YY booklet (no official CBSE copy is online; solutions cropped out). Answers: CBSE's final answer key, revised after challenges (22 Aug 2016; Wayback copy of aipmt.nic.in). Q179 left out: CBSE gave all candidates full marks for it.",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 179,
+  "bySubject": {
+   "Biology": 90,
+   "Physics": 45,
+   "Chemistry": 44
+  },
+  "byType": {
+   "mcq": 179
+  },
+  "file": "data/neet-2016-p2-yy.js"
+ },
+ {
+  "id": "aipmt-2014-p",
+  "exam": "NEET",
+  "year": 2014,
+  "title": "AIPMT 2014 · Code P",
+  "shareTitle": "AIPMT 2014 · Code P",
+  "date": "4 May 2014",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "CBSE AIPMT 2014 Final Keys (Book Code P)",
+   "url": "http://web.archive.org/web/20140626053231/http://aipmt.nic.in/aipmt/docs/AIPMT14_FINAL_KEY.pdf"
+  },
+  "paperUrl": "https://www.neetphysicsclasses.in/downloads/8_AIPMT_2014_By_ALLEN.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "AIPMT 2014 (CBSE, 4 May 2014), Code P: Physics Q1-45, Chemistry Q46-90, Biology Q91-180. Questions: ALLEN Career Institute's reproduction of the Code P booklet (no official CBSE copy is online; solutions cropped out). Answers: CBSE's AIPMT 2014 Final Keys (7 Jun 2014; Wayback copy of aipmt.nic.in), which match CBSE's earlier key on cbse.gov.in except for the bonus questions. Left out: Q55, Q61 and Q178 (CBSE gave all candidates full marks) and Q62 (misprinted in the reproduction).",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 176,
+  "bySubject": {
+   "Physics": 45,
+   "Chemistry": 42,
+   "Biology": 89
+  },
+  "byType": {
+   "mcq": 176
+  },
+  "file": "data/aipmt-2014-p.js"
+ },
+ {
+  "id": "jee-main-2019-08apr-s1",
+  "exam": "JEE Main",
+  "year": 2019,
+  "title": "JEE Main 2019 · 8 Apr Shift 1",
+  "shareTitle": "JEE Main 2019 Paper 1 · 8 Apr 2019, Shift 1 (NTA, computer-based)",
+  "date": "8 Apr 2019",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "NTA JEE (Main) April 2019 final answer keys, Paper 1 (08.04.2019 Shift 1, English & Hindi)",
+   "url": "https://web.archive.org/web/20190513111857/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=43&iii=Y"
+  },
+  "paperUrl": "https://static.collegedekho.com/media/uploads/2024/04/01/jee-main-2019-april-question-paper-day-1-shift-1.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "All 90 questions of NTA's official 8 Apr 2019 Shift 1 paper (Physics 1-30, Chemistry 31-60, Maths 61-90; questions and options exactly as NTA published them). Answers from NTA's final answer keys on jeemain.nic.in (no question dropped in this shift), matched by question ID -> option ID. The paper PDF is NTA's own file, re-hosted by CollegeDekho; it matches the archived jeemain.nic.in copy byte for byte where that copy exists.",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 90,
+  "bySubject": {
+   "Physics": 30,
+   "Chemistry": 30,
+   "Maths": 30
+  },
+  "byType": {
+   "mcq": 90
+  },
+  "file": "data/jee-main-2019-08apr-s1.js"
+ },
+ {
+  "id": "jee-main-2019-09jan-s1",
+  "exam": "JEE Main",
+  "year": 2019,
+  "title": "JEE Main 2019 · 9 Jan Shift 1",
+  "shareTitle": "JEE Main 2019 Paper 1 · 9 Jan 2019, Shift 1 (NTA, computer-based)",
+  "date": "9 Jan 2019",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "NTA JEE (Main) January 2019 final answer key, Paper 1 (09.01.2019 Shift 1, English & Hindi)",
+   "url": "https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "89 of 90 questions of NTA's official 9 Jan 2019 Shift 1 paper (Physics 1-30, Chemistry 31-60, Maths 61-90; questions and options exactly as NTA published them). Q22 left out (NTA dropped it, full marks to all). Q74: NTA's final key accepts two options (2 and 4), kept with both as correct. Answers from NTA's final key, matched by question ID -> option ID. The key file is NTA's own PDF (NTA's file title ...\\JEEJAN19\\post\\data\\final\\KEY.FRX), as re-hosted by Times Now; NTA's page for it is no longer online.",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 89,
+  "bySubject": {
+   "Physics": 29,
+   "Chemistry": 30,
+   "Maths": 30
+  },
+  "byType": {
+   "mcq": 89
+  },
+  "file": "data/jee-main-2019-09jan-s1.js"
+ },
+ {
+  "id": "jee-main-2018-b",
+  "exam": "JEE Main",
+  "year": 2018,
+  "title": "JEE Main 2018 · Set B (offline)",
+  "shareTitle": "JEE Main 2018 Paper 1 · Set B (offline, 8 Apr 2018)",
+  "date": "8 Apr 2018",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "CBSE JEE (Main) 2018 Paper I final answer key, Set B (dated 29.04.2018)",
+   "url": "https://static.zollege.in/public/college_data/images/entrance/sample_paper/1525172202JEE-Main%208_April%20Set_B%20answer%20key.pdf"
+  },
+  "paperUrl": "https://www.resonance.ac.in/answer-key-solutions/JEE-Main/2018/Solution-Code-B.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "All 90 questions of Set B (Physics 1-30, Maths 31-60, Chemistry 61-90). CBSE's own 2018 question papers are no longer online, so the questions are cropped from Resonance's reproduction of the same Set B (English part only, solutions removed); every Resonance answer printed (52) agrees with CBSE's final key. Answers from CBSE's final key (Set B page, as published 29.04.2018; jeemain.nic.in copy not archived, this is a copy of that page).",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 90,
+  "bySubject": {
+   "Physics": 30,
+   "Maths": 30,
+   "Chemistry": 30
+  },
+  "byType": {
+   "mcq": 90
+  },
+  "file": "data/jee-main-2018-b.js"
+ },
+ {
+  "id": "jee-main-2017-b",
+  "exam": "JEE Main",
+  "year": 2017,
+  "title": "JEE Main 2017 · Set B (offline)",
+  "shareTitle": "JEE Main 2017 Paper 1 · Set B (offline, 2 Apr 2017)",
+  "date": "2 Apr 2017",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "CBSE JEE (Main) 2017 Paper I answer key, Set B (dated 25.04.2017, after challenges)",
+   "url": "https://web.archive.org/web/20170430233022/http://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=78&iii=Y"
+  },
+  "paperUrl": "https://web.archive.org/web/20170516174442/http://jeemain.nic.in/webinfo/PDF/Paper01_RBS_English_Hindi_SetB.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "89 of 90 questions of the official CBSE Set B paper (Physics 1-30, Maths 31-60, Chemistry 61-90). Q55 left out (marks given to all in the key).",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 89,
+  "bySubject": {
+   "Physics": 30,
+   "Maths": 29,
+   "Chemistry": 30
+  },
+  "byType": {
+   "mcq": 89
+  },
+  "file": "data/jee-main-2017-b.js"
+ },
+ {
+  "id": "jee-main-2015-b",
+  "exam": "JEE Main",
+  "year": 2015,
+  "title": "JEE Main 2015 · Set B (offline)",
+  "shareTitle": "JEE Main 2015 Paper 1 · Set B (offline, 4 Apr 2015)",
+  "date": "4 Apr 2015",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "CBSE Final Answer Key JEE (Main) 2015, offline examination (Set B)",
+   "url": "https://web.archive.org/web/20150519141002/http://jeemain.nic.in/webinfo/PDF/Final%20Answer%20Key%20JEE%202015.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20150421/http://jeemain.nic.in/webinfo/PDF/04%20Apr%202015%20B.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "88 of 90 questions of the official CBSE Set B paper (Chemistry 1-30, Maths 31-60, Physics 61-90). Q87 left out (marks given to all in the final key); Q83 left out (its matching list could not be cropped cleanly). Q78: the final key accepts options 2 and 3, kept with both as correct.",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 88,
+  "bySubject": {
+   "Chemistry": 30,
+   "Maths": 30,
+   "Physics": 28
+  },
+  "byType": {
+   "mcq": 88
+  },
+  "file": "data/jee-main-2015-b.js"
+ },
+ {
+  "id": "jee-main-2014-f",
+  "exam": "JEE Main",
+  "year": 2014,
+  "title": "JEE Main 2014 · Set F (offline)",
+  "shareTitle": "JEE Main 2014 Paper 1 · Set F (offline, 6 Apr 2014)",
+  "date": "6 Apr 2014",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE JEE (Main) 2014 Paper 1 answer key (Set F)",
+   "url": "https://web.archive.org/web/20140513111656/http://jeemain.nic.in/jeemainapp/PDF/answerkey.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20170501200650/http://jeemain.nic.in/webinfo/PDF/06.04.2014F.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "88 of 90 questions of the official CBSE Set F paper (Chemistry 1-30, Maths 31-60, Physics 61-90). Answers from the CBSE answer key on jeemain.nic.in (the same file from 28 Apr to Aug 2014; it marks dropped questions, none in Set F). Q29 and Q74 left out (their tables could not be cropped cleanly).",
+  "optionLabels": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "count": 88,
+  "bySubject": {
+   "Chemistry": 29,
+   "Maths": 30,
+   "Physics": 29
+  },
+  "byType": {
+   "mcq": 88
+  },
+  "file": "data/jee-main-2014-f.js"
+ },
+ {
+  "id": "iitjee-2010-p1",
+  "exam": "JEE Advanced",
+  "year": 2010,
+  "title": "IIT-JEE 2010 · Paper 1",
+  "shareTitle": "IIT-JEE 2010 · Paper 1",
+  "date": "IIT-JEE 2010 · Paper 1",
+  "minutes": 204,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the IIT-JEE 2010 Paper 1 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2010_1.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2010_1.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ],
+   "numerical": [
+    3,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "68 of 84 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 15 multi-correct, 1 dropped/marks to all. Notes: Q21 Chemistry: question text hidden under the figure in the official PDF; Q24 Chemistry: official key accepts either 0 or 8; Q70 Physics: official key accepts either B or C.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 68,
+  "bySubject": {
+   "Chemistry": 22,
+   "Maths": 23,
+   "Physics": 23
+  },
+  "byType": {
+   "mcq": 39,
+   "numerical": 29
+  },
+  "file": "data/iitjee-2010-p1.js"
+ },
+ {
+  "id": "iitjee-2010-p2",
+  "exam": "JEE Advanced",
+  "year": 2010,
+  "title": "IIT-JEE 2010 · Paper 2",
+  "shareTitle": "IIT-JEE 2010 · Paper 2",
+  "date": "IIT-JEE 2010 · Paper 2",
+  "minutes": 153,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the IIT-JEE 2010 Paper 2 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2010_2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2010_2.pdf",
+  "marking": {
+   "mcq": [
+    5,
+    -2
+   ],
+   "numerical": [
+    3,
+    0
+   ],
+   "para": [
+    3,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "51 of 57 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 6 matrix-match grid. type \"para\" = paragraph/comprehension single-correct questions, marked 3/-1 as printed (different from the paper's other single-correct marks).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 51,
+  "bySubject": {
+   "Chemistry": 17,
+   "Maths": 17,
+   "Physics": 17
+  },
+  "byType": {
+   "mcq": 18,
+   "numerical": 15,
+   "para": 18
+  },
+  "file": "data/iitjee-2010-p2.js"
+ },
+ {
+  "id": "iitjee-2011-p1",
+  "exam": "JEE Advanced",
+  "year": 2011,
+  "title": "IIT-JEE 2011 · Paper 1",
+  "shareTitle": "IIT-JEE 2011 · Paper 1",
+  "date": "IIT-JEE 2011 · Paper 1",
+  "minutes": 168,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the IIT-JEE 2011 Paper 1 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2011_1.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2011_1.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ],
+   "numerical": [
+    4,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "56 of 69 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 12 multi-correct, 1 dropped/marks to all. Notes: Q64 Maths: official key accepts either 3 or 9; Q66 Maths: official answer: marks to all.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 56,
+  "bySubject": {
+   "Chemistry": 19,
+   "Physics": 19,
+   "Maths": 18
+  },
+  "byType": {
+   "mcq": 36,
+   "numerical": 20
+  },
+  "file": "data/iitjee-2011-p1.js"
+ },
+ {
+  "id": "iitjee-2011-p2",
+  "exam": "JEE Advanced",
+  "year": 2011,
+  "title": "IIT-JEE 2011 · Paper 2",
+  "shareTitle": "IIT-JEE 2011 · Paper 2",
+  "date": "IIT-JEE 2011 · Paper 2",
+  "minutes": 123,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the IIT-JEE 2011 Paper 2 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2011_2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2011_2.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ],
+   "numerical": [
+    4,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "41 of 60 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 12 multi-correct, 6 matrix-match grid, 1 dropped/marks to all. Notes: Q53 Maths: official answer: marks to all.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 41,
+  "bySubject": {
+   "Chemistry": 14,
+   "Physics": 14,
+   "Maths": 13
+  },
+  "byType": {
+   "mcq": 24,
+   "numerical": 17
+  },
+  "file": "data/iitjee-2011-p2.js"
+ },
+ {
+  "id": "iitjee-2012-p1",
+  "exam": "JEE Advanced",
+  "year": 2012,
+  "title": "IIT-JEE 2012 · Paper 1",
+  "shareTitle": "IIT-JEE 2012 · Paper 1",
+  "date": "IIT-JEE 2012 · Paper 1",
+  "minutes": 135,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the IIT-JEE 2012 Paper 1 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2012_1.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2012_1.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ],
+   "numerical": [
+    4,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "45 of 60 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 15 multi-correct.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 45,
+  "bySubject": {
+   "Physics": 15,
+   "Chemistry": 15,
+   "Maths": 15
+  },
+  "byType": {
+   "mcq": 30,
+   "numerical": 15
+  },
+  "file": "data/iitjee-2012-p1.js"
+ },
+ {
+  "id": "iitjee-2012-p2",
+  "exam": "JEE Advanced",
+  "year": 2012,
+  "title": "IIT-JEE 2012 · Paper 2",
+  "shareTitle": "IIT-JEE 2012 · Paper 2",
+  "date": "IIT-JEE 2012 · Paper 2",
+  "minutes": 123,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the IIT-JEE 2012 Paper 2 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2012_2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2012_2.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "41 of 60 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 18 multi-correct, 1 dropped/marks to all. Notes: Q6 Physics: official key accepts either C or D; Q23 Chemistry: official key: \"Zero Marks to all\" (question cancelled).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 41,
+  "bySubject": {
+   "Physics": 14,
+   "Chemistry": 13,
+   "Maths": 14
+  },
+  "byType": {
+   "mcq": 41
+  },
+  "file": "data/iitjee-2012-p2.js"
+ },
+ {
+  "id": "jee-adv-2013-p1",
+  "exam": "JEE Advanced",
+  "year": 2013,
+  "title": "JEE Advanced 2013 · Paper 1",
+  "shareTitle": "JEE Advanced 2013 · Paper 1",
+  "date": "JEE (Advanced) 2013 · Paper 1",
+  "minutes": 135,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the JEE (Advanced) 2013 Paper 1 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2013_1.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2013_1.pdf",
+  "marking": {
+   "mcq": [
+    2,
+    0
+   ],
+   "numerical": [
+    4,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "45 of 60 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 15 multi-correct.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 45,
+  "bySubject": {
+   "Physics": 15,
+   "Chemistry": 15,
+   "Maths": 15
+  },
+  "byType": {
+   "mcq": 30,
+   "numerical": 15
+  },
+  "file": "data/jee-adv-2013-p1.js"
+ },
+ {
+  "id": "jee-adv-2013-p2",
+  "exam": "JEE Advanced",
+  "year": 2013,
+  "title": "JEE Advanced 2013 · Paper 2",
+  "shareTitle": "JEE Advanced 2013 · Paper 2",
+  "date": "JEE (Advanced) 2013 · Paper 2",
+  "minutes": 30,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the JEE (Advanced) 2013 Paper 2 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2013_2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2013_2.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "10 of 60 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 24 multi-correct, 26 bilingual scan layout could not be cropped cleanly (options cut).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 10,
+  "bySubject": {
+   "Physics": 1,
+   "Chemistry": 6,
+   "Maths": 3
+  },
+  "byType": {
+   "mcq": 10
+  },
+  "file": "data/jee-adv-2013-p2.js"
+ },
+ {
+  "id": "jee-adv-2014-p1",
+  "exam": "JEE Advanced",
+  "year": 2014,
+  "title": "JEE Advanced 2014 · Paper 1",
+  "shareTitle": "JEE Advanced 2014 · Paper 1",
+  "date": "JEE (Advanced) 2014 · Paper 1",
+  "minutes": 90,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the JEE (Advanced) 2014 Paper 1 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2014_1.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2014_1.pdf",
+  "marking": {
+   "numerical": [
+    3,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "30 of 60 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 30 multi-correct. Notes: Q18 Physics: official key accepts either 2 or 8; Q33 Chemistry: official key accepts either 6 or 7.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 30,
+  "bySubject": {
+   "Physics": 10,
+   "Chemistry": 10,
+   "Maths": 10
+  },
+  "byType": {
+   "numerical": 30
+  },
+  "file": "data/jee-adv-2014-p1.js"
+ },
+ {
+  "id": "jee-adv-2014-p2",
+  "exam": "JEE Advanced",
+  "year": 2014,
+  "title": "JEE Advanced 2014 · Paper 2",
+  "shareTitle": "JEE Advanced 2014 · Paper 2",
+  "date": "JEE (Advanced) 2014 · Paper 2",
+  "minutes": 180,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the JEE (Advanced) 2014 Paper 2 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2014_2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2014_2.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "60 of 60 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: none.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 60,
+  "bySubject": {
+   "Physics": 20,
+   "Chemistry": 20,
+   "Maths": 20
+  },
+  "byType": {
+   "mcq": 60
+  },
+  "file": "data/jee-adv-2014-p2.js"
+ },
+ {
+  "id": "jee-adv-2015-p1",
+  "exam": "JEE Advanced",
+  "year": 2015,
+  "title": "JEE Advanced 2015 · Paper 1",
+  "shareTitle": "JEE Advanced 2015 · Paper 1",
+  "date": "JEE (Advanced) 2015 · Paper 1",
+  "minutes": 72,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the JEE (Advanced) 2015 Paper 1 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2015_1.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2015_1.pdf",
+  "marking": {
+   "numerical": [
+    4,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "24 of 60 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 30 multi-correct, 6 matrix-match grid.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 24,
+  "bySubject": {
+   "Physics": 8,
+   "Chemistry": 8,
+   "Maths": 8
+  },
+  "byType": {
+   "numerical": 24
+  },
+  "file": "data/jee-adv-2015-p1.js"
+ },
+ {
+  "id": "jee-adv-2015-p2",
+  "exam": "JEE Advanced",
+  "year": 2015,
+  "title": "JEE Advanced 2015 · Paper 2",
+  "shareTitle": "JEE Advanced 2015 · Paper 2",
+  "date": "JEE (Advanced) 2015 · Paper 2",
+  "minutes": 69,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the JEE (Advanced) 2015 Paper 2 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2015_2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2015_2.pdf",
+  "marking": {
+   "numerical": [
+    4,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "23 of 60 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 24 multi-correct, 12 paragraph multi-correct, 1 dropped/marks to all. Notes: Q47 Maths: official note: marks awarded to all candidates.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 23,
+  "bySubject": {
+   "Physics": 8,
+   "Chemistry": 8,
+   "Maths": 7
+  },
+  "byType": {
+   "numerical": 23
+  },
+  "file": "data/jee-adv-2015-p2.js"
+ },
+ {
+  "id": "jee-adv-2016-p1",
+  "exam": "JEE Advanced",
+  "year": 2016,
+  "title": "JEE Advanced 2016 · Paper 1",
+  "shareTitle": "JEE Advanced 2016 · Paper 1",
+  "date": "JEE (Advanced) 2016 · Paper 1",
+  "minutes": 90,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the JEE (Advanced) 2016 Paper 1 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2016_1.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2016_1.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ],
+   "numerical": [
+    3,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "30 of 54 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 24 multi-correct. Notes: Q15 Physics: official key accepts either 8 or 9.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 30,
+  "bySubject": {
+   "Physics": 10,
+   "Chemistry": 10,
+   "Maths": 10
+  },
+  "byType": {
+   "mcq": 15,
+   "numerical": 15
+  },
+  "file": "data/jee-adv-2016-p1.js"
+ },
+ {
+  "id": "jee-adv-2016-p2",
+  "exam": "JEE Advanced",
+  "year": 2016,
+  "title": "JEE Advanced 2016 · Paper 2",
+  "shareTitle": "JEE Advanced 2016 · Paper 2",
+  "date": "JEE (Advanced) 2016 · Paper 2",
+  "minutes": 90,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the JEE (Advanced) 2016 Paper 2 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2016_2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2016_2.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ],
+   "para": [
+    3,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "30 of 54 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 24 multi-correct. type \"para\" = paragraph/comprehension single-correct questions, marked 3/0 as printed (different from the paper's other single-correct marks).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 30,
+  "bySubject": {
+   "Physics": 10,
+   "Chemistry": 10,
+   "Maths": 10
+  },
+  "byType": {
+   "mcq": 18,
+   "para": 12
+  },
+  "file": "data/jee-adv-2016-p2.js"
+ },
+ {
+  "id": "jee-adv-2017-p1",
+  "exam": "JEE Advanced",
+  "year": 2017,
+  "title": "JEE Advanced 2017 · Paper 1",
+  "shareTitle": "JEE Advanced 2017 · Paper 1",
+  "date": "JEE (Advanced) 2017 · Paper 1",
+  "minutes": 96,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the JEE (Advanced) 2017 Paper 1 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2017_1.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2017_1.pdf",
+  "marking": {
+   "numerical": [
+    3,
+    0
+   ],
+   "mcq": [
+    3,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "32 of 54 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 21 multi-correct, 1 dropped/marks to all. Notes: Q29 Chemistry: official note: printing inconsistency (marks to all).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 32,
+  "bySubject": {
+   "Physics": 11,
+   "Chemistry": 10,
+   "Maths": 11
+  },
+  "byType": {
+   "numerical": 14,
+   "mcq": 18
+  },
+  "file": "data/jee-adv-2017-p1.js"
+ },
+ {
+  "id": "jee-adv-2017-p2",
+  "exam": "JEE Advanced",
+  "year": 2017,
+  "title": "JEE Advanced 2017 · Paper 2",
+  "shareTitle": "JEE Advanced 2017 · Paper 2",
+  "date": "JEE (Advanced) 2017 · Paper 2",
+  "minutes": 96,
+  "kind": "full",
+  "answerKey": {
+   "type": "official",
+   "name": "Official answers printed under each question in the JEE (Advanced) 2017 Paper 2 \"Questions with Answers\" PDF (jeeadv.ac.in archive)",
+   "url": "https://jeeadv.ac.in/past_qps/2017_2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2017_2.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ],
+   "para": [
+    3,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "32 of 54 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 21 multi-correct, 1 dropped/marks to all. type \"para\" = paragraph/comprehension single-correct questions, marked 3/0 as printed (different from the paper's other single-correct marks). Notes: Q17 Physics: official note: all candidates awarded +3 (internal review).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 32,
+  "bySubject": {
+   "Physics": 10,
+   "Chemistry": 11,
+   "Maths": 11
+  },
+  "byType": {
+   "mcq": 21,
+   "para": 11
+  },
+  "file": "data/jee-adv-2017-p2.js"
+ },
+ {
+  "id": "jee-adv-2018-p1",
+  "exam": "JEE Advanced",
+  "year": 2018,
+  "title": "JEE Advanced 2018 · Paper 1",
+  "shareTitle": "JEE Advanced 2018 · Paper 1",
+  "date": "JEE (Advanced) 2018 · Paper 1",
+  "minutes": 108,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "JEE (Advanced) 2018 Final Frozen Answer Keys, Paper 1 and 2 (official file linked on jeeadv.ac.in, via Wayback Machine copy)",
+   "url": "https://web.archive.org/web/20180614025342id_/https://storage.googleapis.com/candidate-portal-bucket/CutOff/FINAL_Keys_JEEAdv2018_P1_P2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2018_1.pdf",
+  "marking": {
+   "numerical": [
+    3,
+    0
+   ],
+   "mcq": [
+    3,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "36 of 54 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 18 multi-correct. Notes: Q12 Physics: official key accepts either 1.2 or 2.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 36,
+  "bySubject": {
+   "Physics": 12,
+   "Chemistry": 12,
+   "Maths": 12
+  },
+  "byType": {
+   "numerical": 24,
+   "mcq": 12
+  },
+  "file": "data/jee-adv-2018-p1.js"
+ },
+ {
+  "id": "jee-adv-2018-p2",
+  "exam": "JEE Advanced",
+  "year": 2018,
+  "title": "JEE Advanced 2018 · Paper 2",
+  "shareTitle": "JEE Advanced 2018 · Paper 2",
+  "date": "JEE (Advanced) 2018 · Paper 2",
+  "minutes": 108,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "JEE (Advanced) 2018 Final Frozen Answer Keys, Paper 1 and 2 (official file linked on jeeadv.ac.in, via Wayback Machine copy)",
+   "url": "https://web.archive.org/web/20180614025342id_/https://storage.googleapis.com/candidate-portal-bucket/CutOff/FINAL_Keys_JEEAdv2018_P1_P2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2018_2.pdf",
+  "marking": {
+   "numerical": [
+    3,
+    0
+   ],
+   "mcq": [
+    3,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "36 of 54 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 18 multi-correct. Notes: Q7 Chemistry: official key accepts either 5 or 6.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 36,
+  "bySubject": {
+   "Physics": 12,
+   "Chemistry": 12,
+   "Maths": 12
+  },
+  "byType": {
+   "numerical": 24,
+   "mcq": 12
+  },
+  "file": "data/jee-adv-2018-p2.js"
+ },
+ {
+  "id": "jee-adv-2019-p1",
+  "exam": "JEE Advanced",
+  "year": 2019,
+  "title": "JEE Advanced 2019 · Paper 1",
+  "shareTitle": "JEE Advanced 2019 · Paper 1",
+  "date": "JEE (Advanced) 2019 · Paper 1",
+  "minutes": 90,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "JEE (Advanced) 2019 Final Answer Key, Paper 1 (official file, via Wayback Machine copy of jeeadv.ac.in)",
+   "url": "https://web.archive.org/web/20190713224429id_/https://jeeadv.ac.in/documents/KEY-2019-Final-13.06.2019-P1.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2019_1_English.pdf",
+  "marking": {
+   "mcq": [
+    3,
+    -1
+   ],
+   "numerical": [
+    3,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "30 of 54 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 24 multi-correct.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 30,
+  "bySubject": {
+   "Physics": 10,
+   "Chemistry": 10,
+   "Maths": 10
+  },
+  "byType": {
+   "mcq": 12,
+   "numerical": 18
+  },
+  "file": "data/jee-adv-2019-p1.js"
+ },
+ {
+  "id": "jee-adv-2019-p2",
+  "exam": "JEE Advanced",
+  "year": 2019,
+  "title": "JEE Advanced 2019 · Paper 2",
+  "shareTitle": "JEE Advanced 2019 · Paper 2",
+  "date": "JEE (Advanced) 2019 · Paper 2",
+  "minutes": 90,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "JEE (Advanced) 2019 Final Answer Key, Paper 2 (official file, via Wayback Machine copy of jeeadv.ac.in)",
+   "url": "https://web.archive.org/web/20190713011044id_/https://jeeadv.ac.in/documents/KEY-2019-Final-13.06.2019-P2.pdf"
+  },
+  "paperUrl": "https://jeeadv.ac.in/past_qps/2019_2_English.pdf",
+  "marking": {
+   "numerical": [
+    3,
+    0
+   ],
+   "mcq": [
+    3,
+    -1
+   ]
+  },
+  "rules": {},
+  "note": "30 of 54 questions: single-correct, paragraph single-correct and integer/numerical-answer questions with one exact official answer. Left out: 24 multi-correct.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 30,
+  "bySubject": {
+   "Physics": 10,
+   "Chemistry": 10,
+   "Maths": 10
+  },
+  "byType": {
+   "numerical": 18,
+   "mcq": 12
+  },
+  "file": "data/jee-adv-2019-p2.js"
  }
 ]

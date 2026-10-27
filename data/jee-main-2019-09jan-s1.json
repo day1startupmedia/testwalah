@@ -1,0 +1,2436 @@
+{
+ "id": "jee-main-2019-09jan-s1",
+ "exam": "JEE Main",
+ "year": 2019,
+ "title": "JEE Main 2019 · 9 Jan Shift 1",
+ "shareTitle": "JEE Main 2019 Paper 1 · 9 Jan 2019, Shift 1 (NTA, computer-based)",
+ "date": "9 Jan 2019",
+ "minutes": 180,
+ "kind": "full",
+ "answerKey": {
+  "type": "final",
+  "name": "NTA JEE (Main) January 2019 final answer key, Paper 1 (09.01.2019 Shift 1, English & Hindi)",
+  "url": "https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf"
+ },
+ "paperUrl": "https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y",
+ "marking": {
+  "mcq": [
+   4,
+   -1
+  ]
+ },
+ "rules": {},
+ "note": "89 of 90 questions of NTA's official 9 Jan 2019 Shift 1 paper (Physics 1-30, Chemistry 31-60, Maths 61-90; questions and options exactly as NTA published them). Q22 left out (NTA dropped it, full marks to all). Q74: NTA's final key accepts two options (2 and 4), kept with both as correct. Answers from NTA's final key, matched by question ID -> option ID. The key file is NTA's own PDF (NTA's file title ...\\JEEJAN19\\post\\data\\final\\KEY.FRX), as re-hosted by Times Now; NTA's page for it is no longer online.",
+ "optionLabels": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "questions": [
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-001",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 1,
+   "srcQno": 1,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/001.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q1, question ID 41652910046 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910046 -> correct option ID(s) 41652939643 = printed option 2 (option IDs 41652939642-45 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-002",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 2,
+   "srcQno": 2,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Motion in a Plane",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/002.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q2, question ID 41652910047 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910047 -> correct option ID(s) 41652939646 = printed option 1 (option IDs 41652939646-49 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-003",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 3,
+   "srcQno": 3,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Laws of Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/003.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q3, question ID 41652910048 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910048 -> correct option ID(s) 41652939651 = printed option 2 (option IDs 41652939650-53 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-004",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 4,
+   "srcQno": 4,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Laws of Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/004.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q4, question ID 41652910049 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910049 -> correct option ID(s) 41652939655 = printed option 2 (option IDs 41652939654-57 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-005",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 5,
+   "srcQno": 5,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "System of Particles and Rotational Motion",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/005.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q5, question ID 41652910050 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910050 -> correct option ID(s) 41652939659 = printed option 2 (option IDs 41652939658-61 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-006",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 6,
+   "srcQno": 6,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Oscillations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/006.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q6, question ID 41652910051 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910051 -> correct option ID(s) 41652939664 = printed option 3 (option IDs 41652939662-65 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-007",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 7,
+   "srcQno": 7,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Gravitation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/007.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q7, question ID 41652910052 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910052 -> correct option ID(s) 41652939668 = printed option 3 (option IDs 41652939666-69 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-008",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 8,
+   "srcQno": 8,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermal Properties of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/008.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q8, question ID 41652910053 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910053 -> correct option ID(s) 41652939671 = printed option 2 (option IDs 41652939670-73 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-009",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 9,
+   "srcQno": 9,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermal Properties of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/009.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q9, question ID 41652910054 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910054 -> correct option ID(s) 41652939677 = printed option 4 (option IDs 41652939674-77 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-010",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 10,
+   "srcQno": 10,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/010.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q10, question ID 41652910055 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910055 -> correct option ID(s) 41652939681 = printed option 4 (option IDs 41652939678-81 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-011",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 11,
+   "srcQno": 11,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Kinetic Theory",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/011.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q11, question ID 41652910056 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910056 -> correct option ID(s) 41652939685 = printed option 4 (option IDs 41652939682-85 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-012",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 12,
+   "srcQno": 12,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Oscillations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/012.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q12, question ID 41652910057 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910057 -> correct option ID(s) 41652939687 = printed option 2 (option IDs 41652939686-89 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-013",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 13,
+   "srcQno": 13,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Waves",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/013.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q13, question ID 41652910058 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910058 -> correct option ID(s) 41652939691 = printed option 2 (option IDs 41652939690-93 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-014",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 14,
+   "srcQno": 14,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electric Charges and Fields",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/014.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q14, question ID 41652910059 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910059 -> correct option ID(s) 41652939695 = printed option 2 (option IDs 41652939694-97 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-015",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 15,
+   "srcQno": 15,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electric Charges and Fields",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/015.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q15, question ID 41652910060 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910060 -> correct option ID(s) 41652939700 = printed option 3 (option IDs 41652939698-01 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-016",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 16,
+   "srcQno": 16,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electrostatic Potential and Capacitance",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/016.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q16, question ID 41652910061 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910061 -> correct option ID(s) 41652939705 = printed option 4 (option IDs 41652939702-05 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-017",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 17,
+   "srcQno": 17,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/017.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q17, question ID 41652910062 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910062 -> correct option ID(s) 41652939709 = printed option 4 (option IDs 41652939706-09 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-018",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 18,
+   "srcQno": 18,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/018.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q18, question ID 41652910063 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910063 -> correct option ID(s) 41652939713 = printed option 4 (option IDs 41652939710-13 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-019",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 19,
+   "srcQno": 19,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Moving Charges and Magnetism",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/019.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q19, question ID 41652910064 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910064 -> correct option ID(s) 41652939716 = printed option 3 (option IDs 41652939714-17 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-020",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 20,
+   "srcQno": 20,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Moving Charges and Magnetism",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/020.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q20, question ID 41652910065 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910065 -> correct option ID(s) 41652939720 = printed option 3 (option IDs 41652939718-21 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-021",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 21,
+   "srcQno": 21,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Magnetism and Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/021.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q21, question ID 41652910066 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910066 -> correct option ID(s) 41652939725 = printed option 4 (option IDs 41652939722-25 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-022",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 22,
+   "srcQno": 23,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Electromagnetic Waves",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/022.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q23, question ID 41652910068 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910068 -> correct option ID(s) 41652939731 = printed option 2 (option IDs 41652939730-33 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-023",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 23,
+   "srcQno": 24,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/023.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q24, question ID 41652910069 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910069 -> correct option ID(s) 41652939736 = printed option 3 (option IDs 41652939734-37 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-024",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 24,
+   "srcQno": 25,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Wave Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/024.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q25, question ID 41652910070 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910070 -> correct option ID(s) 41652939740 = printed option 3 (option IDs 41652939738-41 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-025",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 25,
+   "srcQno": 26,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Ray Optics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/025.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q26, question ID 41652910071 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910071 -> correct option ID(s) 41652939743 = printed option 2 (option IDs 41652939742-45 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-026",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 26,
+   "srcQno": 27,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Dual Nature of Matter and Radiation",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/026.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q27, question ID 41652910072 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910072 -> correct option ID(s) 41652939746 = printed option 1 (option IDs 41652939746-49 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-027",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 27,
+   "srcQno": 28,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Nuclei",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/027.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q28, question ID 41652910073 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910073 -> correct option ID(s) 41652939751 = printed option 2 (option IDs 41652939750-53 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-028",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 28,
+   "srcQno": 29,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Semiconductor Electronics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/028.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q29, question ID 41652910074 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910074 -> correct option ID(s) 41652939757 = printed option 4 (option IDs 41652939754-57 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-029",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 29,
+   "srcQno": 30,
+   "subject": "Physics",
+   "section": "",
+   "part": "",
+   "chapter": "Current Electricity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/029.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q30, question ID 41652910075 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910075 -> correct option ID(s) 41652939759 = printed option 2 (option IDs 41652939758-61 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-030",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 30,
+   "srcQno": 31,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Polymers",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/030.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q31, question ID 41652910076 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910076 -> correct option ID(s) 41652939763 = printed option 2 (option IDs 41652939762-65 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-031",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 31,
+   "srcQno": 32,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Biomolecules",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/031.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q32, question ID 41652910077 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910077 -> correct option ID(s) 41652939767 = printed option 2 (option IDs 41652939766-69 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-032",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 32,
+   "srcQno": 33,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Amines",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/032.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q33, question ID 41652910078 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910078 -> correct option ID(s) 41652939771 = printed option 2 (option IDs 41652939770-73 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-033",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 33,
+   "srcQno": 34,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/033.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q34, question ID 41652910079 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910079 -> correct option ID(s) 41652939777 = printed option 4 (option IDs 41652939774-77 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-034",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 34,
+   "srcQno": 35,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/034.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q35, question ID 41652910080 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910080 -> correct option ID(s) 41652939778 = printed option 1 (option IDs 41652939778-81 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-035",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 35,
+   "srcQno": 36,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Haloalkanes and Haloarenes",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/035.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q36, question ID 41652910081 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910081 -> correct option ID(s) 41652939783 = printed option 2 (option IDs 41652939782-85 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-036",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 36,
+   "srcQno": 37,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrocarbons",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/036.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q37, question ID 41652910082 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910082 -> correct option ID(s) 41652939786 = printed option 1 (option IDs 41652939786-89 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-037",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 37,
+   "srcQno": 38,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Organic Chemistry: Basic Principles",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/037.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q38, question ID 41652910083 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910083 -> correct option ID(s) 41652939793 = printed option 4 (option IDs 41652939790-93 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-038",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 38,
+   "srcQno": 39,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemistry in Everyday Life",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/038.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q39, question ID 41652910084 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910084 -> correct option ID(s) 41652939797 = printed option 4 (option IDs 41652939794-97 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-039",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 39,
+   "srcQno": 40,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrocarbons",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/039.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q40, question ID 41652910085 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910085 -> correct option ID(s) 41652939798 = printed option 1 (option IDs 41652939798-01 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-040",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 40,
+   "srcQno": 41,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Classification of Elements and Periodicity",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/040.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q41, question ID 41652910086 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910086 -> correct option ID(s) 41652939802 = printed option 1 (option IDs 41652939802-05 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-041",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 41,
+   "srcQno": 42,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "General Principles of Isolation of Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/041.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q42, question ID 41652910087 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910087 -> correct option ID(s) 41652939809 = printed option 4 (option IDs 41652939806-09 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-042",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 42,
+   "srcQno": 43,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Hydrogen",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/042.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q43, question ID 41652910088 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910088 -> correct option ID(s) 41652939812 = printed option 3 (option IDs 41652939810-13 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-043",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 43,
+   "srcQno": 44,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "s-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/043.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q44, question ID 41652910089 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910089 -> correct option ID(s) 41652939817 = printed option 4 (option IDs 41652939814-17 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-044",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 44,
+   "srcQno": 45,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solid State",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/044.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q45, question ID 41652910090 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910090 -> correct option ID(s) 41652939818 = printed option 1 (option IDs 41652939818-21 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-045",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 45,
+   "srcQno": 46,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/045.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q46, question ID 41652910091 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910091 -> correct option ID(s) 41652939825 = printed option 4 (option IDs 41652939822-25 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-046",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 46,
+   "srcQno": 47,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "p-Block Elements",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/046.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q47, question ID 41652910092 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910092 -> correct option ID(s) 41652939829 = printed option 4 (option IDs 41652939826-29 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-047",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 47,
+   "srcQno": 48,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Coordination Compounds",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/047.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q48, question ID 41652910093 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910093 -> correct option ID(s) 41652939830 = printed option 1 (option IDs 41652939830-33 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-048",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 48,
+   "srcQno": 49,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Coordination Compounds",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/048.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q49, question ID 41652910094 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910094 -> correct option ID(s) 41652939837 = printed option 4 (option IDs 41652939834-37 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-049",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 49,
+   "srcQno": 50,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Environmental Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/049.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q50, question ID 41652910095 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910095 -> correct option ID(s) 41652939839 = printed option 2 (option IDs 41652939838-41 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-050",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 50,
+   "srcQno": 51,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Some Basic Concepts of Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/050.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q51, question ID 41652910096 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910096 -> correct option ID(s) 41652939842 = printed option 1 (option IDs 41652939842-45 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-051",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 51,
+   "srcQno": 52,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "States of Matter",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/051.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q52, question ID 41652910097 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910097 -> correct option ID(s) 41652939846 = printed option 1 (option IDs 41652939846-49 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-052",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 52,
+   "srcQno": 53,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Structure of Atom",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/052.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q53, question ID 41652910098 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910098 -> correct option ID(s) 41652939851 = printed option 2 (option IDs 41652939850-53 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-053",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 53,
+   "srcQno": 54,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/053.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q54, question ID 41652910099 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910099 -> correct option ID(s) 41652939857 = printed option 4 (option IDs 41652939854-57 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-054",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 54,
+   "srcQno": 55,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Thermodynamics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/054.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q55, question ID 41652910100 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910100 -> correct option ID(s) 41652939861 = printed option 4 (option IDs 41652939858-61 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-055",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 55,
+   "srcQno": 56,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Solutions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/055.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q56, question ID 41652910101 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910101 -> correct option ID(s) 41652939864 = printed option 3 (option IDs 41652939862-65 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-056",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 56,
+   "srcQno": 57,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Equilibrium",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/056.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q57, question ID 41652910102 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910102 -> correct option ID(s) 41652939868 = printed option 3 (option IDs 41652939866-69 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-057",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 57,
+   "srcQno": 58,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Electrochemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/057.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q58, question ID 41652910103 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910103 -> correct option ID(s) 41652939871 = printed option 2 (option IDs 41652939870-73 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-058",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 58,
+   "srcQno": 59,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Chemical Kinetics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/058.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q59, question ID 41652910104 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910104 -> correct option ID(s) 41652939875 = printed option 2 (option IDs 41652939874-77 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-059",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 59,
+   "srcQno": 60,
+   "subject": "Chemistry",
+   "section": "",
+   "part": "",
+   "chapter": "Surface Chemistry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/059.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q60, question ID 41652910105 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910105 -> correct option ID(s) 41652939878 = printed option 1 (option IDs 41652939878-81 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-060",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 60,
+   "srcQno": 61,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Relations and Functions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/060.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q61, question ID 41652910106 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910106 -> correct option ID(s) 41652939884 = printed option 3 (option IDs 41652939882-85 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-061",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 61,
+   "srcQno": 62,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/061.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q62, question ID 41652910107 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910107 -> correct option ID(s) 41652939887 = printed option 2 (option IDs 41652939886-89 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-062",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 62,
+   "srcQno": 63,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/062.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q63, question ID 41652910108 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910108 -> correct option ID(s) 41652939891 = printed option 2 (option IDs 41652939890-93 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-063",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 63,
+   "srcQno": 64,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Matrices",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/063.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q64, question ID 41652910109 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910109 -> correct option ID(s) 41652939894 = printed option 1 (option IDs 41652939894-97 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-064",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 64,
+   "srcQno": 65,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Determinants",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/064.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q65, question ID 41652910110 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910110 -> correct option ID(s) 41652939898 = printed option 1 (option IDs 41652939898-01 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-065",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 65,
+   "srcQno": 66,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Permutations and Combinations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/065.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q66, question ID 41652910111 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910111 -> correct option ID(s) 41652939903 = printed option 2 (option IDs 41652939902-05 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-066",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 66,
+   "srcQno": 67,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Binomial Theorem",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/066.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q67, question ID 41652910112 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910112 -> correct option ID(s) 41652939907 = printed option 2 (option IDs 41652939906-09 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-067",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 67,
+   "srcQno": 68,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Sequences and Series",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/067.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q68, question ID 41652910113 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910113 -> correct option ID(s) 41652939913 = printed option 4 (option IDs 41652939910-13 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-068",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 68,
+   "srcQno": 69,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Sequences and Series",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/068.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q69, question ID 41652910114 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910114 -> correct option ID(s) 41652939916 = printed option 3 (option IDs 41652939914-17 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-069",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 69,
+   "srcQno": 70,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Limits and Derivatives",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/069.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q70, question ID 41652910115 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910115 -> correct option ID(s) 41652939920 = printed option 3 (option IDs 41652939918-21 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-070",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 70,
+   "srcQno": 71,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Continuity and Differentiability",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/070.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q71, question ID 41652910116 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910116 -> correct option ID(s) 41652939925 = printed option 4 (option IDs 41652939922-25 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-071",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 71,
+   "srcQno": 72,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Application of Derivatives",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/071.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q72, question ID 41652910117 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910117 -> correct option ID(s) 41652939927 = printed option 2 (option IDs 41652939926-29 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-072",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 72,
+   "srcQno": 73,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Application of Derivatives",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/072.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q73, question ID 41652910118 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910118 -> correct option ID(s) 41652939932 = printed option 3 (option IDs 41652939930-33 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-073",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 73,
+   "srcQno": 74,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Integrals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/073.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2",
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key. NTA accepted two options.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q74, question ID 41652910119 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910119 -> correct option ID(s) 41652939935, 41652939937 = printed option 2 / 4 (option IDs 41652939934-37 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-074",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 74,
+   "srcQno": 75,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Integrals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/074.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q75, question ID 41652910120 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910120 -> correct option ID(s) 41652939940 = printed option 3 (option IDs 41652939938-41 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-075",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 75,
+   "srcQno": 76,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Application of Integrals",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/075.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q76, question ID 41652910121 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910121 -> correct option ID(s) 41652939942 = printed option 1 (option IDs 41652939942-45 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-076",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 76,
+   "srcQno": 77,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Differential Equations",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/076.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q77, question ID 41652910122 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910122 -> correct option ID(s) 41652939949 = printed option 4 (option IDs 41652939946-49 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-077",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 77,
+   "srcQno": 78,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Straight Lines",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/077.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q78, question ID 41652910123 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910123 -> correct option ID(s) 41652939951 = printed option 2 (option IDs 41652939950-53 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-078",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 78,
+   "srcQno": 79,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Conic Sections",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/078.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q79, question ID 41652910124 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910124 -> correct option ID(s) 41652939957 = printed option 4 (option IDs 41652939954-57 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-079",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 79,
+   "srcQno": 80,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Conic Sections",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/079.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q80, question ID 41652910125 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910125 -> correct option ID(s) 41652939960 = printed option 3 (option IDs 41652939958-61 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-080",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 80,
+   "srcQno": 81,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Conic Sections",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/080.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q81, question ID 41652910126 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910126 -> correct option ID(s) 41652939965 = printed option 4 (option IDs 41652939962-65 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-081",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 81,
+   "srcQno": 82,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Conic Sections",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/081.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q82, question ID 41652910127 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910127 -> correct option ID(s) 41652939969 = printed option 4 (option IDs 41652939966-69 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-082",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 82,
+   "srcQno": 83,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Three Dimensional Geometry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/082.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q83, question ID 41652910128 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910128 -> correct option ID(s) 41652939972 = printed option 3 (option IDs 41652939970-73 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-083",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 83,
+   "srcQno": 84,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Three Dimensional Geometry",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/083.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "3"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q84, question ID 41652910129 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910129 -> correct option ID(s) 41652939976 = printed option 3 (option IDs 41652939974-77 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-084",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 84,
+   "srcQno": 85,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Vector Algebra",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/084.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q85, question ID 41652910130 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910130 -> correct option ID(s) 41652939978 = printed option 1 (option IDs 41652939978-81 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-085",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 85,
+   "srcQno": 86,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Statistics",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/085.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q86, question ID 41652910131 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910131 -> correct option ID(s) 41652939982 = printed option 1 (option IDs 41652939982-85 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-086",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 86,
+   "srcQno": 87,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Probability",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/086.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q87, question ID 41652910132 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910132 -> correct option ID(s) 41652939987 = printed option 2 (option IDs 41652939986-89 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-087",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 87,
+   "srcQno": 88,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Trigonometric Functions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/087.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "4"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q88, question ID 41652910133 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910133 -> correct option ID(s) 41652939993 = printed option 4 (option IDs 41652939990-93 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-088",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 88,
+   "srcQno": 89,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Inverse Trigonometric Functions",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/088.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "1"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q89, question ID 41652910134 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910134 -> correct option ID(s) 41652939994 = printed option 1 (option IDs 41652939994-97 in printed order)."
+  },
+  {
+   "id": "JEE-MAIN-2019-09JAN-S1-089",
+   "exam": "JEE Main",
+   "year": 2019,
+   "paper": "JEE Main 2019 · 9 Jan Shift 1",
+   "qno": 89,
+   "srcQno": 90,
+   "subject": "Maths",
+   "section": "",
+   "part": "",
+   "chapter": "Mathematical Reasoning",
+   "type": "mcq",
+   "question": "",
+   "image": "img/jee-main-2019-09jan-s1/089.webp",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "optionsInImage": true,
+   "answer": [
+    "2"
+   ],
+   "explanation": "Answer as per the official NTA JEE (Main) January 2019 final answer key.",
+   "source": "Question: NTA's official question paper \"Paper I EH 9th Jan 2019 Shift 1\" (jeemain.nic.in), Q90, question ID 41652910135 (https://web.archive.org/web/20190713030920/https://jeemain.nic.in/WebInfo/Handler/FileHandler.ashx?i=File&ii=69&iii=Y); English part cropped, NTA's option IDs replaced by (1)-(4) in printed order. Answer: NTA JEE (Main) January 2019 final answer key, p.1 (Exam Date 09.01.2019, Shift First, English & Hindi) (https://cloudfront.timesnownews.com/media/JEE_Main_2019_Final_Answer_Key.pdf); question ID 41652910135 -> correct option ID(s) 41652939999 = printed option 2 (option IDs 41652939998-01 in printed order)."
+  }
+ ]
+}
