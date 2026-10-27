@@ -1615,6 +1615,14 @@
     };
   }
 
+
+  /* ---------- "Update ready" bar (a new version arrived during a running test; index.html calls this) ---------- */
+  window.sxUpdateReady = function () {
+    if (document.getElementById('sxUpd')) return;
+    const b = document.createElement('button'); b.type = 'button'; b.id = 'sxUpd'; b.className = 'sx-upd'; b.textContent = 'Update ready – tap to refresh';
+    b.onclick = () => location.reload(); document.body.appendChild(b);
+  };
+
   /* ---------- language toggle (Hindi strings can be filled in strings.js) ---------- */
   offPill();
   const lb = document.getElementById('langBtn');

@@ -1,10 +1,12 @@
 /* SONEXA service worker: offline mode.
-   - App shell (html/css/js/fonts/logo/manifest + data/index.*) is pre-cached on install, served cache-first.
+   - App shell is pre-cached on install. index.html, app.js, styles.css, strings.js, scoring.js, manifest and data/index.* are
+     served NETWORK-FIRST (cached copy offline / after 4 s), so a publish shows on the next load; fonts/vendor/logo cache-first.
+   - The page reloads itself once when a new worker takes control (index.html), unless a test is running.
    - data/* is stale-while-revalidate (data/chapters/*.json, ~95 KB for chapter practice, is pre-cached with the shell).
    - Papers saved with "Save offline" live in their own cache (sx-paper-<id>), written by the page.
    - Question images of papers opened online are kept in a runtime cache per paper (sx-rt-<id>), last 10 papers.
    VERSION is re-stamped on every publish (tools/stamp_sw.py) so phones pick up the new app shell. */
-const VERSION = 'sx-shell-d3492240d8';
+const VERSION = 'sx-shell-7f93bce4ca';
 const SHELL = VERSION;
 const DATA = 'sx-data-v1';
 const META = 'sx-meta-v1';
@@ -37,13 +39,37 @@ self.addEventListener('install', e => {
 });
 
 self.addEventListener('activate', e => {
-  e.waitUntil((async () => {
+  let rescue = false;
+  const done = (async () => {
     const keys = await caches.keys();
+    rescue = keys.some(k => k.startsWith('sx-shell-') && k !== SHELL) && !keys.includes(NF_MARK);
     await Promise.all(keys.filter(k => k.startsWith('sx-shell-') && k !== SHELL).map(k => caches.delete(k)));
+    await caches.open(NF_MARK);
     await self.clients.claim();
-  })());
+  })();
+  e.waitUntil(done);
+  // One-time rescue for pages still running the old cache-first shell (they have no update listener): reload them,
+  // except a page in the middle of a test. Done AFTER activation (a navigation inside waitUntil would wait on this
+  // worker's own activation and hang).
+  done.then(() => { if (!rescue) return; setTimeout(async () => {
+    try { const cl = await self.clients.matchAll({ type: 'window' }); for (const c of cl) { try { if (!/#\/test\b/.test(c.url)) c.navigate(c.url); } catch (err) { /* ignore */ } } } catch (err) { /* ignore */ }
+  }, 300); });
 });
 
+const NF_MARK = 'sx-netfirst-v1';
+const NET_FIRST = ['index.html', 'app.js', 'styles.css', 'strings.js', 'scoring.js', 'manifest.webmanifest', 'data/index.js', 'data/index.json'];
+// Network first (revalidating the HTTP cache), saved into the shell cache; cached copy if offline, failing, or slower than 4 s.
+function netFirst(req, key, fallback) {
+  return new Promise(resolve => {
+    let done = false;
+    const finish = r => { if (!done && r) { done = true; resolve(r); } };
+    const net = fetch(req.url, { cache: 'no-cache', credentials: 'same-origin' })
+      .then(async r => { if (r && r.ok) { const c = await caches.open(SHELL); await c.put(key, r.clone()); } return r; });
+    net.then(r => { if (r && r.ok) finish(r); else fallback().then(c => finish(c || r)); })
+       .catch(() => fallback().then(c => finish(c || Response.error())));
+    setTimeout(() => { if (!done) fallback().then(c => { if (c) finish(c); }); }, 4000);
+  });
+}
 async function anyMatch(req) {
   return caches.match(req, { ignoreSearch: false }) || null;
 }
@@ -80,10 +106,17 @@ self.addEventListener('fetch', e => {
   // Page loads: the app shell (cache-first); other pages (e.g. /app/) network-first with cache fallback.
   if (req.mode === 'navigate') {
     if (path === '' || path === 'index.html') {
-      e.respondWith((async () => (await caches.match(abs('./'), { ignoreSearch: true })) || (await caches.match(abs('index.html'), { ignoreSearch: true })) || fetch(req))());
+      // network-first so a publish shows up on the next load; the cached shell is the offline fallback
+      e.respondWith(netFirst(req, abs('./'), async () => (await caches.match(abs('./'), { ignoreSearch: true })) || (await caches.match(abs('index.html'), { ignoreSearch: true }))));
     } else {
       e.respondWith((async () => { try { const r = await fetch(req); if (r.ok) (await caches.open(DATA)).put(req, r.clone()); return r; } catch (err) { return (await caches.match(req, { ignoreSearch: true })) || Response.error(); } })());
     }
+    return;
+  }
+
+  // The app's own code + paper list: network-first (fresh after every publish), cached copy when offline or slow.
+  if (NET_FIRST.includes(path)) {
+    e.respondWith(netFirst(req, url.origin + url.pathname, async () => (await caches.match(url.origin + url.pathname)) || (await caches.match(req, { ignoreSearch: true }))));
     return;
   }
 

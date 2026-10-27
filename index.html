@@ -94,8 +94,26 @@ setTimeout(gone,3500);})();
 <script data-goatcounter="https://sonexa.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script>
 /* Offline mode: sw.js keeps the app shell and any paper saved with "Save offline" on the phone. */
+/* Updates: sw.js serves the shell network-first; when a new worker takes control the page reloads ONCE by itself,
+   except during a running test (then a small "Update ready" bar offers the refresh). It also checks for an update on
+   every load and whenever the tab becomes visible again. */
 if ('serviceWorker' in navigator && window.isSecureContext) {
-  window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).catch(function () {}); });
+  (function () {
+    var hadCtl = !!navigator.serviceWorker.controller, reloading = false;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (!hadCtl) { hadCtl = true; return; }           /* first install: this page already came from the network */
+      if (reloading) return;
+      if (document.body.classList.contains('testing')) { if (window.sxUpdateReady) window.sxUpdateReady(); return; }
+      try { var t0 = +sessionStorage.getItem('sx.swReloadAt') || 0; if (Date.now() - t0 < 15000) return; sessionStorage.setItem('sx.swReloadAt', String(Date.now())); } catch (e) {}
+      reloading = true; location.reload();
+    });
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(function (reg) {
+        try { reg.update(); } catch (e) {}
+        document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') { try { reg.update(); } catch (e) {} } });
+      }).catch(function () {});
+    });
+  })();
 }
 </script>
 </body>
