@@ -171,6 +171,7 @@
     if (replace) { history.replaceState({ sx: curDepth() ?? lastDepth }, '', h); lastDepth = curDepth(); return route(); }
     location.hash = h;
   };
+  document.addEventListener('click', e => { const f = e.target.closest && e.target.closest('[data-fbopen]'); if (f) { e.preventDefault(); fbOpen({ kind: 'general' }); } });
   document.addEventListener('click', e => {
     const b = e.target.closest && e.target.closest('a.backbtn:not([data-direct])'); if (!b) return;
     e.preventDefault();
@@ -201,7 +202,7 @@
   const PAGES = () => (STR[lang] && STR[lang].pages) || STR.en.pages || {};
   function siteFooter() {
     const P = PAGES();
-    return `<footer class="site-foot"><nav>${PAGE_ORDER.filter(k => P[k]).map(k => `<a href="#/page/${k}">${esc(P[k].link)}</a>`).join('<span aria-hidden="true"> · </span>')}</nav>${IN_APP ? '' : `<div><a href="app/">📱 Get the app</a></div>`}<div>${contactLink()}</div><div>${esc(t('footerCopy'))}</div></footer>`;
+    return `<footer class="site-foot"><div><button type="button" class="fb-foot" data-fbopen>💬 Feedback</button></div><nav>${PAGE_ORDER.filter(k => P[k]).map(k => `<a href="#/page/${k}">${esc(P[k].link)}</a>`).join('<span aria-hidden="true"> · </span>')}</nav>${IN_APP ? '' : `<div><a href="app/">📱 Get the app</a></div>`}<div>${contactLink()}</div><div>${esc(t('footerCopy'))}</div></footer>`;
   }
   function contactLink() { const m = t('contactEmail'); return `${esc(t('contactLabel'))}: <a class="mail" href="mailto:${esc(m)}">${esc(m)}</a>`; }
   function viewPage(k) {
@@ -419,8 +420,10 @@
         ${secnote}
         ${showQl ? `<div class="qlang-row">${qlangToggle()}</div>${qlangNote(q)}` : ''}
         <div class="qbody">${qImg(q) ? `<img src="${qImg(q)}" alt="Question ${i + 1}" id="qimg">` : ''}${qTxt(q) ? `<div class="qtext"${qlang === 'hi' && q.questionHi ? ' lang="hi"' : ''}>${fmtText(qTxt(q))}</div>` : ''}</div>
-        ${opts}`;
+        ${opts}
+        <button type="button" class="fb-q" id="fbQ">⚑ Report a problem with this question</button>`;
       math(qwrap);
+      document.getElementById('fbQ').onclick = () => fbOpen({ kind: 'question', pid: q.paperId, qno: q.exam === 'NDA' && q.srcQno ? q.srcQno : q.qno, title: q.paper });
       qwrap.querySelectorAll('.opt').forEach(b => b.onclick = () => choose(q, b.dataset.v));
       const ni = document.getElementById('numIn');
       if (ni) ni.oninput = () => { const v = ni.value.trim(); if (v === '') delete active.answers[q.id]; else active.answers[q.id] = v; persist(); };
@@ -661,6 +664,7 @@
       </section>
       ${chResultCard(at)}
       ${sxModeCard(at, r)}
+      <button type="button" class="fb-test" id="fbTest"><span>💬 How was this test?</span><span class="fb-test-go">Give feedback ›</span></button>
       <div class="share-actions"><button type="button" class="btn primary" id="shareResult" hidden>Share</button><a class="btn" id="waResult" target="_blank" rel="noopener noreferrer" href="${'https://wa.me/?text=' + encodeURIComponent(shareText(at, r))}">WhatsApp</a><a class="btn" id="fbResult" target="_blank" rel="noopener noreferrer" href="${'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(SHARE_URL)}">Facebook</a><button type="button" class="btn" id="downloadResult">Download image</button></div>
       <p class="muted small share-hint">For Instagram Story: tap Share, or download the image and add it to your story.</p>
       <h2>${t('subjectBreakdown')}</h2>
@@ -673,6 +677,7 @@
     bindSharing(at, r);
     bindChResultCard(at, qs, r);
     try { sxBindModeCard(at); } catch (e) { /* ignore */ }
+    document.getElementById('fbTest').onclick = () => fbOpen({ kind: 'test', pid: at.paper || (at.paperIds || [])[0], title: at.title, score: `${r.score}/${r.max}` });
     const ansLabel = (q, v) => v == null || v === '' ? `<span class="muted">${t('notAttempted')}</span>` : (q.type === 'numerical' ? esc(v) : `(${esc(optLabels(q) ? optLabel(q, Number(v) - 1) : v)})`);
     function renderList() {
       const list = qs.map((q, i) => ({ q, i })).filter(({ q }) => filter === 'all' || r.perQ[q.id] === filter || (filter === 'skipped' && r.perQ[q.id] === 'not-counted'));
@@ -686,9 +691,10 @@
           <div class="ans-line"><span>${t('yourAnswer')}: <b class="${st === 'correct' ? 'ok' : st === 'wrong' ? 'bad' : ''}">${ansLabel(q, a)}</b></span><span>${t('correctAnswer')}: <b class="ok">${q.answer.map(x => ansLabel(q, x)).join(' or ')}</b></span></div>
           ${st === 'not-counted' ? `<p class="small muted">${t('notCounted')}</p>` : ''}
           <div class="expl">${q.explanation ? `<b>${t('explanation')}:</b> ${fmtText(q.explanation)}` : `${t('noExplanation')}${key.name ? ' (' + esc(key.name) + ')' : ''}`}</div>
-          <details class="src"><summary>${t('source')}</summary>${esc(q.source)}</details></article>`;
+          <details class="src"><summary>${t('source')}</summary>${esc(q.source)}</details><button type="button" class="fb-q" data-fbr="${esc(q.id)}">⚑ Report a problem with this question</button></article>`;
       }).join('');
       math(el);
+      el.querySelectorAll('[data-fbr]').forEach(b => b.onclick = () => { const q = qs.find(x => x.id === b.dataset.fbr); if (q) fbOpen({ kind: 'question', pid: q.paperId, qno: q.exam === 'NDA' && q.srcQno ? q.srcQno : q.qno, title: q.paper }); });
     }
     renderList();
     if (showQl) { const qr = app.querySelector('.qlang-row.review'); bindQlang(qr, () => { qr.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x.dataset.ql === qlang)); renderList(); }); }
@@ -1495,7 +1501,7 @@
         <section class="card sq-card">${showQl ? `<div class="qlang-row">${qlangToggle()}</div>${qlangNote(q)}` : ''}
           <div class="qbody">${qImg(q) ? `<img src="${qImg(q)}" alt="Question" id="qimg">` : ''}${qTxt(q) ? `<div class="qtext"${qlang === 'hi' && q.questionHi ? ' lang="hi"' : ''}>${fmtText(qTxt(q))}</div>` : ''}</div>
           ${opts}
-          ${checked ? '' : `<button class="btn sx block" id="sqCheck">Check answer</button>`}</section>
+          ${checked ? '' : `<button class="btn sx block" id="sqCheck">Check answer</button>`}<button type="button" class="fb-q" id="fbQ">⚑ Report a problem with this question</button></section>
         ${verdict}
         <div class="row">${next ? `<button class="btn primary" id="sqNext" style="flex:1">Next result ›</button>` : ''}<a class="btn" href="#/search" style="flex:1">All results</a></div>`;
       math(app);
@@ -1503,6 +1509,7 @@
       const ni = document.getElementById('numIn'); if (ni) ni.oninput = () => { ans = ni.value.trim() || null; };
       const img = document.getElementById('qimg'); if (img) img.onclick = () => { const z = document.createElement('div'); z.className = 'zoom'; z.innerHTML = `<button class="btn primary">${t('close')}</button><img src="${qImg(q)}" alt="">`; z.querySelector('button').onclick = () => z.remove(); document.body.appendChild(z); };
       if (showQl) bindQlang(app.querySelector('.sq-card'), render);
+      document.getElementById('fbQ').onclick = () => fbOpen({ kind: 'question', pid, qno: mxQno(q), title: q.paper });
       const ck = document.getElementById('sqCheck'); if (ck) ck.onclick = () => {
         checked = true;
         try { const r = PYQScoring.score([q], { [q.id]: ans }, { marking: { [pid]: (meta(pid) || {}).marking || {} }, rules: {} }); mxRecord({ finishedAt: Date.now(), mode: 'single', answers: { [q.id]: ans } }, [q], r); bnavRender('q'); } catch (e) { /* ignore */ }
@@ -1527,6 +1534,85 @@
       + tab('chapters', '#/chapters', '📚', 'Chapters') + tab('search', '#/search', '🔍', 'Search')
       + tab('mistakes', '#/mistakes', '📒', 'Mistakes', nmx ? `<b class="bn-badge" aria-label="${nmx} to fix">${nmx > 999 ? '999+' : nmx}</b>` : '');
     nav.hidden = false;
+  }
+
+
+  /* ---------- 💬 Feedback ----------
+     A simple form (rating 1-5 optional, message required, name/contact optional) + auto context (page, paper, question,
+     app or browser, Hindi on/off). No backend: posted to the FormSubmit.co AJAX endpoint for the site's contact email
+     (the first submission makes FormSubmit mail an "Activate form" link to that inbox). Anything not confirmed as sent
+     (offline, error, form not activated yet) waits in localStorage sonexa.v1.fbQueue and is retried on load / when online. */
+  const LS_FBQ = 'sonexa.v1.fbQueue';
+  const fbEndpoint = () => 'https://formsubmit.co/ajax/' + encodeURIComponent(t('contactEmail'));
+  async function fbPost(p) {
+    try {
+      const r = await fetch(fbEndpoint(), { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(p) });
+      if (!r.ok) return { ok: false, net: true };
+      let j = {}; try { j = await r.json(); } catch (e) { /* ignore */ }
+      return { ok: String(j.success) === 'true', net: true };
+    } catch (e) { return { ok: false, net: false }; }
+  }
+  let fbFlushing = false;
+  async function fbFlush() {
+    if (fbFlushing || !isOnline()) return; fbFlushing = true;
+    try {
+      const q = load(LS_FBQ, []); if (!q.length) return;
+      const keep = [], now = Date.now();
+      for (const e of q) {
+        const it = e && e.p ? e : { p: e, t: 0, n: 0 };
+        if (it.t && now - it.t < 12 * 3600e3) { keep.push(it); continue; }   // reached the server before: retry at most twice a day
+        const r = await fbPost(Object.assign({}, it.p, { _queued: 'yes' }));
+        if (!r.ok) { if (r.net) { it.t = now; it.n = (it.n || 0) + 1; } if (it.n < 5) keep.push(it); }
+      }
+      const cur = load(LS_FBQ, []); save(LS_FBQ, keep.concat(cur.slice(q.length)).slice(-20));
+    } finally { fbFlushing = false; }
+  }
+  window.addEventListener('online', () => setTimeout(fbFlush, 1500));
+  setTimeout(fbFlush, 6000);
+  function fbOpen(ctx) {
+    ctx = ctx || {};
+    const isQ = ctx.kind === 'question';
+    const bg = document.createElement('div'); bg.className = 'sheet-bg mid fb-bg';
+    const where = isQ ? `${esc(ctx.title || ctx.pid || '')} · Q${esc(ctx.qno)}` : ctx.title ? esc(ctx.title) : '';
+    bg.innerHTML = `<form class="sheet center fb-sheet" role="dialog" aria-modal="true" aria-labelledby="fbTitle" novalidate>
+      <h2 id="fbTitle">${isQ ? '⚑ Report a problem' : ctx.kind === 'test' ? '💬 How was this test?' : '💬 Send feedback'}</h2>
+      ${where ? `<p class="muted small fb-where">${where}</p>` : ''}
+      <div class="fb-stars" role="radiogroup" aria-label="Rating (optional)">${[1, 2, 3, 4, 5].map(n => `<button type="button" class="fb-star" data-r="${n}" role="radio" aria-checked="false" aria-label="${n} star${n > 1 ? 's' : ''}">★</button>`).join('')}<span class="muted small fb-opt">optional</span></div>
+      ${isQ ? `<div class="chips fb-chips">${['Wrong answer', 'Image unclear / cut', 'Hindi version wrong', 'Wrong chapter', 'Other'].map(x => `<button type="button" class="chip" data-fc="${esc(x)}">${esc(x)}</button>`).join('')}</div>` : ''}
+      <label for="fbMsg">Message</label>
+      <textarea id="fbMsg" rows="4" maxlength="1500" required placeholder="${isQ ? 'What is wrong with this question?' : 'Tell us what you like, what is broken, or what to add…'}"></textarea>
+      <div class="fb-two"><div><label for="fbName">Name <span class="muted small">(optional)</span></label><input id="fbName" type="text" maxlength="60" autocomplete="name"></div>
+        <div><label for="fbContact">Phone or email <span class="muted small">(optional)</span></label><input id="fbContact" type="text" maxlength="80" autocomplete="email" inputmode="email"></div></div>
+      <p class="fb-err small" hidden>Please write a message.</p>
+      <div class="row"><button type="button" class="btn" data-x style="flex:1">Cancel</button><button type="submit" class="btn sx" style="flex:1.4">Send</button></div>
+    </form>`;
+    document.body.appendChild(bg);
+    let rating = 0;
+    const form = bg.querySelector('form'), msg = bg.querySelector('#fbMsg'), err = bg.querySelector('.fb-err');
+    const close = () => bg.remove();
+    bg.querySelector('[data-x]').onclick = close;
+    bg.addEventListener('click', e => { if (e.target === bg) close(); });
+    bg.querySelectorAll('.fb-star').forEach(b => b.onclick = () => { rating = +b.dataset.r === rating ? 0 : +b.dataset.r; bg.querySelectorAll('.fb-star').forEach(x => { const on = +x.dataset.r <= rating; x.classList.toggle('on', on); x.setAttribute('aria-checked', +x.dataset.r === rating); }); });
+    bg.querySelectorAll('[data-fc]').forEach(b => b.onclick = () => { bg.querySelectorAll('[data-fc]').forEach(x => x.setAttribute('aria-pressed', x === b)); if (!msg.value.trim() || bg.querySelector('[data-fc][data-used]')) { msg.value = b.dataset.fc + ': '; bg.querySelectorAll('[data-fc]').forEach(x => x.removeAttribute('data-used')); b.setAttribute('data-used', '1'); } msg.focus(); });
+    msg.oninput = () => { err.hidden = true; };
+    setTimeout(() => { try { msg.focus(); } catch (e) { /* ignore */ } }, 50);
+    form.onsubmit = async e => {
+      e.preventDefault();
+      const text = msg.value.trim(); if (!text || (isQ && /^[^:]{0,40}:\s*$/.test(text))) { err.hidden = false; msg.focus(); return; }
+      const page = (location.pathname + location.hash).replace(/\?.*$/, '');
+      const p = { _subject: `SONEXA ${isQ ? 'question report' : 'feedback'}${rating ? ' ' + '★'.repeat(rating) : ''}${ctx.pid ? ' · ' + ctx.pid + (ctx.qno ? ' Q' + ctx.qno : '') : ''}`, _template: 'table', _captcha: 'false',
+        type: isQ ? 'Question report' : ctx.kind === 'test' ? 'Test feedback' : 'General feedback', rating: rating ? rating + '/5' : 'not given', message: text,
+        name: bg.querySelector('#fbName').value.trim() || '-', contact: bg.querySelector('#fbContact').value.trim() || '-',
+        page, paper: ctx.pid || '-', question: ctx.qno ? 'Q' + ctx.qno : '-', paper_title: ctx.title || '-', score: ctx.score || '-',
+        device: IN_APP ? 'Android app' : (IS_IOS ? 'iPhone/iPad browser' : 'browser'), hindi: qlang === 'hi' ? 'on' : 'off', site: location.host, sent_at: new Date().toISOString(), ua: (navigator.userAgent || '').slice(0, 180) };
+      const btn = form.querySelector('[type=submit]'); btn.disabled = true; btn.textContent = 'Sending…';
+      let r = { ok: false, net: false };
+      if (isOnline()) r = await fbPost(p);
+      if (!r.ok) { const q = load(LS_FBQ, []); q.push({ p, t: r.net ? Date.now() : 0, n: r.net ? 1 : 0 }); save(LS_FBQ, q.slice(-20)); }
+      form.innerHTML = `<div class="fb-done"><div class="fb-done-ico">✅</div><h2>${r.net ? 'Thanks! Feedback sent ✅' : 'Saved ✅'}</h2><p class="muted small">${r.net ? 'Thank you for helping make SONEXA better.' : (isOnline() ? 'Could not reach the server. It will be sent automatically later.' : 'You are offline. It will be sent automatically when you are back online.')}</p><button type="button" class="btn sx block" data-x>Done</button></div>`;
+      form.querySelector('[data-x]').onclick = close;
+      setTimeout(() => { if (bg.isConnected) close(); }, 4000);
+    };
   }
 
   /* ---------- language toggle (Hindi strings can be filled in strings.js) ---------- */
