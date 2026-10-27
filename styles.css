@@ -398,7 +398,7 @@ footer.site{max-width:760px;margin:0 auto;padding:0 16px 30px;color:var(--muted)
 .bn-tab{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;min-height:52px;padding:4px 2px;text-decoration:none;color:#6D7486;border-radius:12px;-webkit-tap-highlight-color:transparent}
 .bn-tab .bn-ico{position:relative;font-size:1.32rem;line-height:1.2;filter:grayscale(.85);opacity:.8}
 .bn-tab .bn-l{font-size:.7rem;font-weight:700;letter-spacing:.01em}
-.bn-tab.on{color:#FF7A1A}
+.bn-tab.on{color:#3A1C71}
 .bn-tab.on .bn-ico{filter:none;opacity:1}
 .bn-tab.on::before{content:"";position:absolute;top:-5px;left:50%;transform:translateX(-50%);width:30px;height:3px;border-radius:0 0 3px 3px;background:#FF7A1A}
 .bn-tab{position:relative}
