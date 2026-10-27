@@ -153,6 +153,8 @@
     if (a === 'mistakes') return viewMistakes();
     if (a === 'daily') return viewDaily();
     if (a === 'chapters') return viewChapters();
+    if (a === 'search') return viewSearch();
+    if (a === 'q' && b) return viewQ(decodeURIComponent(b), h.split('/')[2]);
     return viewHome();
   }
   window.addEventListener('hashchange', route);
@@ -217,7 +219,7 @@
     return `<h2>Saved offline</h2><section class="card off-card">${ids.map(meta).map(p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}</div><div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')} · ✓ works offline</div></div><button class="btn ${exCls(p.exam)}" data-full="${p.id}">${t('start')}</button></div>`).join('')}</section>`;
   }
   function viewHome() {
-    app.innerHTML = `${resumeCard()}
+    app.innerHTML = `${srHomeBar()}<div class="home-rest">${resumeCard()}
       ${savedSection()}
       <h1>${t('chooseExam')}</h1>
       <p class="lead">${t('tagline')}</p>
@@ -237,8 +239,9 @@
       <p class="note">${t('jeeAdvSource')}</p>
       <p class="note">${t('cbseSource')}</p>
       <p class="note">${t('ndaSource')}</p>
-      ${siteFooter()}`;
+      ${siteFooter()}</div>`;
     bindResume();
+    srBind('home');
     app.querySelectorAll('[data-full]').forEach(b => b.onclick = () => startFull(b.dataset.full));
   }
 
@@ -1155,7 +1158,7 @@
     if (at.mode === 'daily') { try { dailyRecord(at); } catch (e) { /* ignore */ } }
     at.mx = mxRecord(at, qs, r);
   }
-  const sxBack = (at, ex) => at.mode === 'mistakes' ? '#/mistakes' : at.mode === 'daily' ? '#/daily' : at.mode === 'chapter' ? '#/chapters' : '#/exam/' + ex;
+  const sxBack = (at, ex) => at.mode === 'mistakes' ? '#/mistakes' : at.mode === 'daily' ? '#/daily' : at.mode === 'chapter' ? '#/chapters' : at.mode === 'search' ? '#/search' : '#/exam/' + ex;
   function sxToolCards() { return dailyCardHtml() + chapCardHtml() + mxCardHtml(); }
 
 
@@ -1311,6 +1314,201 @@
   function sxBindModeCard(at) {
     const b = document.getElementById('chapNext'); const x = at.extra && at.extra.chap;
     if (b && x) b.onclick = () => chapStart({ k: x.k, s: x.s, u: x.u, c: x.c, set: x.set + 1 });
+  }
+
+
+  /* ---------- 🔍 Search ----------
+     Papers (index), chapters (data/chapters/<exam>.json) and question text (data/search-<exam>.json: cleaned OCR text of
+     image questions + typed text, ~180 chars each; built by tools/build_search.py). Indexes load only when someone searches
+     and are then cached by sw.js (data/*), so search works offline afterwards. Matching: words in any order, partial words
+     (prefix), one-letter typos for longer words; chapter/subject/exam/year words count too. */
+  const SR_EX = [['all', 'All'], ['neet', 'NEET'], ['jee', 'JEE'], ['cbse10', 'CBSE 10'], ['cbse12', 'CBSE 12'], ['nda', 'NDA']];
+  const SR_FILES = { neet: ['neet'], jee: ['jee-main', 'jee-adv'], cbse10: ['cbse10'], cbse12: ['cbse12'], nda: ['nda'] };
+  const SR_ALLF = ['neet', 'jee-main', 'jee-adv', 'cbse10', 'cbse12', 'nda'];
+  const SR_FLABEL = { neet: 'NEET', 'jee-main': 'JEE Main', 'jee-adv': 'JEE Advanced', cbse10: 'CBSE 10', cbse12: 'CBSE 12', nda: 'NDA' };
+  const SR_STOP = new Set(['the', 'of', 'a', 'an', 'in', 'and', 'is', 'to', 'for', 'on', 'with', 'by', 'at', 'as', 'or', 'which', 'what', 'are', 'be', 'from', 'that', 'this', 'following', 'question', 'questions']);
+  const srState = { q: '', ex: 'all', sub: '', restore: false, hits: [], more: 30 };
+  const srCache = {};
+  const srNorm = s => String(s || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
+  const srToks = s => srNorm(s).split(/[^a-z0-9]+/).filter(Boolean);
+  const SR_SUF = ['ations', 'ation', 'itions', 'ition', 'ions', 'ion', 'ings', 'ing', 'als', 'al', 'ies', 'es', 'ed', 's', 'ly', 'ic', 'y'];
+  const srStem = w => { if (/^\d/.test(w)) return w; for (const x of SR_SUF) if (w.length - x.length >= 4 && w.endsWith(x)) return w.slice(0, -x.length); return w; };
+  const srFileOf = p => p.exam === 'NEET' ? 'neet' : p.exam === 'JEE Main' ? 'jee-main' : p.exam === 'JEE Advanced' ? 'jee-adv' : p.exam === 'NDA' ? 'nda' : 'cbse' + p.class;
+  async function srLoad(f) {
+    if (srCache[f]) return srCache[f];
+    const r = await fetch('data/search-' + f + '.json'); if (!r.ok) throw new Error('search ' + r.status);
+    const E = await r.json();
+    const items = E.q.map(([pi, qi, si, ci, text]) => { const p = E.papers[pi], sub = E.subs[si] || '', chap = E.chs[ci] || '';
+      const toks = srToks(text), mtoks = srToks(`${chap} ${sub} ${E.exam} ${p[2] || ''} ${p[1]}`);
+      return { pid: p[0], title: p[1], year: p[2], qi, sub, chap, text, exam: E.exam, f, toks, mtoks, stoks: toks.map(srStem), smtoks: mtoks.map(srStem) }; });
+    return (srCache[f] = { E, items });
+  }
+  function lev1(a, b) { // edit distance <= 1
+    if (a === b) return true; const la = a.length, lb = b.length; if (Math.abs(la - lb) > 1) return false;
+    let i = 0, j = 0, d = 0;
+    while (i < la && j < lb) { if (a[i] === b[j]) { i++; j++; continue; } if (++d > 1) return false; if (la > lb) i++; else if (lb > la) j++; else { i++; j++; } }
+    return d + (la - i) + (lb - j) <= 1;
+  }
+  function tokScore(qt, toks, stoks) {
+    let best = 0; const num = /^\d+$/.test(qt), qs = srStem(qt), useStem = qs.length >= 4 && qs !== qt;
+    for (let k = 0; k < toks.length; k++) {
+      const w = toks[k];
+      if (w === qt) return 3;
+      if (num) continue;
+      if (qt.length >= 2 && w.startsWith(qt)) { best = 2; continue; }
+      if (best < 1.5 && useStem && (stoks ? stoks[k] : srStem(w)).startsWith(qs)) { best = 1.5; continue; }
+      if (best < 1 && qt.length >= 5 && (w.startsWith(qt.slice(0, -1)) || lev1(w, qt))) best = 1;
+    }
+    return best;
+  }
+  function srQuery(q) { const all = srToks(q); const t2 = all.filter(x => !SR_STOP.has(x)); return t2.length ? t2 : all; }
+  function srScoreItem(it, qts, phrase) {
+    let s = 0;
+    for (const qt of qts) { const a = tokScore(qt, it.toks, it.stoks), b = tokScore(qt, it.mtoks, it.smtoks) * 0.7; const m = Math.max(a, b); if (!m) return 0; s += m; }
+    if (phrase && srNorm(it.text).includes(phrase)) s += 3;
+    return s;
+  }
+  function srFiles() { return srState.ex === 'all' ? SR_ALLF : SR_FILES[srState.ex] || SR_ALLF; }
+  const srPaperOk = p => srState.ex === 'all' || SR_FILES[srState.ex].includes(srFileOf(p));
+  function srMarkText(text, qts) {
+    const words = String(text).split(/(\s+)/); let first = -1;
+    const out = words.map((w, k) => { const n = srNorm(w).replace(/[^a-z0-9]/g, ''); if (n && qts.some(qt => n === qt || (!/^\d+$/.test(qt) && qt.length >= 2 && n.startsWith(qt)) || (srStem(qt).length >= 4 && srStem(qt) !== qt && srStem(n).startsWith(srStem(qt))) || (qt.length >= 5 && (n.startsWith(qt.slice(0, -1)) || lev1(n, qt))))) { if (first < 0) first = k; return `<mark>${esc(w)}</mark>`; } return esc(w); });
+    let a = 0, b = out.length; const len = i => words.slice(a, i).join('').length;
+    if (String(text).length > 150 && first > 0) { a = Math.max(0, first - 12); while (a < first && len(first) > 60) a++; }
+    let s = out.slice(a, b).join(''); return (a > 0 ? '… ' : '') + s;
+  }
+  async function srRun() {
+    const q = srState.q.trim(), qts = srQuery(q);
+    if (!qts.length) return { q, qts, papers: [], chaps: [], hits: [], subs: [] };
+    const phrase = qts.length > 1 ? srNorm(qts.join(' ')) : '';
+    // papers
+    const papersHit = INDEX.filter(srPaperOk).map(p => { const toks = srToks(`${p.title} ${p.exam} ${p.year || ''} ${p.class ? 'class ' + p.class + ' cbse ' + p.class : ''} ${Object.keys(p.bySubject || {}).join(' ')} ${p.shareTitle || ''}`);
+      let s = 0; for (const qt of qts) { const m = tokScore(qt, toks); if (m < 2) return null; s += m; } return { p, s }; }).filter(Boolean).sort((x, y) => y.s - x.s || (y.p.year || 0) - (x.p.year || 0)).map(x => x.p);
+    // chapters + questions
+    const files = srFiles(); const loaded = []; let failed = 0;
+    await Promise.all(files.map(async f => { try { loaded.push([f, await srLoad(f)]); } catch (e) { failed++; } }));
+    const chapsets = await Promise.all(files.map(f => chapData(f).then(D => [f, D]).catch(() => null)));
+    const chaps = [];
+    chapsets.filter(Boolean).forEach(([f, D]) => D.subjects.forEach(S => (S.units ? S.units.map(U => [U.u, U.ch]) : [[null, S.ch]]).forEach(([u, list]) => list.forEach(c => {
+      const toks = srToks(`${c[0]} ${S.s} ${u || ''} ${SR_FLABEL[f]}`); let s = 0;
+      for (const qt of qts) { const m = tokScore(qt, toks); if (!m) return; s += m; }
+      chaps.push({ f, s: S.s, u, c: c[0], n: c[1], score: s + (srNorm(c[0]).includes(phrase || qts[0]) ? 3 : 0) });
+    }))));
+    chaps.sort((x, y) => y.score - x.score || y.n - x.n);
+    let hits = [];
+    loaded.forEach(([f, L]) => L.items.forEach(it => { const s = srScoreItem(it, qts, phrase); if (s) hits.push({ it, s }); }));
+    hits.sort((x, y) => y.s - x.s || (y.it.year || 0) - (x.it.year || 0));
+    const subCount = {}; hits.forEach(h => { subCount[h.it.sub] = (subCount[h.it.sub] || 0) + 1; });
+    const subs = Object.entries(subCount).sort((a, b) => b[1] - a[1]).slice(0, 10);
+    if (srState.sub && !subCount[srState.sub]) srState.sub = '';
+    if (srState.sub) { hits = hits.filter(h => h.it.sub === srState.sub); }
+    const chapsF = srState.sub ? chaps.filter(c => c.s === srState.sub) : chaps;
+    return { q, qts, papers: papersHit, chaps: chapsF, hits: hits.map(h => h.it), subs, failed, nfiles: files.length };
+  }
+  function srBoxHtml(where) {
+    return `<form class="sr-box ${where}" role="search" onsubmit="return false"><span class="sr-ico" aria-hidden="true">🔍</span><input id="srIn" type="search" enterkeyhint="search" autocomplete="off" placeholder="Search papers, chapters, questions…" aria-label="Search" value="${esc(srState.q)}"><button type="button" class="sr-clear" id="srClear" aria-label="Clear search" ${srState.q ? '' : 'hidden'}>✕</button></form>`;
+  }
+  let srTimer = null, srSeq = 0;
+  function srBind(where) {
+    const inp = document.getElementById('srIn'), clr = document.getElementById('srClear'), res = document.getElementById('srRes'); if (!inp || !res) return;
+    const rest = app.querySelector('.home-rest');
+    const run = async () => {
+      const my = ++srSeq; srState.q = inp.value; clr.hidden = !inp.value;
+      if (rest) rest.hidden = !!inp.value.trim();
+      if (!inp.value.trim()) { res.innerHTML = where === 'page' ? `<p class="muted small sr-hint">Try “photosynthesis”, “ray optics”, “NEET 2023” or “integration”.</p>` : ''; srState.hits = []; return; }
+      res.innerHTML = `<p class="loading small">Searching…</p>`;
+      const R = await srRun(); if (my !== srSeq) return;
+      srState.hits = R.hits; srRender(res, R, where);
+    };
+    inp.oninput = () => { clearTimeout(srTimer); srState.more = 30; srTimer = setTimeout(run, 220); };
+    inp.onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); clearTimeout(srTimer); run(); inp.blur(); } };
+    clr.onclick = () => { inp.value = ''; srState.q = ''; srState.sub = ''; run(); inp.focus(); };
+    srBind.rerun = run;
+    if (inp.value.trim() || where === 'page') run();
+  }
+  function srRender(res, R, where) {
+    const qts = R.qts, nH = R.hits.length, show = R.hits.slice(0, srState.more);
+    const exChips = `<div class="chips sr-chips" id="srEx">${SR_EX.map(([k, l]) => `<button class="chip" data-k="${k}" aria-pressed="${srState.ex === k}">${l}</button>`).join('')}</div>`;
+    const subChips = R.subs.length > 1 || srState.sub ? `<div class="chips sr-chips" id="srSub"><button class="chip" data-s="" aria-pressed="${!srState.sub}">All subjects</button>${R.subs.map(([s, n]) => `<button class="chip" data-s="${esc(s)}" aria-pressed="${srState.sub === s}">${esc(s)} <span class="muted small">(${n})</span></button>`).join('')}</div>` : '';
+    const papersH = R.papers.slice(0, 8).map(p => `<div class="paper sr-paper"><div><div style="font-weight:700">${srMarkText(p.title, qts)}</div><div class="meta">${esc(p.exam === 'CBSE' ? 'CBSE ' + p.class : p.exam)} · ${p.count} ${t('questions')}${p.minutes ? ' · ' + p.minutes + ' ' + t('min') : ''}</div></div>${startBtn(p, mxExamCls(p.exam))}</div>`).join('');
+    const chapsH = R.chaps.slice(0, 10).map((c, k) => `<div class="chap-row sr-chap"><div class="chap-info"><div class="chap-name">${srMarkText(c.c, qts)}</div><div class="meta">${esc(SR_FLABEL[c.f])} · ${esc(c.s)}${c.u && c.u !== c.s ? ' · ' + esc(c.u) : ''} · ${c.n} PYQ${c.n === 1 ? '' : 's'}</div></div><button class="btn sx chap-go" data-sc="${k}">Practice</button></div>`).join('');
+    const qH = show.map((it, k) => `<button type="button" class="sr-q" data-qi="${k}"><span class="sr-qsrc">${esc(it.exam)} · ${esc(it.title)}</span><span class="sr-qch">${esc(it.chap || '')}${it.sub ? ' · ' + esc(it.sub) : ''}</span><span class="sr-qtxt">${it.text ? srMarkText(it.text, qts) : '<span class="muted">(question is a picture)</span>'}</span></button>`).join('');
+    res.innerHTML = `${exChips}${subChips}
+      ${R.failed ? `<p class="small sr-warn">${isOnline() ? 'Some results could not load. Please try again.' : `Offline: question search works for exams you have searched once online (${R.nfiles - R.failed} of ${R.nfiles} ready).`}</p>` : ''}
+      ${!R.papers.length && !R.chaps.length && !nH ? `<p class="muted sr-none">No results for “${esc(R.q)}”. Try fewer or shorter words.</p>` : ''}
+      ${R.papers.length ? `<h2 class="sr-h">Papers <span class="muted small">(${R.papers.length})</span></h2><section class="card">${papersH}</section>` : ''}
+      ${R.chaps.length ? `<h2 class="sr-h">Chapters <span class="muted small">(${R.chaps.length})</span></h2><section class="card chap-list">${chapsH}</section>` : ''}
+      ${nH ? `<h2 class="sr-h">Questions <span class="muted small">(${nH})</span></h2>
+        <button class="btn sx block" id="srPractice">Practice all results <span class="small">(${Math.min(50, nH)} question${Math.min(50, nH) === 1 ? '' : 's'})</span></button>
+        <div class="sr-qs">${qH}</div>${nH > show.length ? `<button class="btn block" id="srMore">Show more (${nH - show.length} left)</button>` : ''}` : ''}
+      <p class="muted small sr-note">Results from scanned text may miss some questions.</p>`;
+    res.querySelectorAll('#srEx .chip').forEach(b => b.onclick = () => { srState.ex = b.dataset.k; srState.sub = ''; srState.more = 30; srBind.rerun && srBind.rerun(); });
+    res.querySelectorAll('#srSub .chip').forEach(b => b.onclick = () => { srState.sub = b.dataset.s; srState.more = 30; srBind.rerun && srBind.rerun(); });
+    res.querySelectorAll('[data-full]').forEach(b => b.onclick = () => startFull(b.dataset.full));
+    res.querySelectorAll('[data-sc]').forEach(b => b.onclick = () => { const c = R.chaps[+b.dataset.sc]; chapStart({ k: c.f, s: c.s, u: c.u, c: c.c, set: 0 }); });
+    res.querySelectorAll('[data-qi]').forEach(b => b.onclick = () => { const it = show[+b.dataset.qi]; srState.restore = where === 'home'; go('#/q/' + encodeURIComponent(it.pid) + '/' + it.qi); });
+    const pr = document.getElementById('srPractice'); if (pr) pr.onclick = () => srPractice(R);
+    const mo = document.getElementById('srMore'); if (mo) mo.onclick = () => { srState.more += 30; srRender(res, R, where); };
+  }
+  async function srPractice(R) {
+    if (!confirmReplace()) return;
+    const top = R.hits.slice(0, 50); const ids = [...new Set(top.map(h => h.pid))].filter(meta);
+    await Promise.allSettled(ids.map(loadPaper));
+    const qs = top.map(h => papers[h.pid] && papers[h.pid].questions[h.qi]).filter(q => q && q.answer && q.answer.length);
+    if (!qs.length) { toast(isOnline() ? 'Could not load these questions. Please try again.' : 'These papers need internet. Save papers offline to practise without internet.'); return; }
+    const exs = [...new Set(qs.map(q => q.exam))];
+    const mins = qs.reduce((s, q) => s + (((EXAMS[mxExamCls(q.exam)] || {}).minPerQ) || 1.5), 0);
+    const qq = R.q.trim().slice(0, 30);
+    begin({ title: `Search “${qq}” · ${qs.length} questions`, exam: exs.length === 1 ? exs[0] : 'Mixed', mode: 'search', qs, durationSec: Math.max(5, Math.ceil(mins)) * 60, rules: {} });
+  }
+  function viewSearch() {
+    app.innerHTML = `<a href="#/" class="backbtn">← ${t('back')}</a><h1>🔍 Search</h1>${srBoxHtml('page')}<div id="srRes"></div>${siteFooter()}`;
+    srBind('page');
+    const inp = document.getElementById('srIn'); if (inp && !srState.q) try { inp.focus(); } catch (e) { /* ignore */ }
+  }
+  function srHomeBar() {
+    const keep = srState.restore; srState.restore = false; if (!keep) { srState.q = ''; srState.sub = ''; }
+    return `${srBoxHtml('home')}<div id="srRes"></div>`;
+  }
+  // One question on its own: answer, Check, see the correct answer (opened from a search result).
+  async function viewQ(pid, i) {
+    i = +i; app.innerHTML = `<p class="loading">${t('loading')}</p>`;
+    let P; try { P = await loadPaper(pid); } catch (e) { app.innerHTML = `<a href="#/search" class="backbtn">← ${t('back')}</a><section class="card off-card"><p style="margin:0">This question's paper needs internet. Save papers offline to use them without internet.</p></section>`; return; }
+    const q = P.questions[i]; if (!q) return go('#/search', true);
+    const pos = srState.hits.findIndex(h => h.pid === pid && h.qi === i), next = pos >= 0 ? srState.hits[pos + 1] : null;
+    const cinfo = (srState.hits[pos] || {}).chap || '';
+    let ans = null, checked = false;
+    const render = () => {
+      const showQl = paperHasHi(pid); const correct = q.answer.map(v => mxLabel(q, v)).join(' or ');
+      let opts;
+      if (q.type === 'numerical') opts = `<div class="numin"><input id="numIn" inputmode="decimal" autocomplete="off" placeholder="${t('enterAnswer')}" aria-label="${t('enterAnswer')}" value="${ans != null ? esc(ans) : ''}" ${checked ? 'disabled' : ''}></div>`;
+      else opts = `<div class="opts ${q.optionsInImage ? 'grid4' : ''}" role="radiogroup">${q.options.map((o, k) => { const v = String(k + 1), isC = checked && q.answer.includes(v), isW = checked && String(ans) === v && !isC;
+        return `<button class="opt${isC ? ' sq-right' : ''}${isW ? ' sq-wrong' : ''}" role="radio" aria-checked="${String(ans) === v}" data-v="${v}" ${checked ? 'disabled' : ''}><span class="k">${esc(q.optionsInImage ? optLabel(q, k) : (optLabels(q) ? optLabel(q, k) : k + 1))}</span><span class="ot">${q.optionsInImage ? t('option') + ' ' + esc(optLabel(q, k)) : fmtText(o)}</span></button>`; }).join('')}</div>`;
+      let verdict = '';
+      if (checked) { const r = PYQScoring.score([q], { [q.id]: ans }, { marking: { [pid]: (meta(pid) || {}).marking || {} }, rules: {} }); const st = r.perQ[q.id];
+        verdict = `<section class="card sq-verdict ${st === 'correct' ? 'ok' : 'bad'}"><b>${st === 'correct' ? '✓ Correct!' : ans == null || ans === '' ? 'Not answered' : '✗ Not quite'}</b><div class="small">${t('correctAnswer')}: <b>${esc(correct)}</b></div>${q.explanation ? `<div class="expl small"><b>${t('explanation')}:</b> ${fmtText(q.explanation)}</div>` : ''}${st !== 'correct' ? '<div class="muted small">Saved to 📒 My Mistakes.</div>' : ''}</section>`; }
+      app.innerHTML = `<a href="#/search" class="backbtn">← ${t('back')}</a>
+        <h1 class="sq-h">Practice question</h1>
+        <p class="muted small" style="margin-top:0">${esc(q.exam)} · ${esc(q.paper)} · Q${esc(mxQno(q))}${cinfo ? ' · ' + esc(cinfo) : ''}</p>
+        <section class="card sq-card">${showQl ? `<div class="qlang-row">${qlangToggle()}</div>${qlangNote(q)}` : ''}
+          <div class="qbody">${qImg(q) ? `<img src="${qImg(q)}" alt="Question" id="qimg">` : ''}${qTxt(q) ? `<div class="qtext"${qlang === 'hi' && q.questionHi ? ' lang="hi"' : ''}>${fmtText(qTxt(q))}</div>` : ''}</div>
+          ${opts}
+          ${checked ? '' : `<button class="btn sx block" id="sqCheck">Check answer</button>`}</section>
+        ${verdict}
+        <div class="row">${next ? `<button class="btn primary" id="sqNext" style="flex:1">Next result ›</button>` : ''}<a class="btn" href="#/search" style="flex:1">All results</a></div>`;
+      math(app);
+      app.querySelectorAll('.opt').forEach(b => b.onclick = () => { if (checked) return; ans = b.dataset.v; app.querySelectorAll('.opt').forEach(x => x.setAttribute('aria-checked', x === b)); });
+      const ni = document.getElementById('numIn'); if (ni) ni.oninput = () => { ans = ni.value.trim() || null; };
+      const img = document.getElementById('qimg'); if (img) img.onclick = () => { const z = document.createElement('div'); z.className = 'zoom'; z.innerHTML = `<button class="btn primary">${t('close')}</button><img src="${qImg(q)}" alt="">`; z.querySelector('button').onclick = () => z.remove(); document.body.appendChild(z); };
+      if (showQl) bindQlang(app.querySelector('.sq-card'), render);
+      const ck = document.getElementById('sqCheck'); if (ck) ck.onclick = () => {
+        checked = true;
+        try { const r = PYQScoring.score([q], { [q.id]: ans }, { marking: { [pid]: (meta(pid) || {}).marking || {} }, rules: {} }); mxRecord({ finishedAt: Date.now(), mode: 'single', answers: { [q.id]: ans } }, [q], r); } catch (e) { /* ignore */ }
+        render();
+      };
+      const nx = document.getElementById('sqNext'); if (nx) nx.onclick = () => go('#/q/' + encodeURIComponent(next.pid) + '/' + next.qi, true);
+    };
+    render();
   }
 
   /* ---------- language toggle (Hindi strings can be filled in strings.js) ---------- */
