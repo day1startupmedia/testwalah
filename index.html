@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SONEXA · NEET & JEE Main previous-year question tests</title>
+<meta name="description" content="Free practice tests from real NEET and JEE Main previous-year questions, with exam timer, real marking, results and answer review.">
+<meta name="theme-color" content="#3A1C71">
+<link rel="icon" href="favicon.ico?v=sx3" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=sx3">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=sx3">
+<link rel="manifest" href="manifest.webmanifest?v=sx3">
+<meta property="og:image" content="https://sonexa.sites.tab.bot/assets/og-sonexa.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+<meta property="og:title" content="SONEXA · NEET & JEE Main PYQ practice tests">
+<meta property="og:description" content="Free practice tests from real NEET and JEE Main previous-year questions, with exam timer, real marking, results and answer review.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="preload" href="assets/logo.svg?v=sx3" as="image">
+<link rel="preload" href="assets/fonts/baloo2-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="splash" id="splash" aria-label="SONEXA — Padho kahin bhi, par khud ko dekho yahin" role="img" title="Tap to skip">
+  <div class="splash-inner">
+    <img class="splash-logo" src="assets/logo.svg?v=sx3" alt="Sonexa" width="629" height="199" decoding="sync" fetchpriority="high">
+    <p class="splash-tag">Padho kahin bhi, par khud ko dekho yahin</p>
+  </div>
+</div>
+<script>
+/* Intro splash: shown on EVERY load (no storage check). CSS fades it out by itself (~2 s, ~1.1 s with reduced motion);
+   this only lets a tap/key skip it and removes it from the page afterwards. The app routes underneath, so #/deep-links land after it. */
+(function(){var s=document.getElementById('splash');if(!s)return;var done=false,until=0;
+function gone(){if(done)return;done=true;s.classList.add('is-gone');s.setAttribute('aria-hidden','true');}
+/* swallow the ghost click a phone fires after the skipping tap, so it can't open whatever sits under the splash */
+document.addEventListener('click',function(e){if(Date.now()<until){e.preventDefault();e.stopPropagation();}},true);
+function skip(e){if(e&&e.cancelable)e.preventDefault();if(done||s.classList.contains('is-leaving'))return;until=Date.now()+700;s.classList.add('is-leaving');setTimeout(gone,450);}
+s.addEventListener('animationend',function(e){if(e.target===s&&e.animationName==='splash-out'&&!s.classList.contains('is-leaving'))gone();});
+s.addEventListener('pointerdown',skip);s.addEventListener('touchstart',skip,{passive:false});s.addEventListener('click',skip);
+document.addEventListener('keydown',function k(e){if(!done)skip(e);document.removeEventListener('keydown',k);});
+setTimeout(gone,3500);})();
+</script>
+<header class="topbar" id="topbar">
+  <a class="brand" href="#/" id="brand"><img class="brand-logo" src="assets/logo.svg?v=sx3" alt="" width="126" height="40"><span id="brandName" class="sr-only">SONEXA</span></a>
+  <button class="lang" id="langBtn" type="button" hidden>हिंदी</button>
+</header>
+<main id="app" tabindex="-1"><p class="loading">Loading…</p></main>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="strings.js"></script>
+<script src="scoring.js"></script>
+<script src="data/index.js"></script>
+<script src="vendor/katex/katex.min.js" defer></script>
+<script src="vendor/katex/auto-render.min.js" defer></script>
+<script src="app.js" defer></script>
+<script>
+/* GoatCounter visitor counter (dashboard: https://sonexa.goatcounter.com/). SONEXA routes with #hash, so every route
+   counts as its own page view. app.js route() calls window.sxCount() (no hashchange listener here, so the result screen,
+   which is opened with replaceState, counts too and nothing counts twice). '#/test' is the same for every test, so the
+   active test's title (saved in localStorage 'pyq.v1.active' before navigating) is added to the path. */
+(function () {
+  var last = null;
+  function sxActive() { try { return JSON.parse(localStorage.getItem('pyq.v1.active') || 'null'); } catch (e) { return null; } }
+  function sxPath() {
+    var h = location.hash.replace(/\?.*$/, '');   /* challenge links carry their data after ?d= in the hash: never counted */
+    if (/^#\/vs\//.test(h)) h = '#/vs';            /* head-to-head: one page, not one per challenge */
+    var p = location.pathname + h;   /* no ?query: Instagram/WhatsApp add ?fbclid=… which would split one page into many (GoatCounter reads utm/campaign from the query itself) */
+    if (h === '#/test') {
+      var a = sxActive();
+      if (a && a.title) p += '/' + String(a.title).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    }
+    return p;
+  }
+  function sxTitle() {
+    if (location.hash === '#/test') { var a = sxActive(); if (a && a.title) return a.title; }
+    return document.title;
+  }
+  /* First page load: count.js calls these itself; remembering the path stops route()'s first call counting it again. */
+  window.goatcounter = { path: function () { last = sxPath(); return last; }, title: function () { return sxTitle(); } };
+  window.sxCount = function () {
+    var p = sxPath();
+    if (p === last) return;   /* same screen re-rendered (language toggle, discard, first load) */
+    last = p;
+    if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: p, title: sxTitle() });
+  };
+})();
+</script>
+<script data-goatcounter="https://sonexa.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
