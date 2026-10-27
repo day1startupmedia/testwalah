@@ -457,3 +457,16 @@ body.testing .hdr-invite{display:none}
 .btn.inv-wa{background:#FF7A1A;border-color:#FF7A1A;color:#3A1C71;font-weight:800}
 .btn.inv-alt{background:#fff;border-color:#3A1C71;color:#3A1C71;font:inherit;font-weight:700;cursor:pointer}
 .site-foot .fb-foot{cursor:pointer;font:inherit;font-weight:700}
+
+/* State Boards (purple #3A1C71 / orange #FF7A1A / gold #E0B23A / grey #6D7486) */
+:root{--state:#3A1C71;--state-soft:#f6efe0}
+.exam-card.state{background:var(--state-soft);border-color:#E0B23A}
+.exam-card.state .name{color:var(--state)}
+.btn.state{background:var(--state);border-color:var(--state);color:#fff}
+.state-chips{margin-bottom:6px}
+.state-h{scroll-margin-top:12px;color:#3A1C71;border-left:5px solid #FF7A1A;padding-left:10px;margin-top:22px}
+.state-h .state-n{display:block;font-size:.8rem;font-weight:600;color:#6D7486}
+.state-cls{margin:0 0 4px;font-size:1rem;color:#6D7486}
+.kind-tag{display:inline-block;border-radius:999px;padding:1px 8px;font-size:.75rem;font-weight:700;margin-right:4px}
+.kind-tag.bd{background:#3A1C71;color:#fff}
+.kind-tag.mp{background:#fbecc4;color:#5b4300}

@@ -9,8 +9,15 @@
     jee: { key: 'jee', name: 'JEE Main', exam: 'JEE Main', subjects: ['Physics', 'Chemistry', 'Maths'], cls: 'jee', minPerQ: 2 },
     jeeadv: { key: 'jeeadv', name: 'JEE Advanced', exam: 'JEE Advanced', subjects: ['Physics', 'Chemistry', 'Maths'], cls: 'jeeadv', minPerQ: 3 },
     nda: { key: 'nda', name: 'NDA', exam: 'NDA', subjects: ['Maths', 'English', 'General Knowledge'], cls: 'nda', minPerQ: 1.25 },
-    cbse: { key: 'cbse', name: 'CBSE Board', exam: 'CBSE', subjects: [], cls: 'cbse', minPerQ: 1.5 }
+    cbse: { key: 'cbse', name: 'CBSE Board', exam: 'CBSE', subjects: [], cls: 'cbse', minPerQ: 1.5 },
+    state: { key: 'state', name: 'State Boards', exam: 'State Boards', subjects: [], cls: 'state', minPerQ: 1.5 }
   };
+  /* State Boards: papers whose index entry carries "state" (exam = the board's short name, e.g. "Gujarat Board"). */
+  const statePapers = () => INDEX.filter(p => p.state);
+  const isStateExam = e => !!e && INDEX.some(p => p.state && p.exam === e);
+  const exKeyOf = e => e === 'NEET' ? 'neet' : e === 'CBSE' ? 'cbse' : e === 'JEE Advanced' ? 'jeeadv' : e === 'NDA' ? 'nda' : isStateExam(e) ? 'state' : 'jee';
+  /* Card year for State Boards: model papers count by session start year (same convention as CBSE sample papers, e.g. 2026-27 -> 2026). */
+  const stateCardYear = p => (p.kind === 'sample' && /^\d{4}-\d{2}$/.test(String(p.session || ''))) ? parseInt(p.session, 10) : p.year;
   const CBSE_CLASSES = ['10', '12'];
   const CBSE_SUBJECTS = { '10': ['Science', 'Maths Standard', 'Maths Basic', 'Social Science'], '12': ['Physics', 'Chemistry', 'Maths', 'Biology', 'Accountancy', 'Business Studies', 'Economics'] };
   const cbsePapers = cls => INDEX.filter(p => p.exam === 'CBSE' && (!cls || String(p.class) === String(cls))).sort((x, y) => String(y.session || y.year).localeCompare(String(x.session || x.year)));
@@ -146,6 +153,7 @@
     if (a === 'challenge' && b) return viewChallengeLink(decodeURIComponent(b), query);
     if (a === 'vs' && b) return viewVs(decodeURIComponent(h.slice(3)));
     if (a === 'exam' && b === 'cbse') return viewCbse(h.split('/')[2]);
+    if (a === 'exam' && b === 'state') return viewState(h.split('/')[2]);
     if (a === 'exam' && EXAMS[b]) return viewExam(b);
     if (a === 'test') return viewTest();
     if (a === 'result' && b) return viewResult(b, false);
@@ -228,7 +236,7 @@
     if (isOnline() || !CAN_OFF) return '';
     const ids = Object.keys(offList()).filter(id => meta(id));
     if (!ids.length) return `<section class="card off-card"><b>You're offline.</b><p class="small" style="margin:4px 0 0">Papers you save with ⬇ Save offline work without internet. Your past results below still open.</p></section>`;
-    const exCls = e => e === 'NEET' ? 'neet' : e === 'CBSE' ? 'cbse' : e === 'JEE Advanced' ? 'jeeadv' : e === 'NDA' ? 'nda' : 'jee';
+    const exCls = exKeyOf;
     return `<h2>Saved offline</h2><section class="card off-card">${ids.map(meta).map(p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}</div><div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')} · ✓ works offline</div></div><button class="btn ${exCls(p.exam)}" data-full="${p.id}">${t('start')}</button></div>`).join('')}</section>`;
   }
   function viewHome() {
@@ -241,6 +249,7 @@
         <a class="exam-card jee" href="#/exam/jee"><span class="name">JEE Main</span><span class="sub">${subYears('jeeSub', examPapers('jee'))}</span><span class="count">${countFor('jee')} ${t('questions')}</span></a>
         <a class="exam-card jeeadv" href="#/exam/jeeadv"><span class="name">JEE Advanced</span><span class="sub">${subYears('jeeAdvSub', examPapers('jeeadv'))}</span><span class="count">${countFor('jeeadv')} ${t('questions')}</span></a>
         <a class="exam-card cbse" href="#/exam/cbse"><span class="name">CBSE Board</span><span class="sub">${subYears('cbseSub', cbsePapers())}</span><span class="count">${cbsePapers().reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></a>
+        ${statePapers().length ? (() => { const sp = statePapers(), ns = new Set(sp.map(p => p.state)).size, r = yearRange(sp.map(p => ({ year: stateCardYear(p) }))); return `<a class="exam-card state" href="#/exam/state"><span class="name">State Boards</span><span class="sub">${t('stateSub')} · ${ns} ${ns === 1 ? 'state' : 'states'}${r ? `<span class="yr"> · ${r}</span>` : ''}</span><span class="count">${sp.reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></a>`; })() : ''}
         <a class="exam-card nda" href="#/exam/nda"><span class="name">NDA</span><span class="sub">${subYears('ndaSub', examPapers('nda'))}</span><span class="count">${countFor('nda')} ${t('questions')}</span></a>
       </div>
       <div class="tool-cards">${sxToolCards()}${inviteCardHtml()}</div>
@@ -355,6 +364,42 @@
     bindOffline(app, () => { const y = window.scrollY; viewCbse(C); window.scrollTo(0, y); });
   }
   function setPrefCbse() { save(LS.prefs, prefs); }
+  /* ---------- State Boards page: grouped by state (A-Z), each state's board papers, Class 10 then 12 ---------- */
+  const stateSlug = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  function viewState(slug) {
+    const all = statePapers();
+    const states = [...new Set(all.map(p => p.state))].sort((x, y) => x.localeCompare(y));
+    const subjOrder = s => { const o = ['Science', 'Maths', 'Maths Standard', 'Maths Basic', 'Social Science', 'Physics', 'Chemistry', 'Biology']; const i = o.indexOf(s); return i < 0 ? 99 : i; };
+    const yrLabel = p => p.kind === 'sample' ? (p.session || p.year) : p.year;
+    const rest = p => { const m = String(p.title || '').match(/\(([^)]+)\)\s*$/); return m ? ' (' + m[1] + ')' : ''; };
+    const paperRow = p => `<div class="paper"><div><div style="font-weight:700">${esc(p.subject)} · ${esc(yrLabel(p))}${esc(rest(p))}</div>
+      <div class="meta"><span class="kind-tag ${p.kind === 'sample' ? 'mp' : 'bd'}">${p.kind === 'sample' ? 'Model paper' : 'Board exam'}</span> ${esc(p.exam)} · ${p.count} ${t('questions')} · ${p.minutes} ${t('min')}</div>
+      <div class="prow-actions"><button type="button" class="chlink" data-ch="${esc(p.id)}">⚔ ${CH.btn}</button>${offCtl(p)}</div></div>
+      ${startBtn(p, 'state')}</div>`;
+    const sortP = (x, y) => (String(x.class).localeCompare(String(y.class))) || (subjOrder(x.subject) - subjOrder(y.subject)) || String(x.subject).localeCompare(String(y.subject)) || ((x.kind === 'sample') - (y.kind === 'sample')) || (stateCardYear(y) - stateCardYear(x)) || String(x.title).localeCompare(String(y.title));
+    const section = s => { const ps = all.filter(p => p.state === s).sort(sortP); const boards = [...new Set(ps.map(p => p.exam))];
+      return `<h2 class="state-h" id="st-${stateSlug(s)}">${esc(s)} <span class="state-n">${ps.length} papers · ${ps.reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></h2>
+      <p class="muted small" style="margin:-4px 0 8px">${boards.map(esc).join(' · ')}</p>
+      ${['10', '12'].map(c => { const cp = ps.filter(p => String(p.class) === c); return cp.length ? `<section class="card"><h3 class="state-cls">Class ${c}</h3>${cp.map(paperRow).join('')}</section>` : ''; }).join('')}`; };
+    const stateAttempts = (() => { const ex = new Set(all.map(p => p.exam)); const list = attempts().filter(a => ex.has(a.exam)).slice(0, 8);
+      return list.length ? '<div>' + list.map(a => `<div class="attempt"><div><div style="font-weight:700">${esc(a.title)}</div><div class="muted small">${a.fullName ? esc(a.fullName) + ' · ' : ''}${fmtDate(a.finishedAt)} · ${t('accuracy')} ${a.accuracy}%</div></div>
+      <div class="row"><span class="score">${a.score}/${a.max}</span><a class="btn" style="min-height:40px;padding:6px 12px" href="#/result/${a.id}">${t('viewResult')}</a></div></div>`).join('') + '</div>' : `<p class="muted small">${t('noAttempts')}</p>`; })();
+    app.innerHTML = `${active ? resumeCard() : ''}
+      <a href="#/" class="backbtn">← ${t('back')}</a>
+      <h1>State Boards</h1>
+      <p class="muted small" style="margin-top:0">${t('marking')}: ${t('markingState')}</p>
+      ${states.length ? `<div class="chips state-chips">${states.map(s => `<button class="chip" type="button" data-st="${esc(stateSlug(s))}">${esc(s)}</button>`).join('')}</div>
+      ${states.map(section).join('')}` : `<section class="card"><p class="muted">${t('cbseComingSoon')}</p></section>`}
+      <h2>${t('pastAttempts')}</h2>
+      <section class="card">${stateAttempts}</section>
+      <p class="note">${t('stateSource')}</p>`;
+    bindResume();
+    app.querySelectorAll('[data-st]').forEach(b => b.onclick = () => { const el = document.getElementById('st-' + b.dataset.st); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    app.querySelectorAll('[data-full]').forEach(b => b.onclick = () => startFull(b.dataset.full));
+    app.querySelectorAll('[data-ch]').forEach(b => b.onclick = () => challengeFromPaper(b.dataset.ch));
+    bindOffline(app, () => { const y = window.scrollY; viewState(); window.scrollTo(0, y); });
+    if (slug) { const el = document.getElementById('st-' + slug); if (el) setTimeout(() => el.scrollIntoView({ block: 'start' }), 30); }
+  }
   function confirmReplace() { return !active || confirm(t('discardConfirm')); }
   async function startFull(id, challenge) {
     if (!confirmReplace()) return false;
@@ -592,7 +637,7 @@
     const logo = new Image(); logo.src = 'assets/wordmark.png?v=sx3';
     try { await logo.decode(); const lw = 520, lh = lw * logo.naturalHeight / logo.naturalWidth; c.drawImage(logo, (W - lw) / 2, 168, lw, lh); }
     catch (e) { c.font = '600 110px ' + display; c.fillStyle = '#3A1C71'; c.fillText('SONEXA', W / 2, 290); }
-    c.font = '700 30px ' + ui; c.fillStyle = '#7A6F8E'; spaced(at.exam === 'CBSE' ? 'CBSE BOARD PRACTICE' : at.exam === 'NDA' ? 'NDA PRACTICE' : 'NEET · JEE PRACTICE', W / 2, 375, 6);
+    c.font = '700 30px ' + ui; c.fillStyle = '#7A6F8E'; spaced(at.exam === 'CBSE' ? 'CBSE BOARD PRACTICE' : at.exam === 'NDA' ? 'NDA PRACTICE' : isStateExam(at.exam) ? 'STATE BOARD PRACTICE' : 'NEET · JEE PRACTICE', W / 2, 375, 6);
     // main card
     const cx = 70, cy = 450, cw = 940, ch = 1080;
     rr(cx, cy, cw, ch, 56, '#3A1C71');
@@ -665,7 +710,7 @@
     await loadPapers(at.paperIds.filter(meta));
     const qs = at.qids.map(qById).filter(Boolean);
     const r = PYQScoring.score(qs, at.answers, { marking: at.marking, rules: at.rules });
-    const ex = at.exam === 'NEET' ? 'neet' : at.exam === 'CBSE' ? 'cbse' : at.exam === 'JEE Advanced' ? 'jeeadv' : at.exam === 'NDA' ? 'nda' : 'jee';
+    const ex = exKeyOf(at.exam);
     const subRows = Object.entries(r.bySubject).map(([s, v]) => `<tr><td>${s}</td><td>${v.attempted}/${v.total}</td><td style="color:var(--ok)">${v.correct}</td><td style="color:var(--bad)">${v.wrong}</td><td><b>${v.score}</b>/${v.max}</td></tr>`).join('');
     let filter = 'all';
     const showQl = [...new Set(qs.map(q => q.paperId))].some(paperHasHi);
@@ -1022,7 +1067,7 @@
         <div class="vs-strip">${cells}</div>
       </section>
       ${rec ? `<div class="row"><button type="button" class="btn primary" id="chBack" style="flex:1">Send my result back</button>${rec.attemptId && attempts().some(x => x.id === rec.attemptId) ? `<a class="btn" href="#/result/${esc(rec.attemptId)}" style="flex:1">My full result</a>` : ''}</div>` :
-        `<a class="btn ch-go block" href="#/exam/${p.exam === 'NEET' ? 'neet' : p.exam === 'CBSE' ? 'cbse' : p.exam === 'JEE Advanced' ? 'jeeadv' : p.exam === 'NDA' ? 'nda' : 'jee'}">Try this paper yourself</a>`}
+        `<a class="btn ch-go block" href="#/exam/${exKeyOf(p.exam)}">Try this paper yourself</a>`}
       <p class="ch-note" style="text-align:center">${esc(CH.note)} Answers stay on each phone.</p>
       ${siteFooter()}`;
     const back = document.getElementById('chBack');
@@ -1043,7 +1088,7 @@
   const mxAll = () => load(LS_MX, {});
   const mxSave = m => save(LS_MX, m);
   const mxActive = m => Object.values(m || mxAll()).filter(e => !e.m);
-  const mxExamCls = e => e === 'NEET' ? 'neet' : e === 'CBSE' ? 'cbse' : e === 'JEE Advanced' ? 'jeeadv' : e === 'NDA' ? 'nda' : 'jee';
+  const mxExamCls = exKeyOf;
   const mxQno = q => q.exam === 'NDA' && q.srcQno ? q.srcQno : q.qno;
   const mxLabel = (q, v) => v == null || v === '' ? '' : (q.type === 'numerical' ? String(v) : (optLabels(q) ? optLabel(q, Number(v) - 1) : String(v)));
   function mxSeenAdd(id) { const s = load(LS_MXSEEN, []); if (!s.includes(id)) { s.unshift(id); save(LS_MXSEEN, s.slice(0, 300)); } }

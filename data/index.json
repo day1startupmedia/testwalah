@@ -5616,5 +5616,2488 @@
    "mcq": 115
   },
   "file": "data/nda-2023-2-maths.js"
+ },
+ {
+  "id": "gseb12-biology-board-2020-set-11",
+  "exam": "Gujarat Board",
+  "state": "Gujarat",
+  "board": "Gujarat Secondary and Higher Secondary Education Board (GSHSEB)",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2019-20",
+  "year": 2020,
+  "title": "Biology · Board 2020 (Set 11)",
+  "shareTitle": "Gujarat Board Class 12 · Biology · Board 2020 (Set 11)",
+  "date": "GSEB Board Exam 2020",
+  "minutes": 74,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "GSEB Answer Key, HSC Science March 2020 (Biology, Set 11; provisional key confirmed unchanged as final by the GSEB press note of 22-05-2020)",
+   "url": "https://www.gsebeservice.com/assets/news/science%20key.pdf"
+  },
+  "paperUrl": "https://www.gsebeservice.com/assets/pdf/quepaper/12S/12S184912.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A) from the official GSEB HSC Science Stream board exam question paper (English medium); answers from the official GSEB answer key. Left out: Q17 (official key accepts more than one option (A,B)).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "11",
+  "count": 49,
+  "bySubject": {
+   "Biology": 49
+  },
+  "byType": {
+   "mcq": 49
+  },
+  "file": "data/gseb12-biology-board-2020-set-11.js"
+ },
+ {
+  "id": "gseb12-biology-board-2022-set-20",
+  "exam": "Gujarat Board",
+  "state": "Gujarat",
+  "board": "Gujarat Secondary and Higher Secondary Education Board (GSHSEB)",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2021-22",
+  "year": 2022,
+  "title": "Biology · Board 2022 (Set 20)",
+  "shareTitle": "Gujarat Board Class 12 · Biology · Board 2022 (Set 20)",
+  "date": "GSEB Board Exam 2022",
+  "minutes": 74,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "GSEB Final Answer Key, HSC Science March 2022 (Biology, Set 20)",
+   "url": "https://www.gsebeservice.com/assets/news/Final%20SCience%20Answer%20Key%202022.pdf"
+  },
+  "paperUrl": "https://www.gsebeservice.com/assets/pdf/quepaper/12S/12S587541.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A) from the official GSEB HSC Science Stream board exam question paper (English medium); answers from the official GSEB answer key. Left out: Q40 (official key accepts more than one option (A,B,C)).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "20",
+  "count": 49,
+  "bySubject": {
+   "Biology": 49
+  },
+  "byType": {
+   "mcq": 49
+  },
+  "file": "data/gseb12-biology-board-2022-set-20.js"
+ },
+ {
+  "id": "gseb12-chemistry-board-2020-set-15",
+  "exam": "Gujarat Board",
+  "state": "Gujarat",
+  "board": "Gujarat Secondary and Higher Secondary Education Board (GSHSEB)",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2019-20",
+  "year": 2020,
+  "title": "Chemistry · Board 2020 (Set 15)",
+  "shareTitle": "Gujarat Board Class 12 · Chemistry · Board 2020 (Set 15)",
+  "date": "GSEB Board Exam 2020",
+  "minutes": 75,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "GSEB Answer Key, HSC Science March 2020 (Chemistry, Set 15; provisional key confirmed unchanged as final by the GSEB press note of 22-05-2020)",
+   "url": "https://www.gsebeservice.com/assets/news/science%20key.pdf"
+  },
+  "paperUrl": "https://www.gsebeservice.com/assets/pdf/quepaper/12S/12S184912.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A) from the official GSEB HSC Science Stream board exam question paper (English medium); answers from the official GSEB answer key.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "15",
+  "count": 50,
+  "bySubject": {
+   "Chemistry": 50
+  },
+  "byType": {
+   "mcq": 50
+  },
+  "file": "data/gseb12-chemistry-board-2020-set-15.js"
+ },
+ {
+  "id": "gseb12-chemistry-board-2022-set-17",
+  "exam": "Gujarat Board",
+  "state": "Gujarat",
+  "board": "Gujarat Secondary and Higher Secondary Education Board (GSHSEB)",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2021-22",
+  "year": 2022,
+  "title": "Chemistry · Board 2022 (Set 17)",
+  "shareTitle": "Gujarat Board Class 12 · Chemistry · Board 2022 (Set 17)",
+  "date": "GSEB Board Exam 2022",
+  "minutes": 69,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "GSEB Final Answer Key, HSC Science March 2022 (Chemistry, Set 17)",
+   "url": "https://www.gsebeservice.com/assets/news/Final%20SCience%20Answer%20Key%202022.pdf"
+  },
+  "paperUrl": "https://www.gsebeservice.com/assets/pdf/quepaper/12S/12S587541.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A) from the official GSEB HSC Science Stream board exam question paper (English medium); answers from the official GSEB answer key. Left out: Q14 (official key gives no single answer (marked * )); Q36 (official key accepts more than one option (A,D)); Q37 (a blot in the official scan covers option (D)); Q44 (option (D) is illegible in the official scan).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "17",
+  "count": 46,
+  "bySubject": {
+   "Chemistry": 46
+  },
+  "byType": {
+   "mcq": 46
+  },
+  "file": "data/gseb12-chemistry-board-2022-set-17.js"
+ },
+ {
+  "id": "gseb12-maths-board-2020-set-06",
+  "exam": "Gujarat Board",
+  "state": "Gujarat",
+  "board": "Gujarat Secondary and Higher Secondary Education Board (GSHSEB)",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2019-20",
+  "year": 2020,
+  "title": "Maths · Board 2020 (Set 06)",
+  "shareTitle": "Gujarat Board Class 12 · Maths · Board 2020 (Set 06)",
+  "date": "GSEB Board Exam 2020",
+  "minutes": 72,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "GSEB Final Answer Key, HSC Science March 2020 (Maths, Set 06)",
+   "url": "https://www.gsebeservice.com/assets/news/hsc%20science%20final%20key.pdf"
+  },
+  "paperUrl": "https://www.gsebeservice.com/assets/pdf/quepaper/12S/12S184912.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A) from the official GSEB HSC Science Stream board exam question paper (English medium); answers from the official GSEB answer key. Left out: Q2 (official key accepts more than one option (B,D)); Q38 (the four options are full-page graphs spread over two pages).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "06",
+  "count": 48,
+  "bySubject": {
+   "Maths": 48
+  },
+  "byType": {
+   "mcq": 48
+  },
+  "file": "data/gseb12-maths-board-2020-set-06.js"
+ },
+ {
+  "id": "gseb12-maths-board-2022-set-01",
+  "exam": "Gujarat Board",
+  "state": "Gujarat",
+  "board": "Gujarat Secondary and Higher Secondary Education Board (GSHSEB)",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2021-22",
+  "year": 2022,
+  "title": "Maths · Board 2022 (Set 01)",
+  "shareTitle": "Gujarat Board Class 12 · Maths · Board 2022 (Set 01)",
+  "date": "GSEB Board Exam 2022",
+  "minutes": 74,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "GSEB Final Answer Key, HSC Science March 2022 (Maths, Set 01)",
+   "url": "https://www.gsebeservice.com/assets/news/Final%20SCience%20Answer%20Key%202022.pdf"
+  },
+  "paperUrl": "https://www.gsebeservice.com/assets/pdf/quepaper/12S/12S587541.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A) from the official GSEB HSC Science Stream board exam question paper (English medium); answers from the official GSEB answer key. Left out: Q18 (official key accepts more than one option (A,C)).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "01",
+  "count": 49,
+  "bySubject": {
+   "Maths": 49
+  },
+  "byType": {
+   "mcq": 49
+  },
+  "file": "data/gseb12-maths-board-2022-set-01.js"
+ },
+ {
+  "id": "gseb12-physics-board-2020-set-19",
+  "exam": "Gujarat Board",
+  "state": "Gujarat",
+  "board": "Gujarat Secondary and Higher Secondary Education Board (GSHSEB)",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2019-20",
+  "year": 2020,
+  "title": "Physics · Board 2020 (Set 19)",
+  "shareTitle": "Gujarat Board Class 12 · Physics · Board 2020 (Set 19)",
+  "date": "GSEB Board Exam 2020",
+  "minutes": 75,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "GSEB Answer Key, HSC Science March 2020 (Physics, Set 19; provisional key confirmed unchanged as final by the GSEB press note of 22-05-2020)",
+   "url": "https://www.gsebeservice.com/assets/news/science%20key.pdf"
+  },
+  "paperUrl": "https://www.gsebeservice.com/assets/pdf/quepaper/12S/12S184912.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A) from the official GSEB HSC Science Stream board exam question paper (English medium); answers from the official GSEB answer key.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "19",
+  "count": 50,
+  "bySubject": {
+   "Physics": 50
+  },
+  "byType": {
+   "mcq": 50
+  },
+  "file": "data/gseb12-physics-board-2020-set-19.js"
+ },
+ {
+  "id": "gseb12-physics-board-2022-set-19",
+  "exam": "Gujarat Board",
+  "state": "Gujarat",
+  "board": "Gujarat Secondary and Higher Secondary Education Board (GSHSEB)",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2021-22",
+  "year": 2022,
+  "title": "Physics · Board 2022 (Set 19)",
+  "shareTitle": "Gujarat Board Class 12 · Physics · Board 2022 (Set 19)",
+  "date": "GSEB Board Exam 2022",
+  "minutes": 74,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "GSEB Final Answer Key, HSC Science March 2022 (Physics, Set 19)",
+   "url": "https://www.gsebeservice.com/assets/news/Final%20SCience%20Answer%20Key%202022.pdf"
+  },
+  "paperUrl": "https://www.gsebeservice.com/assets/pdf/quepaper/12S/12S587541.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A) from the official GSEB HSC Science Stream board exam question paper (English medium); answers from the official GSEB answer key. Left out: Q27 (official key accepts more than one option (A,C)).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "19",
+  "count": 49,
+  "bySubject": {
+   "Physics": 49
+  },
+  "byType": {
+   "mcq": 49
+  },
+  "file": "data/gseb12-physics-board-2022-set-19.js"
+ },
+ {
+  "id": "hbse10-maths-basic-mp-2027",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2026-27",
+  "year": 2027,
+  "title": "Maths Basic · Model Paper 2026-27",
+  "shareTitle": "Haryana Board Class 10 · Maths Basic · Model Paper 2026-27",
+  "date": "BSEH Model Paper 2026-27",
+  "minutes": 18,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2026-27 (Class 10 Maths Basic)",
+   "url": "https://bseh.org.in/uploads/files/05e9daad8b72b643afedc11d2154ef73.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/930502aaad7e5ea09005a510248480a8.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2026-27 (Class 10 Maths Basic).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 12,
+  "bySubject": {
+   "Maths Basic": 12
+  },
+  "byType": {
+   "mcq": 12
+  },
+  "file": "data/hbse10-maths-basic-mp-2027.js"
+ },
+ {
+  "id": "hbse10-maths-basic-mp-2026",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Maths Basic · Model Paper 2025-26",
+  "shareTitle": "Haryana Board Class 10 · Maths Basic · Model Paper 2025-26",
+  "date": "BSEH Model Paper 2025-26",
+  "minutes": 12,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2025-26 (Class 10 Maths Basic)",
+   "url": "https://bseh.org.in/uploads/files/088d7241b91a1a0f9d497422c25d0348.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/202f28036bc63b413d6871277d8bb2e7.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2025-26 (Class 10 Maths Basic).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 8,
+  "bySubject": {
+   "Maths Basic": 8
+  },
+  "byType": {
+   "mcq": 8
+  },
+  "file": "data/hbse10-maths-basic-mp-2026.js"
+ },
+ {
+  "id": "hbse10-maths-basic-mp-2025",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Maths Basic · Model Paper 2024-25",
+  "shareTitle": "Haryana Board Class 10 · Maths Basic · Model Paper 2024-25",
+  "date": "BSEH Model Paper 2024-25",
+  "minutes": 14,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2024-25 (Class 10 Maths Basic)",
+   "url": "https://bseh.org.in/uploads/files/d3cc4d35a7f7c83f912f46654878d76e.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/67a94e7fa2eebb047de3c84447213830.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2024-25 (Class 10 Maths Basic).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 9,
+  "bySubject": {
+   "Maths Basic": 9
+  },
+  "byType": {
+   "mcq": 9
+  },
+  "file": "data/hbse10-maths-basic-mp-2025.js"
+ },
+ {
+  "id": "hbse10-maths-standard-mp-2026",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "10",
+  "subject": "Maths Standard",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Maths Standard · Model Paper 2025-26",
+  "shareTitle": "Haryana Board Class 10 · Maths Standard · Model Paper 2025-26",
+  "date": "BSEH Model Paper 2025-26",
+  "minutes": 17,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2025-26 (Class 10 Maths Standard)",
+   "url": "https://bseh.org.in/uploads/files/3aff5d5bee2c59da09867857123d0633.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/054e9bb47792e6d553d8b61b41ab33fc.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2025-26 (Class 10 Maths Standard).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 11,
+  "bySubject": {
+   "Maths Standard": 11
+  },
+  "byType": {
+   "mcq": 11
+  },
+  "file": "data/hbse10-maths-standard-mp-2026.js"
+ },
+ {
+  "id": "hbse10-maths-standard-mp-2025",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "10",
+  "subject": "Maths Standard",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Maths Standard · Model Paper 2024-25",
+  "shareTitle": "Haryana Board Class 10 · Maths Standard · Model Paper 2024-25",
+  "date": "BSEH Model Paper 2024-25",
+  "minutes": 15,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2024-25 (Class 10 Maths Standard)",
+   "url": "https://bseh.org.in/uploads/files/5d47ab3b98061db5ccf893f2147a33a1.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/439ab9183e6f90a9c25a6a6eb8180547.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2024-25 (Class 10 Maths Standard).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 10,
+  "bySubject": {
+   "Maths Standard": 10
+  },
+  "byType": {
+   "mcq": 10
+  },
+  "file": "data/hbse10-maths-standard-mp-2025.js"
+ },
+ {
+  "id": "hbse10-science-mp-2026",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "10",
+  "subject": "Science",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Science · Model Paper 2025-26",
+  "shareTitle": "Haryana Board Class 10 · Science · Model Paper 2025-26",
+  "date": "BSEH Model Paper 2025-26",
+  "minutes": 14,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2025-26 (Class 10 Science)",
+   "url": "https://bseh.org.in/uploads/files/146eb57d1743027df2e6983333df30fd.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/10eea3f5dbca45e1b96fc71c6ed84826.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2025-26 (Class 10 Science).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 9,
+  "bySubject": {
+   "Science": 9
+  },
+  "byType": {
+   "mcq": 9
+  },
+  "file": "data/hbse10-science-mp-2026.js"
+ },
+ {
+  "id": "hbse10-social-science-mp-2027",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2026-27",
+  "year": 2027,
+  "title": "Social Science · Model Paper 2026-27",
+  "shareTitle": "Haryana Board Class 10 · Social Science · Model Paper 2026-27",
+  "date": "BSEH Model Paper 2026-27",
+  "minutes": 21,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2026-27 (Class 10 Social Science)",
+   "url": "https://bseh.org.in/uploads/files/612ae5b73d81d2556b64c1ac21664ab8.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/67553433bc8f9dfd6ee99b0a45d94318.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2026-27 (Class 10 Social Science).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 14,
+  "bySubject": {
+   "Social Science": 14
+  },
+  "byType": {
+   "mcq": 14
+  },
+  "file": "data/hbse10-social-science-mp-2027.js"
+ },
+ {
+  "id": "hbse10-social-science-mp-2026",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Social Science · Model Paper 2025-26",
+  "shareTitle": "Haryana Board Class 10 · Social Science · Model Paper 2025-26",
+  "date": "BSEH Model Paper 2025-26",
+  "minutes": 23,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2025-26 (Class 10 Social Science)",
+   "url": "https://bseh.org.in/uploads/files/1bf88464cca1be4381c731d5c1fe5308.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/47a76ebc1058b9800ac3a49f5df1f35e.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2025-26 (Class 10 Social Science).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 15,
+  "bySubject": {
+   "Social Science": 15
+  },
+  "byType": {
+   "mcq": 15
+  },
+  "file": "data/hbse10-social-science-mp-2026.js"
+ },
+ {
+  "id": "hbse10-social-science-mp-2025",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Social Science · Model Paper 2024-25",
+  "shareTitle": "Haryana Board Class 10 · Social Science · Model Paper 2024-25",
+  "date": "BSEH Model Paper 2024-25",
+  "minutes": 29,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2024-25 (Class 10 Social Science)",
+   "url": "https://bseh.org.in/uploads/files/0f60089e163588bba6b2e7e80521812b.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/958fc0457ac9e30cd5b98bb3e445bca0.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2024-25 (Class 10 Social Science).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 19,
+  "bySubject": {
+   "Social Science": 19
+  },
+  "byType": {
+   "mcq": 19
+  },
+  "file": "data/hbse10-social-science-mp-2025.js"
+ },
+ {
+  "id": "hbse12-biology-mp-2027",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2026-27",
+  "year": 2027,
+  "title": "Biology · Model Paper 2026-27",
+  "shareTitle": "Haryana Board Class 12 · Biology · Model Paper 2026-27",
+  "date": "BSEH Model Paper 2026-27",
+  "minutes": 18,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2026-27 (Class 12 Biology)",
+   "url": "https://bseh.org.in/uploads/files/d49e3c1373823fca17068928c9b01e62.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/0998e28ecb8f059ef3d3e8c134704585.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2026-27 (Class 12 Biology).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 12,
+  "bySubject": {
+   "Biology": 12
+  },
+  "byType": {
+   "mcq": 12
+  },
+  "file": "data/hbse12-biology-mp-2027.js"
+ },
+ {
+  "id": "hbse12-biology-mp-2026",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Biology · Model Paper 2025-26",
+  "shareTitle": "Haryana Board Class 12 · Biology · Model Paper 2025-26",
+  "date": "BSEH Model Paper 2025-26",
+  "minutes": 18,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2025-26 (Class 12 Biology)",
+   "url": "https://bseh.org.in/uploads/files/df8771825f5501f6dcc23b7125e1ec25.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/de7b52ce48c31b73baa76f994eeb3499.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2025-26 (Class 12 Biology).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 12,
+  "bySubject": {
+   "Biology": 12
+  },
+  "byType": {
+   "mcq": 12
+  },
+  "file": "data/hbse12-biology-mp-2026.js"
+ },
+ {
+  "id": "hbse12-biology-mp-2025",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Biology · Model Paper 2024-25",
+  "shareTitle": "Haryana Board Class 12 · Biology · Model Paper 2024-25",
+  "date": "BSEH Model Paper 2024-25",
+  "minutes": 14,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2024-25 (Class 12 Biology)",
+   "url": "https://bseh.org.in/uploads/files/df007897bfaef0b240830733c53ffe60.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/5a0bffcd2654a758e1939c3482a5a2d7.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2024-25 (Class 12 Biology).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 9,
+  "bySubject": {
+   "Biology": 9
+  },
+  "byType": {
+   "mcq": 9
+  },
+  "file": "data/hbse12-biology-mp-2025.js"
+ },
+ {
+  "id": "hbse12-chemistry-mp-2027",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2026-27",
+  "year": 2027,
+  "title": "Chemistry · Model Paper 2026-27",
+  "shareTitle": "Haryana Board Class 12 · Chemistry · Model Paper 2026-27",
+  "date": "BSEH Model Paper 2026-27",
+  "minutes": 14,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2026-27 (Class 12 Chemistry)",
+   "url": "https://bseh.org.in/uploads/files/c91bec58816bf933079c2cda80f0eea5.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/f36812211035f976d39a11f820ed794b.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2026-27 (Class 12 Chemistry).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 9,
+  "bySubject": {
+   "Chemistry": 9
+  },
+  "byType": {
+   "mcq": 9
+  },
+  "file": "data/hbse12-chemistry-mp-2027.js"
+ },
+ {
+  "id": "hbse12-chemistry-mp-2026",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Chemistry · Model Paper 2025-26",
+  "shareTitle": "Haryana Board Class 12 · Chemistry · Model Paper 2025-26",
+  "date": "BSEH Model Paper 2025-26",
+  "minutes": 12,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2025-26 (Class 12 Chemistry)",
+   "url": "https://bseh.org.in/uploads/files/ad0a1079fb55b64968d5a73f53bd3d8c.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/bf5baedc0d24fce00afa6e2a5d6b6e67.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2025-26 (Class 12 Chemistry).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 8,
+  "bySubject": {
+   "Chemistry": 8
+  },
+  "byType": {
+   "mcq": 8
+  },
+  "file": "data/hbse12-chemistry-mp-2026.js"
+ },
+ {
+  "id": "hbse12-chemistry-mp-2025",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Chemistry · Model Paper 2024-25",
+  "shareTitle": "Haryana Board Class 12 · Chemistry · Model Paper 2024-25",
+  "date": "BSEH Model Paper 2024-25",
+  "minutes": 14,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2024-25 (Class 12 Chemistry)",
+   "url": "https://bseh.org.in/uploads/files/33e940a222554fc3970ecc752da7e579.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/5bd43564d85944cc437fd975394f550f.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2024-25 (Class 12 Chemistry).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 9,
+  "bySubject": {
+   "Chemistry": 9
+  },
+  "byType": {
+   "mcq": 9
+  },
+  "file": "data/hbse12-chemistry-mp-2025.js"
+ },
+ {
+  "id": "hbse12-maths-mp-2027",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2026-27",
+  "year": 2027,
+  "title": "Maths · Model Paper 2026-27",
+  "shareTitle": "Haryana Board Class 12 · Maths · Model Paper 2026-27",
+  "date": "BSEH Model Paper 2026-27",
+  "minutes": 20,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2026-27 (Class 12 Maths)",
+   "url": "https://bseh.org.in/uploads/files/c5d4028173ff4096821da6b2c0e4c250.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/ae9d7beb32f069e6ea32b7b3ed3b0744.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2026-27 (Class 12 Maths).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 13,
+  "bySubject": {
+   "Maths": 13
+  },
+  "byType": {
+   "mcq": 13
+  },
+  "file": "data/hbse12-maths-mp-2027.js"
+ },
+ {
+  "id": "hbse12-maths-mp-2026",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Maths · Model Paper 2025-26",
+  "shareTitle": "Haryana Board Class 12 · Maths · Model Paper 2025-26",
+  "date": "BSEH Model Paper 2025-26",
+  "minutes": 18,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2025-26 (Class 12 Maths)",
+   "url": "https://bseh.org.in/uploads/files/584aca80997a2288594f063e90d1162b.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/1e5c1248269b3ebd57887330460ba8b2.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2025-26 (Class 12 Maths).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 12,
+  "bySubject": {
+   "Maths": 12
+  },
+  "byType": {
+   "mcq": 12
+  },
+  "file": "data/hbse12-maths-mp-2026.js"
+ },
+ {
+  "id": "hbse12-maths-mp-2025",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Maths · Model Paper 2024-25",
+  "shareTitle": "Haryana Board Class 12 · Maths · Model Paper 2024-25",
+  "date": "BSEH Model Paper 2024-25",
+  "minutes": 15,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2024-25 (Class 12 Maths)",
+   "url": "https://bseh.org.in/uploads/files/9d80ea50637935e57af95329059c37a5.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/4cb875e7a47e35127b8e800c52710d95.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2024-25 (Class 12 Maths).",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 10,
+  "bySubject": {
+   "Maths": 10
+  },
+  "byType": {
+   "mcq": 10
+  },
+  "file": "data/hbse12-maths-mp-2025.js"
+ },
+ {
+  "id": "hbse12-physics-mp-2027",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2026-27",
+  "year": 2027,
+  "title": "Physics · Model Paper 2026-27",
+  "shareTitle": "Haryana Board Class 12 · Physics · Model Paper 2026-27",
+  "date": "BSEH Model Paper 2026-27",
+  "minutes": 14,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2026-27 (Class 12 Physics)",
+   "url": "https://bseh.org.in/uploads/files/0b38475bd7efb4983f3baa446ac35f72.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/b0f4ac54c93d8799188c975487845a9a.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2026-27 (Class 12 Physics).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 9,
+  "bySubject": {
+   "Physics": 9
+  },
+  "byType": {
+   "mcq": 9
+  },
+  "file": "data/hbse12-physics-mp-2027.js"
+ },
+ {
+  "id": "hbse12-physics-mp-2026",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Physics · Model Paper 2025-26",
+  "shareTitle": "Haryana Board Class 12 · Physics · Model Paper 2025-26",
+  "date": "BSEH Model Paper 2025-26",
+  "minutes": 12,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2025-26 (Class 12 Physics)",
+   "url": "https://bseh.org.in/uploads/files/9d748ecd2c4a04eb92290d1b22e83318.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/5d7a7e7245e0e1d697e6e3dcc0846801.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2025-26 (Class 12 Physics).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 8,
+  "bySubject": {
+   "Physics": 8
+  },
+  "byType": {
+   "mcq": 8
+  },
+  "file": "data/hbse12-physics-mp-2026.js"
+ },
+ {
+  "id": "hbse12-physics-mp-2025",
+  "exam": "Haryana Board",
+  "state": "Haryana",
+  "board": "Board of School Education Haryana (BSEH)",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Physics · Model Paper 2024-25",
+  "shareTitle": "Haryana Board Class 12 · Physics · Model Paper 2024-25",
+  "date": "BSEH Model Paper 2024-25",
+  "minutes": 14,
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual Hindi/English paper; English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "BSEH Marking Scheme, Model Paper 2024-25 (Class 12 Physics)",
+   "url": "https://bseh.org.in/uploads/files/ff8a8dd695cd695ec2bfaa1344018bcb.pdf"
+  },
+  "paperUrl": "https://bseh.org.in/uploads/files/34cc02429e97986bba7badfd3c2a61eb.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official Board of School Education Haryana (BSEH) model paper; answers from the official BSEH Marking Scheme, Model Paper 2024-25 (Class 12 Physics).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 9,
+  "bySubject": {
+   "Physics": 9
+  },
+  "byType": {
+   "mcq": 9
+  },
+  "file": "data/hbse12-physics-mp-2025.js"
+ },
+ {
+  "id": "hpbose10-maths-mp-2025",
+  "exam": "HP Board",
+  "state": "Himachal Pradesh",
+  "board": "Himachal Pradesh Board of School Education (HPBOSE)",
+  "class": "10",
+  "subject": "Maths",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Maths · Model Paper 2024-25",
+  "shareTitle": "HP Board Class 10 · Maths · Model Paper 2024-25",
+  "date": "HPBOSE Model Paper 2024-25",
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "HPBOSE Step Wise Marking (Model Question Paper Solution) 2024-25, Class 10 Maths",
+   "url": "https://www.hpbose.org/Admin/Upload/SWM.Math.10.26.11.2024.pdf"
+  },
+  "paperUrl": "https://www.hpbose.org/Admin/Upload/MQP.10.Math.05.10.2024.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official HPBOSE Model Question Paper 2024-25 (hpbose.org); answers from the official HPBOSE Step Wise Marking for that paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "minutes": 20,
+  "count": 13,
+  "bySubject": {
+   "Maths": 13
+  },
+  "byType": {
+   "mcq": 13
+  },
+  "file": "data/hpbose10-maths-mp-2025.js"
+ },
+ {
+  "id": "hpbose10-science-mp-2025",
+  "exam": "HP Board",
+  "state": "Himachal Pradesh",
+  "board": "Himachal Pradesh Board of School Education (HPBOSE)",
+  "class": "10",
+  "subject": "Science",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Science · Model Paper 2024-25",
+  "shareTitle": "HP Board Class 10 · Science · Model Paper 2024-25",
+  "date": "HPBOSE Model Paper 2024-25",
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "HPBOSE Step Wise Marking (Model Question Paper Solution) 2024-25, Class 10 Science",
+   "url": "https://www.hpbose.org/Admin/Upload/SWM.Sci.10.26.11.2024.pdf"
+  },
+  "paperUrl": "https://www.hpbose.org/Admin/Upload/MQP.10.Sci.05.10.2024.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official HPBOSE Model Question Paper 2024-25 (hpbose.org); answers from the official HPBOSE Step Wise Marking for that paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "minutes": 18,
+  "count": 12,
+  "bySubject": {
+   "Science": 12
+  },
+  "byType": {
+   "mcq": 12
+  },
+  "file": "data/hpbose10-science-mp-2025.js"
+ },
+ {
+  "id": "jac10-maths-mp-2026",
+  "exam": "Jharkhand Board",
+  "state": "Jharkhand",
+  "board": "Jharkhand Academic Council (JAC), model paper by JCERT Ranchi",
+  "class": "10",
+  "subject": "Maths",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Maths · Model Paper 2025-26",
+  "shareTitle": "Jharkhand Board Class 10 · Maths · Model Paper 2025-26",
+  "date": "JAC Model Paper 2025-26",
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "JCERT/JAC Model Question Paper 2025-26 Answer Key (Class 10 Maths)",
+   "url": "https://jacexamportal.in/2026_Model/Secondary_2026_Model.pdf"
+  },
+  "paperUrl": "https://jacexamportal.in/2026_Model/Secondary_2026_Model.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official JAC/JCERT Model Question Paper 2025-26 (jacexamportal.in); answers from the answer key printed in the same official model paper.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "minutes": 38,
+  "count": 25,
+  "bySubject": {
+   "Maths": 25
+  },
+  "byType": {
+   "mcq": 25
+  },
+  "file": "data/jac10-maths-mp-2026.js"
+ },
+ {
+  "id": "jac10-science-mp-2026",
+  "exam": "Jharkhand Board",
+  "state": "Jharkhand",
+  "board": "Jharkhand Academic Council (JAC), model paper by JCERT Ranchi",
+  "class": "10",
+  "subject": "Science",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Science · Model Paper 2025-26",
+  "shareTitle": "Jharkhand Board Class 10 · Science · Model Paper 2025-26",
+  "date": "JAC Model Paper 2025-26",
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "JCERT/JAC Model Question Paper 2025-26 Answer Key (Class 10 Science)",
+   "url": "https://jacexamportal.in/2026_Model/Secondary_2026_Model.pdf"
+  },
+  "paperUrl": "https://jacexamportal.in/2026_Model/Secondary_2026_Model.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official JAC/JCERT Model Question Paper 2025-26 (jacexamportal.in); answers from the answer key printed in the same official model paper.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "minutes": 44,
+  "count": 29,
+  "bySubject": {
+   "Science": 29
+  },
+  "byType": {
+   "mcq": 29
+  },
+  "file": "data/jac10-science-mp-2026.js"
+ },
+ {
+  "id": "jac12-biology-mp-2026",
+  "exam": "Jharkhand Board",
+  "state": "Jharkhand",
+  "board": "Jharkhand Academic Council (JAC), model paper by JCERT Ranchi",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Biology · Model Paper 2025-26",
+  "shareTitle": "Jharkhand Board Class 12 · Biology · Model Paper 2025-26",
+  "date": "JAC Model Paper 2025-26",
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "JCERT/JAC Model Question Paper 2025-26 Answer Key (Class 12 Biology)",
+   "url": "https://jacexamportal.in/2026_Model/INTERMEDIATE_MODEL_2026.pdf"
+  },
+  "paperUrl": "https://jacexamportal.in/2026_Model/INTERMEDIATE_MODEL_2026.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official JAC/JCERT Model Question Paper 2025-26 (jacexamportal.in); answers from the answer key printed in the same official model paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "minutes": 29,
+  "count": 19,
+  "bySubject": {
+   "Biology": 19
+  },
+  "byType": {
+   "mcq": 19
+  },
+  "file": "data/jac12-biology-mp-2026.js"
+ },
+ {
+  "id": "jac12-chemistry-mp-2026",
+  "exam": "Jharkhand Board",
+  "state": "Jharkhand",
+  "board": "Jharkhand Academic Council (JAC), model paper by JCERT Ranchi",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Chemistry · Model Paper 2025-26",
+  "shareTitle": "Jharkhand Board Class 12 · Chemistry · Model Paper 2025-26",
+  "date": "JAC Model Paper 2025-26",
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "JCERT/JAC Model Question Paper 2025-26 Answer Key (Class 12 Chemistry)",
+   "url": "https://jacexamportal.in/2026_Model/INTERMEDIATE_MODEL_2026.pdf"
+  },
+  "paperUrl": "https://jacexamportal.in/2026_Model/INTERMEDIATE_MODEL_2026.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official JAC/JCERT Model Question Paper 2025-26 (jacexamportal.in); answers from the answer key printed in the same official model paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "minutes": 35,
+  "count": 23,
+  "bySubject": {
+   "Chemistry": 23
+  },
+  "byType": {
+   "mcq": 23
+  },
+  "file": "data/jac12-chemistry-mp-2026.js"
+ },
+ {
+  "id": "jac12-maths-mp-2026",
+  "exam": "Jharkhand Board",
+  "state": "Jharkhand",
+  "board": "Jharkhand Academic Council (JAC), model paper by JCERT Ranchi",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Maths · Model Paper 2025-26",
+  "shareTitle": "Jharkhand Board Class 12 · Maths · Model Paper 2025-26",
+  "date": "JAC Model Paper 2025-26",
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "Hindi + English (bilingual paper; both versions shown)",
+  "answerKey": {
+   "type": "official",
+   "name": "JCERT/JAC Model Question Paper 2025-26 Answer Key (Class 12 Maths)",
+   "url": "https://jacexamportal.in/2026_Model/INTERMEDIATE_MODEL_2026.pdf"
+  },
+  "paperUrl": "https://jacexamportal.in/2026_Model/INTERMEDIATE_MODEL_2026.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official JAC/JCERT Model Question Paper 2025-26 (jacexamportal.in); answers from the answer key printed in the same official model paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "minutes": 39,
+  "count": 26,
+  "bySubject": {
+   "Maths": 26
+  },
+  "byType": {
+   "mcq": 26
+  },
+  "file": "data/jac12-maths-mp-2026.js"
+ },
+ {
+  "id": "jac12-physics-mp-2026",
+  "exam": "Jharkhand Board",
+  "state": "Jharkhand",
+  "board": "Jharkhand Academic Council (JAC), model paper by JCERT Ranchi",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Physics · Model Paper 2025-26",
+  "shareTitle": "Jharkhand Board Class 12 · Physics · Model Paper 2025-26",
+  "date": "JAC Model Paper 2025-26",
+  "kind": "sample",
+  "paperType": "Model Paper",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "JCERT/JAC Model Question Paper 2025-26 Answer Key (Class 12 Physics)",
+   "url": "https://jacexamportal.in/2026_Model/INTERMEDIATE_MODEL_2026.pdf"
+  },
+  "paperUrl": "https://jacexamportal.in/2026_Model/INTERMEDIATE_MODEL_2026.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official JAC/JCERT Model Question Paper 2025-26 (jacexamportal.in); answers from the answer key printed in the same official model paper.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "minutes": 38,
+  "count": 25,
+  "bySubject": {
+   "Physics": 25
+  },
+  "byType": {
+   "mcq": 25
+  },
+  "file": "data/jac12-physics-mp-2026.js"
+ },
+ {
+  "id": "kpue12-biology-board-2026-exam1",
+  "exam": "Karnataka PUC",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB), II PUC",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Biology · Board 2026 (Exam-1)",
+  "shareTitle": "Karnataka PUC Class 12 · Biology · Board 2026 (Exam-1)",
+  "date": "KSEAB II PUC Exam-1 2026",
+  "minutes": 21,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB II PUC Exam-1 2026 Scheme of Evaluation / Model Answers (36 - Biology)",
+   "url": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/36_MP_EX1_2027.pdf"
+  },
+  "paperUrl": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/36_QP_EX1_2027.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A, multiple choice) from the official KSEAB II PUC Exam-1 2026 question paper (36 Biology, English version of the Kannada/English paper); answers from the official KSEAB scheme of evaluation (model answers) for the same paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 14,
+  "bySubject": {
+   "Biology": 14
+  },
+  "byType": {
+   "mcq": 14
+  },
+  "file": "data/kpue12-biology-board-2026-exam1.js"
+ },
+ {
+  "id": "kpue12-biology-board-2026-exam2",
+  "exam": "Karnataka PUC",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB), II PUC",
+  "class": "12",
+  "subject": "Biology",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Biology · Board 2026 (Exam-2)",
+  "shareTitle": "Karnataka PUC Class 12 · Biology · Board 2026 (Exam-2)",
+  "date": "KSEAB II PUC Exam-2 2026",
+  "minutes": 23,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB II PUC Exam-2 2026 Scheme of Evaluation / Model Answers (36 - Biology)",
+   "url": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/36_MP_EX2_2027.pdf"
+  },
+  "paperUrl": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/36_QP_EX2_2027.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A, multiple choice) from the official KSEAB II PUC Exam-2 2026 question paper (36 Biology, English version of the Kannada/English paper); answers from the official KSEAB scheme of evaluation (model answers) for the same paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 15,
+  "bySubject": {
+   "Biology": 15
+  },
+  "byType": {
+   "mcq": 15
+  },
+  "file": "data/kpue12-biology-board-2026-exam2.js"
+ },
+ {
+  "id": "kpue12-chemistry-board-2026-exam1",
+  "exam": "Karnataka PUC",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB), II PUC",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Chemistry · Board 2026 (Exam-1)",
+  "shareTitle": "Karnataka PUC Class 12 · Chemistry · Board 2026 (Exam-1)",
+  "date": "KSEAB II PUC Exam-1 2026",
+  "minutes": 23,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB II PUC Exam-1 2026 Scheme of Evaluation / Model Answers (34 - Chemistry)",
+   "url": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/34_MP_EX1_2027.pdf"
+  },
+  "paperUrl": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/34_QP_EX1_2027.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A, multiple choice) from the official KSEAB II PUC Exam-1 2026 question paper (34 Chemistry, English version of the Kannada/English paper); answers from the official KSEAB scheme of evaluation (model answers) for the same paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 15,
+  "bySubject": {
+   "Chemistry": 15
+  },
+  "byType": {
+   "mcq": 15
+  },
+  "file": "data/kpue12-chemistry-board-2026-exam1.js"
+ },
+ {
+  "id": "kpue12-chemistry-board-2026-exam2",
+  "exam": "Karnataka PUC",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB), II PUC",
+  "class": "12",
+  "subject": "Chemistry",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Chemistry · Board 2026 (Exam-2)",
+  "shareTitle": "Karnataka PUC Class 12 · Chemistry · Board 2026 (Exam-2)",
+  "date": "KSEAB II PUC Exam-2 2026",
+  "minutes": 23,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB II PUC Exam-2 2026 Scheme of Evaluation / Model Answers (34 - Chemistry)",
+   "url": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/34_MP_EX2_2027.pdf"
+  },
+  "paperUrl": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/34_QP_EX2_2027.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A, multiple choice) from the official KSEAB II PUC Exam-2 2026 question paper (34 Chemistry, English version of the Kannada/English paper); answers from the official KSEAB scheme of evaluation (model answers) for the same paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 15,
+  "bySubject": {
+   "Chemistry": 15
+  },
+  "byType": {
+   "mcq": 15
+  },
+  "file": "data/kpue12-chemistry-board-2026-exam2.js"
+ },
+ {
+  "id": "kpue12-maths-board-2026-exam1",
+  "exam": "Karnataka PUC",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB), II PUC",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Maths · Board 2026 (Exam-1)",
+  "shareTitle": "Karnataka PUC Class 12 · Maths · Board 2026 (Exam-1)",
+  "date": "KSEAB II PUC Exam-1 2026",
+  "minutes": 23,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB II PUC Exam-1 2026 Scheme of Evaluation / Model Answers (35 - Mathematics)",
+   "url": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/35_MP_EX1_2027.pdf"
+  },
+  "paperUrl": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/35_QP_EX1_2027.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A, multiple choice) from the official KSEAB II PUC Exam-1 2026 question paper (35 Mathematics, English version of the Kannada/English paper); answers from the official KSEAB scheme of evaluation (model answers) for the same paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 15,
+  "bySubject": {
+   "Maths": 15
+  },
+  "byType": {
+   "mcq": 15
+  },
+  "file": "data/kpue12-maths-board-2026-exam1.js"
+ },
+ {
+  "id": "kpue12-maths-board-2026-exam2",
+  "exam": "Karnataka PUC",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB), II PUC",
+  "class": "12",
+  "subject": "Maths",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Maths · Board 2026 (Exam-2)",
+  "shareTitle": "Karnataka PUC Class 12 · Maths · Board 2026 (Exam-2)",
+  "date": "KSEAB II PUC Exam-2 2026",
+  "minutes": 23,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB II PUC Exam-2 2026 Scheme of Evaluation / Model Answers (35 - Mathematics)",
+   "url": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/35_MP_EX2_2027.pdf"
+  },
+  "paperUrl": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/35_QP_EX2_2027.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A, multiple choice) from the official KSEAB II PUC Exam-2 2026 question paper (35 Mathematics, English version of the Kannada/English paper); answers from the official KSEAB scheme of evaluation (model answers) for the same paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 15,
+  "bySubject": {
+   "Maths": 15
+  },
+  "byType": {
+   "mcq": 15
+  },
+  "file": "data/kpue12-maths-board-2026-exam2.js"
+ },
+ {
+  "id": "kpue12-physics-board-2026-exam1",
+  "exam": "Karnataka PUC",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB), II PUC",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Physics · Board 2026 (Exam-1)",
+  "shareTitle": "Karnataka PUC Class 12 · Physics · Board 2026 (Exam-1)",
+  "date": "KSEAB II PUC Exam-1 2026",
+  "minutes": 23,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB II PUC Exam-1 2026 Scheme of Evaluation / Model Answers (33 - Physics)",
+   "url": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/33_MP_EX1_2027.pdf"
+  },
+  "paperUrl": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/33_QP_EX1_2027.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A, multiple choice) from the official KSEAB II PUC Exam-1 2026 question paper (33 Physics, English version of the Kannada/English paper); answers from the official KSEAB scheme of evaluation (model answers) for the same paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 15,
+  "bySubject": {
+   "Physics": 15
+  },
+  "byType": {
+   "mcq": 15
+  },
+  "file": "data/kpue12-physics-board-2026-exam1.js"
+ },
+ {
+  "id": "kpue12-physics-board-2026-exam2",
+  "exam": "Karnataka PUC",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB), II PUC",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Physics · Board 2026 (Exam-2)",
+  "shareTitle": "Karnataka PUC Class 12 · Physics · Board 2026 (Exam-2)",
+  "date": "KSEAB II PUC Exam-2 2026",
+  "minutes": 23,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB II PUC Exam-2 2026 Scheme of Evaluation / Model Answers (33 - Physics)",
+   "url": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/33_MP_EX2_2027.pdf"
+  },
+  "paperUrl": "https://dpue-exam.karnataka.gov.in/kseabdpueqpue/QPMA2027/33_QP_EX2_2027.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part A, multiple choice) from the official KSEAB II PUC Exam-2 2026 question paper (33 Physics, English version of the Kannada/English paper); answers from the official KSEAB scheme of evaluation (model answers) for the same paper.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 15,
+  "bySubject": {
+   "Physics": 15
+  },
+  "byType": {
+   "mcq": 15
+  },
+  "file": "data/kpue12-physics-board-2026-exam2.js"
+ },
+ {
+  "id": "kseab10-maths-board-2026-exam1",
+  "exam": "Karnataka Board",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB)",
+  "class": "10",
+  "subject": "Maths",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Maths · Board 2026 (Exam-1)",
+  "shareTitle": "Karnataka Board Class 10 · Maths · Board 2026 (Exam-1)",
+  "date": "KSEAB SSLC Exam-1 2026",
+  "minutes": 12,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB SSLC Exam-1 2026 Model Answers (Mathematics, 81-E, Version A)",
+   "url": "https://kseeb.karnataka.gov.in/OBJECTIONENTERY2026/2026EXAM1KEYANSWERS"
+  },
+  "paperUrl": "https://kseeb.karnataka.gov.in/QP2026E1E2/SSLC2026Exam1_QP",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part I multiple choice) from the official KSEAB SSLC Exam-1 2026 question paper (Mathematics, English medium, code 81-E, Version A); answers from the official KSEAB Model Answers for the same paper.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 8,
+  "bySubject": {
+   "Maths": 8
+  },
+  "byType": {
+   "mcq": 8
+  },
+  "file": "data/kseab10-maths-board-2026-exam1.js"
+ },
+ {
+  "id": "kseab10-science-board-2026-exam1",
+  "exam": "Karnataka Board",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB)",
+  "class": "10",
+  "subject": "Science",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Science · Board 2026 (Exam-1)",
+  "shareTitle": "Karnataka Board Class 10 · Science · Board 2026 (Exam-1)",
+  "date": "KSEAB SSLC Exam-1 2026",
+  "minutes": 12,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB SSLC Exam-1 2026 Model Answers (Science, 83-E, Version A)",
+   "url": "https://kseeb.karnataka.gov.in/OBJECTIONENTERY2026/2026EXAM1KEYANSWERS"
+  },
+  "paperUrl": "https://kseeb.karnataka.gov.in/QP2026E1E2/SSLC2026Exam1_QP",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part I multiple choice) from the official KSEAB SSLC Exam-1 2026 question paper (Science, English medium, code 83-E, Version A); answers from the official KSEAB Model Answers for the same paper.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 8,
+  "bySubject": {
+   "Science": 8
+  },
+  "byType": {
+   "mcq": 8
+  },
+  "file": "data/kseab10-science-board-2026-exam1.js"
+ },
+ {
+  "id": "kseab10-social-science-board-2026-exam1",
+  "exam": "Karnataka Board",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB)",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Social Science · Board 2026 (Exam-1)",
+  "shareTitle": "Karnataka Board Class 10 · Social Science · Board 2026 (Exam-1)",
+  "date": "KSEAB SSLC Exam-1 2026",
+  "minutes": 12,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB SSLC Exam-1 2026 Model Answers (Social Science, 85-E, Version A)",
+   "url": "https://kseeb.karnataka.gov.in/OBJECTIONENTERY2026/2026EXAM1KEYANSWERS"
+  },
+  "paperUrl": "https://kseeb.karnataka.gov.in/QP2026E1E2/SSLC2026Exam1_QP",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part I multiple choice) from the official KSEAB SSLC Exam-1 2026 question paper (Social Science, English medium, code 85-E, Version A); answers from the official KSEAB Model Answers for the same paper.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 8,
+  "bySubject": {
+   "Social Science": 8
+  },
+  "byType": {
+   "mcq": 8
+  },
+  "file": "data/kseab10-social-science-board-2026-exam1.js"
+ },
+ {
+  "id": "kseab10-maths-board-2025-exam1",
+  "exam": "Karnataka Board",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB)",
+  "class": "10",
+  "subject": "Maths",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Maths · Board 2025 (Exam-1)",
+  "shareTitle": "Karnataka Board Class 10 · Maths · Board 2025 (Exam-1)",
+  "date": "KSEAB SSLC Exam-1 2025",
+  "minutes": 12,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB SSLC Exam-1 2025 Model Answers (Mathematics, 81-E, Version A)",
+   "url": "https://kseeb.karnataka.gov.in/QP/EXAM12025_KEYANSWERS"
+  },
+  "paperUrl": "https://kseeb.karnataka.gov.in/QP/SSLC2025_EXAM1_QP",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part I multiple choice) from the official KSEAB SSLC Exam-1 2025 question paper (Mathematics, English medium, code 81-E, Version A); answers from the official KSEAB Model Answers for the same paper.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 8,
+  "bySubject": {
+   "Maths": 8
+  },
+  "byType": {
+   "mcq": 8
+  },
+  "file": "data/kseab10-maths-board-2025-exam1.js"
+ },
+ {
+  "id": "kseab10-science-board-2025-exam1",
+  "exam": "Karnataka Board",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB)",
+  "class": "10",
+  "subject": "Science",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Science · Board 2025 (Exam-1)",
+  "shareTitle": "Karnataka Board Class 10 · Science · Board 2025 (Exam-1)",
+  "date": "KSEAB SSLC Exam-1 2025",
+  "minutes": 12,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB SSLC Exam-1 2025 Model Answers (Science, 83-E, Version A)",
+   "url": "https://kseeb.karnataka.gov.in/QP/EXAM12025_KEYANSWERS"
+  },
+  "paperUrl": "https://kseeb.karnataka.gov.in/QP/SSLC2025_EXAM1_QP",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part I multiple choice) from the official KSEAB SSLC Exam-1 2025 question paper (Science, English medium, code 83-E, Version A); answers from the official KSEAB Model Answers for the same paper.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 8,
+  "bySubject": {
+   "Science": 8
+  },
+  "byType": {
+   "mcq": 8
+  },
+  "file": "data/kseab10-science-board-2025-exam1.js"
+ },
+ {
+  "id": "kseab10-social-science-board-2025-exam1",
+  "exam": "Karnataka Board",
+  "state": "Karnataka",
+  "board": "Karnataka School Examination and Assessment Board (KSEAB)",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Social Science · Board 2025 (Exam-1)",
+  "shareTitle": "Karnataka Board Class 10 · Social Science · Board 2025 (Exam-1)",
+  "date": "KSEAB SSLC Exam-1 2025",
+  "minutes": 12,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English",
+  "answerKey": {
+   "type": "official",
+   "name": "KSEAB SSLC Exam-1 2025 Model Answers (Social Science, 85-E, Version A)",
+   "url": "https://kseeb.karnataka.gov.in/QP/EXAM12025_KEYANSWERS"
+  },
+  "paperUrl": "https://kseeb.karnataka.gov.in/QP/SSLC2025_EXAM1_QP",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part I multiple choice) from the official KSEAB SSLC Exam-1 2025 question paper (Social Science, English medium, code 85-E, Version A); answers from the official KSEAB Model Answers for the same paper.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "count": 8,
+  "bySubject": {
+   "Social Science": 8
+  },
+  "byType": {
+   "mcq": 8
+  },
+  "file": "data/kseab10-social-science-board-2025-exam1.js"
+ },
+ {
+  "id": "tndge10-maths-board-2025",
+  "exam": "Tamil Nadu Board",
+  "state": "Tamil Nadu",
+  "board": "Directorate of Government Examinations (DGE), Tamil Nadu",
+  "class": "10",
+  "subject": "Maths",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Maths · Board 2025",
+  "shareTitle": "Tamil Nadu Board Class 10 · Maths · Board 2025",
+  "date": "TN DGE SSLC Board Exam 2025",
+  "minutes": 21,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "DGE Tamil Nadu SSLC Public Exam March/April 2025 Key Answer (Mathematics, English Medium)",
+   "url": "https://padasalai.info/wp-content/uploads/2025/04/10th-Maths-EM-Official-Answer-Key-to-Public-Exam-April-2025-Question-paper-English-Medium-PDF-Download.pdf"
+  },
+  "paperUrl": "https://tnegadge.s3.amazonaws.com/notification/questbank/2025_MAR_10_QUESTION_PAPER.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part I) from the official DGE Tamil Nadu SSLC Public Exam March/April 2025 question paper (Mathematics, Tamil & English version; English part cropped), as published by DGE in its sample question paper set; answers from the DGE key answer for the same paper (English medium).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 14,
+  "bySubject": {
+   "Maths": 14
+  },
+  "byType": {
+   "mcq": 14
+  },
+  "file": "data/tndge10-maths-board-2025.js"
+ },
+ {
+  "id": "tndge10-science-board-2025",
+  "exam": "Tamil Nadu Board",
+  "state": "Tamil Nadu",
+  "board": "Directorate of Government Examinations (DGE), Tamil Nadu",
+  "class": "10",
+  "subject": "Science",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Science · Board 2025",
+  "shareTitle": "Tamil Nadu Board Class 10 · Science · Board 2025",
+  "date": "TN DGE SSLC Board Exam 2025",
+  "minutes": 18,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "DGE Tamil Nadu SSLC Public Exam March/April 2025 Key Answer (Science, English Medium)",
+   "url": "https://padasalai.info/wp-content/uploads/2025/04/10th-Science-EM-Official-Answer-Keys-to-Public-Exam-April-2025-Question-Paper-English-Medium-PDF-Download.pdf"
+  },
+  "paperUrl": "https://tnegadge.s3.amazonaws.com/notification/questbank/2025_MAR_10_QUESTION_PAPER.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part I) from the official DGE Tamil Nadu SSLC Public Exam March/April 2025 question paper (Science, Tamil & English version; English part cropped), as published by DGE in its sample question paper set; answers from the DGE key answer for the same paper (English medium).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 12,
+  "bySubject": {
+   "Science": 12
+  },
+  "byType": {
+   "mcq": 12
+  },
+  "file": "data/tndge10-science-board-2025.js"
+ },
+ {
+  "id": "tndge10-social-science-board-2025",
+  "exam": "Tamil Nadu Board",
+  "state": "Tamil Nadu",
+  "board": "Directorate of Government Examinations (DGE), Tamil Nadu",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Social Science · Board 2025",
+  "shareTitle": "Tamil Nadu Board Class 10 · Social Science · Board 2025",
+  "date": "TN DGE SSLC Board Exam 2025",
+  "minutes": 21,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "DGE Tamil Nadu SSLC Public Exam March/April 2025 Key Answer (Social Science, English Medium)",
+   "url": "https://padasalai.info/wp-content/uploads/2025/04/10th-Social-Science-EM-Official-Answer-Keys-to-Public-Exam-April-2025-Question-Paper-English-Medium-PDF-Download.pdf"
+  },
+  "paperUrl": "https://tnegadge.s3.amazonaws.com/notification/questbank/2025_MAR_10_QUESTION_PAPER.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part I) from the official DGE Tamil Nadu SSLC Public Exam March/April 2025 question paper (Social Science, Tamil & English version; English part cropped), as published by DGE in its sample question paper set; answers from the DGE key answer for the same paper (English medium).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 14,
+  "bySubject": {
+   "Social Science": 14
+  },
+  "byType": {
+   "mcq": 14
+  },
+  "file": "data/tndge10-social-science-board-2025.js"
+ },
+ {
+  "id": "tndge12-physics-board-2025",
+  "exam": "Tamil Nadu Board",
+  "state": "Tamil Nadu",
+  "board": "Directorate of Government Examinations (DGE), Tamil Nadu",
+  "class": "12",
+  "subject": "Physics",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Physics · Board 2025",
+  "shareTitle": "Tamil Nadu Board Class 12 · Physics · Board 2025",
+  "date": "TN DGE HSE (+2) Board Exam 2025",
+  "minutes": 23,
+  "kind": "board",
+  "paperType": "Board Exam",
+  "language": "English (bilingual paper, English part cropped)",
+  "answerKey": {
+   "type": "official",
+   "name": "DGE Tamil Nadu HSE Second Year Exam March 2025 Key Answer (Physics, English Medium, Type A)",
+   "url": "https://padasalai.info/wp-content/uploads/2025/04/12th-Physics-EM-Official-Answer-Key-to-Public-Exam-March-2025-Question-Paper-English-Medium-PDF-Download.pdf"
+  },
+  "paperUrl": "https://tnegadge.s3.ap-south-1.amazonaws.com/notification/questbank/2025_MAR_12_QUESTION_PAPER.pdf",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs (Part I) from the official DGE Tamil Nadu HSE Second Year Exam March 2025 question paper (Physics, Tamil & English version; English part cropped), as published by DGE in its sample question paper set; answers from the DGE key answer for the same paper (English medium, Type A).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 15,
+  "bySubject": {
+   "Physics": 15
+  },
+  "byType": {
+   "mcq": 15
+  },
+  "file": "data/tndge12-physics-board-2025.js"
  }
 ]
