@@ -2,6 +2,7 @@
 (function () {
   'use strict';
   const IN_APP = /SonexaApp/i.test(navigator.userAgent || '');
+  const IS_IOS = /iPhone|iPad|iPod/.test(navigator.userAgent || '') || (/Macintosh/.test(navigator.userAgent || '') && navigator.maxTouchPoints > 1);
   const LS = { active: 'pyq.v1.active', attempts: 'pyq.v1.attempts', lang: 'pyq.v1.lang', prefs: 'pyq.v1.prefs', name: 'sonexa.v1.fullName' };
   const EXAMS = {
     neet: { key: 'neet', name: 'NEET', exam: 'NEET', subjects: ['Physics', 'Chemistry', 'Biology'], cls: 'neet', minPerQ: 1 },
@@ -128,7 +129,7 @@
   const PAGES = () => (STR[lang] && STR[lang].pages) || STR.en.pages || {};
   function siteFooter() {
     const P = PAGES();
-    return `<footer class="site-foot"><nav>${PAGE_ORDER.filter(k => P[k]).map(k => `<a href="#/page/${k}">${esc(P[k].link)}</a>`).join('<span aria-hidden="true"> · </span>')}</nav>${IN_APP ? '' : `<div><a href="app/SONEXA.apk" download="SONEXA.apk">📱 Android app</a></div>`}<div>${contactLink()}</div><div>${esc(t('footerCopy'))}</div></footer>`;
+    return `<footer class="site-foot"><nav>${PAGE_ORDER.filter(k => P[k]).map(k => `<a href="#/page/${k}">${esc(P[k].link)}</a>`).join('<span aria-hidden="true"> · </span>')}</nav>${IN_APP ? '' : `<div><a href="app/">📱 Get the app</a></div>`}<div>${contactLink()}</div><div>${esc(t('footerCopy'))}</div></footer>`;
   }
   function contactLink() { const m = t('contactEmail'); return `${esc(t('contactLabel'))}: <a class="mail" href="mailto:${esc(m)}">${esc(m)}</a>`; }
   function viewPage(k) {
@@ -150,7 +151,7 @@
         <a class="exam-card cbse" href="#/exam/cbse"><span class="name">CBSE Board</span><span class="sub">${t('cbseSub')}</span><span class="count">${cbsePapers().reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></a>
         <a class="exam-card nda" href="#/exam/nda"><span class="name">NDA</span><span class="sub">${t('ndaSub')}</span><span class="count">${countFor('nda')} ${t('questions')}</span></a>
       </div>
-      ${IN_APP ? '' : `<a class="app-card" href="app/SONEXA.apk" download="SONEXA.apk" type="application/vnd.android.package-archive"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Install SONEXA App (Android)</span><span class="app-note">Android only · allow 'Install unknown apps' when asked</span></span></a>`}
+      ${IN_APP ? '' : IS_IOS ? `<a class="app-card" href="app/#ios"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Add SONEXA to your Home Screen</span><span class="app-note">iPhone: Safari → Share → Add to Home Screen</span></span></a>` : `<a class="app-card" href="app/SONEXA.apk" download="SONEXA.apk" type="application/vnd.android.package-archive"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Install SONEXA App (Android)</span><span class="app-note">Android only · allow 'Install unknown apps' when asked</span></span></a>`}
       <h2>${t('pastAttempts')}</h2>
       <section class="card">${attemptsList()}</section>
       <h2>${t('aboutTitle')}</h2>
