@@ -3,7 +3,7 @@
   'use strict';
   const IN_APP = /SonexaApp/i.test(navigator.userAgent || '');
   const IS_IOS = /iPhone|iPad|iPod/.test(navigator.userAgent || '') || (/Macintosh/.test(navigator.userAgent || '') && navigator.maxTouchPoints > 1);
-  const LS = { active: 'pyq.v1.active', attempts: 'pyq.v1.attempts', lang: 'pyq.v1.lang', prefs: 'pyq.v1.prefs', name: 'sonexa.v1.fullName' };
+  const LS = { active: 'pyq.v1.active', attempts: 'pyq.v1.attempts', lang: 'pyq.v1.lang', qlang: 'sonexa.v1.qlang', prefs: 'pyq.v1.prefs', name: 'sonexa.v1.fullName' };
   const EXAMS = {
     neet: { key: 'neet', name: 'NEET', exam: 'NEET', subjects: ['Physics', 'Chemistry', 'Biology'], cls: 'neet', minPerQ: 1 },
     jee: { key: 'jee', name: 'JEE Main', exam: 'JEE Main', subjects: ['Physics', 'Chemistry', 'Maths'], cls: 'jee', minPerQ: 2 },
@@ -20,6 +20,16 @@
   const optLabel = (q, k) => { const l = optLabels(q); return l && l[k] != null ? l[k] : String(k + 1); };
   const app = document.getElementById('app');
   let lang = localStorage.getItem(LS.lang) || 'en';
+  // Question language (EN | हिंदी). Hindi = crops of the official Hindi version of the same paper; English is always the fallback.
+  let qlang = (function () { try { return localStorage.getItem(LS.qlang) === 'hi' ? 'hi' : 'en'; } catch (e) { return 'en'; } })();
+  const setQlang = v => { qlang = v === 'hi' ? 'hi' : 'en'; try { localStorage.setItem(LS.qlang, qlang); } catch (e) { /* ignore */ } };
+  const paperHasHi = id => { const m = meta(id); return !!(m && m.langs && m.langs.indexOf('hi') >= 0); };
+  const qHasHi = q => !!(q.imageHi || q.questionHi);
+  const qImg = q => (qlang === 'hi' && q.imageHi) ? q.imageHi : q.image;
+  const qTxt = q => (qlang === 'hi' && q.questionHi) ? q.questionHi : q.question;
+  const qlangToggle = () => `<div class="qlang" role="group" aria-label="Question language"><button type="button" data-ql="en" aria-pressed="${qlang === 'en'}">EN</button><button type="button" data-ql="hi" aria-pressed="${qlang === 'hi'}" lang="hi">हिंदी</button></div>`;
+  const qlangNote = q => (qlang === 'hi' && paperHasHi(q.paperId) && !qHasHi(q)) ? `<p class="hi-na">${q.exam === 'NDA' && q.subject === 'English' ? 'English section · no Hindi version' : 'Hindi not available · showing English'}</p>` : '';
+  const bindQlang = (root, cb) => root.querySelectorAll('.qlang button').forEach(b => b.onclick = () => { setQlang(b.dataset.ql); cb(); });
   const t = (k, v) => {
     let s = (STR[lang] && STR[lang][k]) || STR.en[k] || k;
     if (v) for (const n in v) s = s.replace('{' + n + '}', v[n]);
@@ -185,7 +195,7 @@
     };
     const st = prefs[ex] = Object.assign({ subject: E.subjects.find(s => subjCount(s) > 0) || E.subjects[0], n: 20, year: 'all', quick: 10 }, prefs[ex] || {});
     const samples = samplePapers(ex);
-    const paperRow = p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}</div>
+    const paperRow = p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}${p.langs && p.langs.indexOf('hi') >= 0 ? ' <span class="badge hi-badge" lang="hi" title="Also in Hindi">हिंदी</span>' : ''}</div>
       <div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')}${p.date && ex !== 'jeeadv' && ex !== 'nda' ? ' · ' + esc(p.kind === 'sample' ? p.date.replace(/\s*·\s*not NTA\s*$/, '') : p.date) : ''}</div>
       <button type="button" class="chlink" data-ch="${esc(p.id)}">⚔ ${CH.btn}</button></div>
       <button class="btn ${E.cls}" data-full="${p.id}">${t('start')}</button></div>`;
@@ -234,7 +244,7 @@
     if (!subjects.includes(st.subj[C])) st.subj[C] = subjects[0];
     const S = st.subj[C];
     setPrefCbse();
-    const paperRow = p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}</div>
+    const paperRow = p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}${p.langs && p.langs.indexOf('hi') >= 0 ? ' <span class="badge hi-badge" lang="hi" title="Also in Hindi">हिंदी</span>' : ''}</div>
       <div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')}</div>
       <button type="button" class="chlink" data-ch="${esc(p.id)}">⚔ ${CH.btn}</button></div>
       <button class="btn cbse" data-full="${p.id}">${t('start')}</button></div>`;
@@ -303,6 +313,7 @@
     const qs = active.qids.map(qById);
     document.body.classList.add('testing');
     const subs = [...new Set(qs.map(q => q.subject))];
+    const showQl = active.paperIds.some(paperHasHi);
     app.innerHTML = `<div class="tbar"><div class="ttl">${esc(active.title)}</div><div class="timer" id="timer" aria-label="Time left">--:--</div><button class="btn primary" id="submitTop">${t('submit')}</button></div>
       ${subs.length > 1 ? `<nav class="subtabs" id="subtabs" aria-label="Subjects">${subs.map(s => `<button data-s="${s}">${s}</button>`).join('')}</nav>` : ''}
       <section class="qwrap" id="qwrap" aria-live="polite"></section>
@@ -329,13 +340,15 @@
       qwrap.innerHTML = `<div class="qhead"><div><div class="qnum">${t('q')} ${i + 1} <span class="muted small">${t('of')} ${qs.length}</span></div><div class="qsrc">${q.subject}${q.section && q.section !== q.subject && q.exam !== 'NDA' ? ' · ' + (/^\d+$/.test(q.section) ? 'Section ' + q.section : q.section) : ''} · ${src}</div></div>
         <button class="flag" id="flagBtn" aria-pressed="${!!active.marked[q.id]}">⚑ ${active.marked[q.id] ? t('marked') : t('mark')}</button></div>
         ${secnote}
-        <div class="qbody">${q.image ? `<img src="${q.image}" alt="Question ${i + 1}" id="qimg">` : ''}${q.question ? `<div class="qtext">${fmtText(q.question)}</div>` : ''}</div>
+        ${showQl ? `<div class="qlang-row">${qlangToggle()}</div>${qlangNote(q)}` : ''}
+        <div class="qbody">${qImg(q) ? `<img src="${qImg(q)}" alt="Question ${i + 1}" id="qimg">` : ''}${qTxt(q) ? `<div class="qtext"${qlang === 'hi' && q.questionHi ? ' lang="hi"' : ''}>${fmtText(qTxt(q))}</div>` : ''}</div>
         ${opts}`;
       math(qwrap);
       qwrap.querySelectorAll('.opt').forEach(b => b.onclick = () => choose(q, b.dataset.v));
       const ni = document.getElementById('numIn');
       if (ni) ni.oninput = () => { const v = ni.value.trim(); if (v === '') delete active.answers[q.id]; else active.answers[q.id] = v; persist(); };
-      const img = document.getElementById('qimg'); if (img) img.onclick = () => zoom(q.image);
+      const img = document.getElementById('qimg'); if (img) img.onclick = () => zoom(qImg(q));
+      if (showQl) bindQlang(qwrap, render);
       document.getElementById('flagBtn').onclick = () => toggleMark(q);
       document.getElementById('prevBtn').disabled = i === 0;
       document.getElementById('nextBtn').textContent = i === qs.length - 1 ? t('submit') + ' ›' : t('next') + ' ›';
@@ -561,6 +574,7 @@
     const ex = at.exam === 'NEET' ? 'neet' : at.exam === 'CBSE' ? 'cbse' : at.exam === 'JEE Advanced' ? 'jeeadv' : at.exam === 'NDA' ? 'nda' : 'jee';
     const subRows = Object.entries(r.bySubject).map(([s, v]) => `<tr><td>${s}</td><td>${v.attempted}/${v.total}</td><td style="color:var(--ok)">${v.correct}</td><td style="color:var(--bad)">${v.wrong}</td><td><b>${v.score}</b>/${v.max}</td></tr>`).join('');
     let filter = 'all';
+    const showQl = [...new Set(qs.map(q => q.paperId))].some(paperHasHi);
     app.innerHTML = `<a href="#/exam/${ex}" class="backbtn">← ${t('back')}</a>
       <h1>${t('result')}</h1><p class="muted small" style="margin-top:0">${esc(at.title)} · ${fmtDate(at.finishedAt)}</p>
       <section class="card"><div class="bigscore">${at.fullName ? `<div class="result-name">${esc(at.fullName)}</div>` : ''}<div class="n">${r.score}<span class="d" style="font-size:1.2rem"> / ${r.max}</span></div><div class="d">${t('score')}</div></div>
@@ -574,6 +588,7 @@
       <section class="card" style="overflow-x:auto"><table><thead><tr><th>${t('subject')}</th><th>${t('attempted')}</th><th>${t('correct')}</th><th>${t('wrong')}</th><th>${t('score')}</th></tr></thead><tbody>${subRows}</tbody></table></section>
       <div class="row"><button class="btn" id="retake" style="flex:1">${t('retake')}</button><a class="btn" href="#/exam/${ex}" style="flex:1">${t('home')}</a></div>
       <h2 id="reviewHead">${t('reviewAnswers')}</h2>
+      ${showQl ? `<div class="qlang-row review"><span class="small muted">Question language</span>${qlangToggle()}</div>` : ''}
       <div class="chips" id="rf">${['all', 'wrong', 'skipped', 'correct'].map(f => `<button class="chip" data-f="${f}" aria-pressed="${f === 'all'}">${t(f)} (${f === 'all' ? qs.length : qs.filter(q => (r.perQ[q.id] === f) || (f === 'skipped' && r.perQ[q.id] === 'not-counted')).length})</button>`).join('')}</div>
       <div id="rlist"></div>`;
     bindSharing(at, r);
@@ -587,7 +602,7 @@
         const key = (meta(q.paperId) || {}).answerKey || {};
         const optList = (!q.optionsInImage && q.type === 'mcq') ? `<ol class="small" style="padding-left:22px;margin:8px 0 0">${q.options.map((o, k) => `<li style="${q.answer.includes(String(k + 1)) ? 'color:var(--ok);font-weight:700' : (String(a) === String(k + 1) ? 'color:var(--bad)' : '')}">${fmtText(o)}</li>`).join('')}</ol>` : '';
         return `<article class="card rq ${st}"><div class="row spread"><div class="qnum">${t('q')} ${i + 1} <span class="qsrc">${q.subject} · ${esc(q.paper)} · Q${q.qno}</span></div><span class="verdict ${st}">${st === 'not-counted' ? t('skipped') : t(st)}</span></div>
-          <div class="qbody" style="margin-top:8px">${q.image ? `<img src="${q.image}" alt="Question ${i + 1}" loading="lazy">` : ''}${q.question ? `<div class="qtext">${fmtText(q.question)}</div>` : ''}${optList}</div>
+          ${showQl ? qlangNote(q) : ''}<div class="qbody" style="margin-top:8px">${qImg(q) ? `<img src="${qImg(q)}" alt="Question ${i + 1}" loading="lazy">` : ''}${qTxt(q) ? `<div class="qtext"${qlang === 'hi' && q.questionHi ? ' lang="hi"' : ''}>${fmtText(qTxt(q))}</div>` : ''}${optList}</div>
           <div class="ans-line"><span>${t('yourAnswer')}: <b class="${st === 'correct' ? 'ok' : st === 'wrong' ? 'bad' : ''}">${ansLabel(q, a)}</b></span><span>${t('correctAnswer')}: <b class="ok">${q.answer.map(x => ansLabel(q, x)).join(' or ')}</b></span></div>
           ${st === 'not-counted' ? `<p class="small muted">${t('notCounted')}</p>` : ''}
           <div class="expl">${q.explanation ? `<b>${t('explanation')}:</b> ${fmtText(q.explanation)}` : `${t('noExplanation')}${key.name ? ' (' + esc(key.name) + ')' : ''}`}</div>
@@ -596,6 +611,7 @@
       math(el);
     }
     renderList();
+    if (showQl) { const qr = app.querySelector('.qlang-row.review'); bindQlang(qr, () => { qr.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x.dataset.ql === qlang)); renderList(); }); }
     app.querySelectorAll('#rf .chip').forEach(b => b.onclick = () => { filter = b.dataset.f; app.querySelectorAll('#rf .chip').forEach(x => x.setAttribute('aria-pressed', x === b)); renderList(); });
     document.getElementById('retake').onclick = async () => {
       if (!confirmReplace()) return;
