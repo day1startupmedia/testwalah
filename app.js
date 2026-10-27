@@ -183,6 +183,14 @@
 
   /* ---------- home ---------- */
   function countFor(ex) { return examPapers(ex).reduce((n, p) => n + p.count, 0); }
+  /* Year range shown on each home exam card, computed from data/index.json (min–max year of that card's papers), so it updates when papers are added. */
+  function yearRange(papers) {
+    const ys = papers.map(p => parseInt(p.year, 10)).filter(y => y > 1900 && y < 2100);
+    if (!ys.length) return '';
+    const lo = Math.min(...ys), hi = Math.max(...ys);
+    return lo === hi ? String(lo) : lo + '–' + hi;
+  }
+  const subYears = (key, papers) => { const r = yearRange(papers); return t(key) + (r ? `<span class="yr"> · ${r}</span>` : ''); };
   function resumeCard() {
     if (!active) return '';
     const left = active.durationSec - active.elapsedSec;
@@ -229,11 +237,11 @@
       <h1>${t('chooseExam')}</h1>
       <p class="lead">${t('tagline')}</p>
       <div class="exam-cards">
-        <a class="exam-card neet" href="#/exam/neet"><span class="name">NEET</span><span class="sub">${t('neetSub')}</span><span class="count">${countFor('neet')} ${t('questions')}</span></a>
-        <a class="exam-card jee" href="#/exam/jee"><span class="name">JEE Main</span><span class="sub">${t('jeeSub')}</span><span class="count">${countFor('jee')} ${t('questions')}</span></a>
-        <a class="exam-card jeeadv" href="#/exam/jeeadv"><span class="name">JEE Advanced</span><span class="sub">${t('jeeAdvSub')}</span><span class="count">${countFor('jeeadv')} ${t('questions')}</span></a>
-        <a class="exam-card cbse" href="#/exam/cbse"><span class="name">CBSE Board</span><span class="sub">${t('cbseSub')}</span><span class="count">${cbsePapers().reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></a>
-        <a class="exam-card nda" href="#/exam/nda"><span class="name">NDA</span><span class="sub">${t('ndaSub')}</span><span class="count">${countFor('nda')} ${t('questions')}</span></a>
+        <a class="exam-card neet" href="#/exam/neet"><span class="name">NEET</span><span class="sub">${subYears('neetSub', examPapers('neet'))}</span><span class="count">${countFor('neet')} ${t('questions')}</span></a>
+        <a class="exam-card jee" href="#/exam/jee"><span class="name">JEE Main</span><span class="sub">${subYears('jeeSub', examPapers('jee'))}</span><span class="count">${countFor('jee')} ${t('questions')}</span></a>
+        <a class="exam-card jeeadv" href="#/exam/jeeadv"><span class="name">JEE Advanced</span><span class="sub">${subYears('jeeAdvSub', examPapers('jeeadv'))}</span><span class="count">${countFor('jeeadv')} ${t('questions')}</span></a>
+        <a class="exam-card cbse" href="#/exam/cbse"><span class="name">CBSE Board</span><span class="sub">${subYears('cbseSub', cbsePapers())}</span><span class="count">${cbsePapers().reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></a>
+        <a class="exam-card nda" href="#/exam/nda"><span class="name">NDA</span><span class="sub">${subYears('ndaSub', examPapers('nda'))}</span><span class="count">${countFor('nda')} ${t('questions')}</span></a>
       </div>
       <div class="tool-cards">${sxToolCards()}${inviteCardHtml()}</div>
       ${IN_APP ? '' : IS_IOS ? `<a class="app-card" href="app/#ios"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Add SONEXA to your Home Screen</span><span class="app-note">iPhone: Safari → Share → Add to Home Screen</span></span></a>` : `<a class="app-card" href="app/SONEXA.apk" download="SONEXA.apk" type="application/vnd.android.package-archive"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Install SONEXA App (Android)</span><span class="app-note">Android only · allow 'Install unknown apps' when asked</span></span></a>`}

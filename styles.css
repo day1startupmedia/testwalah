@@ -36,6 +36,8 @@ h3{font-size:1rem;margin:0 0 4px}
 .exam-card .name{font-size:1.6rem;font-weight:800;display:block}
 .exam-card.neet .name{color:var(--neet)} .exam-card.jee .name{color:var(--jee)}
 .exam-card .sub{display:block;color:var(--muted);font-size:.92rem}
+.exam-card .sub{padding-right:16px}.exam-card .sub .yr{white-space:nowrap}
+@media (max-width:420px){.exam-card .sub{font-size:.86rem}}
 .exam-card .count{display:inline-block;margin-top:10px;background:#fff;border-radius:999px;padding:3px 10px;font-size:.85rem;font-weight:600}
 .exam-card::after{content:"›";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:2rem;color:var(--muted)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:48px;padding:10px 18px;border-radius:12px;border:1px solid var(--line);background:#fff;font-weight:700;text-decoration:none;color:var(--ink)}
