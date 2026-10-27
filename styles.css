@@ -341,3 +341,14 @@ footer.site{max-width:760px;margin:0 auto;padding:0 16px 30px;color:var(--muted)
 .mx-undo{min-height:36px;padding:4px 14px}
 .tool-result{border:2px solid #E0B23A;background:#fffaf0}
 .tool-result.daily{border-color:#FF7A1A;background:#fff5ec}
+.btn.wa{background:#3A1C71;border-color:#3A1C71;color:#fff}
+.daily-streak{text-align:center;background:linear-gradient(135deg,#3A1C71,#5a2fa0);color:#fff;border:2px solid #E0B23A}
+.daily-streak .ds-main{display:flex;align-items:baseline;justify-content:center;gap:8px}
+.daily-streak .ds-fire{font-size:2.2rem}
+.daily-streak .ds-n{font-size:3rem;font-weight:800;color:#FF7A1A;line-height:1}
+.daily-streak .ds-l{font-size:1.1rem;font-weight:700}
+.daily-streak .ds-best{color:#E0B23A;font-weight:600;margin-top:4px}
+.daily-streak .ds-msg{margin:8px 0 0;color:#f3e6c4}
+.daily-today{border:2px solid #FF7A1A}
+.daily-today .dt-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.daily-today .dt-done{margin:8px 0 12px;color:#3A1C71}

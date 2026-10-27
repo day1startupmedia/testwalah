@@ -151,6 +151,7 @@
     if (a === 'review' && b) return viewResult(b, true);
     if (a === 'page' && PAGES()[b]) return viewPage(b);
     if (a === 'mistakes') return viewMistakes();
+    if (a === 'daily') return viewDaily();
     return viewHome();
   }
   window.addEventListener('hashchange', route);
@@ -688,7 +689,7 @@
     app.querySelectorAll('#rf .chip').forEach(b => b.onclick = () => { filter = b.dataset.f; app.querySelectorAll('#rf .chip').forEach(x => x.setAttribute('aria-pressed', x === b)); renderList(); });
     document.getElementById('retake').onclick = async () => {
       if (!confirmReplace()) return;
-      begin({ title: at.title, exam: at.exam, mode: at.mode, qs, durationSec: at.durationSec, rules: at.rules });
+      begin({ title: at.title, exam: at.exam, mode: at.mode === 'daily' ? 'practice' : at.mode, qs, durationSec: at.durationSec, rules: at.rules, extra: at.mode === 'chapter' ? at.extra : null });
     };
     if (reviewOnly) document.getElementById('reviewHead').scrollIntoView();
   }
@@ -1134,6 +1135,11 @@
   const fmtDay = ms => new Date(ms).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
   // Extra card on the result screen for the practice tools (mistakes / daily / chapter).
   function sxModeCard(at) {
+    if (at.mode === 'daily' && at.daily) {
+      const d = at.daily, add = at.mx && at.mx.added;
+      return `<section class="card tool-result daily"><b>🔥 Daily 10 done!</b><p class="small" style="margin:4px 0 10px">${d.streak}-day streak · Best ${d.best}${add ? ` · 📒 ${add} saved to My Mistakes` : ''}</p>
+        <div class="row"><a class="btn wa" style="flex:1" target="_blank" rel="noopener noreferrer" href="${'https://wa.me/?text=' + encodeURIComponent(dailyShareText(d.rec, d.k, d.streak))}">Share my Daily 10</a><a class="btn" href="#/daily" style="flex:1">Daily 10</a></div></section>`;
+    }
     if (at.mode === 'mistakes' && at.mx) {
       return `<section class="card tool-result mx"><b>📒 Re-test done</b><p class="small" style="margin:4px 0 10px">${at.mx.mastered ? `${at.mx.mastered} question${at.mx.mastered === 1 ? '' : 's'} moved to Mastered 🎉 · ` : ''}${at.mx.left} still to fix.</p><a class="btn sx block" href="#/mistakes">Open My Mistakes</a></section>`;
     }
@@ -1143,10 +1149,87 @@
     return '';
   }
   function sxAfterFinish(at, qs, r) {
+    if (at.mode === 'daily') { try { dailyRecord(at); } catch (e) { /* ignore */ } }
     at.mx = mxRecord(at, qs, r);
   }
-  const sxBack = (at, ex) => at.mode === 'mistakes' ? '#/mistakes' : '#/exam/' + ex;
-  function sxToolCards() { return mxCardHtml(); }
+  const sxBack = (at, ex) => at.mode === 'mistakes' ? '#/mistakes' : at.mode === 'daily' ? '#/daily' : '#/exam/' + ex;
+  function sxToolCards() { return dailyCardHtml() + mxCardHtml(); }
+
+
+  /* ---------- 🔥 Daily 10 ----------
+     10 previous-year questions a day per exam, picked from the date (IST) with a seeded random, so everyone gets the same 10.
+     Streak = days in a row with a finished Daily 10 (any exam); kept in localStorage sonexa.v1.daily. */
+  const LS_DAILY = 'sonexa.v1.daily';
+  const DAILY_EX = [['neet', 'NEET'], ['jee', 'JEE'], ['cbse10', 'CBSE 10'], ['cbse12', 'CBSE 12'], ['nda', 'NDA']];
+  const dailyLabel = k => (DAILY_EX.find(x => x[0] === k) || DAILY_EX[0])[1];
+  const dailyState = () => load(LS_DAILY, {});
+  const istDay = (off) => new Date(Date.now() + 19800000 + (off || 0) * 86400000).toISOString().slice(0, 10);
+  const prevDay = d => new Date(Date.parse(d + 'T00:00:00Z') - 86400000).toISOString().slice(0, 10);
+  const fmtDayLong = d => new Date(d + 'T12:00:00Z').toLocaleDateString('en-IN', { day: 'numeric', month: 'short', timeZone: 'UTC' });
+  const dailyPool = k => INDEX.filter(p => p.count > 0 && (k === 'neet' ? p.exam === 'NEET' && p.kind !== 'sample' : k === 'jee' ? (p.exam === 'JEE Main' || p.exam === 'JEE Advanced')
+    : k === 'cbse10' ? p.exam === 'CBSE' && String(p.class) === '10' : k === 'cbse12' ? p.exam === 'CBSE' && String(p.class) === '12' : p.exam === 'NDA')).sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+  function hash32(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+  function dailyPicks(k, day) {
+    const pool = dailyPool(k); if (!pool.length) return [];
+    let s = hash32('sonexa-daily|' + day + '|' + k) || 1;
+    const rnd = () => (s = (Math.imul(s, 1664525) + 1013904223) >>> 0) / 4294967296;
+    const seen = new Set(), out = []; let guard = 0;
+    while (out.length < 16 && guard++ < 600) { const p = pool[Math.floor(rnd() * pool.length)]; const i = Math.floor(rnd() * p.count); const key = p.id + '|' + i; if (!seen.has(key)) { seen.add(key); out.push([p.id, i]); } }
+    return out;
+  }
+  const dailyStreakNow = st => (st.last === istDay() || st.last === istDay(-1)) ? (st.streak || 0) : 0;
+  const dailyUrl = () => (/^https:\/\//.test(location.href) ? location.origin + location.pathname : SHARE_URL) + '#/daily';
+  const dailyShareText = (rec, k, streak) => `🔥 I scored ${rec.s}/${rec.m} (${rec.c}/10 correct) in today's SONEXA Daily 10 (${dailyLabel(k)})!${streak > 1 ? ` ${streak}-day streak.` : ''} Can you beat me? Today's 10 questions, free, no login: ${dailyUrl()}`;
+  function dailyCardHtml() {
+    const st = dailyState(), today = (st.done || {})[istDay()], n = dailyStreakNow(st);
+    const note = today ? `Done today ✓${n ? ` · 🔥 ${n}-day streak` : ''}` : n ? `🔥 ${n}-day streak · today's 10 is waiting` : '10 real PYQs every day · build your streak';
+    return `<a class="tool-card daily" href="#/daily"><span class="tool-ico" aria-hidden="true">🔥</span><span class="tool-body"><span class="tool-title">Daily 10</span><span class="tool-note">${note}</span></span><span class="tool-go" aria-hidden="true">›</span></a>`;
+  }
+  async function dailyStart(k) {
+    if (!confirmReplace()) return;
+    const day = istDay(), picks = dailyPicks(k, day);
+    const ids = [...new Set(picks.map(x => x[0]))];
+    await Promise.allSettled(ids.map(loadPaper));
+    if (!picks.length || ids.some(id => !papers[id])) { toast(isOnline() ? "Could not load today's questions. Please try again." : "Today's Daily 10 needs internet."); return; }
+    const qs = picks.map(([p, i]) => papers[p].questions[i]).filter(q => q && q.answer && q.answer.length).slice(0, 10);
+    const exs = [...new Set(qs.map(q => q.exam))];
+    const mins = qs.reduce((s, q) => s + (((EXAMS[mxExamCls(q.exam)] || {}).minPerQ) || 1.5), 0);
+    begin({ title: `Daily 10 · ${dailyLabel(k)} · ${fmtDayLong(day)}`, exam: exs.length === 1 ? exs[0] : 'JEE', mode: 'daily', qs, durationSec: Math.max(5, Math.ceil(mins)) * 60, rules: {}, extra: { daily: { day, k } } });
+  }
+  function dailyRecord(at) {
+    const d = at.extra && at.extra.daily; if (!d) return;
+    const st = dailyState(); st.done = st.done || {};
+    const rec = { s: at.score, m: at.max, c: at.correct, id: at.id };
+    if (!(st.done[d.day] || {})[d.k]) (st.done[d.day] = st.done[d.day] || {})[d.k] = rec;
+    if (st.last !== d.day) { st.streak = st.last === prevDay(d.day) ? (st.streak || 0) + 1 : 1; st.last = d.day; }
+    st.best = Math.max(st.best || 0, st.streak || 0);
+    Object.keys(st.done).sort().slice(0, -30).forEach(x => delete st.done[x]);
+    save(LS_DAILY, st);
+    at.daily = { day: d.day, k: d.k, streak: st.streak, best: st.best, rec };
+  }
+  function viewDaily() {
+    const st = dailyState(); if (!DAILY_EX.some(x => x[0] === st.exam)) st.exam = 'neet';
+    const k = st.exam, day = istDay(), doneToday = (st.done || {})[day] || {}, rec = doneToday[k], n = dailyStreakNow(st), anyToday = Object.keys(doneToday).length > 0;
+    const hasAt = rec && attempts().some(a => a.id === rec.id);
+    app.innerHTML = `<a href="#/" class="backbtn">← ${t('back')}</a>
+      <h1>🔥 Daily 10</h1>
+      <p class="muted small" style="margin-top:0">10 real previous-year questions every day. Everyone gets the same 10 today. New set at midnight (IST).</p>
+      <section class="card daily-streak"><div class="ds-main"><span class="ds-fire" aria-hidden="true">🔥</span><span class="ds-n">${n}</span><span class="ds-l">day streak</span></div>
+        <div class="ds-best">Best: <b>${st.best || 0}</b> day${(st.best || 0) === 1 ? '' : 's'}</div>
+        <p class="small ds-msg">${anyToday ? "Today's done ✓ Come back tomorrow to keep your streak going." : n ? `Finish today's 10 to make it ${n + 1} days in a row.` : "Finish today's 10 to start your streak."}</p></section>
+      <div class="label">Exam</div>
+      <div class="chips" id="dEx">${DAILY_EX.map(([key, l]) => `<button class="chip" data-k="${key}" aria-pressed="${key === k}">${l}${doneToday[key] ? ' ✓' : ''}</button>`).join('')}</div>
+      <section class="card daily-today">
+        <div class="dt-head"><b>Today's 10 · ${esc(dailyLabel(k))}</b><span class="muted small">${esc(fmtDayLong(day))}</span></div>
+        ${rec ? `<p class="dt-done">✓ Done today: <b>${rec.s}/${rec.m}</b> · ${rec.c}/10 correct</p>
+          <div class="row">${hasAt ? `<a class="btn" href="#/result/${esc(rec.id)}" style="flex:1">View result</a>` : ''}<a class="btn wa" style="flex:1" target="_blank" rel="noopener noreferrer" href="${'https://wa.me/?text=' + encodeURIComponent(dailyShareText(rec, k, n))}">Share my Daily 10</a></div>`
+        : `<p class="muted small" style="margin:6px 0 12px">10 questions from past ${esc(dailyLabel(k))} papers · real marking · review after.</p><button class="btn sx block" id="dGo">Start today's 10</button>`}
+      </section>
+      <p class="muted small">Wrong and unanswered ones go to <a href="#/mistakes">📒 My Mistakes</a> automatically.</p>
+      ${siteFooter()}`;
+    app.querySelectorAll('#dEx .chip').forEach(b => b.onclick = () => { const s2 = dailyState(); s2.exam = b.dataset.k; save(LS_DAILY, s2); viewDaily(); });
+    const g = document.getElementById('dGo'); if (g) g.onclick = () => { const s2 = dailyState(); s2.exam = k; save(LS_DAILY, s2); dailyStart(k); };
+  }
 
   /* ---------- language toggle (Hindi strings can be filled in strings.js) ---------- */
   offPill();
