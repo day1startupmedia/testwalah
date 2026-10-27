@@ -290,3 +290,18 @@ footer.site{max-width:760px;margin:0 auto;padding:0 16px 30px;color:var(--muted)
 .qlang button[data-ql="hi"][aria-pressed="true"]{background:#FF7A1A}
 .hi-na{font-size:.75rem;color:#6D7486;margin:0 0 6px;text-align:right}
 .badge.hi-badge{background:#fff3e8;color:#c45200;border-color:#ffc79a;font-weight:700}
+
+/* Offline mode */
+.off-pill{margin-left:auto;margin-right:8px;font-size:.75rem;font-weight:700;color:#fff;background:#6D7486;border-radius:999px;padding:3px 10px;align-self:center}
+.off-pill[hidden]{display:none}
+.prow-actions{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin-top:2px}
+.offctl{display:inline-flex;align-items:center;gap:8px;font-size:.82rem}
+.offsave,.offrm{appearance:none;border:0;background:none;padding:4px 0;font:inherit;font-size:.82rem;font-weight:700;color:#3A1C71;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.offsave[disabled]{color:#6D7486;text-decoration:none;cursor:default}
+.offrm{color:#6D7486;font-weight:600}
+.offok{color:#1f8a4c;font-weight:700}
+.offprog{display:inline-block;width:90px;height:8px;border-radius:999px;background:#ece8f4;overflow:hidden;vertical-align:middle}
+.offprog i{display:block;height:100%;width:0;background:linear-gradient(90deg,#FF7A1A,#E0B23A);transition:width .15s}
+.offpct{font-size:.78rem;color:#6D7486;font-weight:700;min-width:34px}
+.btn.needs-net{background:#eef0f4;color:#6D7486;border-color:#dfe2e8;font-size:.82rem;white-space:nowrap}
+.off-card{border-left:4px solid #E0B23A}

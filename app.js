@@ -3,7 +3,7 @@
   'use strict';
   const IN_APP = /SonexaApp/i.test(navigator.userAgent || '');
   const IS_IOS = /iPhone|iPad|iPod/.test(navigator.userAgent || '') || (/Macintosh/.test(navigator.userAgent || '') && navigator.maxTouchPoints > 1);
-  const LS = { active: 'pyq.v1.active', attempts: 'pyq.v1.attempts', lang: 'pyq.v1.lang', qlang: 'sonexa.v1.qlang', prefs: 'pyq.v1.prefs', name: 'sonexa.v1.fullName' };
+  const LS = { active: 'pyq.v1.active', attempts: 'pyq.v1.attempts', lang: 'pyq.v1.lang', qlang: 'sonexa.v1.qlang', offline: 'sonexa.v1.offline', prefs: 'pyq.v1.prefs', name: 'sonexa.v1.fullName' };
   const EXAMS = {
     neet: { key: 'neet', name: 'NEET', exam: 'NEET', subjects: ['Physics', 'Chemistry', 'Biology'], cls: 'neet', minPerQ: 1 },
     jee: { key: 'jee', name: 'JEE Main', exam: 'JEE Main', subjects: ['Physics', 'Chemistry', 'Maths'], cls: 'jee', minPerQ: 2 },
@@ -60,10 +60,66 @@
     return new Promise((res, rej) => {
       (waiting[id] = waiting[id] || []).push(res);
       if (waiting[id].length > 1) return;
-      const s = document.createElement('script'); s.src = meta(id).file; s.onerror = () => rej(new Error('load ' + id)); document.body.appendChild(s);
+      const s = document.createElement('script'); s.src = meta(id).file; s.onerror = () => { const w = waiting[id] || []; delete waiting[id]; s.remove(); rej(new Error('load ' + id)); w.length = 0; }; document.body.appendChild(s);
     });
   }
   const loadPapers = ids => Promise.all(ids.map(loadPaper));
+
+  /* ---------- offline ---------- */
+  // "Save offline" puts one paper (its data file + every question image, EN and HI) into its own cache (sx-paper-<id>);
+  // sw.js serves those when there is no internet. Nothing is downloaded unless the student taps Save offline.
+  const CAN_OFF = 'caches' in window && 'serviceWorker' in navigator && window.isSecureContext;
+  const offList = () => load(LS.offline, {});
+  const isSaved = id => !!offList()[id];
+  const isOnline = () => navigator.onLine !== false;
+  const offBusy = {};
+  const absUrl = u => new URL(u, location.href).href.replace(/[?#].*$/, '');
+  function paperUrls(p) {
+    const m = meta(p.id) || {}; const u = new Set([absUrl(m.file || ('data/' + p.id + '.js')), absUrl('data/' + p.id + '.json')]);
+    p.questions.forEach(q => { if (q.image) u.add(absUrl(q.image)); if (q.imageHi) u.add(absUrl(q.imageHi)); });
+    return [...u];
+  }
+  async function saveOffline(id, onProg) {
+    if (!CAN_OFF || offBusy[id]) return false;
+    offBusy[id] = true;
+    try {
+      const p = await loadPaper(id); const urls = paperUrls(p); const c = await caches.open('sx-paper-' + id);
+      let done = 0, bytes = 0, failed = 0; onProg(0, urls.length);
+      const queue = urls.slice();
+      const worker = async () => { while (queue.length) { const u = queue.shift();
+        try { if (!(await c.match(u))) { const r = await fetch(u, { cache: 'no-cache' }); if (!r.ok) throw new Error(r.status); const b = await r.clone().blob(); bytes += b.size; await c.put(u, r); } }
+        catch (e) { failed++; }
+        onProg(++done, urls.length); } };
+      await Promise.all([worker(), worker(), worker(), worker(), worker(), worker()]);
+      if (failed) { toast(`Couldn't save ${failed} file(s). Check your internet and tap Save offline again.`); return false; }
+      const l = offList(); l[id] = { n: urls.length, mb: Math.round(bytes / 1e5) / 10, at: Date.now() }; save(LS.offline, l);
+      return true;
+    } catch (e) { toast('Saving needs internet. Try again when you are online.'); return false; }
+    finally { delete offBusy[id]; }
+  }
+  async function removeOffline(id) { try { await caches.delete('sx-paper-' + id); } catch (e) { /* ignore */ } const l = offList(); delete l[id]; save(LS.offline, l); }
+  // keep the list honest if the phone cleared site storage
+  if (CAN_OFF) caches.keys().then(keys => { const l = offList(); let ch = false; Object.keys(l).forEach(id => { if (!keys.includes('sx-paper-' + id) || !meta(id)) { delete l[id]; ch = true; } }); if (ch) save(LS.offline, l); }).catch(() => {});
+  const offCtl = p => !CAN_OFF ? '' : isSaved(p.id)
+    ? `<span class="offctl saved" data-offwrap="${esc(p.id)}"><span class="offok">✓ Saved offline</span><button type="button" class="offrm" data-offrm="${esc(p.id)}">Remove</button></span>`
+    : `<span class="offctl" data-offwrap="${esc(p.id)}"><button type="button" class="offsave" data-offsave="${esc(p.id)}"${isOnline() ? '' : ' disabled'}>⬇ Save offline</button></span>`;
+  const startBtn = (p, cls) => (!isOnline() && !isSaved(p.id))
+    ? `<button class="btn needs-net" type="button" disabled title="Save this paper offline when you have internet">Needs internet</button>`
+    : `<button class="btn ${cls}" data-full="${p.id}">${t('start')}</button>`;
+  function bindOffline(root, rerender) {
+    root.querySelectorAll('[data-offsave]').forEach(b => b.onclick = async () => {
+      const id = b.dataset.offsave, wrap = b.parentNode;
+      wrap.innerHTML = `<span class="offprog" role="progressbar" aria-label="Saving offline" aria-valuemin="0" aria-valuemax="100"><i></i></span><span class="offpct">0%</span>`;
+      const bar = wrap.querySelector('i'), pct = wrap.querySelector('.offpct'), pb = wrap.querySelector('.offprog');
+      const ok = await saveOffline(id, (d, n) => { const v = n ? Math.round(d * 100 / n) : 0; bar.style.width = v + '%'; pct.textContent = v + '%'; pb.setAttribute('aria-valuenow', v); });
+      if (ok) toast('Saved offline ✓ This paper now works without internet.');
+      rerender();
+    });
+    root.querySelectorAll('[data-offrm]').forEach(b => b.onclick = async () => { await removeOffline(b.dataset.offrm); toast('Removed from offline'); rerender(); });
+  }
+  function offPill() { const el = document.getElementById('offPill'); if (el) el.hidden = isOnline(); }
+  window.addEventListener('online', () => { offPill(); if (!document.body.classList.contains('testing')) route(); });
+  window.addEventListener('offline', () => { offPill(); if (!document.body.classList.contains('testing')) route(); });
   const examPapers = ex => INDEX.filter(p => p.exam === EXAMS[ex].exam && p.kind !== 'sample');
   const samplePapers = ex => INDEX.filter(p => p.exam === EXAMS[ex].exam && p.kind === 'sample');
   const ALL = 'All';
@@ -150,8 +206,16 @@
       <section class="card info-page">${P.body.map(x => `<p>${esc(x)}</p>`).join('')}<p class="muted">${contactLink()}</p></section>
       ${siteFooter()}`;
   }
+  function savedSection() {
+    if (isOnline() || !CAN_OFF) return '';
+    const ids = Object.keys(offList()).filter(id => meta(id));
+    if (!ids.length) return `<section class="card off-card"><b>You're offline.</b><p class="small" style="margin:4px 0 0">Papers you save with ⬇ Save offline work without internet. Your past results below still open.</p></section>`;
+    const exCls = e => e === 'NEET' ? 'neet' : e === 'CBSE' ? 'cbse' : e === 'JEE Advanced' ? 'jeeadv' : e === 'NDA' ? 'nda' : 'jee';
+    return `<h2>Saved offline</h2><section class="card off-card">${ids.map(meta).map(p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}</div><div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')} · ✓ works offline</div></div><button class="btn ${exCls(p.exam)}" data-full="${p.id}">${t('start')}</button></div>`).join('')}</section>`;
+  }
   function viewHome() {
     app.innerHTML = `${resumeCard()}
+      ${savedSection()}
       <h1>${t('chooseExam')}</h1>
       <p class="lead">${t('tagline')}</p>
       <div class="exam-cards">
@@ -171,6 +235,7 @@
       <p class="note">${t('ndaSource')}</p>
       ${siteFooter()}`;
     bindResume();
+    app.querySelectorAll('[data-full]').forEach(b => b.onclick = () => startFull(b.dataset.full));
   }
 
   /* ---------- exam page ---------- */
@@ -197,8 +262,8 @@
     const samples = samplePapers(ex);
     const paperRow = p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}${p.langs && p.langs.indexOf('hi') >= 0 ? ' <span class="badge hi-badge" lang="hi" title="Also in Hindi">हिंदी</span>' : ''}</div>
       <div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')}${p.date && ex !== 'jeeadv' && ex !== 'nda' ? ' · ' + esc(p.kind === 'sample' ? p.date.replace(/\s*·\s*not NTA\s*$/, '') : p.date) : ''}</div>
-      <button type="button" class="chlink" data-ch="${esc(p.id)}">⚔ ${CH.btn}</button></div>
-      <button class="btn ${E.cls}" data-full="${p.id}">${t('start')}</button></div>`;
+      <div class="prow-actions"><button type="button" class="chlink" data-ch="${esc(p.id)}">⚔ ${CH.btn}</button>${offCtl(p)}</div></div>
+      ${startBtn(p, E.cls)}</div>`;
     app.innerHTML = `${active ? resumeCard() : ''}
       <a href="#/" class="backbtn">← ${t('back')}</a>
       <h1>${E.name}</h1>
@@ -231,6 +296,7 @@
     app.querySelectorAll('#yearChips .chip').forEach(b => b.onclick = () => { st.year = b.dataset.y; setPref(); app.querySelectorAll('#yearChips .chip').forEach(x => x.setAttribute('aria-pressed', x === b)); renderN(); setPref(); });
     app.querySelectorAll('[data-full]').forEach(b => b.onclick = () => startFull(b.dataset.full));
     app.querySelectorAll('[data-ch]').forEach(b => b.onclick = () => challengeFromPaper(b.dataset.ch));
+    bindOffline(app, () => { const y = window.scrollY; viewExam(ex); window.scrollTo(0, y); });
     document.getElementById('startSubj').onclick = () => startPractice(ex, st.subject, st.year, st.n);
     app.querySelectorAll('[data-quick]').forEach(b => b.onclick = () => startPractice(ex, null, 'all', +b.dataset.quick));
   }
@@ -246,8 +312,8 @@
     setPrefCbse();
     const paperRow = p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}${p.langs && p.langs.indexOf('hi') >= 0 ? ' <span class="badge hi-badge" lang="hi" title="Also in Hindi">हिंदी</span>' : ''}</div>
       <div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')}</div>
-      <button type="button" class="chlink" data-ch="${esc(p.id)}">⚔ ${CH.btn}</button></div>
-      <button class="btn cbse" data-full="${p.id}">${t('start')}</button></div>`;
+      <div class="prow-actions"><button type="button" class="chlink" data-ch="${esc(p.id)}">⚔ ${CH.btn}</button>${offCtl(p)}</div></div>
+      ${startBtn(p, 'cbse')}</div>`;
     app.innerHTML = `${active ? resumeCard() : ''}
       <a href="#/" class="backbtn">← ${t('back')}</a>
       <h1>CBSE Board</h1>
@@ -264,12 +330,14 @@
     app.querySelectorAll('#cbseSubj .chip').forEach(b => b.onclick = () => { st.subj[C] = b.dataset.s; setPrefCbse(); viewCbse(C); });
     app.querySelectorAll('[data-full]').forEach(b => b.onclick = () => startFull(b.dataset.full));
     app.querySelectorAll('[data-ch]').forEach(b => b.onclick = () => challengeFromPaper(b.dataset.ch));
+    bindOffline(app, () => { const y = window.scrollY; viewCbse(C); window.scrollTo(0, y); });
   }
   function setPrefCbse() { save(LS.prefs, prefs); }
   function confirmReplace() { return !active || confirm(t('discardConfirm')); }
   async function startFull(id, challenge) {
     if (!confirmReplace()) return false;
-    const p = await loadPaper(id);
+    let p;
+    try { p = await loadPaper(id); } catch (e) { toast(isOnline() ? 'Could not load this paper. Please try again.' : 'This paper needs internet. Save it offline next time you are online.'); return false; }
     const qs = paperQs(p);
     begin({ title: p.shareTitle || p.title, exam: p.exam, mode: 'full', qs, durationSec: p.minutes * 60, rules: p.rules || {}, paper: id, challenge: challenge || null });
     return true;
@@ -278,10 +346,11 @@
     if (!confirmReplace()) return;
     const E = EXAMS[ex];
     const ps = examPapers(ex).filter(p => year === 'all' || String(p.year) === String(year));
-    await loadPapers(ps.map(p => p.id));
+    const got = await Promise.allSettled(ps.map(p => loadPaper(p.id)));
+    if (!got.some(g => g.status === 'fulfilled')) { toast(isOnline() ? 'Could not load questions. Please try again.' : 'Needs internet. Saved offline papers still work from the paper list.'); return; }
     let pool = [];
     const allSubj = subject === ALL;
-    ps.forEach(p => papers[p.id].questions.forEach(q => { if (!subject || allSubj || q.subject === subject) pool.push(q); }));
+    ps.filter(p => papers[p.id]).forEach(p => papers[p.id].questions.forEach(q => { if (!subject || allSubj || q.subject === subject) pool.push(q); }));
     if (!pool.length) { toast(t('noQuestions')); return; }
     let qs;
     if (allSubj) { // all subjects: random pick, grouped in exam order (e.g. Physics → Chemistry → Biology)
@@ -745,6 +814,7 @@
   }
   // 1a. from a paper row: challenge first, then start together
   function challengeFromPaper(pid) {
+    if (!isOnline()) { toast('You are offline. Challenge links need internet. Try again when you are back online.'); return; }
     const m = meta(pid); if (!chPaperOk(pid)) return;
     const c = newCid(), s = Date.now();
     chSheet({ title: CH.btn, intro: `Send this link to a friend. You both take ${m.title} at the same time, then swap result links to see who wins.`,
@@ -754,6 +824,7 @@
   }
   // 1b. from inside a running test ("while I'm giving a test")
   function challengeFromTest() {
+    if (!isOnline()) { toast('You are offline. Challenge links need internet. Try again when you are back online.'); return; }
     if (!active || !active.paper) return;
     if (!active.challenge) { active.challenge = { c: newCid(), s: active.startedAt, n: defaultNick() || CH.defNick, role: 'host' }; save(LS.active, active); }
     const ch = active.challenge, pid = active.paper, title = active.title;
@@ -791,6 +862,7 @@
     const sc = `${r.score}/${r.max}`;
     const send = document.getElementById('chSend');
     if (send) send.onclick = () => {
+      if (!isOnline()) { toast('You are offline. Challenge links need internet. Try again when you are back online.'); return; }
       const k = chKey(pid, at.challenge.c), rec = chGet(k);
       chSheet({ title: rec.opp ? 'Send my result back' : 'Send my result', intro: `Your friend opens this link on their phone to see both results side by side.`,
         nick: rec.mine.n === CH.defNick ? '' : rec.mine.n, makeUrl: n => resultUrl(rec, n),
@@ -799,6 +871,7 @@
     };
     const nw = document.getElementById('chNew');
     if (nw) nw.onclick = () => {
+      if (!isOnline()) { toast('You are offline. Challenge links need internet. Try again when you are back online.'); return; }
       // a fresh challenge carrying this finished result (made once; opening the button again reuses it)
       if (at.challenge && chGet(chKey(pid, at.challenge.c))) {
         const k0 = chKey(pid, at.challenge.c), r0 = chGet(k0);
@@ -931,6 +1004,7 @@
   }
 
   /* ---------- language toggle (Hindi strings can be filled in strings.js) ---------- */
+  offPill();
   const lb = document.getElementById('langBtn');
   if (STR.hi && Object.keys(STR.hi).length) { lb.hidden = false; lb.textContent = lang === 'hi' ? 'English' : 'हिंदी'; lb.onclick = () => { lang = lang === 'hi' ? 'en' : 'hi'; localStorage.setItem(LS.lang, lang); lb.textContent = lang === 'hi' ? 'English' : 'हिंदी'; route(); }; }
 

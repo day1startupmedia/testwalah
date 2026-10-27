@@ -1,0 +1,128 @@
+/* SONEXA service worker: offline mode.
+   - App shell (html/css/js/fonts/logo/manifest + data/index.*) is pre-cached on install, served cache-first.
+   - data/* is stale-while-revalidate.
+   - Papers saved with "Save offline" live in their own cache (sx-paper-<id>), written by the page.
+   - Question images of papers opened online are kept in a runtime cache per paper (sx-rt-<id>), last 10 papers.
+   VERSION is re-stamped on every publish (tools/stamp_sw.py) so phones pick up the new app shell. */
+const VERSION = 'sx-shell-fbc8f5a7d4';
+const SHELL = VERSION;
+const DATA = 'sx-data-v1';
+const META = 'sx-meta-v1';
+const RT_PREFIX = 'sx-rt-';
+const RT_MAX = 10;
+const SHELL_FILES = [
+  './', 'index.html', 'styles.css', 'app.js', 'strings.js', 'scoring.js', 'manifest.webmanifest',
+  'data/index.js', 'data/index.json',
+  'vendor/katex/katex.min.css', 'vendor/katex/katex.min.js', 'vendor/katex/auto-render.min.js',
+  'vendor/katex/fonts/KaTeX_AMS-Regular.woff2', 'vendor/katex/fonts/KaTeX_Main-Bold.woff2', 'vendor/katex/fonts/KaTeX_Main-Italic.woff2',
+  'vendor/katex/fonts/KaTeX_Main-Regular.woff2', 'vendor/katex/fonts/KaTeX_Math-Italic.woff2', 'vendor/katex/fonts/KaTeX_Math-BoldItalic.woff2',
+  'vendor/katex/fonts/KaTeX_Size1-Regular.woff2', 'vendor/katex/fonts/KaTeX_Size2-Regular.woff2', 'vendor/katex/fonts/KaTeX_Size3-Regular.woff2',
+  'vendor/katex/fonts/KaTeX_Size4-Regular.woff2',
+  'assets/logo.svg?v=sx3', 'assets/fonts/baloo2-600-latin.woff2', 'assets/fonts/baloo2-600-devanagari.woff2',
+  'assets/favicon-32.png?v=sx3', 'assets/icon-192.png?v=sx3', 'assets/apple-touch-icon.png?v=sx3', 'favicon.ico?v=sx3', 'manifest.webmanifest?v=sx3'
+];
+const scope = self.registration.scope;
+const abs = p => new URL(p, scope).href;
+
+self.addEventListener('install', e => {
+  e.waitUntil((async () => {
+    const c = await caches.open(SHELL);
+    // one by one so a single missing optional file can't break the install
+    await Promise.all(SHELL_FILES.map(async f => {
+      try { const r = await fetch(abs(f), { cache: 'reload' }); if (r.ok) await c.put(abs(f), r); } catch (err) { /* offline during install */ }
+    }));
+    await self.skipWaiting();
+  })());
+});
+
+self.addEventListener('activate', e => {
+  e.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter(k => k.startsWith('sx-shell-') && k !== SHELL).map(k => caches.delete(k)));
+    await self.clients.claim();
+  })());
+});
+
+async function anyMatch(req) {
+  return caches.match(req, { ignoreSearch: false }) || null;
+}
+async function touchRt(pid) {
+  try {
+    const m = await caches.open(META);
+    const r = await m.match(abs('__rt-lru'));
+    const lru = r ? await r.json() : {};
+    lru[pid] = Date.now();
+    const ids = Object.keys(lru).sort((a, b) => lru[b] - lru[a]);
+    for (const old of ids.slice(RT_MAX)) { delete lru[old]; await caches.delete(RT_PREFIX + old); }
+    await m.put(abs('__rt-lru'), new Response(JSON.stringify(lru), { headers: { 'content-type': 'application/json' } }));
+  } catch (err) { /* ignore */ }
+}
+async function updateEverywhere(req, res) {
+  // refresh this URL in every cache that already holds it (data cache + any saved paper)
+  const keys = await caches.keys();
+  let put = false;
+  for (const k of keys) {
+    if (!k.startsWith('sx-')) continue;
+    const c = await caches.open(k);
+    if (await c.match(req)) { await c.put(req, res.clone()); put = true; }
+  }
+  if (!put) await (await caches.open(DATA)).put(req, res.clone());
+}
+
+self.addEventListener('fetch', e => {
+  const req = e.request;
+  if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+  if (url.origin !== self.location.origin || !req.url.startsWith(scope)) return;   // counter, other sites: browser default
+  const path = url.href.slice(scope.length).replace(/[?#].*$/, '');
+
+  // Page loads: the app shell (cache-first); other pages (e.g. /app/) network-first with cache fallback.
+  if (req.mode === 'navigate') {
+    if (path === '' || path === 'index.html') {
+      e.respondWith((async () => (await caches.match(abs('./'), { ignoreSearch: true })) || (await caches.match(abs('index.html'), { ignoreSearch: true })) || fetch(req))());
+    } else {
+      e.respondWith((async () => { try { const r = await fetch(req); if (r.ok) (await caches.open(DATA)).put(req, r.clone()); return r; } catch (err) { return (await caches.match(req, { ignoreSearch: true })) || Response.error(); } })());
+    }
+    return;
+  }
+
+  // Data: stale-while-revalidate.
+  if (path.startsWith('data/')) {
+    e.respondWith((async () => {
+      const cached = await caches.match(req, { ignoreSearch: true });
+      const net = fetch(req).then(async r => { if (r.ok) await updateEverywhere(new Request(url.origin + url.pathname), r); return r; }).catch(() => null);
+      if (cached) { e.waitUntil(net); return cached; }
+      return (await net) || new Response('', { status: 503, statusText: 'Offline' });
+    })());
+    return;
+  }
+
+  // Question images: any cache first (saved papers, runtime), else network + runtime cache of that paper.
+  if (path.startsWith('img/')) {
+    e.respondWith((async () => {
+      const key = url.origin + url.pathname;
+      const cached = await caches.match(key);
+      if (cached) return cached;
+      try {
+        const r = await fetch(req);
+        if (r.ok) {
+          const pid = path.split('/')[1];
+          e.waitUntil((async () => { await (await caches.open(RT_PREFIX + pid)).put(key, r.clone()); await touchRt(pid); })());
+        }
+        return r;
+      } catch (err) { return new Response('', { status: 503, statusText: 'Offline' }); }
+    })());
+    return;
+  }
+
+  // Shell files and everything else on the site: cache-first, then network (cached for next time).
+  e.respondWith((async () => {
+    const cached = await caches.match(req) || await caches.match(req, { ignoreSearch: true });
+    if (cached) return cached;
+    try {
+      const r = await fetch(req);
+      if (r.ok && (path.startsWith('vendor/') || path.startsWith('assets/'))) (await caches.open(SHELL)).put(req, r.clone());
+      return r;
+    } catch (err) { return new Response('', { status: 503, statusText: 'Offline' }); }
+  })());
+});

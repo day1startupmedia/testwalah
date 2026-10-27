@@ -47,6 +47,7 @@ setTimeout(gone,3500);})();
 </script>
 <header class="topbar" id="topbar">
   <a class="brand" href="#/" id="brand"><img class="brand-logo" src="assets/logo.svg?v=sx3" alt="" width="126" height="40"><span id="brandName" class="sr-only">SONEXA</span></a>
+  <span class="off-pill" id="offPill" role="status" hidden>● Offline</span>
   <button class="lang" id="langBtn" type="button" hidden>हिंदी</button>
 </header>
 <main id="app" tabindex="-1"><p class="loading">Loading…</p></main>
@@ -90,5 +91,11 @@ setTimeout(gone,3500);})();
 })();
 </script>
 <script data-goatcounter="https://sonexa.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+/* Offline mode: sw.js keeps the app shell and any paper saved with "Save offline" on the phone. */
+if ('serviceWorker' in navigator && window.isSecureContext) {
+  window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).catch(function () {}); });
+}
+</script>
 </body>
 </html>
