@@ -4333,5 +4333,1223 @@
    "mcq": 12
   },
   "file": "data/jee-adv-2026-p2.js"
+ },
+ {
+  "id": "cbse10-maths-basic-board-2020-430-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2019-20",
+  "year": 2020,
+  "title": "Maths Basic · Board 2020 (Set 430/1/1)",
+  "shareTitle": "CBSE Class 10 · Maths Basic · Board 2020 (Set 430/1/1)",
+  "date": "CBSE Board Exam 2020",
+  "minutes": 14,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2020 (Maths Basic, Set 430/1/1)",
+   "url": "https://www.cbse.gov.in/curric~1/qpms2020/ms_10/MATHEMATICS_BASIC_CLASS_X.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/curric~1/qpms2020/qp_10/Mathematics (Basic).zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set. Q4 is left out: the answer listed in the official marking scheme does not match the question as printed.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "set": "430/1/1",
+  "count": 9,
+  "bySubject": {
+   "Maths Basic": 9
+  },
+  "byType": {
+   "mcq": 9
+  },
+  "file": "data/cbse10-maths-basic-board-2020-430-1-1.js"
+ },
+ {
+  "id": "cbse10-maths-basic-board-2023-430-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2022-23",
+  "year": 2023,
+  "title": "Maths Basic · Board 2023 (Set 430/1/1)",
+  "shareTitle": "CBSE Class 10 · Maths Basic · Board 2023 (Set 430/1/1)",
+  "date": "CBSE Board Exam 2023",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2023 (Maths Basic, Set 430/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2023/X/Math_Basic.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/MATHEMATICS_BASIC.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "set": "430/1/1",
+  "count": 20,
+  "bySubject": {
+   "Maths Basic": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-basic-board-2023-430-1-1.js"
+ },
+ {
+  "id": "cbse10-maths-basic-board-2024-430-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2023-24",
+  "year": 2024,
+  "title": "Maths Basic · Board 2024 (Set 430/1/1)",
+  "shareTitle": "CBSE Class 10 · Maths Basic · Board 2024 (Set 430/1/1)",
+  "date": "CBSE Board Exam 2024",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024 (Maths Basic, Set 430/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2024/X/Mathematics.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/MATHEMATICS_BASIC.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "set": "430/1/1",
+  "count": 20,
+  "bySubject": {
+   "Maths Basic": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-basic-board-2024-430-1-1.js"
+ },
+ {
+  "id": "cbse10-maths-basic-board-2025-430-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Maths Basic · Board 2025 (Set 430/1/1)",
+  "shareTitle": "CBSE Class 10 · Maths Basic · Board 2025 (Set 430/1/1)",
+  "date": "CBSE Board Exam 2025",
+  "minutes": 29,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025 (Maths Basic, Set 430/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2025/X/Math.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2025/X/241_Mathematics_Basic.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "430/1/1",
+  "count": 19,
+  "bySubject": {
+   "Maths Basic": 19
+  },
+  "byType": {
+   "mcq": 19
+  },
+  "file": "data/cbse10-maths-basic-board-2025-430-1-1.js"
+ },
+ {
+  "id": "cbse10-maths-basic-board-2026-430-4-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Basic",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Maths Basic · Board 2026 (Set 430/4/1)",
+  "shareTitle": "CBSE Class 10 · Maths Basic · Board 2026 (Set 430/4/1)",
+  "date": "CBSE Board Exam 2026",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026 (Maths Basic, Set 430/4/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/marking-scheme/2026/X/241_MATHEMATICS_BASIC.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2026/X/Mathematics_Standard.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "430/4/1",
+  "count": 20,
+  "bySubject": {
+   "Maths Basic": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-basic-board-2026-430-4-1.js"
+ },
+ {
+  "id": "cbse10-maths-standard-board-2020-30-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Standard",
+  "session": "2019-20",
+  "year": 2020,
+  "title": "Maths Standard · Board 2020 (Set 30/1/1)",
+  "shareTitle": "CBSE Class 10 · Maths Standard · Board 2020 (Set 30/1/1)",
+  "date": "CBSE Board Exam 2020",
+  "minutes": 15,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2020 (Maths Standard, Set 30/1/1)",
+   "url": "https://www.cbse.gov.in/curric~1/qpms2020/ms_10/MATHEMATICS_STANDARD_X.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/curric~1/qpms2020/qp_10/Mathematics Theory (Std).zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "set": "30/1/1",
+  "count": 10,
+  "bySubject": {
+   "Maths Standard": 10
+  },
+  "byType": {
+   "mcq": 10
+  },
+  "file": "data/cbse10-maths-standard-board-2020-30-1-1.js"
+ },
+ {
+  "id": "cbse10-maths-standard-board-2023-30-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Standard",
+  "session": "2022-23",
+  "year": 2023,
+  "title": "Maths Standard · Board 2023 (Set 30/1/1)",
+  "shareTitle": "CBSE Class 10 · Maths Standard · Board 2023 (Set 30/1/1)",
+  "date": "CBSE Board Exam 2023",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2023 (Maths Standard, Set 30/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2023/X/Maths_Standard.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/MATHEMATICS_STANDARD.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "30/1/1",
+  "count": 20,
+  "bySubject": {
+   "Maths Standard": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-standard-board-2023-30-1-1.js"
+ },
+ {
+  "id": "cbse10-maths-standard-board-2024-30-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Standard",
+  "session": "2023-24",
+  "year": 2024,
+  "title": "Maths Standard · Board 2024 (Set 30/1/1)",
+  "shareTitle": "CBSE Class 10 · Maths Standard · Board 2024 (Set 30/1/1)",
+  "date": "CBSE Board Exam 2024",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024 (Maths Standard, Set 30/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2024/X/Mathematics_Standard.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/MATHEMATICS_STANDARD.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "set": "30/1/1",
+  "count": 20,
+  "bySubject": {
+   "Maths Standard": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-standard-board-2024-30-1-1.js"
+ },
+ {
+  "id": "cbse10-maths-standard-board-2025-30-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Standard",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Maths Standard · Board 2025 (Set 30/1/1)",
+  "shareTitle": "CBSE Class 10 · Maths Standard · Board 2025 (Set 30/1/1)",
+  "date": "CBSE Board Exam 2025",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025 (Maths Standard, Set 30/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2025/X/Math.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2025/X/041_Mathematics_Standard.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "30/1/1",
+  "count": 20,
+  "bySubject": {
+   "Maths Standard": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-standard-board-2025-30-1-1.js"
+ },
+ {
+  "id": "cbse10-maths-standard-board-2026-30-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Maths Standard",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Maths Standard · Board 2026 (Set 30/1/1)",
+  "shareTitle": "CBSE Class 10 · Maths Standard · Board 2026 (Set 30/1/1)",
+  "date": "CBSE Board Exam 2026",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026 (Maths Standard, Set 30/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/marking-scheme/2026/X/041_MATHEMATICS_STANDARD.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2026/X/Mathematics_Standard.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "set": "30/1/1",
+  "count": 20,
+  "bySubject": {
+   "Maths Standard": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-maths-standard-board-2026-30-1-1.js"
+ },
+ {
+  "id": "cbse10-science-board-2020-31-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Science",
+  "session": "2019-20",
+  "year": 2020,
+  "title": "Science · Board 2020 (Set 31/1/1)",
+  "shareTitle": "CBSE Class 10 · Science · Board 2020 (Set 31/1/1)",
+  "date": "CBSE Board Exam 2020",
+  "minutes": 17,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2020 (Science, Set 31/1/1)",
+   "url": "https://www.cbse.gov.in/curric~1/qpms2020/ms_10/SCIENCE (ENGLISH_VERSION).zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/curric~1/qpms2020/qp_10/Science.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "set": "31/1/1",
+  "count": 11,
+  "bySubject": {
+   "Science": 11
+  },
+  "byType": {
+   "mcq": 11
+  },
+  "file": "data/cbse10-science-board-2020-31-1-1.js"
+ },
+ {
+  "id": "cbse10-science-board-2023-31-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Science",
+  "session": "2022-23",
+  "year": 2023,
+  "title": "Science · Board 2023 (Set 31/1/1)",
+  "shareTitle": "CBSE Class 10 · Science · Board 2023 (Set 31/1/1)",
+  "date": "CBSE Board Exam 2023",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2023 (Science, Set 31/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2023/X/Science_English_Medium.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/SCIENCE.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "set": "31/1/1",
+  "count": 20,
+  "bySubject": {
+   "Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-science-board-2023-31-1-1.js"
+ },
+ {
+  "id": "cbse10-science-board-2024-31-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Science",
+  "session": "2023-24",
+  "year": 2024,
+  "title": "Science · Board 2024 (Set 31/1/1)",
+  "shareTitle": "CBSE Class 10 · Science · Board 2024 (Set 31/1/1)",
+  "date": "CBSE Board Exam 2024",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024 (Science, Set 31/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2024/X/Science.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/SCIENCE.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "set": "31/1/1",
+  "count": 20,
+  "bySubject": {
+   "Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-science-board-2024-31-1-1.js"
+ },
+ {
+  "id": "cbse10-science-board-2025-31-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Science",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Science · Board 2025 (Set 31/1/1)",
+  "shareTitle": "CBSE Class 10 · Science · Board 2025 (Set 31/1/1)",
+  "date": "CBSE Board Exam 2025",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025 (Science, Set 31/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2025/X/Science.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2025/X/086_Science.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "31/1/1",
+  "count": 20,
+  "bySubject": {
+   "Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-science-board-2025-31-1-1.js"
+ },
+ {
+  "id": "cbse10-science-board-2026-31-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Science",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Science · Board 2026 (Set 31/1/1)",
+  "shareTitle": "CBSE Class 10 · Science · Board 2026 (Set 31/1/1)",
+  "date": "CBSE Board Exam 2026",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026 (Science, Set 31/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/marking-scheme/2026/X/086_SCIENCE.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2026/X/Science.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "31/1/1",
+  "count": 20,
+  "bySubject": {
+   "Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-science-board-2026-31-1-1.js"
+ },
+ {
+  "id": "cbse10-social-science-board-2024-32-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2023-24",
+  "year": 2024,
+  "title": "Social Science · Board 2024 (Set 32/1/1)",
+  "shareTitle": "CBSE Class 10 · Social Science · Board 2024 (Set 32/1/1)",
+  "date": "CBSE Board Exam 2024",
+  "minutes": 29,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2024 (Social Science, Set 32/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2024/X/Social_Science.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/SOCIAL_SCIENCE.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "set": "32/1/1",
+  "count": 19,
+  "bySubject": {
+   "Social Science": 19
+  },
+  "byType": {
+   "mcq": 19
+  },
+  "file": "data/cbse10-social-science-board-2024-32-1-1.js"
+ },
+ {
+  "id": "cbse10-social-science-board-2025-32-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2024-25",
+  "year": 2025,
+  "title": "Social Science · Board 2025 (Set 32/1/1)",
+  "shareTitle": "CBSE Class 10 · Social Science · Board 2025 (Set 32/1/1)",
+  "date": "CBSE Board Exam 2025",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2025 (Social Science, Set 32/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/Marking-Scheme/2025/X/Social Science.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2025/X/087_Social_Science.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "32/1/1",
+  "count": 20,
+  "bySubject": {
+   "Social Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-social-science-board-2025-32-1-1.js"
+ },
+ {
+  "id": "cbse10-social-science-board-2026-32-1-1",
+  "exam": "CBSE",
+  "class": "10",
+  "subject": "Social Science",
+  "session": "2025-26",
+  "year": 2026,
+  "title": "Social Science · Board 2026 (Set 32/1/1)",
+  "shareTitle": "CBSE Class 10 · Social Science · Board 2026 (Set 32/1/1)",
+  "date": "CBSE Board Exam 2026",
+  "minutes": 30,
+  "kind": "board",
+  "answerKey": {
+   "type": "official",
+   "name": "CBSE Marking Scheme 2026 (Social Science, Set 32/1/1)",
+   "url": "https://www.cbse.gov.in/cbsenew/marking-scheme/2026/X/087_SOCIAL_SCIENCE.zip"
+  },
+  "paperUrl": "https://www.cbse.gov.in/cbsenew/question-paper/2026/X/Social_Science.zip",
+  "marking": {
+   "mcq": [
+    1,
+    0
+   ]
+  },
+  "rules": {},
+  "note": "Objective MCQs from the official CBSE board exam question paper; answers from the official CBSE Marking Scheme for the same set.",
+  "optionLabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "set": "32/1/1",
+  "count": 20,
+  "bySubject": {
+   "Social Science": 20
+  },
+  "byType": {
+   "mcq": 20
+  },
+  "file": "data/cbse10-social-science-board-2026-32-1-1.js"
+ },
+ {
+  "id": "nda-2020-i-ii-gat",
+  "exam": "NDA",
+  "year": 2020,
+  "title": "NDA 2020 (I & II) · Paper II GAT",
+  "shareTitle": "NDA 2020 (I & II) · Paper II GAT",
+  "date": "UPSC NDA & NA Exam (I & II) 2020 · Paper II: General Ability Test",
+  "minutes": 124,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (I & II) 2020 Final Answer Key, General Ability Test (Series B; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20211116085512id_/https://www.upsc.gov.in/sites/default/files/AnsKey-NDA_I-II-2020-GAT-230421.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20230104062133id_/https://upsc.gov.in/sites/default/files/QP-NDA-I_II-20-GAT.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1.33
+   ]
+  },
+  "rules": {},
+  "note": "124 of 150 questions, from the official Series B booklet (English version). Dropped in the UPSC final answer key, so left out: Q70. Also left out because the scanned page could not be cropped cleanly: Q1, Q2, Q3, Q4, Q5, Q6, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q47, Q48, Q97, Q98. Left out because the key entry is unreadable in the scanned key: Q121. In 2020 UPSC held NDA I and NDA II as one combined exam (the booklet cover reads \"NDA & NA Exam (II), 2020\").",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 124,
+  "bySubject": {
+   "English": 28,
+   "General Knowledge": 96
+  },
+  "byType": {
+   "mcq": 124
+  },
+  "file": "data/nda-2020-i-ii-gat.js"
+ },
+ {
+  "id": "nda-2020-i-ii-maths",
+  "exam": "NDA",
+  "year": 2020,
+  "title": "NDA 2020 (I & II) · Paper I Maths",
+  "shareTitle": "NDA 2020 (I & II) · Paper I Maths",
+  "date": "UPSC NDA & NA Exam (I & II) 2020 · Paper I: Mathematics",
+  "minutes": 132,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (I & II) 2020 Final Answer Key, Mathematics (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20211116085537id_/https://www.upsc.gov.in/sites/default/files/AnsKey-NDA_I-II-2020-Math-230421.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20210626153013id_/https://upsc.gov.in/sites/default/files/QP-NDA-I_II-20-Math.pdf",
+  "marking": {
+   "mcq": [
+    2.5,
+    -0.83
+   ]
+  },
+  "rules": {},
+  "note": "105 of 120 questions, from the official Series A booklet (English version). Dropped in the UPSC final answer key, so left out: Q39. Also left out because the scanned page could not be cropped cleanly: Q8, Q9, Q19, Q20, Q33, Q34, Q35, Q36, Q37, Q38, Q42, Q43, Q87, Q88. In 2020 UPSC held NDA I and NDA II as one combined exam (the booklet cover reads \"NDA & NA Exam (II), 2020\").",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 105,
+  "bySubject": {
+   "Maths": 105
+  },
+  "byType": {
+   "mcq": 105
+  },
+  "file": "data/nda-2020-i-ii-maths.js"
+ },
+ {
+  "id": "nda-2021-1-gat",
+  "exam": "NDA",
+  "year": 2021,
+  "title": "NDA 2021 (I) · Paper II GAT",
+  "shareTitle": "NDA 2021 (I) · Paper II GAT",
+  "date": "UPSC NDA & NA Exam (I) 2021 · Paper II: General Ability Test",
+  "minutes": 145,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (I) 2021 Final Answer Key, General Ability Test (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20230416155554id_/https://www.upsc.gov.in/sites/default/files/AnsKey-NDANA-I-2021-GAT-231221.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20210713014728id_/https://upsc.gov.in/sites/default/files/QP-NDA-I-21-GENERAL_ABILITY_TEST.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1.33
+   ]
+  },
+  "rules": {},
+  "note": "145 of 150 questions, from the official Series A booklet (English version). Dropped in the UPSC final answer key, so left out: Q58. Also left out because the scanned page could not be cropped cleanly: Q2, Q3, Q36, Q37.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 145,
+  "bySubject": {
+   "English": 46,
+   "General Knowledge": 99
+  },
+  "byType": {
+   "mcq": 145
+  },
+  "file": "data/nda-2021-1-gat.js"
+ },
+ {
+  "id": "nda-2021-1-maths",
+  "exam": "NDA",
+  "year": 2021,
+  "title": "NDA 2021 (I) · Paper I Maths",
+  "shareTitle": "NDA 2021 (I) · Paper I Maths",
+  "date": "UPSC NDA & NA Exam (I) 2021 · Paper I: Mathematics",
+  "minutes": 150,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (I) 2021 Final Answer Key, Mathematics (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20230416090541id_/https://www.upsc.gov.in/sites/default/files/AnsKey-NDANA-I-2021-Math-231221.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20210626153014id_/https://upsc.gov.in/sites/default/files/QP-NDA-I-21-MATHEMATICS.pdf",
+  "marking": {
+   "mcq": [
+    2.5,
+    -0.83
+   ]
+  },
+  "rules": {},
+  "note": "120 of 120 questions, from the official Series A booklet (English version).",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 120,
+  "bySubject": {
+   "Maths": 120
+  },
+  "byType": {
+   "mcq": 120
+  },
+  "file": "data/nda-2021-1-maths.js"
+ },
+ {
+  "id": "nda-2021-2-gat",
+  "exam": "NDA",
+  "year": 2021,
+  "title": "NDA 2021 (II) · Paper II GAT",
+  "shareTitle": "NDA 2021 (II) · Paper II GAT",
+  "date": "UPSC NDA & NA Exam (II) 2021 · Paper II: General Ability Test",
+  "minutes": 139,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (II) 2021 Final Answer Key, General Ability Test (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20240615231835id_/https://upsc.gov.in/sites/default/files/AnsKey-NDA-NA-II-GAT-2021-140922.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20230104062356id_/https://upsc.gov.in/sites/default/files/QP-GAT-NDANA-EXAM-II-2021-161121.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1.33
+   ]
+  },
+  "rules": {},
+  "note": "139 of 150 questions, from the official Series A booklet (English version). Also left out because the scanned page could not be cropped cleanly: Q3, Q22, Q23, Q29, Q30, Q31, Q33, Q37, Q38, Q39, Q43. The final key accepts two options for Q102; both are marked correct.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 139,
+  "bySubject": {
+   "English": 39,
+   "General Knowledge": 100
+  },
+  "byType": {
+   "mcq": 139
+  },
+  "file": "data/nda-2021-2-gat.js"
+ },
+ {
+  "id": "nda-2021-2-maths",
+  "exam": "NDA",
+  "year": 2021,
+  "title": "NDA 2021 (II) · Paper I Maths",
+  "shareTitle": "NDA 2021 (II) · Paper I Maths",
+  "date": "UPSC NDA & NA Exam (II) 2021 · Paper I: Mathematics",
+  "minutes": 149,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (II) 2021 Final Answer Key, Mathematics (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20240616170027id_/https://upsc.gov.in/sites/default/files/AnsKey-NDA-NA-II-Math-2021-140922_0.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20230104062425id_/https://upsc.gov.in/sites/default/files/QP-MATH-NDANA-EXAM-II-2021-161121.pdf",
+  "marking": {
+   "mcq": [
+    2.5,
+    -0.83
+   ]
+  },
+  "rules": {},
+  "note": "119 of 120 questions, from the official Series A booklet (English version). Dropped in the UPSC final answer key, so left out: Q13.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 119,
+  "bySubject": {
+   "Maths": 119
+  },
+  "byType": {
+   "mcq": 119
+  },
+  "file": "data/nda-2021-2-maths.js"
+ },
+ {
+  "id": "nda-2022-1-gat",
+  "exam": "NDA",
+  "year": 2022,
+  "title": "NDA 2022 (I) · Paper II GAT",
+  "shareTitle": "NDA 2022 (I) · Paper II GAT",
+  "date": "UPSC NDA & NA Exam (I) 2022 · Paper II: General Ability Test",
+  "minutes": 141,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (I) 2022 Final Answer Key, General Ability Test (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20230309061234id_/https://upsc.gov.in/sites/default/files/AnsKey-NDA-I-22-GAT-251122.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20230202214649id_/https://www.upsc.gov.in/sites/default/files/QP-NDA-I-22-GENERAL-ABILITY-TEST-120422.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1.33
+   ]
+  },
+  "rules": {},
+  "note": "141 of 150 questions, from the official Series A booklet (English version). Also left out because the scanned page could not be cropped cleanly: Q41, Q42, Q43, Q45, Q46, Q47, Q48, Q49, Q50.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 141,
+  "bySubject": {
+   "English": 41,
+   "General Knowledge": 100
+  },
+  "byType": {
+   "mcq": 141
+  },
+  "file": "data/nda-2022-1-gat.js"
+ },
+ {
+  "id": "nda-2022-1-maths",
+  "exam": "NDA",
+  "year": 2022,
+  "title": "NDA 2022 (I) · Paper I Maths",
+  "shareTitle": "NDA 2022 (I) · Paper I Maths",
+  "date": "UPSC NDA & NA Exam (I) 2022 · Paper I: Mathematics",
+  "minutes": 148,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (I) 2022 Final Answer Key, Mathematics (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20230416092823id_/https://www.upsc.gov.in/sites/default/files/AnsKey-NDA-I-22-Math-251122.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20230202215320id_/https://www.upsc.gov.in/sites/default/files/QP-NDA-I-22-MATHEMATICS-120422.pdf",
+  "marking": {
+   "mcq": [
+    2.5,
+    -0.83
+   ]
+  },
+  "rules": {},
+  "note": "118 of 120 questions, from the official Series A booklet (English version). Dropped in the UPSC final answer key, so left out: Q27, Q56.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 118,
+  "bySubject": {
+   "Maths": 118
+  },
+  "byType": {
+   "mcq": 118
+  },
+  "file": "data/nda-2022-1-maths.js"
+ },
+ {
+  "id": "nda-2023-1-gat",
+  "exam": "NDA",
+  "year": 2023,
+  "title": "NDA 2023 (I) · Paper II GAT",
+  "shareTitle": "NDA 2023 (I) · Paper II GAT",
+  "date": "UPSC NDA & NA Exam (I) 2023 · Paper II: General Ability Test",
+  "minutes": 150,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (I) 2023 Final Answer Key, General Ability Test (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20240221040908id_/https://upsc.gov.in/sites/default/files/AnsKey-NDA-NA-I-2023-GAT-011123.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20230525145534id_/https://upsc.gov.in/sites/default/files/QP-NDA-I-23-GENERAL-ABILITY-TEST-170423.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1.33
+   ]
+  },
+  "rules": {},
+  "note": "150 of 150 questions, from the official Series A booklet (English version). The final key accepts two options for Q47, Q78; both are marked correct.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 150,
+  "bySubject": {
+   "English": 50,
+   "General Knowledge": 100
+  },
+  "byType": {
+   "mcq": 150
+  },
+  "file": "data/nda-2023-1-gat.js"
+ },
+ {
+  "id": "nda-2023-1-maths",
+  "exam": "NDA",
+  "year": 2023,
+  "title": "NDA 2023 (I) · Paper I Maths",
+  "shareTitle": "NDA 2023 (I) · Paper I Maths",
+  "date": "UPSC NDA & NA Exam (I) 2023 · Paper I: Mathematics",
+  "minutes": 145,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (I) 2023 Final Answer Key, Mathematics (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20240221050746id_/https://upsc.gov.in/sites/default/files/AnsKey-NDA-NA-I-2023-MATHEMATICS-011123.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20230616173014id_/https://www.upsc.gov.in/sites/default/files/QP-NDA-I-23-MATHEMATICS-170423.pdf",
+  "marking": {
+   "mcq": [
+    2.5,
+    -0.83
+   ]
+  },
+  "rules": {},
+  "note": "116 of 120 questions, from the official Series A booklet (English version). Dropped in the UPSC final answer key, so left out: Q3, Q13, Q81, Q117.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 116,
+  "bySubject": {
+   "Maths": 116
+  },
+  "byType": {
+   "mcq": 116
+  },
+  "file": "data/nda-2023-1-maths.js"
+ },
+ {
+  "id": "nda-2023-2-gat",
+  "exam": "NDA",
+  "year": 2023,
+  "title": "NDA 2023 (II) · Paper II GAT",
+  "shareTitle": "NDA 2023 (II) · Paper II GAT",
+  "date": "UPSC NDA & NA Exam (II) 2023 · Paper II: General Ability Test",
+  "minutes": 128,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (II) 2023 Final Answer Key, General Ability Test (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20240516180457id_/https://upsc.gov.in/sites/default/files/AnsKey-NDA-NA-II-2023-GAT-100424.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20240228023147id_/https://upsc.gov.in/sites/default/files/QP-NDANA-II-2023-GAT-04092023.pdf",
+  "marking": {
+   "mcq": [
+    4,
+    -1.33
+   ]
+  },
+  "rules": {},
+  "note": "128 of 150 questions, from the official Series A booklet (English version). Also left out because the scanned page could not be cropped cleanly: Q9, Q10, Q21, Q22, Q23, Q24, Q25, Q26, Q27, Q28, Q29, Q30, Q41, Q42, Q43, Q44, Q45, Q46, Q47, Q48, Q49, Q50.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 128,
+  "bySubject": {
+   "English": 28,
+   "General Knowledge": 100
+  },
+  "byType": {
+   "mcq": 128
+  },
+  "file": "data/nda-2023-2-gat.js"
+ },
+ {
+  "id": "nda-2023-2-maths",
+  "exam": "NDA",
+  "year": 2023,
+  "title": "NDA 2023 (II) · Paper I Maths",
+  "shareTitle": "NDA 2023 (II) · Paper I Maths",
+  "date": "UPSC NDA & NA Exam (II) 2023 · Paper I: Mathematics",
+  "minutes": 144,
+  "kind": "full",
+  "answerKey": {
+   "type": "final",
+   "name": "UPSC NDA & NA Exam (II) 2023 Final Answer Key, Mathematics (Series A; official file, via Wayback Machine copy of upsc.gov.in)",
+   "url": "https://web.archive.org/web/20240516180500id_/https://upsc.gov.in/sites/default/files/AnsKey-NDA-NA-II-2023-Mathematics-100424.pdf"
+  },
+  "paperUrl": "https://web.archive.org/web/20240301211218id_/https://upsc.gov.in/sites/default/files/QP-NDANA-II-2023-Maths-04092023.pdf",
+  "marking": {
+   "mcq": [
+    2.5,
+    -0.83
+   ]
+  },
+  "rules": {},
+  "note": "115 of 120 questions, from the official Series A booklet (English version). Also left out because the scanned page could not be cropped cleanly: Q31, Q32, Q35, Q36, Q37.",
+  "optionLabels": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "count": 115,
+  "bySubject": {
+   "Maths": 115
+  },
+  "byType": {
+   "mcq": 115
+  },
+  "file": "data/nda-2023-2-maths.js"
  }
 ]

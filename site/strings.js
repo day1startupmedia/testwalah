@@ -2,13 +2,16 @@
 window.STR = {
   en: {
     appName: 'SONEXA',
-    tagline: 'Real previous-year NEET, JEE Main, JEE Advanced and CBSE questions. Take a test, see your score, learn from every answer.',
+    tagline: 'Real previous-year NEET, JEE Main, JEE Advanced, CBSE and NDA questions. Take a test, see your score, learn from every answer.',
     chooseExam: 'Choose your exam',
     neetSub: 'Physics · Chemistry · Biology',
     jeeSub: 'Physics · Chemistry · Maths',
     jeeAdvSub: 'Paper 1 & 2 · 2022–2026',
     markingJeeAdv: 'as in each official paper: single-correct +3, −1 wrong; matching +4, −1 wrong (2025 and 2026 Paper 1) or +3, −1 wrong (earlier years); 0 skipped',
     jeeAdvSource: 'JEE Advanced papers: official question papers and final answer keys from jeeadv.ac.in (2022–2024 keys from archived copies of the official files). Only single-correct and matching questions are included; multi-correct and numerical questions are left out.',
+    ndaSub: 'Maths · GAT · 2020–2023',
+    markingNda: 'as in each official paper: Paper I Maths +2.5 correct, −0.83 wrong; Paper II GAT +4 correct, −1.33 wrong (one-third negative); 0 skipped',
+    ndaSource: 'NDA papers: official UPSC NDA & NA question papers (Paper I Mathematics, Paper II General Ability Test) and final answer keys, from archived copies of the official upsc.gov.in files. Where the final key accepts two options, either one counts as correct. Source: UPSC.',
     cbseSub: 'Class 10 · Class 12 · MCQ tests',
     cbseClass: 'Class',
     markingCbse: '+1 correct, 0 wrong, 0 skipped (no negative marking)',
@@ -117,14 +120,14 @@ window.STR = {
           'Study hard. You\u2019ve got this.'
         ],
         body: [
-        'SONEXA is a free practice site for NEET, JEE and CBSE Board students.',
+        'SONEXA is a free practice site for NEET, JEE, CBSE Board and NDA students.',
         'It turns real previous-year papers and official sample papers into timed MCQ tests. You pick a paper, take the test with a timer, and get your score instantly, with the correct answers to review.',
         'There is no sign-up and nothing to pay. Just open the site and start a test.'
       ] },
       privacy: { link: 'Privacy', title: 'Privacy Policy', body: [
         'No account or login is needed to use SONEXA.',
         'The name you enter and your test results are saved only in your own browser (local storage on your device). They are never sent to us or to anyone else.',
-        'SONEXA uses no analytics, no tracking, no ads and no third-party scripts. Fonts and other files are served from this site itself.',
+        'SONEXA uses GoatCounter, a privacy-friendly visitor counter. It counts page views without cookies and without collecting personal data. Your answers and scores stay on your device.',
         'If you tap a WhatsApp or Facebook share button, that app or website opens and its own privacy policy applies to what you share there.',
         'Clearing your browser data (site data / local storage) deletes your saved name and results permanently.'
       ] },
@@ -136,9 +139,9 @@ window.STR = {
         'By using the site you agree to these terms. They may be updated from time to time.'
       ] },
       copyright: { link: 'Copyright', title: 'Copyright & Disclaimer', body: [
-        'Question papers and answer keys belong to their owners: NEET and JEE papers to the National Testing Agency (NTA); CBSE papers to the Central Board of Secondary Education (CBSE).',
+        'Question papers and answer keys belong to their owners: NEET and JEE papers to the National Testing Agency (NTA); CBSE papers to the Central Board of Secondary Education (CBSE); NDA papers to the Union Public Service Commission (UPSC).',
         'They are reproduced here for educational practice, with the source acknowledged.',
-        'SONEXA is not affiliated with, or endorsed by, NTA or CBSE.',
+        'SONEXA is not affiliated with, or endorsed by, NTA, CBSE or UPSC.',
         'The site design and logo are \u00a9 2026 SONEXA.',
         'If you hold rights to any material here and want it removed, please contact us and we will take it down.'
       ] }

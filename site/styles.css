@@ -210,3 +210,9 @@ footer.site{max-width:760px;margin:0 auto;padding:0 16px 30px;color:var(--muted)
 .story-card p:last-child{margin-bottom:0}
 .story-card .story-lead{font-weight:800;font-size:1.08rem;color:var(--brand)}
 .story-card .story-sign{font-weight:800;color:var(--brand)}
+
+:root{--nda:#0f766e;--nda-soft:#e2f4f2}
+.exam-card.nda{background:var(--nda-soft);border-color:#bfe5e0}
+.exam-card.nda .name{color:var(--nda)}
+.btn.nda{background:var(--nda);border-color:var(--nda);color:#fff}
+@media (min-width:521px){.exam-cards>.exam-card:last-child:nth-child(odd){grid-column:1/-1}}

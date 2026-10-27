@@ -64,6 +64,10 @@
       if (isCorrect(q, a)) { res.correct++; s.correct++; res.score += mk.right; s.score += mk.right; res.perQ[q.id] = 'correct'; }
       else { res.wrong++; s.wrong++; res.score += mk.wrong; s.score += mk.wrong; res.perQ[q.id] = 'wrong'; }
     }
+    // fractional marking (NDA +2.5/−0.83): round to 2 decimals so 6.67 never shows as 6.669999…; integers are unchanged
+    const r2 = x => Math.round(x * 100) / 100;
+    res.score = r2(res.score); res.max = r2(res.max);
+    for (const k in res.bySubject) { res.bySubject[k].score = r2(res.bySubject[k].score); res.bySubject[k].max = r2(res.bySubject[k].max); }
     const att = res.correct + res.wrong;
     res.accuracy = att ? Math.round((res.correct / att) * 1000) / 10 : 0;
     return res;
