@@ -433,3 +433,25 @@ body.testing .bnav{display:none}
 .sx-upd{position:fixed;left:50%;top:8px;transform:translateX(-50%);z-index:80;border:0;border-radius:999px;background:#3A1C71;color:#fff;font-weight:700;font-size:.82rem;padding:8px 14px;box-shadow:0 4px 14px rgba(58,28,113,.3)}
 .seo-static{margin-top:12px}.seo-static h1{font-size:1.2rem}
 .seo-intro a{color:#3A1C71;font-weight:700}
+
+/* ---------- 🎁 Invite friends (SONEXA colours only) ---------- */
+.hdr-invite{font:inherit;font-size:.84rem;font-weight:800;cursor:pointer;background:#FF7A1A;border-color:#FF7A1A;color:#3A1C71;display:inline-flex;align-items:center;gap:5px;min-height:34px;padding:5px 13px}
+.hdr-invite+.lang{margin-left:0}
+body.testing .hdr-invite{display:none}
+.invite-card{display:flex;align-items:center;gap:12px;width:100%;text-align:left;font:inherit;cursor:pointer;padding:14px 16px;border-radius:16px;background:linear-gradient(135deg,#3A1C71,#5a2fa0);border:2px solid #E0B23A;color:#fff;box-shadow:var(--shadow)}
+.invite-card:active{transform:scale(.99)}
+.invite-card .inv-cico{font-size:1.8rem;line-height:1}
+.invite-card .tool-body{flex:1;min-width:0}
+.invite-card .tool-title{display:block;font-weight:800;font-size:1.08rem;color:#fff}
+.invite-card .tool-note{display:block;font-size:.84rem;color:#f3e6c4;margin-top:2px}
+.invite-card .inv-go{background:#FF7A1A;color:#3A1C71;font-weight:800;border-radius:999px;padding:7px 14px;font-size:.9rem;white-space:nowrap}
+.inv-head{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.inv-head h2{margin:0;color:#3A1C71}
+.inv-head p{margin:2px 0 0}
+.inv-ico{font-size:2rem;line-height:1;background:#fff8e6;border:2px solid #E0B23A;border-radius:14px;padding:6px 8px}
+.inv-intro{color:#6D7486;margin:6px 0 10px}
+.inv-msg{background:#f6f3fb;border-left:4px solid #E0B23A;border-radius:10px;padding:10px 12px;font-size:.85rem;color:#3A1C71;margin:0 0 12px;overflow-wrap:anywhere}
+.inv-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.btn.inv-wa{background:#FF7A1A;border-color:#FF7A1A;color:#3A1C71;font-weight:800}
+.btn.inv-alt{background:#fff;border-color:#3A1C71;color:#3A1C71;font:inherit;font-weight:700;cursor:pointer}
+.site-foot .fb-foot{cursor:pointer;font:inherit;font-weight:700}

@@ -6,7 +6,7 @@
    - Papers saved with "Save offline" live in their own cache (sx-paper-<id>), written by the page.
    - Question images of papers opened online are kept in a runtime cache per paper (sx-rt-<id>), last 10 papers.
    VERSION is re-stamped on every publish (tools/stamp_sw.py) so phones pick up the new app shell. */
-const VERSION = 'sx-shell-c5c4c86907';
+const VERSION = 'sx-shell-df51da140f';
 const SHELL = VERSION;
 const DATA = 'sx-data-v1';
 const META = 'sx-meta-v1';

@@ -158,6 +158,7 @@
     if (a === 'start' && b) return sxDeepStart(decodeURIComponent(b));
     if (a === 'practice' && b) { const pp = h.split('/').slice(1).map(x => decodeURIComponent(x || '')); return sxDeepPractice(pp[0], pp[1], pp[2] || null, pp[3]); }
     if (a === 'q' && b) return viewQ(decodeURIComponent(b), h.split('/')[2]);
+    if (a === 'invite') { try { history.replaceState(history.state, '', location.pathname + location.search + '#/'); } catch (e) { /* ignore */ } viewHome(); try { bnavRender(''); } catch (e) { /* ignore */ } setTimeout(inviteSheet, 30); return; }
     return viewHome();
   }
   window.addEventListener('hashchange', route);
@@ -204,7 +205,7 @@
   const PAGES = () => (STR[lang] && STR[lang].pages) || STR.en.pages || {};
   function siteFooter() {
     const P = PAGES();
-    return `<footer class="site-foot"><div><button type="button" class="fb-foot" data-fbopen>💬 Feedback</button></div><nav>${PAGE_ORDER.filter(k => P[k]).map(k => `<a href="#/page/${k}">${esc(P[k].link)}</a>`).join('<span aria-hidden="true"> · </span>')}</nav>${IN_APP ? '' : `<div><a href="app/">📱 Get the app</a></div>`}<div>${contactLink()}</div><div>${esc(t('footerCopy'))}</div></footer>`;
+    return `<footer class="site-foot"><div><button type="button" class="fb-foot" data-fbopen>💬 Feedback</button> <button type="button" class="fb-foot" data-invite>🎁 Invite friends</button></div><nav>${PAGE_ORDER.filter(k => P[k]).map(k => `<a href="#/page/${k}">${esc(P[k].link)}</a>`).join('<span aria-hidden="true"> · </span>')}</nav>${IN_APP ? '' : `<div><a href="app/">📱 Get the app</a></div>`}<div>${contactLink()}</div><div>${esc(t('footerCopy'))}</div></footer>`;
   }
   function contactLink() { const m = t('contactEmail'); return `${esc(t('contactLabel'))}: <a class="mail" href="mailto:${esc(m)}">${esc(m)}</a>`; }
   function viewPage(k) {
@@ -234,7 +235,7 @@
         <a class="exam-card cbse" href="#/exam/cbse"><span class="name">CBSE Board</span><span class="sub">${t('cbseSub')}</span><span class="count">${cbsePapers().reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></a>
         <a class="exam-card nda" href="#/exam/nda"><span class="name">NDA</span><span class="sub">${t('ndaSub')}</span><span class="count">${countFor('nda')} ${t('questions')}</span></a>
       </div>
-      <div class="tool-cards">${sxToolCards()}</div>
+      <div class="tool-cards">${sxToolCards()}${inviteCardHtml()}</div>
       ${IN_APP ? '' : IS_IOS ? `<a class="app-card" href="app/#ios"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Add SONEXA to your Home Screen</span><span class="app-note">iPhone: Safari → Share → Add to Home Screen</span></span></a>` : `<a class="app-card" href="app/SONEXA.apk" download="SONEXA.apk" type="application/vnd.android.package-archive"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Install SONEXA App (Android)</span><span class="app-note">Android only · allow 'Install unknown apps' when asked</span></span></a>`}
       <h2>${t('pastAttempts')}</h2>
       <section class="card">${attemptsList()}</section>
@@ -1545,6 +1546,76 @@
     nav.hidden = false;
   }
 
+
+  /* ---------- 🎁 Invite friends ----------
+     Header "🎁 Invite" pill (every screen except a running test), a home card and a footer button open one share sheet.
+     The shared link is always the main public copy (INVITE_URL, ?ref=invite so GoatCounter lists it as referrer "invite";
+     the counter's path ignores ?query). Share = navigator.share (in the Android app the app's bridge turns it into Android's
+     share sheet); WhatsApp = wa.me (the app opens the WhatsApp app); Telegram = t.me/share (in the app: an intent:// link to the
+     Telegram app with t.me as browser fallback); SMS = sms: body; Copy = clipboard (app bridge in the app). Each tap counts a
+     GoatCounter event invite/<channel>. Open directly with #/invite. */
+  const INVITE_URL = 'https://sonexatest.github.io/?ref=invite';
+  const inviteFull = () => `${t('inviteMsg')} ${INVITE_URL}\n${t('inviteMsgHi')}`;
+  const inviteCount = ch => { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: 'invite/' + ch, title: 'Invite: ' + ch, event: true }); } catch (e) { /* ignore */ } };
+  function inviteLinks() {
+    const full = inviteFull(), tgWeb = 'https://t.me/share/url?url=' + encodeURIComponent(INVITE_URL) + '&text=' + encodeURIComponent(t('inviteMsg') + '\n' + t('inviteMsgHi'));
+    return {
+      wa: 'https://wa.me/?text=' + encodeURIComponent(full),
+      tg: IN_APP ? 'intent://msg_url?url=' + encodeURIComponent(INVITE_URL) + '&text=' + encodeURIComponent(t('inviteMsg') + '\n' + t('inviteMsgHi')) + '#Intent;scheme=tg;package=org.telegram.messenger;S.browser_fallback_url=' + encodeURIComponent(tgWeb) + ';end' : tgWeb,
+      sms: (IS_IOS ? 'sms:&body=' : 'sms:?body=') + encodeURIComponent(full)
+    };
+  }
+  function inviteSheet() {
+    document.querySelectorAll('.inv-sheet').forEach(s => s.parentNode && s.parentNode.remove());
+    const L = inviteLinks(), canShare = !!navigator.share;
+    const bg = document.createElement('div'); bg.className = 'sheet-bg mid';
+    bg.innerHTML = `<div class="sheet center ch-sheet inv-sheet" role="dialog" aria-modal="true" aria-labelledby="invTitle">
+      <div class="inv-head"><span class="inv-ico" aria-hidden="true">🎁</span><div><h2 id="invTitle">${esc(t('inviteTitle'))}</h2><p class="muted small">${esc(t('inviteNote'))}</p></div></div>
+      <p class="small inv-intro">${esc(t('inviteIntro'))}</p>
+      <div class="inv-msg" aria-label="Message">${esc(inviteFull()).replace(/\n/g, '<br>')}</div>
+      ${canShare ? `<button type="button" class="btn primary block" id="invShare">📤 ${esc(t('inviteShare'))}</button>` : ''}
+      <div class="inv-grid">
+        <a class="btn inv-wa" id="invWa" target="_blank" rel="noopener noreferrer" href="${esc(L.wa)}">WhatsApp</a>
+        <a class="btn inv-alt" id="invTg" target="_blank" rel="noopener noreferrer" href="${esc(L.tg)}">Telegram</a>
+        <a class="btn inv-alt" id="invSms" href="${esc(L.sms)}">SMS</a>
+        <button type="button" class="btn inv-alt" id="invMore">${canShare ? 'More' : 'Copy link'}</button>
+      </div>
+      <div class="ch-linkrow"><input id="invLink" type="text" readonly aria-label="Invite link" value="${esc(INVITE_URL)}"><button type="button" class="btn" id="invCopy">${esc(t('inviteCopy'))}</button></div>
+      <button type="button" class="btn block" id="invClose" style="margin-top:10px">${esc(t('close'))}</button>
+    </div>`;
+    document.body.appendChild(bg);
+    const link = bg.querySelector('#invLink');
+    const copy = async () => {
+      inviteCount('copy'); let ok = false;
+      try { await navigator.clipboard.writeText(INVITE_URL); ok = true; } catch (e) { try { link.select(); ok = document.execCommand('copy'); } catch (e2) { ok = false; } }
+      toast(ok ? t('inviteCopied') : t('inviteCopyFail'));
+    };
+    const share = async () => {
+      inviteCount('share');
+      try { await navigator.share({ title: 'SONEXA', text: inviteFull() }); } catch (e) { if (!e || e.name !== 'AbortError') copy(); }
+    };
+    bg.querySelector('#invCopy').onclick = copy;
+    const sh = bg.querySelector('#invShare'); if (sh) sh.onclick = share;
+    bg.querySelector('#invMore').onclick = canShare ? share : copy;
+    bg.querySelector('#invWa').addEventListener('click', () => inviteCount('whatsapp'));
+    bg.querySelector('#invTg').addEventListener('click', () => inviteCount('telegram'));
+    bg.querySelector('#invSms').addEventListener('click', () => inviteCount('sms'));
+    const close = () => bg.remove();
+    bg.querySelector('#invClose').onclick = close;
+    bg.onclick = e => { if (e.target === bg) close(); };
+    inviteCount('open');
+    return bg;
+  }
+  const inviteCardHtml = () => `<button type="button" class="invite-card" data-invite><span class="inv-cico" aria-hidden="true">🎁</span><span class="tool-body"><span class="tool-title">${esc(t('inviteTitle'))}</span><span class="tool-note">${esc(t('inviteNote'))}</span></span><span class="inv-go">${esc(t('inviteBtn'))}</span></button>`;
+  document.addEventListener('click', e => { const f = e.target.closest && e.target.closest('[data-invite]'); if (f) { e.preventDefault(); inviteSheet(); } });
+  try {
+    const off = document.getElementById('offPill');
+    if (off && !document.getElementById('invBtn')) {
+      const b = document.createElement('button'); b.type = 'button'; b.id = 'invBtn'; b.className = 'hdr-link hdr-invite'; b.setAttribute('data-invite', '');
+      b.innerHTML = `<span aria-hidden="true">🎁</span> ${esc(t('inviteBtn'))}`; b.setAttribute('aria-label', t('inviteTitle'));
+      off.insertAdjacentElement('afterend', b);
+    }
+  } catch (e) { /* ignore */ }
 
   /* ---------- 💬 Feedback ----------
      A simple form (rating 1-5 optional, message required, name/contact optional) + auto context (page, paper, question,
