@@ -352,3 +352,11 @@ footer.site{max-width:760px;margin:0 auto;padding:0 16px 30px;color:var(--muted)
 .daily-today{border:2px solid #FF7A1A}
 .daily-today .dt-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
 .daily-today .dt-done{margin:8px 0 12px;color:#3A1C71}
+.chap-row{display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid var(--line);padding:12px 0}
+.chap-row:first-child{border-top:0;padding-top:2px}
+.chap-info{min-width:0;flex:1}
+.chap-name{font-weight:700;color:#3A1C71}
+.chap-go{min-height:40px;padding:6px 14px;flex:none}
+.chap-sets{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chap-set{border:1.5px solid #E0B23A;background:#fffaf0;color:#3A1C71;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:700}
+.tool-result.chap{border-color:#3A1C71;background:#f6f2fc}

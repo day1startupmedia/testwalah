@@ -1,10 +1,10 @@
 /* SONEXA service worker: offline mode.
    - App shell (html/css/js/fonts/logo/manifest + data/index.*) is pre-cached on install, served cache-first.
-   - data/* is stale-while-revalidate.
+   - data/* is stale-while-revalidate (data/chapters/*.json, ~95 KB for chapter practice, is pre-cached with the shell).
    - Papers saved with "Save offline" live in their own cache (sx-paper-<id>), written by the page.
    - Question images of papers opened online are kept in a runtime cache per paper (sx-rt-<id>), last 10 papers.
    VERSION is re-stamped on every publish (tools/stamp_sw.py) so phones pick up the new app shell. */
-const VERSION = 'sx-shell-a40d97c739';
+const VERSION = 'sx-shell-354f75557e';
 const SHELL = VERSION;
 const DATA = 'sx-data-v1';
 const META = 'sx-meta-v1';
@@ -13,6 +13,7 @@ const RT_MAX = 10;
 const SHELL_FILES = [
   './', 'index.html', 'styles.css', 'app.js', 'strings.js', 'scoring.js', 'manifest.webmanifest',
   'data/index.js', 'data/index.json',
+  'data/chapters/neet.json', 'data/chapters/jee-main.json', 'data/chapters/jee-adv.json', 'data/chapters/cbse10.json', 'data/chapters/cbse12.json', 'data/chapters/nda.json',
   'vendor/katex/katex.min.css', 'vendor/katex/katex.min.js', 'vendor/katex/auto-render.min.js',
   'vendor/katex/fonts/KaTeX_AMS-Regular.woff2', 'vendor/katex/fonts/KaTeX_Main-Bold.woff2', 'vendor/katex/fonts/KaTeX_Main-Italic.woff2',
   'vendor/katex/fonts/KaTeX_Main-Regular.woff2', 'vendor/katex/fonts/KaTeX_Math-Italic.woff2', 'vendor/katex/fonts/KaTeX_Math-BoldItalic.woff2',

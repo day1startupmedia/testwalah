@@ -152,6 +152,7 @@
     if (a === 'page' && PAGES()[b]) return viewPage(b);
     if (a === 'mistakes') return viewMistakes();
     if (a === 'daily') return viewDaily();
+    if (a === 'chapters') return viewChapters();
     return viewHome();
   }
   window.addEventListener('hashchange', route);
@@ -667,6 +668,7 @@
       <div id="rlist"></div>`;
     bindSharing(at, r);
     bindChResultCard(at, qs, r);
+    try { sxBindModeCard(at); } catch (e) { /* ignore */ }
     const ansLabel = (q, v) => v == null || v === '' ? `<span class="muted">${t('notAttempted')}</span>` : (q.type === 'numerical' ? esc(v) : `(${esc(optLabels(q) ? optLabel(q, Number(v) - 1) : v)})`);
     function renderList() {
       const list = qs.map((q, i) => ({ q, i })).filter(({ q }) => filter === 'all' || r.perQ[q.id] === filter || (filter === 'skipped' && r.perQ[q.id] === 'not-counted'));
@@ -1140,6 +1142,7 @@
       return `<section class="card tool-result daily"><b>🔥 Daily 10 done!</b><p class="small" style="margin:4px 0 10px">${d.streak}-day streak · Best ${d.best}${add ? ` · 📒 ${add} saved to My Mistakes` : ''}</p>
         <div class="row"><a class="btn wa" style="flex:1" target="_blank" rel="noopener noreferrer" href="${'https://wa.me/?text=' + encodeURIComponent(dailyShareText(d.rec, d.k, d.streak))}">Share my Daily 10</a><a class="btn" href="#/daily" style="flex:1">Daily 10</a></div></section>`;
     }
+    if (at.mode === 'chapter' && at.extra && at.extra.chap) return chapResultCard(at);
     if (at.mode === 'mistakes' && at.mx) {
       return `<section class="card tool-result mx"><b>📒 Re-test done</b><p class="small" style="margin:4px 0 10px">${at.mx.mastered ? `${at.mx.mastered} question${at.mx.mastered === 1 ? '' : 's'} moved to Mastered 🎉 · ` : ''}${at.mx.left} still to fix.</p><a class="btn sx block" href="#/mistakes">Open My Mistakes</a></section>`;
     }
@@ -1152,8 +1155,8 @@
     if (at.mode === 'daily') { try { dailyRecord(at); } catch (e) { /* ignore */ } }
     at.mx = mxRecord(at, qs, r);
   }
-  const sxBack = (at, ex) => at.mode === 'mistakes' ? '#/mistakes' : at.mode === 'daily' ? '#/daily' : '#/exam/' + ex;
-  function sxToolCards() { return dailyCardHtml() + mxCardHtml(); }
+  const sxBack = (at, ex) => at.mode === 'mistakes' ? '#/mistakes' : at.mode === 'daily' ? '#/daily' : at.mode === 'chapter' ? '#/chapters' : '#/exam/' + ex;
+  function sxToolCards() { return dailyCardHtml() + chapCardHtml() + mxCardHtml(); }
 
 
   /* ---------- 🔥 Daily 10 ----------
@@ -1229,6 +1232,85 @@
       ${siteFooter()}`;
     app.querySelectorAll('#dEx .chip').forEach(b => b.onclick = () => { const s2 = dailyState(); s2.exam = b.dataset.k; save(LS_DAILY, s2); viewDaily(); });
     const g = document.getElementById('dGo'); if (g) g.onclick = () => { const s2 = dailyState(); s2.exam = k; save(LS_DAILY, s2); dailyStart(k); };
+  }
+
+
+  /* ---------- 📚 Practice by chapter ----------
+     data/chapters/<exam>.json (built by tools/build_chapters.py from the chapter tags):
+     {exam, n, papers, subjects:[{s, n, ch:[[chapter, count, [[paperId,[qIndex...]],...]]...]} | {s, n, units:[{u, n, ch:[...]}]}]}
+     qIndex = 0-based position in the paper file. Papers newest first. A practice set is at most 50 questions ("next set"). */
+  const CHAP_EX = [['neet', 'NEET'], ['jee-main', 'JEE Main'], ['jee-adv', 'JEE Advanced'], ['cbse10', 'CBSE 10'], ['cbse12', 'CBSE 12'], ['nda', 'NDA']];
+  const CHAP_SET = 50, LS_CHAP = 'sonexa.v1.chap';
+  const chapLabel = k => (CHAP_EX.find(x => x[0] === k) || CHAP_EX[0])[1];
+  const chapCache = {};
+  async function chapData(k) {
+    if (chapCache[k]) return chapCache[k];
+    const r = await fetch('data/chapters/' + k + '.json'); if (!r.ok) throw new Error('chapters ' + r.status);
+    return (chapCache[k] = await r.json());
+  }
+  function chapCardHtml() {
+    return `<a class="tool-card chap" href="#/chapters"><span class="tool-ico" aria-hidden="true">📚</span><span class="tool-body"><span class="tool-title">Practice by chapter</span><span class="tool-note">All PYQs of one chapter, across years</span></span><span class="tool-go" aria-hidden="true">›</span></a>`;
+  }
+  const chapYears = refs => { const ys = refs.map(r => (meta(r[0]) || {}).year).filter(Boolean); if (!ys.length) return ''; const a = Math.min(...ys), b = Math.max(...ys); return a === b ? String(a) : a + '–' + b; };
+  async function viewChapters() {
+    const st = load(LS_CHAP, {}); if (!CHAP_EX.some(x => x[0] === st.k)) st.k = 'neet';
+    const exChips = `<div class="label">Exam</div><div class="chips" id="cEx">${CHAP_EX.map(([k, l]) => `<button class="chip" data-k="${k}" aria-pressed="${k === st.k}">${l}</button>`).join('')}</div>`;
+    const head = `<a href="#/" class="backbtn">← ${t('back')}</a><h1>📚 Practice by chapter</h1>
+      <p class="muted small" style="margin-top:0">All previous-year questions of one chapter, across years. Pick exam → subject → chapter.</p>`;
+    app.innerHTML = head + exChips + `<p class="loading">${t('loading')}</p>`;
+    const bindEx = () => app.querySelectorAll('#cEx .chip').forEach(b => b.onclick = () => { const s2 = load(LS_CHAP, {}); s2.k = b.dataset.k; save(LS_CHAP, s2); viewChapters(); });
+    let D; try { D = await chapData(st.k); } catch (e) {
+      if (!/^#\/chapters/.test(location.hash)) return;
+      app.innerHTML = head + exChips + `<section class="card off-card"><p style="margin:0">${isOnline() ? 'Could not load the chapter list. Please try again.' : 'The chapter list needs internet the first time. Open it once online and it will work offline after that.'}</p></section>`;
+      return bindEx();
+    }
+    if (!/^#\/chapters/.test(location.hash)) return;
+    const subs = D.subjects; let S = subs.find(x => x.s === st.s) || subs[0]; st.s = S.s;
+    let U = null; if (S.units) { U = S.units.find(x => x.u === st.u) || S.units[0]; st.u = U.u; }
+    save(LS_CHAP, st);
+    const list = U ? U.ch : S.ch, n = U ? U.n : S.n;
+    app.innerHTML = head + exChips + `
+      <div class="label">Subject</div><div class="chips" id="cSub">${subs.map(x => `<button class="chip" data-s="${esc(x.s)}" aria-pressed="${x.s === S.s}">${esc(x.s)} <span class="muted small">(${x.n})</span></button>`).join('')}</div>
+      ${S.units ? `<div class="label">Section</div><div class="chips" id="cUnit">${S.units.map(x => `<button class="chip" data-u="${esc(x.u)}" aria-pressed="${x.u === U.u}">${esc(x.u)} <span class="muted small">(${x.n})</span></button>`).join('')}</div>` : ''}
+      <h2>${esc(S.s)}${U ? ' · ' + esc(U.u) : ''} <span class="muted small">${list.length} chapters · ${n} questions</span></h2>
+      <section class="card chap-list">${list.map((c, ci) => { const sets = Math.ceil(c[1] / CHAP_SET);
+        return `<div class="chap-row"><div class="chap-info"><div class="chap-name">${esc(c[0])}</div><div class="meta">${c[1]} PYQ${c[1] === 1 ? '' : 's'}${chapYears(c[2]) ? ' · ' + chapYears(c[2]) : ''} · ${c[2].length} paper${c[2].length === 1 ? '' : 's'}</div>
+          ${sets > 1 ? `<div class="chap-sets">${Array.from({ length: sets }, (_, k) => `<button type="button" class="chap-set" data-ci="${ci}" data-set="${k}">Set ${k + 1} <span class="muted">(${k * CHAP_SET + 1}–${Math.min(c[1], (k + 1) * CHAP_SET)})</span></button>`).join('')}</div>` : ''}</div>
+          <button class="btn sx chap-go" data-ci="${ci}" data-set="0">Practice</button></div>`; }).join('')}</section>
+      <p class="note">Questions are grouped using each question's text, so a few may sit in a nearby chapter. Up to ${CHAP_SET} questions per set. Wrong and unanswered ones go to <a href="#/mistakes">📒 My Mistakes</a>.</p>
+      ${siteFooter()}`;
+    bindEx();
+    app.querySelectorAll('#cSub .chip').forEach(b => b.onclick = () => { const s2 = load(LS_CHAP, {}); s2.s = b.dataset.s; delete s2.u; save(LS_CHAP, s2); viewChapters(); });
+    app.querySelectorAll('#cUnit .chip').forEach(b => b.onclick = () => { const s2 = load(LS_CHAP, {}); s2.u = b.dataset.u; save(LS_CHAP, s2); const y = window.scrollY; viewChapters().then(() => window.scrollTo(0, y)); });
+    app.querySelectorAll('[data-ci]').forEach(b => b.onclick = () => chapStart({ k: st.k, s: S.s, u: U ? U.u : null, c: list[+b.dataset.ci][0], set: +b.dataset.set }));
+  }
+  async function chapStart(o) {
+    if (!confirmReplace()) return;
+    let D; try { D = await chapData(o.k); } catch (e) { toast('The chapter list needs internet the first time.'); return; }
+    const S = D.subjects.find(x => x.s === o.s); const L = S ? (o.u && S.units ? (S.units.find(x => x.u === o.u) || {}).ch : S.ch) : null;
+    const c = (L || []).find(x => x[0] === o.c); if (!c) { toast('Chapter not found.'); return; }
+    const refs = []; c[2].forEach(([p, is]) => is.forEach(i => refs.push([p, i])));
+    const sets = Math.ceil(refs.length / CHAP_SET), set = Math.min(Math.max(0, o.set || 0), sets - 1);
+    const part = refs.slice(set * CHAP_SET, (set + 1) * CHAP_SET);
+    const ids = [...new Set(part.map(r => r[0]))].filter(meta);
+    await Promise.allSettled(ids.map(loadPaper));
+    const qs = part.map(([p, i]) => papers[p] && papers[p].questions[i]).filter(q => q && q.answer && q.answer.length);
+    if (!qs.length) { toast(isOnline() ? 'Could not load these questions. Please try again.' : 'These papers need internet. Save papers offline to practise without internet.'); return; }
+    if (qs.length < part.length && ids.some(id => !papers[id])) toast(`${part.length - qs.length} question(s) skipped: their paper needs internet.`);
+    const exs = [...new Set(qs.map(q => q.exam))];
+    const mins = qs.reduce((s, q) => s + (((EXAMS[mxExamCls(q.exam)] || {}).minPerQ) || 1.5), 0);
+    begin({ title: `${c[0]} · ${chapLabel(o.k)} PYQs${sets > 1 ? ` · Set ${set + 1}/${sets}` : ''}`, exam: exs.length === 1 ? exs[0] : exs[0], mode: 'chapter', qs,
+      durationSec: Math.max(5, Math.ceil(mins)) * 60, rules: {}, extra: { chap: { k: o.k, s: o.s, u: o.u, c: c[0], set, sets, total: refs.length } } });
+  }
+  function chapResultCard(at) {
+    const x = at.extra && at.extra.chap; if (!x) return '';
+    const add = at.mx && at.mx.added, next = x.set + 1 < x.sets;
+    return `<section class="card tool-result chap"><b>📚 ${esc(x.c)}</b><p class="small" style="margin:4px 0 10px">${esc(chapLabel(x.k))} · ${esc(x.s)}${x.sets > 1 ? ` · Set ${x.set + 1} of ${x.sets} (${x.total} PYQs)` : ` · ${x.total} PYQs`}${add ? ` · 📒 ${add} saved to My Mistakes` : ''}</p>
+      <div class="row">${next ? `<button type="button" class="btn sx" id="chapNext" style="flex:1">Next set (${(x.set + 1) * CHAP_SET + 1}–${Math.min(x.total, (x.set + 2) * CHAP_SET)}) ›</button>` : ''}<a class="btn" href="#/chapters" style="flex:1">All chapters</a></div></section>`;
+  }
+  function sxBindModeCard(at) {
+    const b = document.getElementById('chapNext'); const x = at.extra && at.extra.chap;
+    if (b && x) b.onclick = () => chapStart({ k: x.k, s: x.s, u: x.u, c: x.c, set: x.set + 1 });
   }
 
   /* ---------- language toggle (Hindi strings can be filled in strings.js) ---------- */
