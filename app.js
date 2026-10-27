@@ -882,7 +882,7 @@
     let win = 0; if (a.score !== b.score) win = a.score > b.score ? 1 : 2; else if (a.time !== b.time) win = a.time < b.time ? 1 : 2;
     const byTime = a.score === b.score && win;
     const line = !win ? `It's a tie! Same score, same time.` : (win === 1 ? (me ? 'You win! 🏆' : `${nameA} wins! 🏆`) : `${nameB} wins! 🏆`) + (byTime ? ' <span class="ch-why">(same score, less time)</span>' : '');
-    const col = (x, nm, sub, cls, won) => `<div class="vs-col ${cls}${won ? ' won' : ''}"><div class="vs-name">${won ? '👑 ' : ''}${nm}</div>${sub ? `<div class="vs-sub">${sub}</div>` : ''}
+    const col = (x, nm, sub, cls, won) => `<div class="vs-col ${cls}${won ? ' won' : ''}"><div class="vs-name">${won ? '👑 ' : ''}${nm}</div><div class="vs-sub">${sub || '&nbsp;'}</div>
       <div class="vs-score">${x.score}<span>/ ${x.max}</span></div>
       <dl><div><dt>Correct</dt><dd class="ok">${x.correct}</dd></div><div><dt>Wrong</dt><dd class="bad">${x.wrong}</dd></div><div><dt>Skipped</dt><dd>${x.skipped}</dd></div><div><dt>Time</dt><dd>${fmtClock(x.time)}</dd></div></dl></div>`;
     const cells = A.s.map((v, j) => { const ra = v === 1, rb = B.s[j] === 1; const c = ra && rb ? 'both' : ra ? 'a' : rb ? 'b' : 'none';
