@@ -431,3 +431,5 @@ body.testing .bnav{display:none}
 .fb-done{text-align:center;padding:8px 0}
 .fb-done-ico{font-size:2.4rem}
 .sx-upd{position:fixed;left:50%;top:8px;transform:translateX(-50%);z-index:80;border:0;border-radius:999px;background:#3A1C71;color:#fff;font-weight:700;font-size:.82rem;padding:8px 14px;box-shadow:0 4px 14px rgba(58,28,113,.3)}
+.seo-static{margin-top:12px}.seo-static h1{font-size:1.2rem}
+.seo-intro a{color:#3A1C71;font-weight:700}

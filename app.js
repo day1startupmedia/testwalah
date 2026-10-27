@@ -153,8 +153,10 @@
     if (a === 'page' && PAGES()[b]) return viewPage(b);
     if (a === 'mistakes') return viewMistakes();
     if (a === 'daily') return viewDaily();
-    if (a === 'chapters') return viewChapters();
-    if (a === 'search') return viewSearch();
+    if (a === 'chapters') { const ck = new URLSearchParams(query).get('k'); if (ck) { const s2 = load(LS_CHAP, {}); s2.k = ck; save(LS_CHAP, s2); } return viewChapters(); }
+    if (a === 'search') { const sq = new URLSearchParams(query).get('q'); if (sq) { srState.q = sq; srState.sub = ''; } return viewSearch(); }
+    if (a === 'start' && b) return sxDeepStart(decodeURIComponent(b));
+    if (a === 'practice' && b) { const pp = h.split('/').slice(1).map(x => decodeURIComponent(x || '')); return sxDeepPractice(pp[0], pp[1], pp[2] || null, pp[3]); }
     if (a === 'q' && b) return viewQ(decodeURIComponent(b), h.split('/')[2]);
     return viewHome();
   }
@@ -236,6 +238,8 @@
       ${IN_APP ? '' : IS_IOS ? `<a class="app-card" href="app/#ios"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Add SONEXA to your Home Screen</span><span class="app-note">iPhone: Safari → Share → Add to Home Screen</span></span></a>` : `<a class="app-card" href="app/SONEXA.apk" download="SONEXA.apk" type="application/vnd.android.package-archive"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Install SONEXA App (Android)</span><span class="app-note">Android only · allow 'Install unknown apps' when asked</span></span></a>`}
       <h2>${t('pastAttempts')}</h2>
       <section class="card">${attemptsList()}</section>
+      <section class="card seo-intro"><h2 style="margin-top:0">Free previous year papers with answer key</h2>
+        <p class="small">SONEXA has free online mock tests from real previous year question papers: <a href="neet/">NEET</a>, <a href="jee-main/">JEE Main</a>, <a href="jee-advanced/">JEE Advanced</a>, <a href="cbse-class-10/">CBSE Class 10</a>, <a href="cbse-class-12/">CBSE Class 12</a> and <a href="nda/">NDA</a> — ${INDEX.length} papers and ${INDEX.reduce((n, p) => n + p.count, 0).toLocaleString('en-IN')} questions, each with the official answer key and marking scheme. Practise full papers, chapter-wise questions or the Daily 10, see your score and review every answer. NEET 2020 and NDA papers also show the official <a href="hindi/">Hindi version</a>. No login, works offline, and there is an <a href="app/">Android app</a>.</p></section>
       <h2>${t('aboutTitle')}</h2>
       <p class="note">${t('about')}</p>
       <p class="note">${t('jeeAdvSource')}</p>
@@ -1298,8 +1302,13 @@
   async function chapStart(o) {
     if (!confirmReplace()) return;
     let D; try { D = await chapData(o.k); } catch (e) { toast('The chapter list needs internet the first time.'); return; }
-    const S = D.subjects.find(x => x.s === o.s); const L = S ? (o.u && S.units ? (S.units.find(x => x.u === o.u) || {}).ch : S.ch) : null;
-    const c = (L || []).find(x => x[0] === o.c); if (!c) { toast('Chapter not found.'); return; }
+    const S = D.subjects.find(x => x.s === o.s);
+    let c = null;
+    if (S && S.units && !o.u) { // a chapter listed under several sections (e.g. NEET Biomolecules in Botany and Zoology): all of them
+      const parts = S.units.map(U => U.ch.find(x => x[0] === o.c)).filter(Boolean);
+      if (parts.length) c = [o.c, parts.reduce((n, x) => n + x[1], 0), parts.reduce((a, x) => a.concat(x[2]), [])];
+    } else { const L = S ? (o.u && S.units ? (S.units.find(x => x.u === o.u) || {}).ch : S.ch) : null; c = (L || []).find(x => x[0] === o.c); }
+    if (!c) { toast('Chapter not found.'); return; }
     const refs = []; c[2].forEach(([p, is]) => is.forEach(i => refs.push([p, i])));
     const sets = Math.ceil(refs.length / CHAP_SET), set = Math.min(Math.max(0, o.set || 0), sets - 1);
     const part = refs.slice(set * CHAP_SET, (set + 1) * CHAP_SET);
@@ -1622,6 +1631,21 @@
     const b = document.createElement('button'); b.type = 'button'; b.id = 'sxUpd'; b.className = 'sx-upd'; b.textContent = 'Update ready – tap to refresh';
     b.onclick = () => location.reload(); document.body.appendChild(b);
   };
+
+
+  /* ---------- deep links from the static (SEO) pages ----------
+     #/start/<paperId>  -> that paper's exam list, then starts the paper (back from the test lands on the list, never loops)
+     #/practice/<chapterFile>/<subject>/<unit>/<chapter>  -> chapter list, then starts that chapter's set 1 */
+  const examRouteOf = m => !m ? '#/' : m.exam === 'CBSE' ? '#/exam/cbse/' + m.class : '#/exam/' + mxExamCls(m.exam);
+  function sxDeepStart(id) {
+    const m = meta(id); history.replaceState({ sx: curDepth() ?? 0 }, '', examRouteOf(m)); route();
+    if (m) setTimeout(() => startFull(id), 50);
+  }
+  function sxDeepPractice(k, s, u, c) {
+    const s2 = load(LS_CHAP, {}); s2.k = k; s2.s = s; if (u) s2.u = u; else delete s2.u; save(LS_CHAP, s2);
+    history.replaceState({ sx: curDepth() ?? 0 }, '', '#/chapters'); route();
+    setTimeout(() => chapStart({ k, s, u: u || null, c, set: 0 }), 50);
+  }
 
   /* ---------- language toggle (Hindi strings can be filled in strings.js) ---------- */
   offPill();
