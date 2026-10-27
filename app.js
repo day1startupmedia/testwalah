@@ -142,6 +142,7 @@
     const h = qi < 0 ? hq : hq.slice(0, qi), query = qi < 0 ? '' : hq.slice(qi + 1);
     const [a, b] = h.split('/');
     window.scrollTo(0, 0);
+    try { bnavRender(a); } catch (e) { /* ignore */ }
     if (a === 'challenge' && b) return viewChallengeLink(decodeURIComponent(b), query);
     if (a === 'vs' && b) return viewVs(decodeURIComponent(h.slice(3)));
     if (a === 'exam' && b === 'cbse') return viewCbse(h.split('/')[2]);
@@ -1105,6 +1106,7 @@
       ${mast.length ? `<details class="card mx-mast"><summary><b>✓ Mastered (${mast.length})</b> <span class="muted small">answered right twice in re-tests</span></summary>
         ${mast.slice(0, 200).map(e => `<div class="mx-mrow"><div><div style="font-weight:600">${esc(ptitle(e.p))} · Q${esc(e.n)}</div><div class="meta">${esc(e.s || '')} · mastered ${esc(fmtDay(e.m))}</div></div><button type="button" class="btn mx-undo" data-undo="${esc(e.q)}">Undo</button></div>`).join('')}</details>` : ''}
       ${siteFooter()}`;
+    try { bnavRender('mistakes'); } catch (e) { /* ignore */ }
     const rr = () => { const y = window.scrollY; viewMistakes().then(() => window.scrollTo(0, y)); };
     app.querySelectorAll('#mxEx .chip').forEach(b => b.onclick = () => { mxState.exam = b.dataset.x; rr(); });
     app.querySelectorAll('#mxTy .chip').forEach(b => b.onclick = () => { mxState.type = b.dataset.t; rr(); });
@@ -1159,7 +1161,7 @@
     at.mx = mxRecord(at, qs, r);
   }
   const sxBack = (at, ex) => at.mode === 'mistakes' ? '#/mistakes' : at.mode === 'daily' ? '#/daily' : at.mode === 'chapter' ? '#/chapters' : at.mode === 'search' ? '#/search' : '#/exam/' + ex;
-  function sxToolCards() { return dailyCardHtml() + chapCardHtml() + mxCardHtml(); }
+  function sxToolCards() { return chapCardHtml(); }
 
 
   /* ---------- 🔥 Daily 10 ----------
@@ -1503,12 +1505,28 @@
       if (showQl) bindQlang(app.querySelector('.sq-card'), render);
       const ck = document.getElementById('sqCheck'); if (ck) ck.onclick = () => {
         checked = true;
-        try { const r = PYQScoring.score([q], { [q.id]: ans }, { marking: { [pid]: (meta(pid) || {}).marking || {} }, rules: {} }); mxRecord({ finishedAt: Date.now(), mode: 'single', answers: { [q.id]: ans } }, [q], r); } catch (e) { /* ignore */ }
+        try { const r = PYQScoring.score([q], { [q.id]: ans }, { marking: { [pid]: (meta(pid) || {}).marking || {} }, rules: {} }); mxRecord({ finishedAt: Date.now(), mode: 'single', answers: { [q.id]: ans } }, [q], r); bnavRender('q'); } catch (e) { /* ignore */ }
         render();
       };
       const nx = document.getElementById('sqNext'); if (nx) nx.onclick = () => go('#/q/' + encodeURIComponent(next.pid) + '/' + next.qi, true);
     };
     render();
+  }
+
+
+  /* ---------- bottom tab bar (app style): Home · Daily 10 · Chapters · Search · Mistakes ----------
+     Filled on every route; hidden during a running test (body.testing). Mistakes shows the to-fix count, Daily 10 a dot
+     when today's 10 isn't done yet. */
+  function bnavRender(a) {
+    const nav = document.getElementById('bnav'); if (!nav) return;
+    const cur = a === 'daily' ? 'daily' : a === 'chapters' ? 'chapters' : (a === 'search' || a === 'q') ? 'search' : a === 'mistakes' ? 'mistakes' : (!a || a === 'exam') ? 'home' : '';
+    let nmx = 0, dailyDot = false;
+    try { nmx = mxActive().length; const st = dailyState(); dailyDot = !Object.keys((st.done || {})[istDay()] || {}).length; } catch (e) { /* ignore */ }
+    const tab = (k, href, ico, label, extra) => `<a href="${href}" class="bn-tab${cur === k ? ' on' : ''}" data-tab="${k}"${cur === k ? ' aria-current="page"' : ''}><span class="bn-ico" aria-hidden="true">${ico}${extra || ''}</span><span class="bn-l">${label}</span></a>`;
+    nav.innerHTML = tab('home', '#/', '🏠', 'Home') + tab('daily', '#/daily', '🔥', 'Daily 10', dailyDot ? '<i class="bn-dot" aria-label="not done today"></i>' : '')
+      + tab('chapters', '#/chapters', '📚', 'Chapters') + tab('search', '#/search', '🔍', 'Search')
+      + tab('mistakes', '#/mistakes', '📒', 'Mistakes', nmx ? `<b class="bn-badge" aria-label="${nmx} to fix">${nmx > 999 ? '999+' : nmx}</b>` : '');
+    nav.hidden = false;
   }
 
   /* ---------- language toggle (Hindi strings can be filled in strings.js) ---------- */
