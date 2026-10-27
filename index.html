@@ -36,25 +36,61 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="splash" id="splash" aria-label="SONEXA — Padho kahin bhi, par khud ko dekho yahin" role="img" title="Tap to skip">
-  <div class="splash-inner">
-    <img class="splash-logo" src="assets/logo.svg?v=sx3" alt="Sonexa" width="629" height="199" decoding="sync" fetchpriority="high">
-    <p class="splash-tag">Padho kahin bhi, par khud ko dekho yahin</p>
-  </div>
-</div>
-<script>
-/* Intro splash: shown on EVERY load (no storage check). CSS fades it out by itself (~2 s, ~1.1 s with reduced motion);
-   this only lets a tap/key skip it and removes it from the page afterwards. The app routes underneath, so #/deep-links land after it. */
-(function(){var s=document.getElementById('splash');if(!s)return;var done=false,until=0;
-function gone(){if(done)return;done=true;s.classList.add('is-gone');s.setAttribute('aria-hidden','true');}
-/* swallow the ghost click a phone fires after the skipping tap, so it can't open whatever sits under the splash */
-document.addEventListener('click',function(e){if(Date.now()<until){e.preventDefault();e.stopPropagation();}},true);
-function skip(e){if(e&&e.cancelable)e.preventDefault();if(done||s.classList.contains('is-leaving'))return;until=Date.now()+700;s.classList.add('is-leaving');setTimeout(gone,450);}
-s.addEventListener('animationend',function(e){if(e.target===s&&e.animationName==='splash-out'&&!s.classList.contains('is-leaving'))gone();});
-s.addEventListener('pointerdown',skip);s.addEventListener('touchstart',skip,{passive:false});s.addEventListener('click',skip);
-document.addEventListener('keydown',function k(e){if(!done)skip(e);document.removeEventListener('keydown',k);});
-setTimeout(gone,3500);})();
-</script>
+<!-- SONEXA splash: start -->
+<style>#sx-splash{position:fixed;flex-direction:column;gap:20px;cursor:pointer;-webkit-tap-highlight-color:transparent;-webkit-user-select:none;user-select:none;inset:0;top:0;left:0;right:0;bottom:0;z-index:2147483000;display:flex;align-items:center;justify-content:center;background:#fff;background:radial-gradient(circle at 50% 46%,#fff 0,#fff 38%,#F4EEFB 100%);-webkit-animation:sxOut .45s ease-in 2.6s forwards;animation:sxOut .45s ease-in 2.6s forwards;pointer-events:auto}
+#sx-splash svg{width:72vw;max-width:440px;height:auto;overflow:visible}
+#sx-splash .sx-tag{margin:0 24px;max-width:20em;text-align:center;font-family:'Baloo 2',"Noto Sans Devanagari","Nirmala UI",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-weight:600;font-size:clamp(16px,4.4vw,21px);line-height:1.35;color:#4a3b6b;opacity:0;-webkit-animation:sxTag .5s ease-out 1.45s forwards;animation:sxTag .5s ease-out 1.45s forwards}
+@keyframes sxTag{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}@-webkit-keyframes sxTag{from{opacity:0;-webkit-transform:translateY(8px)}to{opacity:1;-webkit-transform:none}}
+#sx-splash .l,#sx-splash .e,#sx-splash .tw,#sx-splash .lg{transform-box:fill-box;-webkit-transform-origin:50% 100%;transform-origin:50% 100%}
+#sx-splash .l{fill:#3A1C71;opacity:0;-webkit-animation:sxPop .5s cubic-bezier(.2,.9,.3,1.25) both;animation:sxPop .5s cubic-bezier(.2,.9,.3,1.25) both}
+#sx-splash .o0{transform-origin:50% 50%;-webkit-animation-name:sxBlob;animation-name:sxBlob;-webkit-animation-duration:.55s;animation-duration:.55s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}
+#sx-splash .l1{-webkit-animation-delay:.28s;animation-delay:.28s}#sx-splash .l2{-webkit-animation-delay:.38s;animation-delay:.38s}#sx-splash .l3{-webkit-animation-delay:.46s;animation-delay:.46s}#sx-splash .l4{-webkit-animation-delay:.54s;animation-delay:.54s}#sx-splash .l5{-webkit-animation-delay:.62s;animation-delay:.62s}
+#sx-splash .e{fill:#FF7A1A;opacity:0;transform-origin:50% 100%;-webkit-animation:sxDrop .55s linear both;animation:sxDrop .55s linear both}
+#sx-splash .e1{-webkit-animation-delay:.9s;animation-delay:.9s}
+#sx-splash .e2{-webkit-animation:sxDrop .55s linear 1s both,sxWink .28s ease-in-out 1.85s;animation:sxDrop .55s linear 1s both,sxWink .28s ease-in-out 1.85s}
+#sx-splash .sm{fill:none;stroke:#FF7A1A;stroke-width:12.5;stroke-linecap:round;stroke-dasharray:1 1;stroke-dashoffset:1;opacity:0;-webkit-animation:sxDraw .5s cubic-bezier(.6,0,.3,1) 1.3s forwards;animation:sxDraw .5s cubic-bezier(.6,0,.3,1) 1.3s forwards}
+#sx-splash .lg{transform-origin:50% 60%;-webkit-animation:sxBounce .45s ease-out 1.82s;animation:sxBounce .45s ease-out 1.82s}
+#sx-splash .tw{fill:#FF7A1A;opacity:0;transform-origin:50% 50%;-webkit-animation:sxTw .5s ease-out 1.9s;animation:sxTw .5s ease-out 1.9s}
+@-webkit-keyframes sxOut{to{opacity:0;visibility:hidden}}@keyframes sxOut{to{opacity:0;visibility:hidden}}
+@keyframes sxBlob{0%{opacity:0;transform:scale(0)}20%{opacity:1}55%{transform:scale(1.22)}78%{transform:scale(.93)}100%{opacity:1;transform:scale(1)}}
+@-webkit-keyframes sxBlob{0%{opacity:0;-webkit-transform:scale(0)}20%{opacity:1}55%{-webkit-transform:scale(1.22)}78%{-webkit-transform:scale(.93)}100%{opacity:1;-webkit-transform:scale(1)}}
+@keyframes sxPop{0%{opacity:0;transform:translateY(38%) scale(.35)}40%{opacity:1}100%{opacity:1;transform:none}}
+@-webkit-keyframes sxPop{0%{opacity:0;-webkit-transform:translateY(38%) scale(.35)}40%{opacity:1}100%{opacity:1;-webkit-transform:none}}
+@keyframes sxDrop{0%{opacity:0;transform:translateY(-420%);animation-timing-function:cubic-bezier(.55,0,1,.45)}15%{opacity:1}45%{transform:translateY(0) scale(1.28,.72);animation-timing-function:ease-out}62%{transform:translateY(-55%) scale(.92,1.1);animation-timing-function:ease-in}80%{transform:translateY(0) scale(1.08,.92);animation-timing-function:ease-out}100%{opacity:1;transform:none}}
+@-webkit-keyframes sxDrop{0%{opacity:0;-webkit-transform:translateY(-420%)}15%{opacity:1}45%{-webkit-transform:translateY(0) scale(1.28,.72)}62%{-webkit-transform:translateY(-55%) scale(.92,1.1)}80%{-webkit-transform:translateY(0) scale(1.08,.92)}100%{opacity:1;-webkit-transform:none}}
+@keyframes sxWink{0%,100%{transform:none}45%,60%{transform:translateY(-38%) scaleY(.14)}}
+@-webkit-keyframes sxWink{0%,100%{-webkit-transform:none}45%,60%{-webkit-transform:translateY(-38%) scaleY(.14)}}
+@keyframes sxDraw{0%{opacity:1;stroke-dashoffset:1}100%{opacity:1;stroke-dashoffset:0}}
+@-webkit-keyframes sxDraw{0%{opacity:1;stroke-dashoffset:1}100%{opacity:1;stroke-dashoffset:0}}
+@keyframes sxBounce{0%,100%{transform:none}40%{transform:scale(1.045)}70%{transform:scale(.99)}}
+@-webkit-keyframes sxBounce{0%,100%{-webkit-transform:none}40%{-webkit-transform:scale(1.045)}70%{-webkit-transform:scale(.99)}}
+@keyframes sxTw{0%{opacity:0;transform:scale(0) rotate(-40deg)}40%{opacity:1;transform:scale(1.15) rotate(0)}100%{opacity:0;transform:scale(.4) rotate(30deg)}}
+@-webkit-keyframes sxTw{0%{opacity:0;-webkit-transform:scale(0) rotate(-40deg)}40%{opacity:1;-webkit-transform:scale(1.15)}100%{opacity:0;-webkit-transform:scale(.4) rotate(30deg)}}
+.sx-seen #sx-splash{display:none!important}
+@media (prefers-reduced-motion:reduce){#sx-splash,#sx-splash *{-webkit-animation:none!important;animation:none!important}#sx-splash .l,#sx-splash .e,#sx-splash .sm,#sx-splash .sx-tag{opacity:1}#sx-splash .sm{stroke-dashoffset:0}#sx-splash.sx-rm{-webkit-transition:opacity .3s;transition:opacity .3s;opacity:0}}</style>
+<script>try{if(sessionStorage.getItem('sxSplash'))document.documentElement.className+=' sx-seen'}catch(e){}</script>
+<div id="sx-splash" data-once="session" role="img" aria-label="SONEXA — Padho kahin bhi, par khud ko dekho yahin" title="Tap to skip"><svg viewBox="-314.5 -126 629 199.3" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g class="lg">
+<g class="l l1"><path d="M-266.3 -22.3Q-257.5 -22.3 -253.9 -25.2Q-250.3 -28.1 -250.3 -31.7Q-250.3 -35.3 -253.2 -37.3Q-256.1 -39.4 -261.3 -41.2L-268.9 -43.7Q-279.3 -47.3 -287.3 -51.4Q-295.3 -55.4 -299.8 -61.9Q-304.3 -68.4 -304.3 -78.8Q-304.3 -94.1 -292.5 -103.3Q-280.7 -112.4 -259.5 -112.4Q-249.1 -112.4 -241.0 -110.4Q-232.9 -108.5 -228.2 -104.4Q-223.5 -100.4 -223.5 -94.1Q-223.5 -89.6 -225.7 -86.2Q-227.9 -82.7 -230.9 -80.4Q-234.9 -82.9 -241.5 -84.8Q-248.2 -86.7 -256.1 -86.7Q-264.2 -86.7 -268.0 -84.5Q-271.7 -82.2 -271.7 -78.8Q-271.7 -76.1 -269.3 -74.4Q-266.9 -72.7 -262.4 -71.2L-252.9 -68.2Q-235.8 -62.8 -226.8 -54.2Q-217.8 -45.7 -217.8 -31.3Q-217.8 -16.0 -229.9 -6.4Q-242.1 3.2 -265.3 3.2Q-276.2 3.2 -285.1 0.9Q-293.9 -1.4 -299.1 -6.1Q-304.3 -10.8 -304.3 -17.4Q-304.3 -22.7 -301.2 -26.4Q-298.2 -30.0 -294.6 -32.0Q-289.6 -28.1 -282.3 -25.2Q-275.0 -22.3 -266.3 -22.3Z"/></g>
+<g class="l o0"><circle cx="-160.8" cy="-44.5" r="46"/></g>
+<g class="l l2"><path d="M-13.9 -56.3V-0.2Q-15.9 0.4 -19.6 0.9Q-23.2 1.4 -27.6 1.4Q-36.4 1.4 -40.4 -1.6Q-44.5 -4.7 -44.5 -13.0V-55.4Q-44.5 -61.0 -47.8 -63.6Q-51.1 -66.2 -56.5 -66.2Q-60.1 -66.2 -63.3 -65.3Q-66.4 -64.4 -69.3 -63.0V-0.2Q-71.3 0.4 -75.0 0.9Q-78.7 1.4 -83.0 1.4Q-91.8 1.4 -95.8 -1.6Q-99.9 -4.7 -99.9 -13.0V-67.1Q-99.9 -72.0 -97.8 -75.0Q-95.7 -78.1 -92.1 -80.6Q-86.0 -84.9 -76.7 -87.5Q-67.3 -90.1 -56.2 -90.1Q-35.8 -90.1 -24.9 -81.2Q-13.9 -72.3 -13.9 -56.3Z"/></g>
+<g class="l l3"><path d="M31.4 -31.8Q33.6 -25.9 38.8 -23.2Q45.1 -20.0 53.0 -20.0Q60.6 -20.0 67.4 -21.9Q74.3 -23.9 78.4 -26.3Q81.3 -24.5 83.2 -21.2Q85.2 -18.0 85.2 -14.4Q85.2 -8.5 80.8 -4.6Q76.4 -0.7 68.7 1.1Q60.9 2.9 50.9 2.9Q36.8 2.9 25.6 -2.4Q14.3 -7.7 7.8 -18.3Q1.2 -29.0 1.2 -45.0Q1.2 -56.8 5.1 -65.5Q9.0 -74.1 15.4 -79.5Q21.9 -84.9 29.9 -87.5Q37.9 -90.1 46.4 -90.1Q59.1 -90.1 68.7 -85.2Q78.2 -80.2 83.6 -71.7Q89.0 -63.1 89.0 -52.0Q89.0 -45.9 85.6 -42.6Q82.2 -39.4 76.0 -38.5ZM29.6 -52.0 60.2 -57.0Q59.9 -60.6 56.6 -64.2Q53.4 -67.8 46.5 -67.8Q39.4 -67.8 34.7 -63.1Q30.4 -59.0 29.6 -52.0Z"/></g>
+<g class="l l4"><path d="M123.0 -45.0Q118.3 -50.4 113.6 -55.9Q106.3 -64.6 98.9 -73.2Q100.3 -80.0 104.7 -84.4Q109.0 -88.7 115.1 -88.7Q121.0 -88.7 124.3 -85.8Q127.5 -82.9 131.5 -77.7L140.8 -65.5Q141.9 -64.0 143.0 -62.6Q146.6 -67.5 150.2 -72.3Q156.1 -80.2 162.2 -88.5Q163.1 -88.7 163.8 -88.7H165.3Q173.7 -88.7 178.7 -85.1Q183.6 -81.5 183.6 -75.7Q183.6 -71.1 181.4 -67.5Q179.1 -63.9 173.2 -57.2Q168.7 -52.2 164.2 -47.3Q162.8 -45.7 161.3 -44.1Q166.2 -37.6 171.0 -31.1Q178.0 -21.9 184.9 -12.8Q184.0 -5.9 179.5 -2.0Q175.0 2.0 168.7 2.0Q162.0 1.8 157.9 -2.0Q153.8 -5.8 150.0 -11.2Q145.7 -17.3 141.5 -23.4Q140.8 -24.1 140.3 -25.0Q137.2 -20.5 134.2 -16.0Q128.0 -7.4 121.9 1.4Q121.2 1.4 120.0 1.5Q118.9 1.6 118.1 1.6Q109.1 1.6 104.3 -2.2Q99.4 -5.9 99.4 -11.5Q99.4 -15.8 101.5 -19.2Q103.6 -22.5 108.6 -28.2Q114.5 -35.1 120.5 -42.1Q121.7 -43.5 123.0 -45.0Z"/></g>
+<g class="l l5"><circle cx="234.5" cy="-44.5" r="46"/></g>
+<g class="e e1"><circle cx="-160.8" cy="-44.5" r="27"/></g>
+<g class="e e2"><circle cx="234.5" cy="-44.5" r="27"/></g>
+<g class="l l5"><rect x="256.5" y="-90.5" width="48" height="92" rx="20"/></g>
+<path class="sm" pathLength="1" d="M-5.8,29.9 Q128.2,83.9 262.1,29.9"/>
+<path class="tw" d="M330,-120 l6,-18 6,18 18,6 -18,6 -6,18 -6,-18 -18,-6z"/>
+</g></svg><p class="sx-tag" aria-hidden="true">Padho kahin bhi, par khud ko dekho yahin</p></div>
+<script>(function(){var el=document.getElementById('sx-splash');if(!el)return;var done=false;
+function finish(){if(done)return;done=true;if(el.parentNode)el.parentNode.removeChild(el);try{sessionStorage.setItem('sxSplash','1')}catch(e){}
+try{document.dispatchEvent(new CustomEvent('sonexa:splash-done'))}catch(e){}}
+var once=el.getAttribute('data-once')==='session';try{if(once&&sessionStorage.getItem('sxSplash')){finish();return}}catch(e){}
+var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(rm){setTimeout(function(){el.className+=' sx-rm';setTimeout(finish,350)},700);return}
+el.addEventListener('animationend',function(e){if(e.target===el)finish()});el.addEventListener('webkitAnimationEnd',function(e){if(e.target===el)finish()});
+el.addEventListener('click',finish);setTimeout(finish,3600)})();</script>
+<!-- SONEXA splash: end -->
 <header class="topbar" id="topbar">
   <a class="brand" href="#/" id="brand"><img class="brand-logo" src="assets/logo.svg?v=sx3" alt="" width="126" height="40"><span id="brandName" class="sr-only">SONEXA</span></a>
   <span class="off-pill" id="offPill" role="status" hidden>● Offline</span>
