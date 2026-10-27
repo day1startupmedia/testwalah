@@ -305,3 +305,39 @@ footer.site{max-width:760px;margin:0 auto;padding:0 16px 30px;color:var(--muted)
 .offpct{font-size:.78rem;color:#6D7486;font-weight:700;min-width:34px}
 .btn.needs-net{background:#eef0f4;color:#6D7486;border-color:#dfe2e8;font-size:.82rem;white-space:nowrap}
 .off-card{border-left:4px solid #E0B23A}
+
+/* ---------- practice tools: My Mistakes / Daily 10 / Practice by chapter (SONEXA colours only) ---------- */
+.hdr-link{margin-left:auto;font-size:.82rem;font-weight:700;color:#3A1C71;text-decoration:none;border:1.5px solid #E0B23A;background:#fff8e6;border-radius:999px;padding:5px 11px;white-space:nowrap}
+.off-pill:not([hidden])+.hdr-link{margin-left:0}
+.hdr-link:active{transform:scale(.97)}
+.tool-cards{display:grid;gap:10px;margin:14px 0 4px}
+.tool-card{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:16px;background:#fff;border:2px solid #E0B23A;color:#3A1C71;text-decoration:none;box-shadow:var(--shadow)}
+.tool-card:active{transform:scale(.99)}
+.tool-card .tool-ico{font-size:1.8rem;line-height:1}
+.tool-card .tool-body{flex:1;min-width:0}
+.tool-card .tool-title{display:block;font-weight:800;font-size:1.08rem}
+.tool-card .tool-note{display:block;font-size:.84rem;color:#6D7486;margin-top:2px}
+.tool-card .tool-go{font-size:1.8rem;color:#6D7486}
+.tool-card.daily{background:linear-gradient(135deg,#fff3e8,#fff);border-color:#FF7A1A}
+.tool-card.chap{background:linear-gradient(135deg,#f1ecfa,#fff);border-color:#3A1C71}
+.btn.sx{background:#FF7A1A;border-color:#FF7A1A;color:#fff}
+.btn.sx:disabled{background:#6D7486;border-color:#6D7486;opacity:.6}
+.mx-stats .stats{grid-template-columns:1fr 1fr}
+.mx-stats .btn.block{margin-top:14px}
+.mx-exam{margin-top:22px}
+.mx-paper{border-top:1px solid var(--line);padding:12px 0}
+.mx-paper:first-child{border-top:0;padding-top:0}
+.mx-prow{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.mx-pbtns{display:flex;flex-direction:column;gap:6px;align-items:stretch;flex:none}
+.mx-pbtns .btn{min-height:38px;padding:6px 14px;background:#3A1C71;border-color:#3A1C71;color:#fff}
+.mx-view{border:0;background:none;color:#3A1C71;font-weight:700;font-size:.85rem;padding:4px}
+.mx-qs{margin-top:10px;display:grid;gap:10px}
+.mx-q{border:1px solid var(--line);border-radius:12px;padding:10px;background:#fcfbff}
+.mx-q .qbody img{max-width:100%;height:auto}
+.mx-qh{margin-bottom:6px}
+.mx-ok1{font-size:.75rem;font-weight:700;color:#3A1C71;background:#fff3d6;border-radius:999px;padding:1px 8px}
+.mx-mast summary{cursor:pointer;padding:2px 0}
+.mx-mrow{display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid var(--line);padding:10px 0}
+.mx-undo{min-height:36px;padding:4px 14px}
+.tool-result{border:2px solid #E0B23A;background:#fffaf0}
+.tool-result.daily{border-color:#FF7A1A;background:#fff5ec}

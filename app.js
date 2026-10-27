@@ -150,6 +150,7 @@
     if (a === 'result' && b) return viewResult(b, false);
     if (a === 'review' && b) return viewResult(b, true);
     if (a === 'page' && PAGES()[b]) return viewPage(b);
+    if (a === 'mistakes') return viewMistakes();
     return viewHome();
   }
   window.addEventListener('hashchange', route);
@@ -225,6 +226,7 @@
         <a class="exam-card cbse" href="#/exam/cbse"><span class="name">CBSE Board</span><span class="sub">${t('cbseSub')}</span><span class="count">${cbsePapers().reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></a>
         <a class="exam-card nda" href="#/exam/nda"><span class="name">NDA</span><span class="sub">${t('ndaSub')}</span><span class="count">${countFor('nda')} ${t('questions')}</span></a>
       </div>
+      <div class="tool-cards">${sxToolCards()}</div>
       ${IN_APP ? '' : IS_IOS ? `<a class="app-card" href="app/#ios"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Add SONEXA to your Home Screen</span><span class="app-note">iPhone: Safari → Share → Add to Home Screen</span></span></a>` : `<a class="app-card" href="app/SONEXA.apk" download="SONEXA.apk" type="application/vnd.android.package-archive"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Install SONEXA App (Android)</span><span class="app-note">Android only · allow 'Install unknown apps' when asked</span></span></a>`}
       <h2>${t('pastAttempts')}</h2>
       <section class="card">${attemptsList()}</section>
@@ -370,7 +372,7 @@
     const marking = {}; o.qs.forEach(q => { marking[q.paperId] = (meta(q.paperId) || {}).marking || {}; });
     active = { id: 't' + Date.now().toString(36), title: o.title, exam: o.exam, mode: o.mode, qids: o.qs.map(q => q.id), paperIds: [...new Set(o.qs.map(q => q.paperId))],
       durationSec: o.durationSec, elapsedSec: 0, startedAt: Date.now(), answers: {}, marked: {}, visited: {}, cur: 0, rules: o.rules, marking,
-      paper: o.paper || null, challenge: o.challenge || null };
+      paper: o.paper || null, challenge: o.challenge || null, extra: o.extra || null };
     save(LS.active, active); go('#/test');
   }
 
@@ -524,7 +526,8 @@
     const at = { id: active.id, title: active.title, exam: active.exam, mode: active.mode, qids: active.qids, answers: active.answers, marked: active.marked, paperIds: active.paperIds,
       rules: active.rules, marking: active.marking, startedAt: active.startedAt, finishedAt: Date.now(), durationSec: active.durationSec, timeTakenSec: Math.min(active.durationSec, Math.round(active.elapsedSec)),
       fullName, score: r.score, max: r.max, correct: r.correct, wrong: r.wrong, skipped: r.skipped + r.notCounted, accuracy: r.accuracy, bySubject: r.bySubject,
-      paper: active.paper || null, challenge: active.challenge || null };
+      paper: active.paper || null, challenge: active.challenge || null, extra: active.extra || null };
+    try { sxAfterFinish(at, qs, r); } catch (e) { /* practice tools must never block a result */ }
     const list = attempts(); list.unshift(at); save(LS.attempts, list.slice(0, 30));
     active = null; localStorage.removeItem(LS.active);
     submitPending = false;
@@ -644,18 +647,19 @@
     const subRows = Object.entries(r.bySubject).map(([s, v]) => `<tr><td>${s}</td><td>${v.attempted}/${v.total}</td><td style="color:var(--ok)">${v.correct}</td><td style="color:var(--bad)">${v.wrong}</td><td><b>${v.score}</b>/${v.max}</td></tr>`).join('');
     let filter = 'all';
     const showQl = [...new Set(qs.map(q => q.paperId))].some(paperHasHi);
-    app.innerHTML = `<a href="#/exam/${ex}" class="backbtn">← ${t('back')}</a>
+    app.innerHTML = `<a href="${sxBack(at, ex)}" class="backbtn">← ${t('back')}</a>
       <h1>${t('result')}</h1><p class="muted small" style="margin-top:0">${esc(at.title)} · ${fmtDate(at.finishedAt)}</p>
       <section class="card"><div class="bigscore">${at.fullName ? `<div class="result-name">${esc(at.fullName)}</div>` : ''}<div class="n">${r.score}<span class="d" style="font-size:1.2rem"> / ${r.max}</span></div><div class="d">${t('score')}</div></div>
         <div class="stats"><div class="stat ok"><b>${r.correct}</b>${t('correct')}</div><div class="stat bad"><b>${r.wrong}</b>${t('wrong')}</div><div class="stat"><b>${r.skipped + r.notCounted}</b>${t('skipped')}</div></div>
         <div class="stats" style="grid-template-columns:1fr 1fr"><div class="stat"><b>${r.accuracy}%</b>${t('accuracy')}</div><div class="stat"><b>${fmtDur(at.timeTakenSec)}</b>${t('timeTaken')}</div></div>
       </section>
       ${chResultCard(at)}
+      ${sxModeCard(at, r)}
       <div class="share-actions"><button type="button" class="btn primary" id="shareResult" hidden>Share</button><a class="btn" id="waResult" target="_blank" rel="noopener noreferrer" href="${'https://wa.me/?text=' + encodeURIComponent(shareText(at, r))}">WhatsApp</a><a class="btn" id="fbResult" target="_blank" rel="noopener noreferrer" href="${'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(SHARE_URL)}">Facebook</a><button type="button" class="btn" id="downloadResult">Download image</button></div>
       <p class="muted small share-hint">For Instagram Story: tap Share, or download the image and add it to your story.</p>
       <h2>${t('subjectBreakdown')}</h2>
       <section class="card" style="overflow-x:auto"><table><thead><tr><th>${t('subject')}</th><th>${t('attempted')}</th><th>${t('correct')}</th><th>${t('wrong')}</th><th>${t('score')}</th></tr></thead><tbody>${subRows}</tbody></table></section>
-      <div class="row"><button class="btn" id="retake" style="flex:1">${t('retake')}</button><a class="btn" href="#/exam/${ex}" style="flex:1">${t('home')}</a></div>
+      <div class="row"><button class="btn" id="retake" style="flex:1">${t('retake')}</button><a class="btn" href="${sxBack(at, ex)}" style="flex:1">${t('home')}</a></div>
       <h2 id="reviewHead">${t('reviewAnswers')}</h2>
       ${showQl ? `<div class="qlang-row review"><span class="small muted">Question language</span>${qlangToggle()}</div>` : ''}
       <div class="chips" id="rf">${['all', 'wrong', 'skipped', 'correct'].map(f => `<button class="chip" data-f="${f}" aria-pressed="${f === 'all'}">${t(f)} (${f === 'all' ? qs.length : qs.filter(q => (r.perQ[q.id] === f) || (f === 'skipped' && r.perQ[q.id] === 'not-counted')).length})</button>`).join('')}</div>
@@ -1002,6 +1006,147 @@
         onNick: nn => { rec.mine.n = nn; chPut(k, rec); } });
     };
   }
+
+
+  /* ---------- 📒 My Mistakes (mistakes diary) ----------
+     Every wrong or unanswered question of every finished test is saved on this phone (localStorage sonexa.v1.mistakes,
+     keyed by question id): paper id, 0-based question index in the paper file, your answer, the correct answer, date.
+     "Re-test my mistakes" builds a normal test (max 30, shuffled) of those questions; a question answered right twice in
+     re-tests moves to Mastered (Undo puts it back). Old attempts made before this feature are added once (sonexa.v1.mxSeen). */
+  const LS_MX = 'sonexa.v1.mistakes', LS_MXSEEN = 'sonexa.v1.mxSeen', MX_MAX = 30;
+  const mxAll = () => load(LS_MX, {});
+  const mxSave = m => save(LS_MX, m);
+  const mxActive = m => Object.values(m || mxAll()).filter(e => !e.m);
+  const mxExamCls = e => e === 'NEET' ? 'neet' : e === 'CBSE' ? 'cbse' : e === 'JEE Advanced' ? 'jeeadv' : e === 'NDA' ? 'nda' : 'jee';
+  const mxQno = q => q.exam === 'NDA' && q.srcQno ? q.srcQno : q.qno;
+  const mxLabel = (q, v) => v == null || v === '' ? '' : (q.type === 'numerical' ? String(v) : (optLabels(q) ? optLabel(q, Number(v) - 1) : String(v)));
+  function mxSeenAdd(id) { const s = load(LS_MXSEEN, []); if (!s.includes(id)) { s.unshift(id); save(LS_MXSEEN, s.slice(0, 300)); } }
+  // Called from finish() (and for old attempts) with the scored questions. Returns {added, mastered, left}.
+  function mxRecord(at, qs, r) {
+    const m = mxAll(), now = at.finishedAt || Date.now(), retest = at.mode === 'mistakes';
+    let added = 0, mastered = 0;
+    qs.forEach(q => {
+      if (!q) return;
+      const st = r.perQ[q.id], e = m[q.id];
+      if (st === 'correct') {
+        if (retest && e && !e.m) { e.ok = (e.ok || 0) + 1; if (e.ok >= 2) { e.m = now; mastered++; } }
+        return;
+      }
+      const P = papers[q.paperId]; const i = P ? P.questions.indexOf(q) : -1;
+      const a = at.answers ? at.answers[q.id] : null; const has = a != null && String(a).trim() !== '';
+      if (!e) added++;
+      m[q.id] = { q: q.id, p: q.paperId, i, n: mxQno(q), x: q.exam, s: q.subject, a: has ? a : null, c: q.answer,
+        al: has ? mxLabel(q, a) : '', cl: q.answer.map(v => mxLabel(q, v)).join(' or '), w: st === 'wrong' ? 'w' : 's',
+        d: now, f: e ? e.f : now, k: (e ? e.k || 1 : 0) + 1, ok: 0, m: 0 };
+    });
+    mxSave(m);
+    if (at.id) mxSeenAdd(at.id);
+    return { added, mastered, left: mxActive(m).length };
+  }
+  // Attempts finished before the diary existed: score them once and add their mistakes.
+  async function mxBackfill() {
+    const seen = load(LS_MXSEEN, []); const todo = attempts().filter(a => a.id && !seen.includes(a.id) && a.qids && a.answers);
+    if (!todo.length) return false;
+    let changed = false;
+    for (const at of todo.slice().reverse()) {
+      try {
+        const ids = (at.paperIds || []).filter(meta); const got = await Promise.allSettled(ids.map(loadPaper));
+        if (got.some(g => g.status !== 'fulfilled')) continue;   // offline: try again next time
+        const qs = at.qids.map(qById).filter(Boolean);
+        const r = PYQScoring.score(qs, at.answers, { marking: at.marking, rules: at.rules });
+        mxRecord(Object.assign({}, at, { mode: at.mode === 'mistakes' ? 'old' : at.mode }), qs, r); changed = true;
+      } catch (e) { /* skip */ }
+    }
+    return changed;
+  }
+  function mxCardHtml() {
+    const act = mxActive(), mast = Object.values(mxAll()).length - act.length;
+    return `<a class="tool-card mx" href="#/mistakes"><span class="tool-ico" aria-hidden="true">📒</span><span class="tool-body"><span class="tool-title">My Mistakes</span>
+      <span class="tool-note">${act.length ? `${act.length} question${act.length === 1 ? '' : 's'} to fix${mast ? ` · ${mast} mastered` : ''}` : 'Wrong & unanswered questions are saved here automatically'}</span></span><span class="tool-go" aria-hidden="true">›</span></a>`;
+  }
+  const mxState = { exam: 'all', type: 'all' };
+  async function viewMistakes() {
+    await mxBackfill().catch(() => false);
+    if (!/^#\/mistakes/.test(location.hash)) return;
+    const all = mxAll(), list = Object.values(all), act = list.filter(e => !e.m), mast = list.filter(e => e.m).sort((a, b) => b.m - a.m);
+    const exams = [...new Set(act.map(e => e.x))].sort();
+    if (mxState.exam !== 'all' && !exams.includes(mxState.exam)) mxState.exam = 'all';
+    const pick = act.filter(e => (mxState.exam === 'all' || e.x === mxState.exam) && (mxState.type === 'all' || e.w === mxState.type));
+    const nW = act.filter(e => e.w === 'w').length, nS = act.length - nW;
+    const byExam = {}; pick.forEach(e => { ((byExam[e.x] = byExam[e.x] || {})[e.p] = byExam[e.x][e.p] || []).push(e); });
+    const ptitle = pid => (meta(pid) || {}).title || pid;
+    const groups = Object.keys(byExam).sort().map(x => {
+      const ps = Object.keys(byExam[x]).sort((a, b) => ((meta(b) || {}).year || 0) - ((meta(a) || {}).year || 0) || ptitle(a).localeCompare(ptitle(b)));
+      const n = ps.reduce((s, p) => s + byExam[x][p].length, 0);
+      return `<h2 class="mx-exam">${esc(x)} <span class="muted small">(${n})</span></h2><section class="card mx-list">${ps.map(p => {
+        const es = byExam[x][p].sort((a, b) => a.n - b.n); const w = es.filter(e => e.w === 'w').length;
+        return `<div class="mx-paper" data-pid="${esc(p)}"><div class="mx-prow"><div><div style="font-weight:700">${esc(ptitle(p))}</div>
+          <div class="meta">${es.length} to fix · ${w} wrong · ${es.length - w} unanswered</div></div>
+          <div class="mx-pbtns"><button type="button" class="btn mxbtn" data-mxp="${esc(p)}">Re-test</button><button type="button" class="mx-view" data-mxv="${esc(p)}" aria-expanded="false">View ▾</button></div></div>
+          <div class="mx-qs" hidden></div></div>`;
+      }).join('')}</section>`;
+    }).join('');
+    app.innerHTML = `<a href="#/" class="backbtn">← ${t('back')}</a>
+      <h1>📒 My Mistakes</h1>
+      <p class="muted small" style="margin-top:0">Every question you got wrong or left unanswered is saved here automatically, on this phone only. Answer one right twice in a re-test and it moves to Mastered.</p>
+      <section class="card mx-stats"><div class="stats"><div class="stat"><b>${act.length}</b>To fix</div><div class="stat bad"><b>${nW}</b>Wrong</div><div class="stat"><b>${nS}</b>Unanswered</div><div class="stat ok"><b>${mast.length}</b>Mastered</div></div>
+        ${act.length ? `${exams.length > 1 ? `<div class="label">Exam</div><div class="chips" id="mxEx"><button class="chip" data-x="all" aria-pressed="${mxState.exam === 'all'}">All <span class="muted small">(${act.length})</span></button>${exams.map(x => `<button class="chip" data-x="${esc(x)}" aria-pressed="${mxState.exam === x}">${esc(x)} <span class="muted small">(${act.filter(e => e.x === x).length})</span></button>`).join('')}</div>` : ''}
+        <div class="label">Show</div><div class="chips" id="mxTy">${[['all', 'All'], ['w', 'Wrong'], ['s', 'Unanswered']].map(([k, l]) => `<button class="chip" data-t="${k}" aria-pressed="${mxState.type === k}">${l}</button>`).join('')}</div>
+        <button class="btn sx block" id="mxGo" ${pick.length ? '' : 'disabled'}>🔁 Re-test my mistakes <span class="small">(${Math.min(MX_MAX, pick.length)} of ${pick.length})</span></button>
+        <p class="muted small" style="margin:8px 0 0">Up to ${MX_MAX} at a time, shuffled. Normal timer, marking and review.</p>` : `<p class="muted" style="margin:10px 0 0">${mast.length ? 'All caught up 🎉 Nothing to fix right now. New mistakes from your next tests will show up here.' : 'No mistakes saved yet. Take any test — wrong and unanswered questions will show up here.'}</p><a class="btn sx block" href="#/">Choose a test</a>`}
+      </section>
+      ${groups}
+      ${mast.length ? `<details class="card mx-mast"><summary><b>✓ Mastered (${mast.length})</b> <span class="muted small">answered right twice in re-tests</span></summary>
+        ${mast.slice(0, 200).map(e => `<div class="mx-mrow"><div><div style="font-weight:600">${esc(ptitle(e.p))} · Q${esc(e.n)}</div><div class="meta">${esc(e.s || '')} · mastered ${esc(fmtDay(e.m))}</div></div><button type="button" class="btn mx-undo" data-undo="${esc(e.q)}">Undo</button></div>`).join('')}</details>` : ''}
+      ${siteFooter()}`;
+    const rr = () => { const y = window.scrollY; viewMistakes().then(() => window.scrollTo(0, y)); };
+    app.querySelectorAll('#mxEx .chip').forEach(b => b.onclick = () => { mxState.exam = b.dataset.x; rr(); });
+    app.querySelectorAll('#mxTy .chip').forEach(b => b.onclick = () => { mxState.type = b.dataset.t; rr(); });
+    const go1 = document.getElementById('mxGo'); if (go1 && pick.length) go1.onclick = () => mxStart(pick);
+    app.querySelectorAll('[data-mxp]').forEach(b => b.onclick = () => mxStart(pick.filter(e => e.p === b.dataset.mxp)));
+    app.querySelectorAll('[data-undo]').forEach(b => b.onclick = () => { const m = mxAll(), e = m[b.dataset.undo]; if (e) { e.m = 0; e.ok = 0; mxSave(m); toast('Moved back to My Mistakes'); } rr(); });
+    app.querySelectorAll('[data-mxv]').forEach(b => b.onclick = async () => {
+      const box = b.closest('.mx-paper').querySelector('.mx-qs'), open = box.hidden;
+      box.hidden = !open; b.setAttribute('aria-expanded', open); b.textContent = open ? 'Hide ▴' : 'View ▾';
+      if (!open || box.dataset.done) return;
+      const pid = b.dataset.mxv, es = pick.filter(e => e.p === pid).sort((a, c) => a.n - c.n);
+      let P = null; try { P = await loadPaper(pid); } catch (e) { /* offline */ }
+      box.dataset.done = '1';
+      box.innerHTML = es.map(e => { const q = P ? (P.questions[e.i] && P.questions[e.i].id === e.q ? P.questions[e.i] : P.questions.find(x => x.id === e.q)) : null;
+        return `<div class="mx-q"><div class="mx-qh"><b>Q${esc(e.n)}</b> <span class="muted small">${esc(e.s || '')} · ${esc(fmtDay(e.d))}${e.k > 1 ? ` · missed ${e.k}×` : ''}</span>${e.ok ? ' <span class="mx-ok1">1/2 ✓</span>' : ''}</div>
+          ${q ? `<div class="qbody">${qImg(q) ? `<img src="${qImg(q)}" alt="Question ${esc(e.n)}" loading="lazy">` : ''}${qTxt(q) ? `<div class="qtext">${fmtText(qTxt(q))}</div>` : ''}</div>` : `<p class="muted small">Question preview needs internet.</p>`}
+          <div class="ans-line"><span>${t('yourAnswer')}: <b class="${e.w === 'w' ? 'bad' : ''}">${e.w === 'w' ? '(' + esc(e.al) + ')' : `<span class="muted">${t('notAttempted')}</span>`}</b></span><span>${t('correctAnswer')}: <b class="ok">${esc(e.cl)}</b></span></div></div>`; }).join('');
+      math(box);
+    });
+  }
+  async function mxStart(entries) {
+    if (!entries.length || !confirmReplace()) return;
+    const pickd = shuffle(entries).slice(0, MX_MAX);
+    const ids = [...new Set(pickd.map(e => e.p))].filter(meta);
+    const got = await Promise.allSettled(ids.map(loadPaper));
+    const qs = pickd.map(e => { const P = papers[e.p]; if (!P) return null; const q = P.questions[e.i]; return q && q.id === e.q ? q : P.questions.find(x => x.id === e.q) || null; }).filter(Boolean);
+    if (!qs.length) { toast(isOnline() ? 'Could not load these questions. Please try again.' : 'These papers need internet. Save papers offline to re-test without internet.'); return; }
+    if (got.some(g => g.status !== 'fulfilled')) toast(`${pickd.length - qs.length} question(s) skipped: their paper needs internet.`);
+    const exs = [...new Set(qs.map(q => q.exam))];
+    const mins = qs.reduce((s, q) => s + (((EXAMS[mxExamCls(q.exam)] || {}).minPerQ) || 1.5), 0);
+    begin({ title: `My Mistakes · ${qs.length} questions`, exam: exs.length === 1 ? exs[0] : 'Mixed', mode: 'mistakes', qs, durationSec: Math.max(5, Math.round(mins)) * 60, rules: {} });
+  }
+  const fmtDay = ms => new Date(ms).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+  // Extra card on the result screen for the practice tools (mistakes / daily / chapter).
+  function sxModeCard(at) {
+    if (at.mode === 'mistakes' && at.mx) {
+      return `<section class="card tool-result mx"><b>📒 Re-test done</b><p class="small" style="margin:4px 0 10px">${at.mx.mastered ? `${at.mx.mastered} question${at.mx.mastered === 1 ? '' : 's'} moved to Mastered 🎉 · ` : ''}${at.mx.left} still to fix.</p><a class="btn sx block" href="#/mistakes">Open My Mistakes</a></section>`;
+    }
+    if (at.mx && at.mx.added && at.mode !== 'mistakes') {
+      return `<section class="card tool-result mx"><b>📒 ${at.mx.added} question${at.mx.added === 1 ? '' : 's'} saved to My Mistakes</b><p class="small" style="margin:4px 0 10px">Re-test them later until you get them right.</p><a class="btn block" href="#/mistakes">Open My Mistakes</a></section>`;
+    }
+    return '';
+  }
+  function sxAfterFinish(at, qs, r) {
+    at.mx = mxRecord(at, qs, r);
+  }
+  const sxBack = (at, ex) => at.mode === 'mistakes' ? '#/mistakes' : '#/exam/' + ex;
+  function sxToolCards() { return mxCardHtml(); }
 
   /* ---------- language toggle (Hindi strings can be filled in strings.js) ---------- */
   offPill();
