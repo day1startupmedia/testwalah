@@ -273,3 +273,10 @@ footer.site{max-width:760px;margin:0 auto;padding:0 16px 30px;color:var(--muted)
 .vs-q.both{background:#E0B23A;color:#3A1C71;border-color:#E0B23A}
 .vs-q.a{background:#3A1C71;color:#fff;border-color:#3A1C71}
 .vs-q.b{background:#FF7A1A;color:#fff;border-color:#FF7A1A}
+
+/* Install app card (hidden inside the Android app) */
+.app-card{display:flex;align-items:center;gap:14px;margin:14px 0 4px;padding:14px 16px;border-radius:16px;background:linear-gradient(135deg,#3A1C71,#5a2fa0);color:#fff;text-decoration:none;box-shadow:var(--shadow);border:2px solid #E0B23A}
+.app-card .app-ico{font-size:1.9rem;line-height:1}
+.app-card .app-title{display:block;font-weight:800;font-size:1.08rem}
+.app-card .app-note{display:block;font-size:.82rem;color:#f3e6c4;margin-top:2px}
+.app-card:active{transform:scale(.99)}
