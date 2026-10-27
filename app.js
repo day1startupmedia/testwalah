@@ -1553,27 +1553,39 @@
      (offline, error, form not activated yet) waits in localStorage sonexa.v1.fbQueue and is retried on load / when online. */
   const LS_FBQ = 'sonexa.v1.fbQueue';
   const fbEndpoint = () => 'https://formsubmit.co/ajax/' + encodeURIComponent(t('contactEmail'));
-  async function fbPost(p) {
-    try {
-      const r = await fetch(fbEndpoint(), { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(p) });
-      if (!r.ok) return { ok: false, net: true };
-      let j = {}; try { j = await r.json(); } catch (e) { /* ignore */ }
-      return { ok: String(j.success) === 'true', net: true };
-    } catch (e) { return { ok: false, net: false }; }
+  // Every POST gives up after ~8 s (a hanging FormSubmit request or a slow mobile network must never block the UI).
+  async function fbPost(p, ms = 8000) {
+    const ac = typeof AbortController === 'function' ? new AbortController() : null;
+    let timer = null;
+    const timeout = new Promise(res => { timer = setTimeout(() => { try { ac && ac.abort(); } catch (e) { /* ignore */ } res({ ok: false, net: false, timeout: true }); }, ms); });
+    const go = (async () => {
+      try {
+        const r = await fetch(fbEndpoint(), { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(p), signal: ac ? ac.signal : undefined });
+        if (!r.ok) return { ok: false, net: true };
+        let j = {}; try { j = await r.json(); } catch (e) { /* ignore */ }
+        return { ok: String(j.success) === 'true', net: true };   // "needs activation" replies success:false -> stays queued
+      } catch (e) { return { ok: false, net: false }; }
+    })();
+    try { return await Promise.race([go, timeout]); } finally { clearTimeout(timer); }
   }
+  const fbId = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+  const fbNorm = e => (e && e.p ? Object.assign({ id: e.id || fbId(), t: 0, n: 0 }, e) : { id: fbId(), p: e, t: 0, n: 0 });
+  // Queue items: { id, p (payload), t (last attempt ms), n (attempts) }. Kept until sent (max 20 newest); each retried at most once per 6 h.
   let fbFlushing = false;
   async function fbFlush() {
     if (fbFlushing || !isOnline()) return; fbFlushing = true;
     try {
-      const q = load(LS_FBQ, []); if (!q.length) return;
-      const keep = [], now = Date.now();
-      for (const e of q) {
-        const it = e && e.p ? e : { p: e, t: 0, n: 0 };
-        if (it.t && now - it.t < 12 * 3600e3) { keep.push(it); continue; }   // reached the server before: retry at most twice a day
+      const q = load(LS_FBQ, []).map(fbNorm); if (!q.length) return;
+      save(LS_FBQ, q);
+      const sent = new Set(), tried = {}, now = Date.now();
+      for (const it of q) {
+        if (it.t && now - it.t < 6 * 3600e3) continue;
+        tried[it.id] = now;
+        const cur = load(LS_FBQ, []).map(fbNorm); const c = cur.find(x => x.id === it.id); if (c) { c.t = now; c.n = (c.n || 0) + 1; save(LS_FBQ, cur); }
         const r = await fbPost(Object.assign({}, it.p, { _queued: 'yes' }));
-        if (!r.ok) { if (r.net) { it.t = now; it.n = (it.n || 0) + 1; } if (it.n < 5) keep.push(it); }
+        if (r.ok) sent.add(it.id);
       }
-      const cur = load(LS_FBQ, []); save(LS_FBQ, keep.concat(cur.slice(q.length)).slice(-20));
+      save(LS_FBQ, load(LS_FBQ, []).map(fbNorm).filter(x => !sent.has(x.id)).slice(-20));
     } finally { fbFlushing = false; }
   }
   window.addEventListener('online', () => setTimeout(fbFlush, 1500));
@@ -1615,13 +1627,23 @@
         page, paper: ctx.pid || '-', question: ctx.qno ? 'Q' + ctx.qno : '-', paper_title: ctx.title || '-', score: ctx.score || '-',
         device: IN_APP ? 'Android app' : (IS_IOS ? 'iPhone/iPad browser' : 'browser'), hindi: qlang === 'hi' ? 'on' : 'off', site: location.host, sent_at: new Date().toISOString(), ua: (navigator.userAgent || '').slice(0, 180) };
       const btn = form.querySelector('[type=submit]'); btn.disabled = true; btn.textContent = 'Sending…';
-      let r = { ok: false, net: false };
-      if (isOnline()) r = await fbPost(p);
-      if (!r.ok) { const q = load(LS_FBQ, []); q.push({ p, t: r.net ? Date.now() : 0, n: r.net ? 1 : 0 }); save(LS_FBQ, q.slice(-20)); }
-      form.innerHTML = `<div class="fb-done"><div class="fb-done-ico">✅</div><h2>${r.net ? 'Thanks! Feedback sent ✅' : 'Saved ✅'}</h2><p class="muted small">${r.net ? 'Thank you for helping make SONEXA better.' : (isOnline() ? 'Could not reach the server. It will be sent automatically later.' : 'You are offline. It will be sent automatically when you are back online.')}</p><button type="button" class="btn sx block" data-x>Done</button></div>`;
-      form.querySelector('[data-x]').onclick = close;
-      setTimeout(() => { if (bg.isConnected) close(); }, 4000);
+      // 1) save first, so nothing is lost even if the page is closed now
+      const id = fbId(); { const q = load(LS_FBQ, []).map(fbNorm); q.push({ id, p, t: Date.now(), n: 1 }); save(LS_FBQ, q.slice(-20)); }
+      let shown = false;
+      const done = ok => {
+        if (shown || !bg.isConnected) return; shown = true;
+        form.innerHTML = `<div class="fb-done"><div class="fb-done-ico">✅</div><h2>${ok ? 'Thanks! Feedback sent ✅' : 'Thanks! Saved ✅'}</h2><p class="muted small">${ok ? 'Thank you for helping make SONEXA better.' : 'It will be sent automatically.'}</p><button type="button" class="btn sx block" data-x>Done</button></div>`;
+        form.querySelector('[data-x]').onclick = close;
+        setTimeout(() => { if (bg.isConnected) close(); }, 3500);
+      };
+      const guard = setTimeout(() => done(false), 8000);   // 3) the sheet never stays on "Sending…"
+      let r = { ok: false };
+      if (isOnline()) r = await fbPost(p, 7500);
+      clearTimeout(guard);
+      if (r.ok) save(LS_FBQ, load(LS_FBQ, []).map(fbNorm).filter(x => x.id !== id));   // 2) sent: take it off the queue
+      done(r.ok);
     };
+
   }
 
 
