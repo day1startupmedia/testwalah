@@ -1158,6 +1158,7 @@
   const mxState = { exam: 'all', type: 'all' };
   async function viewMistakes() {
     await mxBackfill().catch(() => false);
+    if (Object.values(mxAll()).some(e => /^px-/.test(e.p || ''))) await pxData();   // practice set names for the group headings
     if (!/^#\/mistakes/.test(location.hash)) return;
     const all = mxAll(), list = Object.values(all), act = list.filter(e => !e.m), mast = list.filter(e => e.m).sort((a, b) => b.m - a.m);
     const exams = [...new Set(act.map(e => e.x))].sort();
