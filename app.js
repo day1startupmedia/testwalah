@@ -36,6 +36,10 @@
   const qTxt = q => (qlang === 'hi' && q.questionHi) ? q.questionHi : q.question;
   const qlangToggle = () => `<div class="qlang" role="group" aria-label="Question language"><button type="button" data-ql="en" aria-pressed="${qlang === 'en'}">EN</button><button type="button" data-ql="hi" aria-pressed="${qlang === 'hi'}" lang="hi">हिंदी</button></div>`;
   const qlangNote = q => (qlang === 'hi' && paperHasHi(q.paperId) && !qHasHi(q)) ? `<p class="hi-na">${q.exam === 'NDA' && q.subject === 'English' ? 'English section · no Hindi version' : 'Hindi not available · showing English'}</p>` : '';
+  const PX_SRC = 'practice-ncert';
+  const pxCredit = q => q.source === PX_SRC && q.credit && !/^SONEXA/.test(q.credit) ? `<p class="px-credit">${esc(q.credit)}</p>` : '';
+  const pxNote = q => q.source === PX_SRC && qlang === 'hi' ? '<p class="hi-na">English only</p>' : '';
+  const srcText = q => q.source === PX_SRC ? `Practice (NCERT-based, not a previous-year question). ${q.credit && !/^SONEXA/.test(q.credit) ? q.credit + '.' : 'Original SONEXA question'} Based on ${q.basis || 'the NCERT textbook'}.` : q.source;
   const bindQlang = (root, cb) => root.querySelectorAll('.qlang button').forEach(b => b.onclick = () => { setQlang(b.dataset.ql); cb(); });
   const t = (k, v) => {
     let s = (STR[lang] && STR[lang][k]) || STR.en[k] || k;
@@ -61,7 +65,16 @@
   const papers = {}; const waiting = {};
   window.PYQ_DATA = { add(p) { p.questions.forEach(q => { q.paperId = p.id; }); papers[p.id] = p; (waiting[p.id] || []).forEach(f => f(p)); delete waiting[p.id]; } };
   const INDEX = window.PYQ_INDEX || [];
-  const meta = id => INDEX.find(p => p.id === id);
+  const meta = id => INDEX.find(p => p.id === id) || pxMeta(id);
+  /* Practice (NCERT-based) sets live outside INDEX (data/practice/<id>.js, ids "px-..."), so papers lists, home counts,
+     Daily 10 and search never see them; meta() still resolves them for tests, mistakes and review. */
+  function pxMeta(id) {
+    if (typeof id !== 'string' || id.indexOf('px-') !== 0) return undefined;
+    const P = papers[id], s = (pxIdx && pxIdx.sets && pxIdx.sets[id]) || {};
+    return { id, kind: 'practice', exam: (P && P.exam) || s.exam || 'NEET', year: null, title: (P && P.title) || ((s.chapter || 'Chapter') + ' · Practice'),
+      file: s.file || ('data/practice/' + id + '.js'), marking: { mcq: [4, -1] }, rules: {} };
+  }
+  let pxIdx = null;
   function loadPaper(id) {
     if (papers[id]) return Promise.resolve(papers[id]);
     return new Promise((res, rej) => {
@@ -469,7 +482,7 @@
       const i = active.cur, q = qs[i];
       active.visited[q.id] = 1; persist();
       const a = active.answers[q.id];
-      const src = `${esc(q.paper)} · Q${q.exam === 'NDA' && q.srcQno ? q.srcQno : q.qno}`;
+      const src = q.source === PX_SRC ? `<span class="px-tag">Practice</span> ${esc(q.chapter || '')}` : `${esc(q.paper)} · Q${q.exam === 'NDA' && q.srcQno ? q.srcQno : q.qno}`;
       let opts = '';
       if (q.type === 'numerical') {
         opts = `<div class="numin"><input id="numIn" inputmode="decimal" autocomplete="off" placeholder="${t('enterAnswer')}" aria-label="${t('enterAnswer')}" value="${a != null ? esc(a) : ''}"><button type="button" class="btn numsign" id="numSign" aria-label="Change sign (plus/minus)">±</button></div><p class="muted small">${t('numericalHint')}</p>`;
@@ -483,7 +496,7 @@
         <button class="flag" id="flagBtn" aria-pressed="${!!active.marked[q.id]}">⚑ ${active.marked[q.id] ? t('marked') : t('mark')}</button></div>
         ${secnote}
         ${showQl ? `<div class="qlang-row">${qlangToggle()}</div>${qlangNote(q)}` : ''}
-        <div class="qbody">${qImg(q) ? `<img src="${qImg(q)}" alt="Question ${i + 1}" id="qimg">` : ''}${qTxt(q) ? `<div class="qtext"${qlang === 'hi' && q.questionHi ? ' lang="hi"' : ''}>${fmtText(qTxt(q))}</div>` : ''}</div>
+        ${pxNote(q)}<div class="qbody">${qImg(q) ? `<img src="${qImg(q)}" alt="Question ${i + 1}" id="qimg">` : ''}${qTxt(q) ? `<div class="qtext"${qlang === 'hi' && q.questionHi ? ' lang="hi"' : ''}>${fmtText(qTxt(q))}</div>` : ''}${pxCredit(q)}</div>
         ${opts}
         <button type="button" class="fb-q" id="fbQ">⚑ Report a problem with this question</button>`;
       math(qwrap);
@@ -751,12 +764,12 @@
         const st = r.perQ[q.id]; const a = at.answers[q.id];
         const key = (meta(q.paperId) || {}).answerKey || {};
         const optList = (!q.optionsInImage && q.type === 'mcq') ? `<ol class="small" style="padding-left:22px;margin:8px 0 0">${q.options.map((o, k) => `<li style="${q.answer.includes(String(k + 1)) ? 'color:var(--ok);font-weight:700' : (String(a) === String(k + 1) ? 'color:var(--bad)' : '')}">${fmtText(o)}</li>`).join('')}</ol>` : '';
-        return `<article class="card rq ${st}"><div class="row spread"><div class="qnum">${t('q')} ${i + 1} <span class="qsrc">${q.subject} · ${esc(q.paper)} · Q${q.qno}</span></div><span class="verdict ${st}">${st === 'not-counted' ? t('skipped') : t(st)}</span></div>
-          ${showQl ? qlangNote(q) : ''}<div class="qbody" style="margin-top:8px">${qImg(q) ? `<img src="${qImg(q)}" alt="Question ${i + 1}" loading="lazy">` : ''}${qTxt(q) ? `<div class="qtext"${qlang === 'hi' && q.questionHi ? ' lang="hi"' : ''}>${fmtText(qTxt(q))}</div>` : ''}${optList}</div>
+        return `<article class="card rq ${st}"><div class="row spread"><div class="qnum">${t('q')} ${i + 1} <span class="qsrc">${q.subject} · ${esc(q.paper)}${q.source === PX_SRC ? '' : ' · Q' + q.qno}</span></div><span class="verdict ${st}">${st === 'not-counted' ? t('skipped') : t(st)}</span></div>
+          ${showQl ? qlangNote(q) : ''}${pxNote(q)}<div class="qbody" style="margin-top:8px">${qImg(q) ? `<img src="${qImg(q)}" alt="Question ${i + 1}" loading="lazy">` : ''}${qTxt(q) ? `<div class="qtext"${qlang === 'hi' && q.questionHi ? ' lang="hi"' : ''}>${fmtText(qTxt(q))}</div>` : ''}${pxCredit(q)}${optList}</div>
           <div class="ans-line"><span>${t('yourAnswer')}: <b class="${st === 'correct' ? 'ok' : st === 'wrong' ? 'bad' : ''}">${ansLabel(q, a)}</b></span><span>${t('correctAnswer')}: <b class="ok">${q.answer.map(x => ansLabel(q, x)).join(' or ')}</b></span></div>
           ${st === 'not-counted' ? `<p class="small muted">${t('notCounted')}</p>` : ''}
           <div class="expl">${q.explanation ? `<b>${t('explanation')}:</b> ${fmtText(q.explanation)}` : `${t('noExplanation')}${key.name ? ' (' + esc(key.name) + ')' : ''}`}</div>
-          <details class="src"><summary>${t('source')}</summary>${esc(q.source)}</details><button type="button" class="fb-q" data-fbr="${esc(q.id)}">⚑ Report a problem with this question</button></article>`;
+          <details class="src"><summary>${t('source')}</summary>${esc(srcText(q))}</details><button type="button" class="fb-q" data-fbr="${esc(q.id)}">⚑ Report a problem with this question</button></article>`;
       }).join('');
       math(el);
       el.querySelectorAll('[data-fbr]').forEach(b => b.onclick = () => { const q = qs.find(x => x.id === b.dataset.fbr); if (q) fbOpen({ kind: 'question', pid: q.paperId, qno: q.exam === 'NDA' && q.srcQno ? q.srcQno : q.qno, title: q.paper }); });
@@ -1324,18 +1337,31 @@
     const r = await fetch('data/chapters/' + k + '.json'); if (!r.ok) throw new Error('chapters ' + r.status);
     return (chapCache[k] = await r.json());
   }
+  async function pxData() {
+    if (pxIdx) return pxIdx;
+    try { const r = await fetch('data/practice/index.json'); if (!r.ok) throw new Error('px ' + r.status); pxIdx = await r.json(); }
+    catch (e) { pxIdx = null; return { sets: {}, map: {} }; }
+    return pxIdx;
+  }
+  const PX_MIN = { neet: 1, 'jee-main': 2, 'jee-adv': 3, cbse10: 1.5, cbse12: 1.5, nda: 1.25 };
+  const PX_EXAM = { neet: 'NEET', 'jee-main': 'JEE Main', 'jee-adv': 'JEE Advanced', cbse10: 'CBSE', cbse12: 'CBSE', nda: 'NDA' };
+  const pxSetOf = (X, k, s, c) => { const id = (((X.map || {})[k] || {})[s] || {})[c]; return id && X.sets[id] ? Object.assign({ id }, X.sets[id]) : null; };
+  const pxSubN = (X, k, s) => Object.values(((X.map || {})[k] || {})[s] || {}).reduce((n, id) => n + ((X.sets[id] || {}).n || 0), 0);
   function chapCardHtml() {
-    return `<a class="tool-card chap" href="#/chapters"><span class="tool-ico" aria-hidden="true">📚</span><span class="tool-body"><span class="tool-title">Practice by chapter</span><span class="tool-note">All PYQs of one chapter, across years</span></span><span class="tool-go" aria-hidden="true">›</span></a>`;
+    return `<a class="tool-card chap" href="#/chapters"><span class="tool-ico" aria-hidden="true">📚</span><span class="tool-body"><span class="tool-title">Practice by chapter</span><span class="tool-note">PYQs of one chapter + NCERT practice</span></span><span class="tool-go" aria-hidden="true">›</span></a>`;
   }
   const chapYears = refs => { const ys = refs.map(r => (meta(r[0]) || {}).year).filter(Boolean); if (!ys.length) return ''; const a = Math.min(...ys), b = Math.max(...ys); return a === b ? String(a) : a + '–' + b; };
   async function viewChapters() {
     const st = load(LS_CHAP, {}); if (!CHAP_EX.some(x => x[0] === st.k)) st.k = 'neet';
     const exChips = `<div class="label">Exam</div><div class="chips" id="cEx">${CHAP_EX.map(([k, l]) => `<button class="chip" data-k="${k}" aria-pressed="${k === st.k}">${l}</button>`).join('')}</div>`;
+    const pm = st.m === 'px' ? 'px' : 'pyq';
     const head = `<a href="#/" class="backbtn">← ${t('back')}</a><h1>📚 Practice by chapter</h1>
-      <p class="muted small" style="margin-top:0">All previous-year questions of one chapter, across years. Pick exam → subject → chapter.</p>`;
+      <p class="muted small" style="margin-top:0">${pm === 'px' ? 'Extra practice questions for each chapter, based on NCERT. Separate from previous-year questions.' : 'All previous-year questions of one chapter, across years.'} Pick exam → subject → chapter.</p>
+      <div class="seg" id="cMode" role="tablist" aria-label="Question type"><button type="button" role="tab" data-m="pyq" aria-selected="${pm === 'pyq'}">Previous-year (PYQ)</button><button type="button" role="tab" data-m="px" aria-selected="${pm === 'px'}">Practice <span class="px-new">NCERT</span></button></div>`;
     app.innerHTML = head + exChips + `<p class="loading">${t('loading')}</p>`;
-    const bindEx = () => app.querySelectorAll('#cEx .chip').forEach(b => b.onclick = () => { const s2 = load(LS_CHAP, {}); s2.k = b.dataset.k; save(LS_CHAP, s2); viewChapters(); });
-    let D; try { D = await chapData(st.k); } catch (e) {
+    const bindEx = () => { app.querySelectorAll('#cEx .chip').forEach(b => b.onclick = () => { const s2 = load(LS_CHAP, {}); s2.k = b.dataset.k; save(LS_CHAP, s2); viewChapters(); });
+      app.querySelectorAll('#cMode button').forEach(b => b.onclick = () => { const s2 = load(LS_CHAP, {}); s2.m = b.dataset.m; save(LS_CHAP, s2); viewChapters(); }); };
+    let D, X; try { [D, X] = await Promise.all([chapData(st.k), pxData()]); } catch (e) {
       if (!/^#\/chapters/.test(location.hash)) return;
       app.innerHTML = head + exChips + `<section class="card off-card"><p style="margin:0">${isOnline() ? 'Could not load the chapter list. Please try again.' : 'The chapter list needs internet the first time. Open it once online and it will work offline after that.'}</p></section>`;
       return bindEx();
@@ -1344,6 +1370,25 @@
     const subs = D.subjects; let S = subs.find(x => x.s === st.s) || subs[0]; st.s = S.s;
     let U = null; if (S.units) { U = S.units.find(x => x.u === st.u) || S.units[0]; st.u = U.u; }
     save(LS_CHAP, st);
+    if (pm === 'px') {
+      // Practice view: every chapter of the subject (all sections), practice sets first, the rest listed as coming soon.
+      const all = []; (S.units ? S.units.reduce((l, x) => l.concat(x.ch), []) : S.ch).forEach(c => { if (!all.includes(c[0])) all.push(c[0]); });
+      const have = all.map(c => pxSetOf(X, st.k, S.s, c)).filter(Boolean), soon = all.filter(c => !pxSetOf(X, st.k, S.s, c));
+      app.innerHTML = head + exChips + `
+      <div class="label">Subject</div><div class="chips" id="cSub">${subs.map(x => `<button class="chip" data-s="${esc(x.s)}" aria-pressed="${x.s === S.s}">${esc(x.s)} <span class="muted small">(${pxSubN(X, st.k, x.s)})</span></button>`).join('')}</div>
+      <h2>${esc(S.s)} · Practice <span class="muted small">${have.length} chapter${have.length === 1 ? '' : 's'} · ${have.reduce((n, x) => n + x.n, 0)} questions</span></h2>
+      ${have.length ? `<section class="card chap-list">${have.map(x => { const sets = Math.ceil(x.n / CHAP_SET);
+        return `<div class="chap-row"><div class="chap-info"><div class="chap-name">${esc(x.chapter)} <span class="px-tag">Practice</span></div><div class="meta">${x.n} questions · ${esc(x.basis)}${x.credited ? ` · ${x.credited} from NCERT/Exemplar` : ''}</div>
+          ${sets > 1 ? `<div class="chap-sets">${Array.from({ length: sets }, (_, k) => `<button type="button" class="chap-set" data-pxs="${esc(x.chapter)}" data-set="${k}">Set ${k + 1} <span class="muted">(${k * CHAP_SET + 1}–${Math.min(x.n, (k + 1) * CHAP_SET)})</span></button>`).join('')}</div>` : ''}</div>
+          <button class="btn sx chap-go" data-pxs="${esc(x.chapter)}" data-set="0">Practice</button></div>`; }).join('')}</section>` : `<section class="card"><p style="margin:0">Practice questions for ${esc(S.s)} are being added chapter by chapter. Meanwhile, use the previous-year questions.</p></section>`}
+      ${soon.length ? `<p class="muted small"><b>Coming soon:</b> ${soon.map(esc).join(' · ')}</p>` : ''}
+      <p class="note">Practice questions are written from the NCERT textbook (plus credited NCERT / Exemplar questions) and checked twice. They are not previous-year questions and do not count in PYQ totals. English only. Up to ${CHAP_SET} questions per set. Wrong and unanswered ones go to <a href="#/mistakes">📒 My Mistakes</a>.</p>
+      ${siteFooter()}`;
+      bindEx();
+      app.querySelectorAll('#cSub .chip').forEach(b => b.onclick = () => { const s2 = load(LS_CHAP, {}); s2.s = b.dataset.s; delete s2.u; save(LS_CHAP, s2); viewChapters(); });
+      app.querySelectorAll('[data-pxs]').forEach(b => b.onclick = () => pxStart({ k: st.k, s: S.s, c: b.dataset.pxs, set: +b.dataset.set }));
+      return;
+    }
     const list = U ? U.ch : S.ch, n = U ? U.n : S.n;
     app.innerHTML = head + exChips + `
       <div class="label">Subject</div><div class="chips" id="cSub">${subs.map(x => `<button class="chip" data-s="${esc(x.s)}" aria-pressed="${x.s === S.s}">${esc(x.s)} <span class="muted small">(${x.n})</span></button>`).join('')}</div>
@@ -1351,6 +1396,7 @@
       <h2>${esc(S.s)}${U ? ' · ' + esc(U.u) : ''} <span class="muted small">${list.length} chapters · ${n} questions</span></h2>
       <section class="card chap-list">${list.map((c, ci) => { const sets = Math.ceil(c[1] / CHAP_SET);
         return `<div class="chap-row"><div class="chap-info"><div class="chap-name">${esc(c[0])}</div><div class="meta">${c[1]} PYQ${c[1] === 1 ? '' : 's'}${chapYears(c[2]) ? ' · ' + chapYears(c[2]) : ''} · ${c[2].length} paper${c[2].length === 1 ? '' : 's'}</div>
+          ${(px => px ? `<button type="button" class="chap-px" data-pxc="${esc(c[0])}">✍️ +${px.n} practice Qs</button>` : '')(pxSetOf(X, st.k, S.s, c[0]))}
           ${sets > 1 ? `<div class="chap-sets">${Array.from({ length: sets }, (_, k) => `<button type="button" class="chap-set" data-ci="${ci}" data-set="${k}">Set ${k + 1} <span class="muted">(${k * CHAP_SET + 1}–${Math.min(c[1], (k + 1) * CHAP_SET)})</span></button>`).join('')}</div>` : ''}</div>
           <button class="btn sx chap-go" data-ci="${ci}" data-set="0">Practice</button></div>`; }).join('')}</section>
       <p class="note">Questions are grouped using each question's text, so a few may sit in a nearby chapter. Up to ${CHAP_SET} questions per set. Wrong and unanswered ones go to <a href="#/mistakes">📒 My Mistakes</a>.</p>
@@ -1358,9 +1404,21 @@
     bindEx();
     app.querySelectorAll('#cSub .chip').forEach(b => b.onclick = () => { const s2 = load(LS_CHAP, {}); s2.s = b.dataset.s; delete s2.u; save(LS_CHAP, s2); viewChapters(); });
     app.querySelectorAll('#cUnit .chip').forEach(b => b.onclick = () => { const s2 = load(LS_CHAP, {}); s2.u = b.dataset.u; save(LS_CHAP, s2); const y = window.scrollY; viewChapters().then(() => window.scrollTo(0, y)); });
+    app.querySelectorAll('[data-pxc]').forEach(b => b.onclick = () => pxStart({ k: st.k, s: S.s, c: b.dataset.pxc, set: 0 }));
     app.querySelectorAll('[data-ci]').forEach(b => b.onclick = () => chapStart({ k: st.k, s: S.s, u: U ? U.u : null, c: list[+b.dataset.ci][0], set: +b.dataset.set }));
   }
+  async function pxStart(o) {
+    if (!confirmReplace()) return;
+    const X = await pxData(); const x = pxSetOf(X, o.k, o.s, o.c);
+    if (!x) { toast(isOnline() ? 'Practice set not found.' : 'Practice questions need internet the first time.'); return; }
+    try { await loadPaper(x.id); } catch (e) { toast(isOnline() ? 'Could not load these questions. Please try again.' : 'Practice questions need internet the first time.'); return; }
+    const all = papers[x.id].questions, sets = Math.ceil(all.length / CHAP_SET), set = Math.min(Math.max(0, o.set || 0), sets - 1);
+    const qs = all.slice(set * CHAP_SET, (set + 1) * CHAP_SET);
+    begin({ title: `${o.c} · Practice${sets > 1 ? ` · Set ${set + 1}/${sets}` : ''}`, exam: PX_EXAM[o.k] || 'NEET', mode: 'chapter', qs,
+      durationSec: Math.max(5, Math.ceil(qs.length * (PX_MIN[o.k] || 1.5))) * 60, rules: {}, extra: { chap: { k: o.k, s: o.s, u: null, c: o.c, set, sets, total: all.length, px: 1 } } });
+  }
   async function chapStart(o) {
+    if (o.px) return pxStart(o);
     if (!confirmReplace()) return;
     let D; try { D = await chapData(o.k); } catch (e) { toast('The chapter list needs internet the first time.'); return; }
     const S = D.subjects.find(x => x.s === o.s);
@@ -1386,12 +1444,12 @@
   function chapResultCard(at) {
     const x = at.extra && at.extra.chap; if (!x) return '';
     const add = at.mx && at.mx.added, next = x.set + 1 < x.sets;
-    return `<section class="card tool-result chap"><b>📚 ${esc(x.c)}</b><p class="small" style="margin:4px 0 10px">${esc(chapLabel(x.k))} · ${esc(x.s)}${x.sets > 1 ? ` · Set ${x.set + 1} of ${x.sets} (${x.total} PYQs)` : ` · ${x.total} PYQs`}${add ? ` · 📒 ${add} saved to My Mistakes` : ''}</p>
+    return `<section class="card tool-result chap"><b>📚 ${esc(x.c)}${x.px ? ' · Practice' : ''}</b><p class="small" style="margin:4px 0 10px">${esc(chapLabel(x.k))} · ${esc(x.s)}${x.sets > 1 ? ` · Set ${x.set + 1} of ${x.sets} (${x.total} ${x.px ? 'practice Qs' : 'PYQs'})` : ` · ${x.total} ${x.px ? 'practice Qs' : 'PYQs'}`}${add ? ` · 📒 ${add} saved to My Mistakes` : ''}</p>
       <div class="row">${next ? `<button type="button" class="btn sx" id="chapNext" style="flex:1">Next set (${(x.set + 1) * CHAP_SET + 1}–${Math.min(x.total, (x.set + 2) * CHAP_SET)}) ›</button>` : ''}<a class="btn" href="#/chapters" style="flex:1">All chapters</a></div></section>`;
   }
   function sxBindModeCard(at) {
     const b = document.getElementById('chapNext'); const x = at.extra && at.extra.chap;
-    if (b && x) b.onclick = () => chapStart({ k: x.k, s: x.s, u: x.u, c: x.c, set: x.set + 1 });
+    if (b && x) b.onclick = () => chapStart({ k: x.k, s: x.s, u: x.u, c: x.c, set: x.set + 1, px: x.px });
   }
 
 

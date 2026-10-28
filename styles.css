@@ -471,3 +471,13 @@ body.testing .hdr-invite{display:none}
 .kind-tag{display:inline-block;border-radius:999px;padding:1px 8px;font-size:.75rem;font-weight:700;margin-right:4px}
 .kind-tag.bd{background:#3A1C71;color:#fff}
 .kind-tag.mp{background:#fbecc4;color:#5b4300}
+
+/* Practice (NCERT-based) question bank */
+.seg{display:flex;border:1.5px solid #3A1C71;border-radius:12px;overflow:hidden;background:#fff;margin:4px 0 12px}
+.seg button{flex:1;appearance:none;border:0;background:#fff;color:#3A1C71;font:inherit;font-weight:700;font-size:.88rem;padding:10px 6px;min-height:44px;cursor:pointer}
+.seg button+button{border-left:1.5px solid #3A1C71}
+.seg button[aria-selected="true"]{background:#3A1C71;color:#fff}
+.px-new{display:inline-block;font-size:.62rem;font-weight:800;letter-spacing:.04em;background:#FF7A1A;color:#fff;border-radius:6px;padding:1px 5px;vertical-align:2px;margin-left:2px}
+.px-tag{display:inline-block;font-size:.66rem;font-weight:800;color:#3A1C71;background:#fdf6e3;border:1px solid #E0B23A;border-radius:6px;padding:0 6px;vertical-align:1px}
+.px-credit{font-size:.74rem;color:#6D7486;margin:8px 0 0;font-style:italic}
+.chap-row .chap-px{display:inline-block;margin-top:6px;border:1.5px dashed #FF7A1A;background:#fff7f0;color:#3A1C71;border-radius:999px;padding:3px 10px;font-size:.76rem;font-weight:700;cursor:pointer}
