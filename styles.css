@@ -481,3 +481,10 @@ body.testing .hdr-invite{display:none}
 .px-tag{display:inline-block;font-size:.66rem;font-weight:800;color:#3A1C71;background:#fdf6e3;border:1px solid #E0B23A;border-radius:6px;padding:0 6px;vertical-align:1px}
 .px-credit{font-size:.74rem;color:#6D7486;margin:8px 0 0;font-style:italic}
 .chap-row .chap-px{display:inline-block;margin-top:6px;border:1.5px dashed #FF7A1A;background:#fff7f0;color:#3A1C71;border-radius:999px;padding:3px 10px;font-size:.76rem;font-weight:700;cursor:pointer}
+
+/* exam page tabs (Sample | Previous Year | Chapter PYQ | Chapter Practice) */
+.ex-tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:6px 0 14px}
+.ex-tabs button{appearance:none;display:flex;align-items:center;gap:8px;text-align:left;border:1.5px solid #3A1C71;background:#fff;color:#3A1C71;font:inherit;font-weight:700;font-size:.86rem;line-height:1.2;padding:10px;min-height:48px;border-radius:12px;cursor:pointer}
+.ex-tabs button[aria-selected="true"]{background:#3A1C71;color:#fff;box-shadow:0 2px 0 #FF7A1A}
+.ex-tabs .ex-n{flex:none;display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#FF7A1A;color:#fff;font-size:.78rem}
+.ex-tabs button[aria-selected="true"] .ex-n{background:#E0B23A;color:#3A1C71}

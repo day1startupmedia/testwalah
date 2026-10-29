@@ -284,6 +284,60 @@
 
   /* ---------- exam page ---------- */
   const prefs = load(LS.prefs, {});
+  /* ---------- Exam page tabs: Sample Papers | Previous Year | Chapter-wise PYQ | Chapter-wise Practice (last tab remembered per exam) ---------- */
+  const LS_EXTAB = 'sonexa.v1.extab';
+  const EXTABS = [['sample', 'Sample Papers'], ['prev', 'Previous Year Papers'], ['cpyq', 'Chapter-wise PYQ'], ['cpx', 'Chapter-wise Practice']];
+  function exTabsHtml(id, has) {
+    return `<div class="ex-tabs" id="exTabs" role="tablist" aria-label="What to practise">${EXTABS.filter(([k]) => has[k]).map(([k, l], i) => `<button type="button" role="tab" data-tab="${k}" aria-selected="false"><span class="ex-n">${EXTABS.findIndex(x => x[0] === k) + 1}</span>${l}</button>`).join('')}</div>`;
+  }
+  function exTabsBind(id, chapKey, has) {
+    const box = document.getElementById('exTabs'); if (!box) return;
+    const st = load(LS_EXTAB, {}); const sv = st[id] || {};
+    const order = EXTABS.map(x => x[0]).filter(k => has[k]);
+    const show = k => {
+      if (!order.includes(k)) k = order[0];
+      box.querySelectorAll('[data-tab]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === k)));
+      app.querySelectorAll('[data-tp]').forEach(p => { p.hidden = !p.dataset.tp.split(' ').includes(k); });
+      const s2 = load(LS_EXTAB, {}); s2[id] = Object.assign(s2[id] || {}, { tab: k }); save(LS_EXTAB, s2);
+      if (k === 'cpyq' || k === 'cpx') chapPanel(document.getElementById('exChap'), id, chapKey, k === 'cpx' ? 'px' : 'pyq');
+    };
+    box.querySelectorAll('[data-tab]').forEach(b => b.onclick = () => show(b.dataset.tab));
+    show(sv.tab || order[0]);
+    // hide the Practice tab when this exam has no practice sets yet
+    pxData().then(X => { const m = (X && X.map && X.map[chapKey]) || {}; if (!Object.keys(m).some(s => Object.keys(m[s] || {}).length)) { const b = box.querySelector('[data-tab="cpx"]'); if (b) { const was = b.getAttribute('aria-selected') === 'true'; b.remove(); has.cpx = false; if (was) show('cpyq'); } } }).catch(() => {});
+  }
+  async function chapPanel(el, id, k, mode) {
+    if (!el) return;
+    el.innerHTML = `<p class="loading">${t('loading')}</p>`;
+    let D, X; try { [D, X] = await Promise.all([chapData(k), pxData()]); } catch (e) {
+      el.innerHTML = `<section class="card off-card"><p style="margin:0">${isOnline() ? 'Could not load the chapter list. Please try again.' : 'The chapter list needs internet the first time. Open it once online and it will work offline after that.'}</p></section>`; return;
+    }
+    if (!el.isConnected) return;
+    const st = load(LS_EXTAB, {}); const sv = st[id] || {};
+    const subs = D.subjects; const S = subs.find(x => x.s === sv.s) || subs[0];
+    // one row per chapter name (a chapter listed under two sections, e.g. NEET Botany + Zoology, is merged; chapStart takes every section when no section is named)
+    const rows = []; (S.units ? S.units.reduce((l, x) => l.concat(x.ch), []) : S.ch).forEach(c => { const r = rows.find(x => x[0] === c[0]); if (r) { r[1] += c[1]; r[2] = r[2].concat(c[2]); } else rows.push([c[0], c[1], c[2].slice()]); });
+    const subChips = `<div class="label">Subject</div><div class="chips" id="exSub">${subs.map(x => `<button class="chip" data-s="${esc(x.s)}" aria-pressed="${x.s === S.s}">${esc(x.s)} <span class="muted small">(${mode === 'px' ? pxSubN(X, k, x.s) : x.n})</span></button>`).join('')}</div>`;
+    const setBtns = (n, attr) => { const sets = Math.ceil(n / CHAP_SET); return sets > 1 ? `<div class="chap-sets">${Array.from({ length: sets }, (_, j) => `<button type="button" class="chap-set" ${attr} data-set="${j}">Set ${j + 1} <span class="muted">(${j * CHAP_SET + 1}–${Math.min(n, (j + 1) * CHAP_SET)})</span></button>`).join('')}</div>` : ''; };
+    if (mode === 'px') {
+      const have = rows.map(c => pxSetOf(X, k, S.s, c[0])).filter(Boolean), soon = rows.filter(c => !pxSetOf(X, k, S.s, c[0])).map(c => c[0]);
+      el.innerHTML = subChips + `<h2>${esc(S.s)} · Practice <span class="muted small">${have.length} chapter${have.length === 1 ? '' : 's'} · ${have.reduce((n, x) => n + x.n, 0)} questions</span></h2>
+        ${have.length ? `<section class="card chap-list">${have.map(x => `<div class="chap-row"><div class="chap-info"><div class="chap-name">${esc(x.chapter)} <span class="px-tag">Practice</span></div><div class="meta">${x.n} questions with solutions · ${esc(x.basis)}${x.credited ? ` · ${x.credited} from NCERT/Exemplar` : ''}</div>${setBtns(x.n, `data-pxs="${esc(x.chapter)}"`)}</div>
+          <button class="btn sx chap-go" data-pxs="${esc(x.chapter)}" data-set="0">Practice</button></div>`).join('')}</section>` : `<section class="card"><p style="margin:0">Practice questions for ${esc(S.s)} are being added chapter by chapter. Meanwhile, use the previous-year questions.</p></section>`}
+        ${soon.length ? `<p class="muted small"><b>Coming soon:</b> ${soon.map(esc).join(' · ')}</p>` : ''}
+        <p class="note">Practice questions are written from the NCERT textbook (plus credited NCERT / Exemplar questions), checked twice, and each comes with a step-by-step solution. They are not previous-year questions. English only.</p>`;
+      el.querySelectorAll('[data-pxs]').forEach(b => b.onclick = () => pxStart({ k, s: S.s, c: b.dataset.pxs, set: +b.dataset.set }));
+    } else {
+      el.innerHTML = subChips + `<h2>${esc(S.s)} <span class="muted small">${rows.length} chapters · ${rows.reduce((n, c) => n + c[1], 0)} questions</span></h2>
+        <section class="card chap-list">${rows.map((c, ci) => `<div class="chap-row"><div class="chap-info"><div class="chap-name">${esc(c[0])}</div><div class="meta">${c[1]} PYQ${c[1] === 1 ? '' : 's'}${chapYears(c[2]) ? ' · ' + chapYears(c[2]) : ''}</div>
+          ${(px => px ? `<button type="button" class="chap-px" data-pxc="${esc(c[0])}">✍️ +${px.n} practice Qs</button>` : '')(pxSetOf(X, k, S.s, c[0]))}${setBtns(c[1], `data-ci="${ci}"`)}</div>
+          <button class="btn sx chap-go" data-ci="${ci}" data-set="0">Practice</button></div>`).join('')}</section>
+        <p class="note">Questions are grouped using each question's text, so a few may sit in a nearby chapter. Up to ${CHAP_SET} questions per set.</p>`;
+      el.querySelectorAll('[data-pxc]').forEach(b => b.onclick = () => pxStart({ k, s: S.s, c: b.dataset.pxc, set: 0 }));
+      el.querySelectorAll('[data-ci]').forEach(b => b.onclick = () => chapStart({ k, s: S.s, u: null, c: rows[+b.dataset.ci][0], set: +b.dataset.set }));
+    }
+    el.querySelectorAll('#exSub .chip').forEach(b => b.onclick = () => { const s2 = load(LS_EXTAB, {}); s2[id] = Object.assign(s2[id] || {}, { s: b.dataset.s }); save(LS_EXTAB, s2); chapPanel(el, id, k, mode); });
+  }
   function viewExam(ex) {
     const E = EXAMS[ex];
     const ps = examPapers(ex);
@@ -304,6 +358,8 @@
     };
     const st = prefs[ex] = Object.assign({ subject: E.subjects.find(s => subjCount(s) > 0) || E.subjects[0], n: 20, year: 'all', quick: 10 }, prefs[ex] || {});
     const samples = samplePapers(ex);
+    const chapKey = { neet: 'neet', jee: 'jee-main', jeeadv: 'jee-adv', nda: 'nda' }[ex];
+    const exHas = { sample: samples.length > 0, prev: true, cpyq: !!chapKey, cpx: !!chapKey };
     const paperRow = p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}${p.langs && p.langs.indexOf('hi') >= 0 ? ' <span class="badge hi-badge" lang="hi" title="Also in Hindi">हिंदी</span>' : ''}</div>
       <div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')}${p.date && ex !== 'jeeadv' && ex !== 'nda' ? ' · ' + esc(p.kind === 'sample' ? p.date.replace(/\s*·\s*not NTA\s*$/, '') : p.date) : ''}</div>
       <div class="prow-actions"><button type="button" class="chlink" data-ch="${esc(p.id)}">⚔ ${CH.btn}</button>${offCtl(p)}</div></div>
@@ -312,9 +368,10 @@
       <a href="#/" class="backbtn">← ${t('back')}</a>
       <h1>${E.name}</h1>
       <p class="muted small" style="margin-top:0">${t('marking')}: ${ex === 'neet' ? t('markingNeet') : ex === 'jeeadv' ? t('markingJeeAdv') : ex === 'nda' ? t('markingNda') : t('markingJee')}</p>
-      ${samples.length ? `<h2>${t('samplePapers')}</h2>
-      <section class="card">${samples.map(paperRow).join('')}</section>` : ''}
-      <h2>${t('fullMock')}</h2>
+      ${exTabsHtml(ex, exHas)}
+      <div data-tp="sample">${samples.length ? `<h2>${t('samplePapers')}</h2>
+      <section class="card">${samples.map(paperRow).join('')}</section>` : ''}</div>
+      <div data-tp="prev"><h2>${t('fullMock')}</h2>
       <section class="card">${full.length ? full.map(paperRow).join('') : `<p class="muted">${t('comingSoon')}</p>`}</section>
       <h2>${t('subjectWise')}</h2>
       <section class="card"><p class="muted small" style="margin-top:0">${t('subjectWiseSub')}</p>
@@ -329,7 +386,8 @@
       <h2>${t('quickTest')}</h2>
       <section class="card"><p class="muted small" style="margin-top:0">${t('quickTestSub')}</p>
         <div class="row"><button class="btn ${E.cls}" data-quick="10" style="flex:1">10 ${t('questions')}</button><button class="btn ${E.cls}" data-quick="20" style="flex:1">20 ${t('questions')}</button></div>
-      </section>
+      </section></div>
+      <div data-tp="cpyq cpx" id="exChap"></div>
       <h2>${t('pastAttempts')}</h2>
       <section class="card">${attemptsList(E.exam)}</section>
       <p class="note">${ex === 'jeeadv' ? t('jeeAdvSource') : ex === 'nda' ? t('ndaSource') : t('about')}</p>`;
@@ -342,6 +400,7 @@
     app.querySelectorAll('[data-ch]').forEach(b => b.onclick = () => challengeFromPaper(b.dataset.ch));
     bindOffline(app, () => { const y = window.scrollY; viewExam(ex); window.scrollTo(0, y); });
     document.getElementById('startSubj').onclick = () => startPractice(ex, st.subject, st.year, st.n);
+    exTabsBind(ex, chapKey, exHas);
     app.querySelectorAll('[data-quick]').forEach(b => b.onclick = () => startPractice(ex, null, 'all', +b.dataset.quick));
   }
   /* ---------- CBSE Board ---------- */
@@ -353,6 +412,7 @@
     const subjects = CBSE_SUBJECTS[C].filter(s => ps.some(p => p.subject === s)).concat([...new Set(ps.map(p => p.subject))].filter(s => !CBSE_SUBJECTS[C].includes(s)));
     if (!subjects.includes(st.subj[C])) st.subj[C] = subjects[0];
     const S = st.subj[C];
+    const cbHas = { sample: ps.some(p => !isBoard(p)), prev: ps.some(isBoard), cpyq: true, cpx: true };
     setPrefCbse();
     const paperRow = p => `<div class="paper"><div><div style="font-weight:700">${esc(p.title)}${p.langs && p.langs.indexOf('hi') >= 0 ? ' <span class="badge hi-badge" lang="hi" title="Also in Hindi">हिंदी</span>' : ''}</div>
       <div class="meta">${p.count} ${t('questions')} · ${p.minutes} ${t('min')}</div>
@@ -363,15 +423,18 @@
       <h1>CBSE Board</h1>
       <p class="muted small" style="margin-top:0">${t('marking')}: ${t('markingCbse')}</p>
       <div class="chips" role="tablist">${CBSE_CLASSES.map(c => `<a class="chip" role="tab" href="#/exam/cbse/${c}" aria-pressed="${c === C}" style="text-decoration:none;display:inline-flex;align-items:center;color:inherit">${t('cbseClass')} ${c}</a>`).join('')}</div>
-      ${subjects.length ? `<h2>${t('subject')}</h2>
-      <div class="chips" id="cbseSubj">${subjects.map(s => `<button class="chip" data-s="${esc(s)}" aria-pressed="${s === S}">${esc(s)}</button>`).join('')}</div>
+      ${exTabsHtml('cbse' + C, cbHas)}
+      ${subjects.length ? `<div data-tp="sample prev"><h2>${t('subject')}</h2>
+      <div class="chips" id="cbseSubj">${subjects.map(s => `<button class="chip" data-s="${esc(s)}" aria-pressed="${s === S}">${esc(s)}</button>`).join('')}</div></div>
       ${(() => { const mine = ps.filter(p => p.subject === S); const board = mine.filter(isBoard).sort((x, y) => (y.year - x.year) || String(x.title).localeCompare(String(y.title))); const sample = mine.filter(p => !isBoard(p));
-        return (board.length ? `<h2>${t('cbseBoardPapers')}</h2><section class="card">${board.map(paperRow).join('')}</section>` : '') + (sample.length ? `<h2>${t('cbseSamplePapers')}</h2><section class="card">${sample.map(paperRow).join('')}</section>` : ''); })()}` : `<section class="card"><p class="muted">${t('cbseComingSoon')}</p></section>`}
+        return `<div data-tp="prev">${board.length ? `<h2>${t('cbseBoardPapers')}</h2><section class="card">${board.map(paperRow).join('')}</section>` : `<p class="muted small">No previous-year board paper for ${esc(S)} yet. Try another subject or the Sample Papers tab.</p>`}</div>` + `<div data-tp="sample">${sample.length ? `<h2>${t('cbseSamplePapers')}</h2><section class="card">${sample.map(paperRow).join('')}</section>` : `<p class="muted small">No sample paper for ${esc(S)} yet. Try another subject or the Previous Year Papers tab.</p>`}</div>`; })()}` : `<section class="card" data-tp="sample prev"><p class="muted">${t('cbseComingSoon')}</p></section>`}
+      <div data-tp="cpyq cpx" id="exChap"></div>
       <h2>${t('pastAttempts')}</h2>
       <section class="card">${attemptsList('CBSE')}</section>
       <p class="note">${t('cbseSource')}</p>`;
     bindResume();
     app.querySelectorAll('#cbseSubj .chip').forEach(b => b.onclick = () => { st.subj[C] = b.dataset.s; setPrefCbse(); viewCbse(C); });
+    exTabsBind('cbse' + C, 'cbse' + C, cbHas);
     app.querySelectorAll('[data-full]').forEach(b => b.onclick = () => startFull(b.dataset.full));
     app.querySelectorAll('[data-ch]').forEach(b => b.onclick = () => challengeFromPaper(b.dataset.ch));
     bindOffline(app, () => { const y = window.scrollY; viewCbse(C); window.scrollTo(0, y); });
