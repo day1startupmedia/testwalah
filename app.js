@@ -72,7 +72,7 @@
     if (typeof id !== 'string' || id.indexOf('px-') !== 0) return undefined;
     const P = papers[id], s = (pxIdx && pxIdx.sets && pxIdx.sets[id]) || {};
     return { id, kind: 'practice', exam: (P && P.exam) || s.exam || 'NEET', year: null, title: (P && P.title) || ((s.chapter || 'Chapter') + ' · Practice'),
-      file: s.file || ('data/practice/' + id + '.js'), marking: { mcq: [4, -1] }, rules: {} };
+      file: s.file || ('data/practice/' + id + '.js'), marking: (P && P.marking) || (/^px-brain-/.test(id) ? { mcq: [1, 0] } : { mcq: [4, -1] }), rules: {} };
   }
   let pxIdx = null;
   function loadPaper(id) {
@@ -174,6 +174,7 @@
     if (a === 'page' && PAGES()[b]) return viewPage(b);
     if (a === 'mistakes') return viewMistakes();
     if (a === 'ai') return viewAi(b);
+    if (a === 'brain') return viewBrain();
     if (a === 'daily') return viewDaily();
     if (a === 'chapters') { const ck = new URLSearchParams(query).get('k'); if (ck) { const s2 = load(LS_CHAP, {}); s2.k = ck; save(LS_CHAP, s2); } return viewChapters(); }
     if (a === 'search') { const sq = new URLSearchParams(query).get('q'); if (sq) { srState.q = sq; srState.sub = ''; } return viewSearch(); }
@@ -266,7 +267,7 @@
         ${statePapers().length ? (() => { const sp = statePapers(), ns = new Set(sp.map(p => p.state)).size, r = yearRange(sp.map(p => ({ year: stateCardYear(p) }))); return `<a class="exam-card state" href="#/exam/state"><span class="name">State Boards</span><span class="sub">${t('stateSub')} · ${ns} ${ns === 1 ? 'state' : 'states'}${r ? `<span class="yr"> · ${r}</span>` : ''}</span><span class="count">${sp.reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></a>`; })() : ''}
         <a class="exam-card nda" href="#/exam/nda"><span class="name">NDA</span><span class="sub">${subYears('ndaSub', examPapers('nda'))}</span><span class="count">${countFor('nda')} ${t('questions')}</span></a>
       </div>
-      <div class="tool-cards">${aiCardHtml()}${sxToolCards()}</div>
+      <div class="tool-cards">${aiCardHtml()}${sxToolCards()}${btCardHtml()}</div>
       ${IN_APP ? '' : IS_IOS ? `<a class="app-card" href="app/#ios"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Add SONEXA to your Home Screen</span><span class="app-note">iPhone: Safari → Share → Add to Home Screen</span></span></a>` : `<a class="app-card" href="app/SONEXA.apk" download="SONEXA.apk" type="application/vnd.android.package-archive"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Install SONEXA App (Android)</span><span class="app-note">Android only · allow 'Install unknown apps' when asked</span></span></a>`}
       <h2>${t('pastAttempts')}</h2>
       <section class="card">${attemptsList()}</section>
@@ -1310,7 +1311,7 @@
     if (at.mode === 'daily') { try { dailyRecord(at); } catch (e) { /* ignore */ } }
     at.mx = mxRecord(at, qs, r);
   }
-  const sxBack = (at, ex) => at.mode === 'mistakes' ? '#/mistakes' : at.mode === 'daily' ? '#/daily' : at.mode === 'chapter' ? '#/chapters' : at.mode === 'search' ? '#/search' : '#/exam/' + ex;
+  const sxBack = (at, ex) => at.mode === 'brain' ? '#/brain' : at.mode === 'quiz' ? '#/ai/quiz' : at.mode === 'mistakes' ? '#/mistakes' : at.mode === 'daily' ? '#/daily' : at.mode === 'chapter' ? '#/chapters' : at.mode === 'search' ? '#/search' : '#/exam/' + ex;
   function sxToolCards() { return chapCardHtml(); }
 
 
@@ -1506,6 +1507,58 @@
       begin({ title: `${x.chapter} · 10 similar`, exam: PX_EXAM[b.dataset.rk] || 'NEET', mode: 'quiz', qs, durationSec: Math.max(5, Math.ceil(10 * (PX_MIN[b.dataset.rk] || 1.5))) * 60, rules: {} }); });
   }
   const aiCardHtml = () => `<a class="tool-card ai-home" href="#/ai"><span class="tool-ico" aria-hidden="true">✨</span><span class="tool-body"><span class="tool-title">AI Tools</span><span class="tool-note">Weak chapters · Study planner · Quiz maker · Revision</span></span><span class="tool-go" aria-hidden="true">›</span></a>`;
+
+
+  /* ---------- 🧠 Brain Teasers (#/brain): ~300 original puzzles in 8 categories, quick play (normal test UI, +1 / 0), Puzzle of the day ---------- */
+  const LS_BT = 'sonexa.v1.brain';
+  const BT_CATS = [['logic', 'Logic Puzzles', '🧩'], ['series', 'Number Series', '🔢'], ['pattern', 'Pattern & Odd One Out', '🔷'], ['riddles', 'Lateral Thinking', '💡'],
+    ['quant', 'Quant Tricks', '➗'], ['verbal', 'Verbal Reasoning', '🗣️'], ['coding', 'Coding-Decoding', '🔐'], ['clocks', 'Clocks & Calendars', '🕒']];
+  const btId = k => 'px-brain-' + k;
+  async function btLoad() {
+    const X = await pxData(); const have = BT_CATS.filter(([k]) => X && X.sets && X.sets[btId(k)]);
+    await Promise.allSettled(have.map(([k]) => loadPaper(btId(k))));
+    return have.filter(([k]) => papers[btId(k)]).map(([k, l, ico]) => ({ k, l, ico, qs: papers[btId(k)].questions }));
+  }
+  const btCardHtml = () => `<a class="tool-card brain-home" href="#/brain"><span class="tool-ico" aria-hidden="true">🧠</span><span class="tool-body"><span class="tool-title">Brain Teasers</span><span class="tool-note">Puzzles, riddles, series & reasoning · Puzzle of the day</span></span><span class="tool-go" aria-hidden="true">›</span></a>`;
+  async function viewBrain() {
+    const st = Object.assign({ cats: [], d: 'any', timer: true, pod: {} }, load(LS_BT, {}));
+    app.innerHTML = `<a href="#/" class="backbtn">← ${t('back')}</a><h1>🧠 Brain Teasers</h1><p class="loading">${t('loading')}</p>`;
+    let C; try { C = await btLoad(); } catch (e) { C = []; }
+    if (!/^#\/brain/.test(location.hash)) return;
+    if (!C.length) { app.innerHTML = `<a href="#/" class="backbtn">← ${t('back')}</a><h1>🧠 Brain Teasers</h1><section class="card off-card"><p style="margin:0">${isOnline() ? 'Could not load the puzzles. Please try again.' : 'Puzzles need internet the first time.'}</p></section>`; return; }
+    const all = C.reduce((l, c) => l.concat(c.qs.map(q => Object.assign({ _k: c.k }, q))), []).sort((x, y) => x.id < y.id ? -1 : 1);
+    const day = istDay(), pod = all[hash32('pod' + day) % all.length], podSt = st.pod[day];
+    const tries = attempts().filter(a => a.mode === 'brain'), best = tries.reduce((m, a) => Math.max(m, a.max ? Math.round(100 * a.score / a.max) : 0), 0);
+    const streak = (() => { let n = 0, d = day; while (st.pod[d] && st.pod[d].a != null) { n++; d = prevDay(d); } return n; })();
+    const sel = st.cats.filter(k => C.some(c => c.k === k));
+    const pool = () => all.filter(q => (!sel.length || sel.includes(q._k)) && (st.d === 'any' || q.difficulty === st.d));
+    app.innerHTML = `<a href="#/" class="backbtn">← ${t('back')}</a><h1>🧠 Brain Teasers</h1>
+      <p class="muted small" style="margin-top:0">${all.length} original puzzles for sharp minds: logic, number series, riddles, reasoning and more. Every one has a step-by-step solution.</p>
+      <section class="card bt-pod"><div class="row spread"><b>🌟 Puzzle of the day</b><span class="muted small">${fmtDayLong(day)}${streak ? ` · 🔥 ${streak}-day streak` : ''}</span></div>
+        <div class="meta">${esc((C.find(c => c.k === pod._k) || {}).l || '')} · ${esc(pod.difficulty || '')}</div>
+        <div class="qtext" style="margin-top:8px">${fmtText(pod.question)}</div>
+        <div class="bt-opts">${pod.options.map((o, i) => `<button type="button" class="bt-opt${podSt ? (pod.answer.includes(String(i + 1)) ? ' ok' : String(podSt.a) === String(i + 1) ? ' bad' : '') : ''}" data-po="${i + 1}" ${podSt ? 'disabled' : ''}>(${i + 1}) ${fmtText(o)}</button>`).join('')}</div>
+        <div id="podSol">${podSt ? `<div class="expl small"><b>${pod.answer.includes(String(podSt.a)) ? '✓ Correct!' : '✗ Not quite.'} Solution:</b> ${fmtText(pod.explanation || '')}</div>` : ''}</div></section>
+      <h2>Quick play</h2><section class="card">
+        <div class="label">Categories <span class="muted small">(none picked = all)</span></div><div class="chips" id="btCat">${C.map(c => `<button class="chip" data-k="${c.k}" aria-pressed="${sel.includes(c.k)}">${c.ico} ${esc(c.l)} <span class="muted small">(${c.qs.length})</span></button>`).join('')}</div>
+        <div class="label">Difficulty</div><div class="chips" id="btD">${[['any', 'Mixed'], ['easy', 'Easy'], ['medium', 'Medium'], ['hard', 'Hard']].map(([k, l]) => `<button class="chip" data-v="${k}" aria-pressed="${st.d === k}">${l}</button>`).join('')}</div>
+        <label class="bt-timer"><input type="checkbox" id="btTimer" ${st.timer ? 'checked' : ''}> Timer (1 min per puzzle)</label>
+        <button class="btn sx block" id="btGo">▶ Play 10 puzzles <span class="small">(${pool().length} match)</span></button>
+        <p class="muted small" style="margin:8px 0 0">+1 for each right answer, no minus marks.${tries.length ? ` Played ${tries.length} time${tries.length === 1 ? '' : 's'} · best ${best}%.` : ''}</p></section>
+      <p class="note">All puzzles are written by SONEXA and each answer is checked twice. Scores stay on this phone.</p>${siteFooter()}`;
+    math(app);
+    const keep = () => save(LS_BT, st);
+    app.querySelectorAll('[data-po]').forEach(b => b.onclick = () => { st.pod[day] = { a: b.dataset.po, ok: pod.answer.includes(b.dataset.po) }; const ks = Object.keys(st.pod).sort(); while (ks.length > 60) delete st.pod[ks.shift()]; keep(); const y = window.scrollY; viewBrain().then(() => window.scrollTo(0, y)); });
+    app.querySelectorAll('#btCat .chip').forEach(b => b.onclick = () => { const k = b.dataset.k; st.cats = sel.includes(k) ? sel.filter(x => x !== k) : sel.concat([k]); keep(); const y = window.scrollY; viewBrain().then(() => window.scrollTo(0, y)); });
+    app.querySelectorAll('#btD .chip').forEach(b => b.onclick = () => { st.d = b.dataset.v; keep(); const y = window.scrollY; viewBrain().then(() => window.scrollTo(0, y)); });
+    document.getElementById('btTimer').onchange = e => { st.timer = e.target.checked; keep(); };
+    document.getElementById('btGo').onclick = () => {
+      const p = pool(); if (!p.length) { toast('No puzzles match. Try Mixed difficulty.'); return; }
+      if (!confirmReplace()) return;
+      const ids = new Set(shuffle(p).slice(0, 10).map(q => q.id)); const qs = all.filter(q => ids.has(q.id)).map(q => qById(q.id)).filter(Boolean);
+      begin({ title: `Brain Teasers · ${qs.length} puzzles`, exam: 'Brain Teasers', mode: 'brain', qs: shuffle(qs), durationSec: (st.timer ? qs.length : 60) * 60, rules: {} });
+    };
+  }
 
   /* ---------- 🔥 Daily 10 ----------
      10 previous-year questions a day per exam, picked from the date (IST) with a seeded random, so everyone gets the same 10.
