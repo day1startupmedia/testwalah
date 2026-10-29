@@ -768,7 +768,7 @@
           ${showQl ? qlangNote(q) : ''}${pxNote(q)}<div class="qbody" style="margin-top:8px">${qImg(q) ? `<img src="${qImg(q)}" alt="Question ${i + 1}" loading="lazy">` : ''}${qTxt(q) ? `<div class="qtext"${qlang === 'hi' && q.questionHi ? ' lang="hi"' : ''}>${fmtText(qTxt(q))}</div>` : ''}${pxCredit(q)}${optList}</div>
           <div class="ans-line"><span>${t('yourAnswer')}: <b class="${st === 'correct' ? 'ok' : st === 'wrong' ? 'bad' : ''}">${ansLabel(q, a)}</b></span><span>${t('correctAnswer')}: <b class="ok">${q.answer.map(x => ansLabel(q, x)).join(' or ')}</b></span></div>
           ${st === 'not-counted' ? `<p class="small muted">${t('notCounted')}</p>` : ''}
-          <div class="expl">${q.explanation ? `<b>${t('explanation')}:</b> ${fmtText(q.explanation)}` : `${t('noExplanation')}${key.name ? ' (' + esc(key.name) + ')' : ''}`}</div>
+          <div class="expl">${q.explanation ? `<b>${q.source === PX_SRC ? 'Solution' : t('explanation')}:</b> ${fmtText(q.explanation)}` : `${t('noExplanation')}${key.name ? ' (' + esc(key.name) + ')' : ''}`}</div>
           <details class="src"><summary>${t('source')}</summary>${esc(srcText(q))}</details><button type="button" class="fb-q" data-fbr="${esc(q.id)}">⚑ Report a problem with this question</button></article>`;
       }).join('');
       math(el);
@@ -1126,7 +1126,7 @@
       const P = papers[q.paperId]; const i = P ? P.questions.indexOf(q) : -1;
       const a = at.answers ? at.answers[q.id] : null; const has = a != null && String(a).trim() !== '';
       if (!e) added++;
-      m[q.id] = { q: q.id, p: q.paperId, i, n: mxQno(q), x: q.exam, s: q.subject, a: has ? a : null, c: q.answer,
+      m[q.id] = { q: q.id, p: q.paperId, i, n: mxQno(q), x: q.source === PX_SRC ? ((!retest && at.exam) || (e && e.x) || q.exam) : q.exam, s: q.subject, a: has ? a : null, c: q.answer,
         al: has ? mxLabel(q, a) : '', cl: q.answer.map(v => mxLabel(q, v)).join(' or '), w: st === 'wrong' ? 'w' : 's',
         d: now, f: e ? e.f : now, k: (e ? e.k || 1 : 0) + 1, ok: 0, m: 0 };
     });
@@ -1623,7 +1623,7 @@
         return `<button class="opt${isC ? ' sq-right' : ''}${isW ? ' sq-wrong' : ''}" role="radio" aria-checked="${String(ans) === v}" data-v="${v}" ${checked ? 'disabled' : ''}><span class="k">${esc(q.optionsInImage ? optLabel(q, k) : (optLabels(q) ? optLabel(q, k) : k + 1))}</span><span class="ot">${q.optionsInImage ? t('option') + ' ' + esc(optLabel(q, k)) : fmtText(o)}</span></button>`; }).join('')}</div>`;
       let verdict = '';
       if (checked) { const r = PYQScoring.score([q], { [q.id]: ans }, { marking: { [pid]: (meta(pid) || {}).marking || {} }, rules: {} }); const st = r.perQ[q.id];
-        verdict = `<section class="card sq-verdict ${st === 'correct' ? 'ok' : 'bad'}"><b>${st === 'correct' ? '✓ Correct!' : ans == null || ans === '' ? 'Not answered' : '✗ Not quite'}</b><div class="small">${t('correctAnswer')}: <b>${esc(correct)}</b></div>${q.explanation ? `<div class="expl small"><b>${t('explanation')}:</b> ${fmtText(q.explanation)}</div>` : ''}${st !== 'correct' ? '<div class="muted small">Saved to 📒 My Mistakes.</div>' : ''}</section>`; }
+        verdict = `<section class="card sq-verdict ${st === 'correct' ? 'ok' : 'bad'}"><b>${st === 'correct' ? '✓ Correct!' : ans == null || ans === '' ? 'Not answered' : '✗ Not quite'}</b><div class="small">${t('correctAnswer')}: <b>${esc(correct)}</b></div>${q.explanation ? `<div class="expl small"><b>${q.source === PX_SRC ? 'Solution' : t('explanation')}:</b> ${fmtText(q.explanation)}</div>` : ''}${st !== 'correct' ? '<div class="muted small">Saved to 📒 My Mistakes.</div>' : ''}</section>`; }
       app.innerHTML = `<a href="#/search" class="backbtn">← ${t('back')}</a>
         <h1 class="sq-h">Practice question</h1>
         <p class="muted small" style="margin-top:0">${esc(q.exam)} · ${esc(q.paper)} · Q${esc(mxQno(q))}${cinfo ? ' · ' + esc(cinfo) : ''}</p>
