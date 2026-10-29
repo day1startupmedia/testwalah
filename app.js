@@ -1797,6 +1797,7 @@
       <textarea id="fbMsg" rows="4" maxlength="1500" required placeholder="${isQ ? 'What is wrong with this question?' : 'Tell us what you like, what is broken, or what to add…'}"></textarea>
       <div class="fb-two"><div><label for="fbName">Name <span class="muted small">(optional)</span></label><input id="fbName" type="text" maxlength="60" autocomplete="name"></div>
         <div><label for="fbContact">Phone or email <span class="muted small">(optional)</span></label><input id="fbContact" type="text" maxlength="80" autocomplete="email" inputmode="email"></div></div>
+      <p class="muted small fb-note">Under 18? Please don't add your phone or email. Your feedback is emailed to us. See Privacy.</p>
       <p class="fb-err small" hidden>Please write a message.</p>
       <div class="row"><button type="button" class="btn" data-x style="flex:1">Cancel</button><button type="submit" class="btn sx" style="flex:1.4">Send</button></div>
     </form>`;
