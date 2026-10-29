@@ -173,6 +173,7 @@
     if (a === 'review' && b) return viewResult(b, true);
     if (a === 'page' && PAGES()[b]) return viewPage(b);
     if (a === 'mistakes') return viewMistakes();
+    if (a === 'ai') return viewAi(b);
     if (a === 'daily') return viewDaily();
     if (a === 'chapters') { const ck = new URLSearchParams(query).get('k'); if (ck) { const s2 = load(LS_CHAP, {}); s2.k = ck; save(LS_CHAP, s2); } return viewChapters(); }
     if (a === 'search') { const sq = new URLSearchParams(query).get('q'); if (sq) { srState.q = sq; srState.sub = ''; } return viewSearch(); }
@@ -265,10 +266,11 @@
         ${statePapers().length ? (() => { const sp = statePapers(), ns = new Set(sp.map(p => p.state)).size, r = yearRange(sp.map(p => ({ year: stateCardYear(p) }))); return `<a class="exam-card state" href="#/exam/state"><span class="name">State Boards</span><span class="sub">${t('stateSub')} · ${ns} ${ns === 1 ? 'state' : 'states'}${r ? `<span class="yr"> · ${r}</span>` : ''}</span><span class="count">${sp.reduce((n, p) => n + p.count, 0)} ${t('questions')}</span></a>`; })() : ''}
         <a class="exam-card nda" href="#/exam/nda"><span class="name">NDA</span><span class="sub">${subYears('ndaSub', examPapers('nda'))}</span><span class="count">${countFor('nda')} ${t('questions')}</span></a>
       </div>
-      <div class="tool-cards">${sxToolCards()}${inviteCardHtml()}</div>
+      <div class="tool-cards">${aiCardHtml()}${sxToolCards()}</div>
       ${IN_APP ? '' : IS_IOS ? `<a class="app-card" href="app/#ios"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Add SONEXA to your Home Screen</span><span class="app-note">iPhone: Safari → Share → Add to Home Screen</span></span></a>` : `<a class="app-card" href="app/SONEXA.apk" download="SONEXA.apk" type="application/vnd.android.package-archive"><span class="app-ico" aria-hidden="true">📱</span><span><span class="app-title">Install SONEXA App (Android)</span><span class="app-note">Android only · allow 'Install unknown apps' when asked</span></span></a>`}
       <h2>${t('pastAttempts')}</h2>
       <section class="card">${attemptsList()}</section>
+      <div class="tool-cards">${inviteCardHtml()}</div>
       <section class="card seo-intro"><h2 style="margin-top:0">Free previous year papers with answer key</h2>
         <p class="small">SONEXA has free online mock tests from real previous year question papers: <a href="neet/">NEET</a>, <a href="jee-main/">JEE Main</a>, <a href="jee-advanced/">JEE Advanced</a>, <a href="cbse-class-10/">CBSE Class 10</a>, <a href="cbse-class-12/">CBSE Class 12</a> and <a href="nda/">NDA</a> — ${INDEX.length} papers and ${INDEX.reduce((n, p) => n + p.count, 0).toLocaleString('en-IN')} questions, each with the official answer key and marking scheme. Practise full papers, chapter-wise questions or the Daily 10, see your score and review every answer. NEET 2020 and NDA papers also show the official <a href="hindi/">Hindi version</a>. No login, works offline, and there is an <a href="app/">Android app</a>.</p></section>
       <h2>${t('aboutTitle')}</h2>
@@ -1312,6 +1314,199 @@
   function sxToolCards() { return chapCardHtml(); }
 
 
+
+  /* ---------- ✨ AI Tools (#/ai): smart study tools that run fully on this phone (no server, no live AI model) ----------
+     Weak Chapter Finder (test history -> chapter accuracy), Study Planner (timetable to the exam date, saved in sonexa.v1.plan),
+     Quiz Generator (practice bank + PYQ by chapter/difficulty, normal test UI), Revision Assistant (My Mistakes on a spaced schedule). */
+  const LS_PLAN = 'sonexa.v1.plan', LS_AI = 'sonexa.v1.ai';
+  const aiExLabel = k => (CHAP_EX.find(x => x[0] === k) || [k, k])[1];
+  const aiExOf = exam => ({ 'NEET': 'neet', 'JEE Main': 'jee-main', 'JEE Advanced': 'jee-adv', 'NDA': 'nda' })[exam] || null;
+  async function aiRefMap() {   // "paperId|index" -> [{k, s, c}] for every chapter-tagged PYQ
+    if (aiRefMap.m) return aiRefMap.m;
+    const m = {};
+    const all = await Promise.allSettled(CHAP_EX.map(([k]) => chapData(k).then(D => [k, D])));
+    all.forEach(r => { if (r.status !== 'fulfilled') return; const [k, D] = r.value;
+      D.subjects.forEach(S => (S.units ? S.units.reduce((l, u) => l.concat(u.ch), []) : S.ch).forEach(c => c[2].forEach(([p, ix]) => ix.forEach(i => { (m[p + '|' + i] = m[p + '|' + i] || []).push({ k, s: S.s, c: c[0] }); })))); });
+    return (aiRefMap.m = m);
+  }
+  function aiChapOf(at, q, P, refs) {
+    if (q.source === PX_SRC) { const x = at.extra && at.extra.chap; const k = (x && x.k) || aiExOf(at.exam) || 'neet'; return [{ k, s: q.subject, c: q.chapter }]; }
+    const i = P ? P.questions.indexOf(q) : -1; const hit = refs[q.paperId + '|' + i] || [];
+    const k0 = aiExOf(at.exam) || (q.exam === 'CBSE' ? 'cbse' + ((meta(q.paperId) || {}).class || '') : null);
+    const pick = hit.filter(h => h.k === k0); return pick.length ? pick.slice(0, 1) : hit.slice(0, 1);
+  }
+  async function aiChapterStats() {
+    const refs = await aiRefMap(); const list = attempts().filter(a => a.qids && a.answers && a.mode !== 'mistakes');
+    const ids = [...new Set(list.reduce((l, a) => l.concat(a.paperIds || []), []))].filter(id => meta(id) || /^px-/.test(id));
+    await Promise.allSettled(ids.map(loadPaper));
+    const st = {};
+    list.forEach(at => {
+      const qs = at.qids.map(qById).filter(Boolean); if (!qs.length) return;
+      let r; try { r = PYQScoring.score(qs, at.answers, { marking: at.marking || {}, rules: at.rules || {} }); } catch (e) { return; }
+      qs.forEach(q => { const v = r.perQ[q.id]; if (v !== 'correct' && v !== 'wrong' && v !== 'skipped' && v !== 'not-counted') return;
+        aiChapOf(at, q, papers[q.paperId], refs).forEach(h => { if (!h.c) return; const key = h.k + '|' + h.s + '|' + h.c; const e = st[key] = st[key] || { k: h.k, s: h.s, c: h.c, n: 0, ok: 0, last: 0 };
+          e.n++; if (v === 'correct') e.ok++; e.last = Math.max(e.last, at.finishedAt || 0); }); });
+    });
+    return Object.values(st);
+  }
+  async function aiStartChapter(k, s, c) {
+    const X = await pxData().catch(() => null);
+    if (X && pxSetOf(X, k, s, c)) return pxStart({ k, s, c, set: 0 });
+    return chapStart({ k, s, u: null, c, set: 0 });
+  }
+  function viewAi(tool) {
+    const T = [['weak', '🎯', 'Weak Chapter Finder', 'Finds your weakest chapters from the tests you have taken.'],
+      ['plan', '🗓️', 'Study Planner', 'A day-by-day timetable up to your exam date.'],
+      ['quiz', '🧩', 'Quiz Generator', 'Make a quiz: pick chapters, difficulty and length.'],
+      ['rev', '🔁', 'Revision Assistant', 'Re-test your mistakes on a spaced schedule.']];
+    if (!tool || !T.some(x => x[0] === tool)) {
+      app.innerHTML = `<a href="#/" class="backbtn">← ${t('back')}</a><h1>✨ AI Tools</h1>
+        <p class="muted small" style="margin-top:0">Smart study tools that work on your phone, from your own test history and SONEXA's question banks. Free, no login, nothing leaves your phone.</p>
+        <div class="ai-grid">${T.map(([k, ico, ti, note]) => `<a class="ai-card" href="#/ai/${k}"><span class="ai-ico" aria-hidden="true">${ico}</span><span class="tool-body"><span class="tool-title">${ti}</span><span class="tool-note">${note}</span></span><span class="tool-go" aria-hidden="true">›</span></a>`).join('')}</div>
+        ${typeof btCardHtml === 'function' ? btCardHtml() : ''}
+        <p class="note">These tools use rules and your own results on this phone. They do not send anything to a server or to an AI model.</p>${siteFooter()}`;
+      return;
+    }
+    const head = (ico, ti, sub) => `<a href="#/ai" class="backbtn">← AI Tools</a><h1>${ico} ${ti}</h1><p class="muted small" style="margin-top:0">${sub}</p>`;
+    if (tool === 'weak') return aiWeak(head('🎯', 'Weak Chapter Finder', 'Chapters ranked by your accuracy in tests on this phone (at least 3 questions answered or skipped per chapter).'));
+    if (tool === 'plan') return aiPlan(head('🗓️', 'Study Planner', 'Tell us your exam, exam date and daily study time. Weak chapters get more time; the last days are for revision and mock tests.'));
+    if (tool === 'quiz') return aiQuiz(head('🧩', 'Quiz Generator', 'Builds a quiz from SONEXA practice questions and previous-year questions of the chapters you pick. Every practice question has a step-by-step solution.'));
+    return aiRev(head('🔁', 'Revision Assistant', 'Your mistakes come back on a spaced schedule: 1 day after the mistake, then 3 days after you first get it right. Answer one right twice and it is mastered.'));
+  }
+  async function aiWeak(head) {
+    app.innerHTML = head + `<p class="loading">${t('loading')}</p>`;
+    let st; try { st = await aiChapterStats(); } catch (e) { st = null; }
+    if (!/^#\/ai\/weak/.test(location.hash)) return;
+    if (!st) { app.innerHTML = head + `<section class="card off-card"><p style="margin:0">Could not read your tests. Please try again online.</p></section>`; return; }
+    const ok = st.filter(e => e.n >= 3);
+    if (!ok.length) { app.innerHTML = head + `<section class="card"><p style="margin:0">No chapter has enough answers yet. Take a few tests (chapter-wise practice works best) and come back. <a href="#/chapters">📚 Practice by chapter</a></p></section>${siteFooter()}`; return; }
+    const by = {}; ok.forEach(e => (by[e.k] = by[e.k] || []).push(e));
+    const acc = e => Math.round(100 * e.ok / e.n);
+    app.innerHTML = head + Object.keys(by).map(k => { const l = by[k].sort((x, y) => acc(x) - acc(y) || y.n - x.n).slice(0, 5);
+      return `<h2>${esc(aiExLabel(k))}</h2><section class="card chap-list">${l.map(e => `<div class="chap-row"><div class="chap-info"><div class="chap-name">${esc(e.c)}</div><div class="meta">${esc(e.s)} · ${e.ok} of ${e.n} right</div>
+        <div class="ai-bar"><i style="width:${acc(e)}%;background:${acc(e) < 40 ? '#d64545' : acc(e) < 70 ? '#FF7A1A' : '#2e9e5b'}"></i></div></div><div class="ai-acc"><b>${acc(e)}%</b><button class="btn sx chap-go" data-aik="${esc(e.k)}" data-ais="${esc(e.s)}" data-aic="${esc(e.c)}">Practice this</button></div></div>`).join('')}</section>`; }).join('') +
+      `<p class="note">Based on your last ${attempts().length} tests saved on this phone.</p>${siteFooter()}`;
+    app.querySelectorAll('[data-aic]').forEach(b => b.onclick = () => aiStartChapter(b.dataset.aik, b.dataset.ais, b.dataset.aic));
+  }
+  async function aiPlan(head) {
+    const P = load(LS_PLAN, null) || { k: 'neet', date: '', hours: 4, done: {} };
+    const render = async () => {
+      app.innerHTML = head + `<p class="loading">${t('loading')}</p>`;
+      let D, weak = []; try { D = await chapData(P.k); } catch (e) { D = null; }
+      try { weak = (await aiChapterStats()).filter(e => e.k === P.k && e.n >= 3 && e.ok / e.n < 0.6).map(e => e.s + '|' + e.c); } catch (e) { /* no history */ }
+      if (!/^#\/ai\/plan/.test(location.hash)) return;
+      if (!D) { app.innerHTML = head + `<section class="card off-card"><p style="margin:0">The chapter list needs internet the first time.</p></section>`; return; }
+      const done = P.done[P.k] = P.done[P.k] || {};
+      const chs = D.subjects.map(S => ({ s: S.s, ch: [...new Set((S.units ? S.units.reduce((l, u) => l.concat(u.ch), []) : S.ch).map(c => c[0]))].map(n => ({ n, q: (S.units ? S.units.reduce((l, u) => l.concat(u.ch), []) : S.ch).filter(c => c[0] === n).reduce((x, c) => x + c[1], 0) })) }));
+      app.innerHTML = head + `<section class="card"><div class="label">Exam</div><div class="chips" id="plEx">${CHAP_EX.map(([k, l]) => `<button class="chip" data-k="${k}" aria-pressed="${k === P.k}">${l}</button>`).join('')}</div>
+        <div class="ai-form"><label>Exam date<input type="date" id="plDate" value="${esc(P.date || '')}"></label><label>Study hours a day<input type="number" id="plHours" min="1" max="14" step="0.5" value="${P.hours}"></label></div>
+        <details class="ai-done"${Object.keys(done).length ? '' : ' open'}><summary>Chapters already done (${Object.keys(done).length}) · tap to tick</summary>${chs.map(S => `<div class="label">${esc(S.s)}</div><div class="ai-checks">${S.ch.map(c => `<label><input type="checkbox" data-pd="${esc(S.s + '|' + c.n)}" ${done[S.s + '|' + c.n] ? 'checked' : ''}> ${esc(c.n)}</label>`).join('')}</div>`).join('')}</details>
+        <button class="btn sx block" id="plGo">🗓️ Make my timetable</button></section><div id="plOut"></div>${siteFooter()}`;
+      app.querySelectorAll('#plEx .chip').forEach(b => b.onclick = () => { P.k = b.dataset.k; save(LS_PLAN, P); render(); });
+      app.querySelectorAll('[data-pd]').forEach(c => c.onchange = () => { if (c.checked) done[c.dataset.pd] = 1; else delete done[c.dataset.pd]; save(LS_PLAN, P); });
+      const out = document.getElementById('plOut');
+      const make = () => {
+        P.date = document.getElementById('plDate').value; P.hours = Math.max(1, Math.min(14, +document.getElementById('plHours').value || 4));
+        const today = new Date(istDay() + 'T00:00:00Z'), end = P.date ? new Date(P.date + 'T00:00:00Z') : null;
+        const days = end ? Math.round((end - today) / 86400000) : 0;
+        if (!end || days < 3) { toast('Pick an exam date at least 3 days away.'); return; }
+        const rev = Math.max(1, Math.round(days * 0.15)), study = days - rev;
+        const studyDays = Array.from({ length: study }, (_, d) => d).filter(d => (d + 1) % 7 !== 0).length;
+        const todo = []; chs.forEach(S => S.ch.forEach(c => { if (!done[S.s + '|' + c.n]) { const w = weak.includes(S.s + '|' + c.n); todo.push({ s: S.s, c: c.n, w, wt: (1 + c.q / 10) * (w ? 1.5 : 1) }); } }));
+        // share the available hours in proportion to each chapter's weight (PYQ count, 1.5x for weak chapters), at least half an hour each
+        const avail = studyDays * P.hours, tw = todo.reduce((s, x) => s + x.wt, 0) || 1;
+        todo.forEach(x => { x.h = Math.max(0.5, Math.round(2 * avail * x.wt / tw) / 2); });
+        todo.sort((x, y) => (y.w - x.w) || (y.h - x.h));
+        // interleave subjects so a day mixes them
+        const bySub = {}; todo.forEach(x => (bySub[x.s] = bySub[x.s] || []).push(x)); const order = []; const subs = Object.keys(bySub); let i = 0;
+        while (order.length < todo.length) { const s = subs[i++ % subs.length]; if (bySub[s].length) order.push(bySub[s].shift()); }
+        const plan = [];
+        let q = order.map(x => Object.assign({}, x, { left: x.h }));
+        for (let d = 0; d < days; d++) {
+          const date = new Date(today.getTime() + d * 86400000).toISOString().slice(0, 10); const items = [];
+          if (d >= study) items.push(d === days - 1 ? 'Light revision of formulas and notes · sleep early' : (d - study) % 2 === 0 ? 'Full mock test (previous-year paper) + review mistakes' : 'Revision: My Mistakes + weak chapters');
+          else if ((d + 1) % 7 === 0) items.push('Mock test day: one full previous-year paper + analyse it');
+          else { let h = P.hours; while (h > 0.25 && q.length) { const x = q[0], take = Math.min(h, x.left); items.push(`${x.s}: ${x.c}${x.w ? ' ⚠️' : ''} (${Math.round(take * 2) / 2} h)`); x.left -= take; h -= take; if (x.left <= 0.25) q.shift(); }
+            if (!items.length) items.push('Revision + chapter-wise PYQs of finished chapters'); }
+          plan.push([date, items]);
+        }
+        P.made = { at: Date.now(), plan, left: q.length }; save(LS_PLAN, P); show();
+      };
+      const show = () => { if (!P.made) { out.innerHTML = ''; return; }
+        out.innerHTML = `<h2>Your timetable <span class="muted small">${P.made.plan.length} days</span></h2>${P.made.left ? `<p class="small" style="color:#b54708">${P.made.left} chapter(s) did not fit. Add study hours or tick chapters you already know.</p>` : ''}
+          <section class="card ai-plan">${P.made.plan.map(([d, it]) => `<div class="ai-day"><b>${fmtDayLong(d)}</b><ul>${it.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>`).join('')}</section>
+          <div class="row"><button class="btn" id="plPrint" style="flex:1">🖨️ Print / Save PDF</button></div><p class="muted small">⚠️ = a weak chapter from your test history (gets 1.5× time). Saved on this phone.</p>`;
+        document.getElementById('plPrint').onclick = () => window.print(); };
+      document.getElementById('plGo').onclick = make; show();
+    };
+    render();
+  }
+  async function aiQuiz(head) {
+    const Q = Object.assign({ k: 'neet', s: '', c: [], d: 'any', n: 10, src: 'both' }, load(LS_AI, {}).quiz || {});
+    const keep = () => { const s = load(LS_AI, {}); s.quiz = Q; save(LS_AI, s); };
+    app.innerHTML = head + `<p class="loading">${t('loading')}</p>`;
+    let D, X; try { [D, X] = await Promise.all([chapData(Q.k), pxData()]); } catch (e) { D = null; }
+    if (!/^#\/ai\/quiz/.test(location.hash)) return;
+    if (!D) { app.innerHTML = head + `<section class="card off-card"><p style="margin:0">The chapter list needs internet the first time.</p></section>`; return; }
+    const S = D.subjects.find(x => x.s === Q.s) || D.subjects[0]; Q.s = S.s;
+    const flat = (S.units ? S.units.reduce((l, u) => l.concat(u.ch), []) : S.ch); const names = [...new Set(flat.map(c => c[0]))];
+    Q.c = Q.c.filter(c => names.includes(c));
+    app.innerHTML = head + `<section class="card"><div class="label">Exam</div><div class="chips" id="qzEx">${CHAP_EX.map(([k, l]) => `<button class="chip" data-k="${k}" aria-pressed="${k === Q.k}">${l}</button>`).join('')}</div>
+      <div class="label">Subject</div><div class="chips" id="qzSub">${D.subjects.map(x => `<button class="chip" data-s="${esc(x.s)}" aria-pressed="${x.s === S.s}">${esc(x.s)}</button>`).join('')}</div>
+      <div class="label">Chapters <span class="muted small">(none ticked = whole subject)</span></div><div class="ai-checks">${names.map(n => `<label><input type="checkbox" data-qc="${esc(n)}" ${Q.c.includes(n) ? 'checked' : ''}> ${esc(n)}${pxSetOf(X, Q.k, S.s, n) ? ' <span class="px-tag">Practice</span>' : ''}</label>`).join('')}</div>
+      <div class="label">Questions from</div><div class="chips" id="qzSrc">${[['both', 'Practice + PYQ'], ['px', 'Practice only'], ['pyq', 'PYQ only']].map(([k, l]) => `<button class="chip" data-v="${k}" aria-pressed="${Q.src === k}">${l}</button>`).join('')}</div>
+      <div class="label">Difficulty</div><div class="chips" id="qzD">${[['any', 'Mixed'], ['easy', 'Easy'], ['medium', 'Medium'], ['hard', 'Hard']].map(([k, l]) => `<button class="chip" data-v="${k}" aria-pressed="${Q.d === k}">${l}</button>`).join('')}</div>
+      <div class="label">How many</div><div class="chips" id="qzN">${[10, 20, 30].map(n => `<button class="chip" data-v="${n}" aria-pressed="${Q.n === n}">${n}</button>`).join('')}</div>
+      <button class="btn sx block" id="qzGo">🧩 Make my quiz</button></section>
+      <p class="note">Difficulty comes from each practice question's tag. Previous-year questions count as medium (hard for JEE Advanced).</p>${siteFooter()}`;
+    const chip = (id, f) => app.querySelectorAll(id + ' .chip').forEach(b => b.onclick = () => { f(b.dataset); keep(); aiQuiz(head); });
+    chip('#qzEx', d => { Q.k = d.k; Q.s = ''; Q.c = []; }); chip('#qzSub', d => { Q.s = d.s; Q.c = []; }); chip('#qzSrc', d => { Q.src = d.v; }); chip('#qzD', d => { Q.d = d.v; }); chip('#qzN', d => { Q.n = +d.v; });
+    app.querySelectorAll('[data-qc]').forEach(c => c.onchange = () => { Q.c = [...app.querySelectorAll('[data-qc]:checked')].map(x => x.dataset.qc); keep(); });
+    document.getElementById('qzGo').onclick = async () => {
+      if (!confirmReplace()) return;
+      const pick = Q.c.length ? Q.c : names; let pool = [];
+      if (Q.src !== 'pyq') { const sets = pick.map(c => pxSetOf(X, Q.k, S.s, c)).filter(Boolean); await Promise.allSettled(sets.map(x => loadPaper(x.id)));
+        sets.forEach(x => (papers[x.id] ? papers[x.id].questions : []).forEach(q => { if (Q.d === 'any' || q.difficulty === Q.d) pool.push(q); })); }
+      if (Q.src !== 'px') { const pyqD = Q.k === 'jee-adv' ? 'hard' : 'medium';
+        if (Q.d === 'any' || Q.d === pyqD) { const refs = []; flat.filter(c => pick.includes(c[0])).forEach(c => c[2].forEach(([p, ix]) => ix.forEach(i => refs.push([p, i]))));
+          const ids = [...new Set(refs.map(r => r[0]))].filter(meta); await Promise.allSettled(ids.map(loadPaper));
+          refs.forEach(([p, i]) => { const q = papers[p] && papers[p].questions[i]; if (q && q.answer && q.answer.length) pool.push(q); }); } }
+      pool = [...new Map(pool.map(q => [q.id, q])).values()];
+      if (!pool.length) { toast(isOnline() ? 'No questions match. Try Mixed difficulty or more chapters.' : 'These questions need internet the first time.'); return; }
+      const qs = shuffle(pool).slice(0, Q.n);
+      begin({ title: `Quiz · ${S.s} · ${qs.length} Q`, exam: PX_EXAM[Q.k] || 'NEET', mode: 'quiz', qs, durationSec: Math.max(5, Math.ceil(qs.length * (PX_MIN[Q.k] || 1.5))) * 60, rules: {} });
+    };
+  }
+  async function aiRev(head) {
+    const now = Date.now(), DAY = 86400000;
+    const gap = e => (e.ok >= 1 ? 3 : 1) * DAY;
+    const act = mxActive();
+    const dueAt = e => (e.d || now) + gap(e);
+    const due = act.filter(e => dueAt(e) <= now), week = act.filter(e => dueAt(e) > now && dueAt(e) <= now + 7 * DAY);
+    const exams = [...new Set(act.map(e => e.x))];
+    let chapBox = '';
+    try { const X = await pxData(); const refs = await aiRefMap(); const seen = {};
+      due.concat(week).forEach(e => { let h = null; if (/^px-/.test(e.p)) { const m = (X.sets || {})[e.p]; if (m) h = { k: aiExOf(e.x) || 'neet', s: m.subject, c: m.chapter }; } else { const r = refs[e.p + '|' + e.i]; if (r && r[0]) h = r.find(x => x.k === aiExOf(e.x)) || r[0]; }
+        if (h && pxSetOf(X, h.k, h.s, h.c)) { const key = h.k + '|' + h.s + '|' + h.c; seen[key] = seen[key] || Object.assign({ n: 0 }, h); seen[key].n++; } });
+      const top = Object.values(seen).sort((a, b) => b.n - a.n).slice(0, 5);
+      if (top.length) chapBox = `<h2>Similar questions</h2><section class="card chap-list">${top.map(h => `<div class="chap-row"><div class="chap-info"><div class="chap-name">${esc(h.c)}</div><div class="meta">${esc(aiExLabel(h.k))} · ${esc(h.s)} · ${h.n} mistake${h.n === 1 ? '' : 's'} here</div></div><button class="btn sx chap-go" data-rk="${esc(h.k)}" data-rs="${esc(h.s)}" data-rc="${esc(h.c)}">10 similar</button></div>`).join('')}</section>`;
+    } catch (e) { /* offline: skip similar */ }
+    if (!/^#\/ai\/rev/.test(location.hash)) return;
+    app.innerHTML = head + (act.length ? `<section class="card mx-stats"><div class="stats"><div class="stat bad"><b>${due.length}</b>Due today</div><div class="stat"><b>${week.length}</b>This week</div><div class="stat"><b>${act.length}</b>To fix</div></div>
+      ${due.length ? `<button class="btn sx block" id="rvGo">🔁 Revise today's ${Math.min(MX_MAX, due.length)} question${due.length === 1 ? '' : 's'}</button>` : `<p class="small" style="margin:6px 0">Nothing due today 🎉</p>`}
+      ${week.length ? `<button class="btn block" id="rvWeek" style="margin-top:8px">Revise this week's too (${Math.min(MX_MAX, due.length + week.length)})</button>` : ''}
+      ${exams.length > 1 ? `<p class="muted small" style="margin:8px 0 0">Mixed exams: ${exams.map(esc).join(', ')}</p>` : ''}</section>${chapBox}` :
+      `<section class="card"><p style="margin:0">No mistakes saved yet. Wrong and unanswered questions from your tests land in <a href="#/mistakes">📒 My Mistakes</a> and come back here for revision.</p></section>`) +
+      `<p class="note">SONEXA has no question bookmarks yet, so revision uses My Mistakes.</p>${siteFooter()}`;
+    const g = document.getElementById('rvGo'); if (g) g.onclick = () => mxStart(due);
+    const w = document.getElementById('rvWeek'); if (w) w.onclick = () => mxStart(due.concat(week));
+    app.querySelectorAll('[data-rc]').forEach(b => b.onclick = async () => { if (!confirmReplace()) return; const X = await pxData(); const x = pxSetOf(X, b.dataset.rk, b.dataset.rs, b.dataset.rc); if (!x) return;
+      try { await loadPaper(x.id); } catch (e) { toast('Needs internet the first time.'); return; }
+      const mx = mxAll(); const qs = shuffle(papers[x.id].questions.filter(q => !mx[q.id])).slice(0, 10);
+      begin({ title: `${x.chapter} · 10 similar`, exam: PX_EXAM[b.dataset.rk] || 'NEET', mode: 'quiz', qs, durationSec: Math.max(5, Math.ceil(10 * (PX_MIN[b.dataset.rk] || 1.5))) * 60, rules: {} }); });
+  }
+  const aiCardHtml = () => `<a class="tool-card ai-home" href="#/ai"><span class="tool-ico" aria-hidden="true">✨</span><span class="tool-body"><span class="tool-title">AI Tools</span><span class="tool-note">Weak chapters · Study planner · Quiz maker · Revision</span></span><span class="tool-go" aria-hidden="true">›</span></a>`;
+
   /* ---------- 🔥 Daily 10 ----------
      10 previous-year questions a day per exam, picked from the date (IST) with a seeded random, so everyone gets the same 10.
      Streak = days in a row with a finished Daily 10 (any exam); kept in localStorage sonexa.v1.daily. */
@@ -1796,8 +1991,8 @@
   try {
     const off = document.getElementById('offPill');
     if (off && !document.getElementById('invBtn')) {
-      const b = document.createElement('button'); b.type = 'button'; b.id = 'invBtn'; b.className = 'hdr-link hdr-invite'; b.setAttribute('data-invite', '');
-      b.innerHTML = `<span aria-hidden="true">🎁</span> ${esc(t('inviteBtn'))}`; b.setAttribute('aria-label', t('inviteTitle'));
+      const b = document.createElement('a'); b.href = '#/ai'; b.id = 'invBtn'; b.className = 'hdr-link hdr-invite hdr-ai';
+      b.innerHTML = `<span aria-hidden="true">✨</span> AI Tools`; b.setAttribute('aria-label', 'AI Tools');
       off.insertAdjacentElement('afterend', b);
     }
   } catch (e) { /* ignore */ }

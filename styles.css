@@ -488,3 +488,20 @@ body.testing .hdr-invite{display:none}
 .ex-tabs button[aria-selected="true"]{background:#3A1C71;color:#fff;box-shadow:0 2px 0 #FF7A1A}
 .ex-tabs .ex-n{flex:none;display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#FF7A1A;color:#fff;font-size:.78rem}
 .ex-tabs button[aria-selected="true"] .ex-n{background:#E0B23A;color:#3A1C71}
+
+/* ✨ AI Tools */
+.tool-card.ai-home{border-color:#FF7A1A;background:linear-gradient(135deg,#fff 60%,#fff3e8)}
+.ai-grid{display:grid;gap:10px;margin:12px 0}
+.ai-card{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:16px;background:#fff;border:2px solid #3A1C71;color:#3A1C71;text-decoration:none}
+.ai-card:active{transform:scale(.99)}
+.ai-card .ai-ico{font-size:1.7rem;line-height:1}
+.ai-card .tool-body{flex:1;min-width:0}.ai-card .tool-title{display:block;font-weight:800;font-size:1.05rem}.ai-card .tool-note{display:block;font-size:.84rem;color:#6D7486;margin-top:2px}.ai-card .tool-go{font-size:1.6rem;color:#FF7A1A}
+.ai-bar{height:8px;background:#eee;border-radius:99px;overflow:hidden;margin-top:6px;max-width:220px}.ai-bar i{display:block;height:100%}
+.ai-acc{display:flex;flex-direction:column;align-items:flex-end;gap:6px}.ai-acc b{color:#3A1C71;font-size:1.05rem}
+.ai-form{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}.ai-form label{display:flex;flex-direction:column;font-size:.82rem;font-weight:700;color:#3A1C71;gap:4px}
+.ai-form input{font:inherit;padding:9px 10px;border:1.5px solid #6D7486;border-radius:10px;min-height:44px;background:#fff}
+.ai-checks{display:grid;gap:4px;margin:4px 0 8px}.ai-checks label{display:flex;gap:8px;align-items:center;font-size:.9rem;padding:6px 4px;border-bottom:1px solid #f0eef5}
+.ai-checks input{width:20px;height:20px;accent-color:#3A1C71;flex:none}
+.ai-done summary{cursor:pointer;font-weight:700;color:#3A1C71;padding:8px 0}
+.ai-plan .ai-day{padding:8px 0;border-bottom:1px solid #f0eef5}.ai-plan .ai-day b{color:#3A1C71}.ai-plan ul{margin:4px 0 0;padding-left:20px;font-size:.9rem}
+@media print{.topbar,#bnav,.backbtn,.site-foot,#plGo,#plPrint,.card:not(.ai-plan),.chips,.label,.note,.muted{display:none!important}.ai-plan{display:block!important;border:0}}
