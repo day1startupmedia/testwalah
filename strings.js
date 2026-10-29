@@ -143,6 +143,7 @@ window.STR = {
       privacy: { link: 'Privacy', title: 'Privacy Policy', body: [
         'No account or login is needed to use SONEXA.',
         'The name you enter and your test results are saved only in your own browser (local storage on your device). They are never sent to us or to anyone else.',
+        'Feedback form: if you send feedback, your message, rating, the page or question it is about, your device type and any name or phone/email you choose to add are emailed to us (through the FormSubmit service) so we can fix problems and reply. Name and contact are optional. If you are under 18, please do not add your phone or email.',
         'SONEXA uses GoatCounter, a privacy-friendly visitor counter. It counts page views without cookies and without collecting personal data. Your answers and scores stay on your device.',
         'If you tap a WhatsApp or Facebook share button, that app or website opens and its own privacy policy applies to what you share there.',
         'Clearing your browser data (site data / local storage) deletes your saved name and results permanently.'
